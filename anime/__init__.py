@@ -3,6 +3,7 @@ from .anidb import AniDB
 from .anikore import Anikore
 from .anilist import AniList
 from .animenewsnetwork import AnimeNewsNetwork
+from .animeplanet import AnimePlanet
 from .animesachi import Animesachi
 from .bangumi import Bangumi
 from .bilibili import Bilibili
@@ -22,6 +23,7 @@ SITES = {
     'anikore': Anikore(),
     'anilist': AniList(),
     'animenewsnetwork': AnimeNewsNetwork(),
+    'animeplanet': AnimePlanet(),
     'animesachi': Animesachi(),
     'bangumi': Bangumi(),
     'bilibili': Bilibili(),
