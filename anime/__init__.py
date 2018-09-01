@@ -15,6 +15,7 @@ from .myanimelist import MyAnimeList
 from .nga import NGA
 from .reddit import Reddit
 from .saraba1st import Saraba1st
+from .worldart import WorldArt
 
 
 SITES = {
@@ -35,4 +36,5 @@ SITES = {
     'nga': NGA(),
     'reddit': Reddit(),
     'saraba1st': Saraba1st(),
+    'worldart': WorldArt(),
 }
