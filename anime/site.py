@@ -45,8 +45,9 @@ class Site(object):
 
 
 def main(site, id):
+    print(site.info_url(id))
+
     rating, count = site.get_rating(id)
     unified_rating = site.unify_rating(rating)
 
-    print(site.info_url(id))
     print(f'{rating} ({count}), {unified_rating}')

@@ -1,22 +1,3 @@
-shoujo-kageki-revue-starlight:
-  names:
-    en: Revue Starlight
-    en-jp: Shoujo☆Kageki Revue Starlight
-    ja-jp: 少女☆歌劇 レヴュースタァライト
-    zh-cn: 少女☆歌剧 Revue Starlight
-  info:
-    amazon: null
-    anidb: 13152
-    anilist: 98658
-    bangumi: 214265
-    bilibili: md102892
-    crunchyroll: null
-    douban: 27034594
-    imdb: tt8400680
-    kitsu: shoujo-kageki-revue-starlight
-    myanimelist: 35503
-    reddit: 9a6pjj
-
 hataraku-saibou:
   names:
     en: Cells at Work!
@@ -26,7 +7,9 @@ hataraku-saibou:
   info:
     amazon: null
     anidb: 13743
+    anikore: 11553
     anilist: 100977
+    animenewsnetwork: null
     bangumi: 235612
     bilibili: md102392
     crunchyroll: cells-at-work
@@ -35,3 +18,25 @@ hataraku-saibou:
     kitsu: hataraku-saibou-tv
     myanimelist: 37141
     reddit: 9a82ux
+    saraba1st: null
+shoujo-kageki-revue-starlight:
+  names:
+    en: Revue Starlight
+    en-jp: Shoujo☆Kageki Revue Starlight
+    ja-jp: 少女☆歌劇 レヴュースタァライト
+    zh-cn: 少女☆歌剧 Revue Starlight
+  info:
+    amazon: null
+    anidb: 13152
+    anikore: 11664
+    anilist: 98658
+    animenewsnetwork: null
+    bangumi: 214265
+    bilibili: md102892
+    crunchyroll: null
+    douban: 27034594
+    imdb: tt8400680
+    kitsu: shoujo-kageki-revue-starlight
+    myanimelist: 35503
+    reddit: 9a6pjj
+    saraba1st: null

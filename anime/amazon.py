@@ -19,7 +19,7 @@ class Amazon(Site):
         soup = self._get_soup(self.info_url(id))
 
         rating_str = soup.find(class_="arp-rating-out-of-text").get_text()
-        rating = float(rating_str.split()[0])
+        rating = float(rating_str.strip().split()[0])
 
         count = int(soup.find(class_="totalReviewCount").get_text())
 
