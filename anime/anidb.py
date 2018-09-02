@@ -38,7 +38,7 @@ class AniDB(Site):
                               params=params)
 
         href = soup.find(class_='relid').find('a')['href']
-        id = href.split('=')[-1]
+        id = int(href.split('=')[-1])
 
         return id
 

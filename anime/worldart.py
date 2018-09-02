@@ -41,7 +41,7 @@ class WorldArt(Site):
 
         regex = re.compile(r'/animation/animation\.php\?id=(\d+)')
         content = soup.find('meta', content=regex)['content']
-        id = regex.search(content).group(1)
+        id = int(regex.search(content).group(1))
 
         return id
 

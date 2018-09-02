@@ -29,11 +29,16 @@ class Amazon(Site):
         return rating, count
 
     def search(self, names):
+        # Amazon has lots of stuff, so we only match whole words here.
         params = {
-            'field-keywords': names['en'],
+            'field-keywords': '"' + names['en'] + '"',
             'rh': 'n:2858778011,n:2864549011',
         }
         soup = self._get_soup(self.BASE_URL + '/s', params=params)
+
+        # Handle no results cases.
+        if soup.find(id='apsRedirectLink') or soup.find(id='noResultsTitle'):
+            raise RuntimeError('No results found')
 
         regex = re.compile(r'/dp/(\w+)')
         href = soup.find('a', href=regex)['href']

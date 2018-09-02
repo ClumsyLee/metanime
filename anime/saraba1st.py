@@ -13,6 +13,15 @@ class Saraba1st(Site):
     MIN_RATING = -2
     MAX_RATING = 2
 
+    def __init__(self):
+        super().__init__()
+
+        # Pretend to be on the advance search page.
+        soup = self._get_soup(self.BASE_URL +
+                              '/2b/search.php?mod=forum&adv=yes')
+        self._formhash = soup.find('input',
+                                   attrs={'name': 'formhash'})['value']
+
     def info_url(self, id):
         return f'{self.BASE_URL}/2b/thread-{id}-1-1.html'
 
@@ -30,21 +39,34 @@ class Saraba1st(Site):
 
         return rating, count
 
-    def search(self, names):
-        params = {
-            'mod': 'forum',
-            'searchid': 282,
-            'orderby': 'lastpost',
+    def _search(self, name):
+        data = {
+            'formhash': self._formhash,
+            'srchtxt': name,
+            'srchfilter': 'all',
+            'special[]': 1,
+            'srchfrom': 0,
+            'orderby': 'dateline',
             'ascdesc': 'desc',
+            'srchfid[]': '83',
             'searchsubmit': 'yes',
-            'kw': names['ja-jp'],
         }
-        soup = self._get_soup(self.BASE_URL + '/2b/search.php', params=params)
+        soup = self._post_soup(self.BASE_URL + '/2b/search.php?mod=forum',
+                               data=data)
 
-        id = soup.find(class_='pbw')['id']
+        id = int(soup.find(class_='pbw')['id'])
 
         return id
 
+    def search(self, names):
+        try:
+            return self._search(names['ja-jp'])
+        except Exception:
+            pass
+
+        return self._search(names['zh-cn'])
+
 
 if __name__ == '__main__':
-    main(Saraba1st(), {'ja-jp': 'サクラダリセット'})
+    main(Saraba1st(), {'ja-jp': 'ダーリン・イン・ザ・フランキス',
+                       'zh-cn': 'DARLING in the FRANXX'})

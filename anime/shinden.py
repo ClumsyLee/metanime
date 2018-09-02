@@ -39,7 +39,7 @@ class Shinden(Site):
 
         regex = re.compile(r'/series/(\d+)')
         href = soup.find('article').find('a', href=regex)['href']
-        id = regex.search(href).group(1)
+        id = int(regex.search(href).group(1))
 
         return id
 

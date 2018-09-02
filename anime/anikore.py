@@ -33,7 +33,7 @@ class Anikore(Site):
         soup = self._get_soup(self.BASE_URL + '/anime_title/' + names['ja-jp'])
 
         href = soup.find(class_='smt_title').find('a')['href']
-        id = href.split('/')[-2]
+        id = int(href.split('/')[-2])
 
         return id
 

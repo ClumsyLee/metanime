@@ -34,7 +34,7 @@ class Douban(Site):
         soup = self._get_soup('https://www.douban.com/search', params=params)
 
         href = soup.find(class_='title').find('a')['href']
-        id = re.search(r'subject%2F(\d+)', href).group(1)
+        id = int(re.search(r'subject%2F(\d+)', href).group(1))
 
         return id
 

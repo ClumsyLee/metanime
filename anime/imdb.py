@@ -36,7 +36,7 @@ class IMDB(Site):
         soup = self._get_soup(self.BASE_URL + '/search/title', params=params)
 
         href = soup.find(class_='lister-item-header').find('a')['href']
-        id = href.split('/')[2].lstrip('tt')
+        id = int(href.split('/')[2].lstrip('tt'))
 
         return id
 

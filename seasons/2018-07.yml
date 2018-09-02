@@ -5,7 +5,6 @@ hataraku-saibou:
     ja-jp: はたらく細胞
     zh-cn: 工作细胞
   site_ids:
-    amazon: null
     anidb: 13743
     anikore: 11553
     anilist: 100977
@@ -18,12 +17,10 @@ hataraku-saibou:
     imdb: 8673610
     kitsu: hataraku-saibou-tv
     myanimelist: 37141
-    nga: null
-    reddit: 9a82ux
-    saraba1st: null
+    reddit: 9c4ffy
     shikimori: 37141
     shinden: 52658
-    worldart: 9253
+    worldart: 9548
 shoujo-kageki-revue-starlight:
   names:
     en: Revue Starlight
@@ -31,7 +28,6 @@ shoujo-kageki-revue-starlight:
     ja-jp: 少女☆歌劇 レヴュースタァライト
     zh-cn: 少女☆歌剧 Revue Starlight
   site_ids:
-    amazon: null
     anidb: 13152
     anikore: 11664
     anilist: 98658
@@ -39,14 +35,11 @@ shoujo-kageki-revue-starlight:
     animeplanet: shoujo-kageki-revue-starlight
     bangumi: 214265
     bilibili: 102892
-    crunchyroll: null
     douban: 27034594
     imdb: 8400680
     kitsu: shoujo-kageki-revue-starlight
     myanimelist: 35503
-    nga: null
-    reddit: 9a6pjj
-    saraba1st: null
+    reddit: 9c2vow
     shikimori: 35503
     shinden: 50927
     worldart: 9253

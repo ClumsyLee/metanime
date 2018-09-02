@@ -31,8 +31,13 @@ class AnimePlanet(Site):
             'order': 'desc',
         }
         soup = self._get_soup(self.BASE_URL + '/anime/all', params=params)
+        og_url = soup.find('meta', property='og:url')
 
-        href = soup.find(class_='cardDeck').find('a')['href']
+        # Handle exact match
+        if og_url is not None:
+            href = og_url['content']
+        else:
+            href = soup.find(class_='cardDeck').find('a')['href']
         id = href.split('/')[-1]
 
         return id

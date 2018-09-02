@@ -28,6 +28,9 @@ class Site(object):
     def _get_soup(self, url, parser='html5lib', **kws):
         return BeautifulSoup(self._get(url, **kws).text, parser)
 
+    def _post_soup(self, url, parser='html5lib', **kws):
+        return BeautifulSoup(self._post(url, **kws).text, parser)
+
     def _get_json(self, url, **kws):
         return self._get(url, **kws).json()
 

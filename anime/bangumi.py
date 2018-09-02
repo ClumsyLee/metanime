@@ -33,7 +33,7 @@ class Bangumi(Site):
 
         regex = re.compile(r'/subject/(\d+)')
         href = soup.find('a', href=regex)['href']
-        id = regex.search(href).group(1)
+        id = int(regex.search(href).group(1))
 
         return id
 

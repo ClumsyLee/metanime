@@ -32,12 +32,19 @@ class Reddit(Site):
         return rating, count
 
     def get_rating(self, id):
-        post = self._get_post(id)
+        text = self._get_post(id)['selftext']
+        poll_ids = re.findall(r'youpoll\.me/(\d+)', text)
+        link_ids = re.findall(r'redd\.it/(\w+)', text)
+
+        if len(poll_ids) != len(link_ids) + 1:
+            raise RuntimeError(f'Number of polls ({len(poll_ids)}) != '
+                               f'number of links ({len(link_ids)}) + 1')
+
         ratings = []
         counts = []
 
-        for m in re.finditer(r'youpoll\.me/(\d+)', post['selftext']):
-            rating, count = self._get_poll_rating(m.group(1))
+        for poll_id in poll_ids:
+            rating, count = self._get_poll_rating(poll_id)
             ratings.append(rating)
             counts.append(count)
 

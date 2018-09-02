@@ -43,19 +43,28 @@ class NGA(Site):
 
         return rating, count
 
-    def search(self, names):
+    def _search(self, name):
         params = {
-            'key': names['ja-jp'],
+            'key': name,
             'fid': 572,
             'content': 1,
         }
         soup = self._get_soup(self.BASE_URL + '/thread.php', params=params)
 
         href = soup.find('a', class_='topic')['href']
-        id = href.split('=')[-1]
+        id = int(href.split('=')[-1])
 
         return id
 
+    def search(self, names):
+        try:
+            return self._search(names['ja-jp'])
+        except Exception:
+            pass
+
+        return self._search(names['zh-cn'])
+
 
 if __name__ == '__main__':
-    main(NGA(), {'ja-jp': 'サクラダリセット'})
+    main(NGA(), {'ja-jp': 'ダーリン・イン・ザ・フランキス',
+                 'zh-cn': 'DARLING in the FRANXX'})
