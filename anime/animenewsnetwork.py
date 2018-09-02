@@ -19,14 +19,12 @@ class AnimeNewsNetwork(Site):
         return f'{self.BASE_URL}/encyclopedia/anime.php?id={id}'
 
     def get_rating(self, id):
-        soup = self._get_soup(self.info_url(id))
+        tree = self._get_xml('https://cdn.animenewsnetwork.com/encyclopedia/'
+                             f'api.xml?anime={id}')
+        ratings = tree.find('anime/ratings')
 
-        rating_str = soup.find(text='Bayesian estimate:').next_element
-        rating = float(rating_str.strip().split()[0])
-
-        count_str = (soup.find(text='User Ratings:').next_element.next_element
-                     .get_text())
-        count = int(count_str.strip().split()[0])
+        rating = float(ratings.get('bayesian_score'))
+        count = int(ratings.get('nb_votes'))
 
         return rating, count
 

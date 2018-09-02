@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+from xml.etree import ElementTree
 import requests
 
 
@@ -36,6 +37,9 @@ class Site(object):
 
     def _post_json(self, url, json, **kws):
         return self._post(url, json=json, **kws).json()
+
+    def _get_xml(self, url, **kws):
+        return ElementTree.fromstring(self._get(url, **kws).content)
 
     def unify_rating(self, rating):
         return int(round((rating - self.MIN_RATING) /
