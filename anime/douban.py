@@ -1,5 +1,3 @@
-import re
-
 from .site import main, Site
 
 
@@ -7,6 +5,7 @@ class Douban(Site):
     """douban.com"""
 
     BASE_URL = 'https://movie.douban.com'
+    API_BASE_URL = 'https://api.douban.com/v2/movie'
     NAMES = {
         'en': 'Douban',
         'ja-jp': 'Douban',
@@ -19,24 +18,15 @@ class Douban(Site):
         return f'{self.BASE_URL}/subject/{id}'
 
     def get_rating(self, id):
-        soup = self._get_soup(self.info_url(id))
+        anime = self._get_json(f'{self.API_BASE_URL}/subject/{id}')
 
-        rating = float(soup.find(property='v:average').get_text())
-        count = int(soup.find(property='v:votes').get_text())
-
-        return rating, count
+        return anime['rating']['average'], anime['ratings_count']
 
     def search(self, names):
-        params = {
-            'cat': 1002,
-            'q': names['ja-jp'],
-        }
-        soup = self._get_soup('https://www.douban.com/search', params=params)
+        anime = self._get_json(f'{self.API_BASE_URL}/search',
+                               params={'q': names['ja-jp']})['subjects'][0]
 
-        href = soup.find(class_='title').find('a')['href']
-        id = int(re.search(r'subject%2F(\d+)', href).group(1))
-
-        return id
+        return int(anime['id'])
 
 
 if __name__ == '__main__':
