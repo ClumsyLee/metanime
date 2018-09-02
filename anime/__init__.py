@@ -4,7 +4,7 @@ from .anikore import Anikore
 from .anilist import AniList
 from .animenewsnetwork import AnimeNewsNetwork
 from .animeplanet import AnimePlanet
-from .animesachi import Animesachi
+# from .animesachi import Animesachi
 from .bangumi import Bangumi
 from .bilibili import Bilibili
 from .crunchyroll import Crunchyroll
@@ -15,6 +15,8 @@ from .myanimelist import MyAnimeList
 from .nga import NGA
 from .reddit import Reddit
 from .saraba1st import Saraba1st
+from .shikimori import Shikimori
+from .shinden import Shinden
 from .worldart import WorldArt
 
 
@@ -25,7 +27,7 @@ SITES = {
     'anilist': AniList(),
     'animenewsnetwork': AnimeNewsNetwork(),
     'animeplanet': AnimePlanet(),
-    'animesachi': Animesachi(),
+    # 'animesachi': Animesachi(),
     'bangumi': Bangumi(),
     'bilibili': Bilibili(),
     'crunchyroll': Crunchyroll(),
@@ -36,5 +38,7 @@ SITES = {
     'nga': NGA(),
     'reddit': Reddit(),
     'saraba1st': Saraba1st(),
+    'shikimori': Shikimori(),
+    'shinden': Shinden(),
     'worldart': WorldArt(),
 }
