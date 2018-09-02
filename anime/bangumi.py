@@ -7,6 +7,7 @@ class Bangumi(Site):
     """bangumi.tv"""
 
     BASE_URL = 'https://bangumi.tv'
+    API_BASE_URL = 'https://api.bgm.tv'
     NAMES = {
         'en': 'Bangumi',
         'ja-jp': 'Bangumi',
@@ -19,23 +20,22 @@ class Bangumi(Site):
         return f'{self.BASE_URL}/subject/{id}'
 
     def get_rating(self, id):
-        soup = self._get_soup(self.info_url(id))
+        anime = self._get_json(f'{self.API_BASE_URL}/subject/{id}')
+        rating = anime['rating']
 
-        rating = float(soup.find(property='v:average').get_text())
-        count = int(soup.find(property='v:votes').get_text())
-
-        return rating, count
+        return rating['score'], rating['total']
 
     def search(self, names):
-        soup = self._get_soup(
-            self.BASE_URL + '/subject_search/' + names['ja-jp'],
-            params={'cat': 2})
+        name = names['ja-jp']
+        params = {
+            'type': 2,  # Anime.
+            'responseGroup': 'small',
+            'max_results': 1,
+        }
+        anime = self._get_json(f'{self.API_BASE_URL}/search/subject/{name}',
+                               params=params)['list'][0]
 
-        regex = re.compile(r'/subject/(\d+)')
-        href = soup.find('a', href=regex)['href']
-        id = int(regex.search(href).group(1))
-
-        return id
+        return anime['id']
 
 
 if __name__ == '__main__':
