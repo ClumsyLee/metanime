@@ -1,5 +1,3 @@
-import re
-
 from .site import main, Site
 
 
@@ -7,6 +5,7 @@ class Bilibili(Site):
     """bilibili.com"""
 
     BASE_URL = 'https://www.bilibili.com'
+    API_BASE_URL = 'https://bangumi.bilibili.com/view/web_api'
     NAMES = {
         'en': 'Bilibili',
         'ja-jp': 'ビリビリ',
@@ -19,14 +18,11 @@ class Bilibili(Site):
         return f'{self.BASE_URL}/bangumi/media/md{id}'
 
     def get_rating(self, id):
-        soup = self._get_soup(self.info_url(id), parser='html.parser')
+        anime = self._get_json(f'{self.API_BASE_URL}/season',
+                               params={'media_id': id})['result']
+        rating = anime['rating']
 
-        rating = float(soup.find(class_='media-info-score-content').get_text())
-
-        count_str = soup.find(class_='media-info-review-times').get_text()
-        count = int(re.search(r'\d+', count_str).group())
-
-        return rating, count
+        return float(rating['score']), int(rating['count'])
 
     def search(self, names):
         params = {
