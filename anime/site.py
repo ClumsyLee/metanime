@@ -10,6 +10,7 @@ USER_AGENT = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) '
 class Site(object):
     """Anime site"""
 
+    BASE_URL = None
     NAMES = None
     MIN_RATING = None
     MAX_RATING = None
@@ -43,11 +44,14 @@ class Site(object):
     def get_rating(self, id):
         raise NotImplementedError
 
+    def search(self, names):
+        raise NotImplementedError
 
-def main(site, id):
+
+def main(site, names):
+    id = site.search(names)
     print(site.info_url(id))
 
     rating, count = site.get_rating(id)
     unified_rating = site.unify_rating(rating)
-
     print(f'{rating} ({count}), {unified_rating}')

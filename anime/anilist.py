@@ -1,9 +1,12 @@
+import json
+
 from .site import main, Site
 
 
 class AniList(Site):
     """anilist.co"""
 
+    BASE_URL = 'https://anilist.co'
     NAMES = {
         'en': 'AniList',
         'ja-jp': 'AniList',
@@ -13,33 +16,42 @@ class AniList(Site):
     MAX_RATING = 100
 
     def info_url(self, id):
-        return f'https://anilist.co/anime/{id}'
+        return f'{self.BASE_URL}/anime/{id}'
 
-    def _get_info(self, id):
-        query = """{
-            Media(id: 98658, type: ANIME) {
-                meanScore
-                averageScore
-                stats {
-                    scoreDistribution {
-                        score
-                        amount
-                    }
-                }
-            }
-        }"""
+    def _query_media(self, query):
         return self._post_json('https://graphql.anilist.co',
                                {'query': query})['data']['Media']
 
     def get_rating(self, id):
-        info = self._get_info(id)
+        media = self._query_media(f"""{{
+            Media(id: {id}, type: ANIME) {{
+                meanScore
+                averageScore
+                stats {{
+                    scoreDistribution {{
+                        score
+                        amount
+                    }}
+                }}
+            }}
+        }}""")
 
-        rating = info['averageScore']
+        rating = media['averageScore']
         count = sum(entry['amount'] for entry in
-                    info['stats']['scoreDistribution'])
+                    media['stats']['scoreDistribution'])
 
         return rating, count
 
+    def search(self, names):
+        search = json.dumps(names['ja-jp'])
+        media = self._query_media(f"""{{
+            Media(search: {search}, type: ANIME, sort:SEARCH_MATCH) {{
+                id
+            }}
+        }}""")
+
+        return media['id']
+
 
 if __name__ == '__main__':
-    main(AniList(), 'shoujo-kageki-revue-starlight')
+    main(AniList(), {'ja-jp': '少女☆歌劇 レヴュースタァライト'})

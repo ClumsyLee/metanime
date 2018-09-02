@@ -6,6 +6,7 @@ from .site import main, Site
 class IMDB(Site):
     """imdb.com"""
 
+    BASE_URL = 'https://www.imdb.com'
     NAMES = {
         'en': 'IMDB',
         'ja-jp': 'IMDB',
@@ -15,7 +16,7 @@ class IMDB(Site):
     MAX_RATING = 10
 
     def info_url(self, id):
-        return f'https://www.imdb.com/title/{id}'
+        return f'{self.BASE_URL}/title/tt{id}'
 
     def get_rating(self, id):
         soup = self._get_soup(self.info_url(id))
@@ -27,6 +28,18 @@ class IMDB(Site):
 
         return rating, count
 
+    def search(self, names):
+        params = {
+            'title': names['en-jp'],
+            'title_type': 'tv_series',
+        }
+        soup = self._get_soup(self.BASE_URL + '/search/title', params=params)
+
+        href = soup.find(class_='lister-item-header').find('a')['href']
+        id = href.split('/')[2].lstrip('tt')
+
+        return id
+
 
 if __name__ == '__main__':
-    main(IMDB(), 'tt8400680')
+    main(IMDB(), {'en-jp': 'Shoujo☆Kageki Revue Starlight'})

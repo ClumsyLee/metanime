@@ -4,6 +4,7 @@ from .site import main, Site
 class Saraba1st(Site):
     """saraba1st.com"""
 
+    BASE_URL = 'https://bbs.saraba1st.com'
     NAMES = {
         'en': 'Saraba1st',
         'ja-jp': 'Saraba1st',
@@ -13,7 +14,7 @@ class Saraba1st(Site):
     MAX_RATING = 2
 
     def info_url(self, id):
-        return f'https://bbs.saraba1st.com/2b/thread-{id}-1-1.html'
+        return f'{self.BASE_URL}/2b/thread-{id}-1-1.html'
 
     def get_rating(self, id):
         soup = self._get_soup(self.info_url(id))
@@ -29,6 +30,21 @@ class Saraba1st(Site):
 
         return rating, count
 
+    def search(self, names):
+        params = {
+            'mod': 'forum',
+            'searchid': 282,
+            'orderby': 'lastpost',
+            'ascdesc': 'desc',
+            'searchsubmit': 'yes',
+            'kw': names['ja-jp'],
+        }
+        soup = self._get_soup(self.BASE_URL + '/2b/search.php', params=params)
+
+        id = soup.find(class_='pbw')['id']
+
+        return id
+
 
 if __name__ == '__main__':
-    main(Saraba1st(), '1720449')
+    main(Saraba1st(), {'ja-jp': 'サクラダリセット'})

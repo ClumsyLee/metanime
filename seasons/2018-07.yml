@@ -4,7 +4,7 @@ hataraku-saibou:
     en-jp: Hataraku Saibou
     ja-jp: はたらく細胞
     zh-cn: 工作细胞
-  info:
+  site_ids:
     amazon: null
     anidb: 13743
     anikore: 11553
@@ -13,10 +13,10 @@ hataraku-saibou:
     animeplanet: cells-at-work
     animesachi: 5454
     bangumi: 235612
-    bilibili: md102392
+    bilibili: 102392
     crunchyroll: cells-at-work
     douban: 28514091
-    imdb: tt8673610
+    imdb: 8673610
     kitsu: hataraku-saibou-tv
     myanimelist: 37141
     nga: null
@@ -29,7 +29,7 @@ shoujo-kageki-revue-starlight:
     en-jp: Shoujo☆Kageki Revue Starlight
     ja-jp: 少女☆歌劇 レヴュースタァライト
     zh-cn: 少女☆歌剧 Revue Starlight
-  info:
+  site_ids:
     amazon: null
     anidb: 13152
     anikore: 11664
@@ -38,10 +38,10 @@ shoujo-kageki-revue-starlight:
     animeplanet: shoujo-kageki-revue-starlight
     animesachi: 5438
     bangumi: 214265
-    bilibili: md102892
+    bilibili: 102892
     crunchyroll: null
     douban: 27034594
-    imdb: tt8400680
+    imdb: 8400680
     kitsu: shoujo-kageki-revue-starlight
     myanimelist: 35503
     nga: null

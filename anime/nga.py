@@ -6,6 +6,7 @@ from .site import main, Site
 class NGA(Site):
     """ngacn.cc"""
 
+    BASE_URL = 'https://bbs.ngacn.cc'
     NAMES = {
         'en': 'NGA',
         'ja-jp': 'NGA',
@@ -30,7 +31,7 @@ class NGA(Site):
         )
 
     def info_url(self, id):
-        return f'https://bbs.ngacn.cc/read.php?tid={id}'
+        return f'{self.BASE_URL}/read.php?tid={id}'
 
     def get_rating(self, id):
         soup = self._get_soup(self.info_url(id))
@@ -42,6 +43,19 @@ class NGA(Site):
 
         return rating, count
 
+    def search(self, names):
+        params = {
+            'key': names['ja-jp'],
+            'fid': 572,
+            'content': 1,
+        }
+        soup = self._get_soup(self.BASE_URL + '/thread.php', params=params)
+
+        href = soup.find('a', class_='topic')['href']
+        id = href.split('=')[-1]
+
+        return id
+
 
 if __name__ == '__main__':
-    main(NGA(), '12543728')
+    main(NGA(), {'ja-jp': 'サクラダリセット'})

@@ -1,9 +1,12 @@
+import re
+
 from .site import main, Site
 
 
 class AnimeNewsNetwork(Site):
     """animenewsnetwork.com"""
 
+    BASE_URL = 'https://www.animenewsnetwork.com'
     NAMES = {
         'en': 'AnimeNewsNetwork',
         'ja-jp': 'AnimeNewsNetwork',
@@ -13,8 +16,7 @@ class AnimeNewsNetwork(Site):
     MAX_RATING = 10
 
     def info_url(self, id):
-        return ('https://www.animenewsnetwork.com/encyclopedia/anime.php?'
-                f'id={id}')
+        return f'{self.BASE_URL}/encyclopedia/anime.php?id={id}'
 
     def get_rating(self, id):
         soup = self._get_soup(self.info_url(id))
@@ -28,6 +30,16 @@ class AnimeNewsNetwork(Site):
 
         return rating, count
 
+    def search(self, names):
+        soup = self._get_soup(self.BASE_URL + '/encyclopedia/search/name',
+                              params={'q': names['ja-jp']})
+
+        regex = re.compile(r'/encyclopedia/anime\.php\?id=(\d+)')
+        href = soup.find('a', href=regex)['href']
+        id = regex.search(href).group(1)
+
+        return id
+
 
 if __name__ == '__main__':
-    main(AnimeNewsNetwork(), '18950')
+    main(AnimeNewsNetwork(), {'ja-jp': 'サクラダリセット'})

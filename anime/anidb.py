@@ -4,6 +4,7 @@ from .site import main, Site
 class AniDB(Site):
     """anidb.net"""
 
+    BASE_URL = 'https://anidb.net'
     NAMES = {
         'en': 'AniDB',
         'ja-jp': 'AniDB',
@@ -13,7 +14,7 @@ class AniDB(Site):
     MAX_RATING = 10
 
     def info_url(self, id):
-        return f'https://anidb.net/perl-bin/animedb.pl?show=anime&aid={id}'
+        return f'{self.BASE_URL}/perl-bin/animedb.pl?show=anime&aid={id}'
 
     def get_rating(self, id):
         soup = self._get_soup(self.info_url(id))
@@ -25,6 +26,22 @@ class AniDB(Site):
 
         return rating, count
 
+    def search(self, names):
+        params = {
+            'show': 'search',
+            'do': 'fulltext',
+            'adb.search': names['ja-jp'],
+            'entity.animetb': 1,
+            'field.titles': 1,
+        }
+        soup = self._get_soup(self.BASE_URL + '/perl-bin/animedb.pl',
+                              params=params)
+
+        href = soup.find(class_='relid').find('a')['href']
+        id = href.split('=')[-1]
+
+        return id
+
 
 if __name__ == '__main__':
-    main(AniDB(), '13152')
+    main(AniDB(), {'ja-jp': '少女☆歌劇 レヴュースタァライト'})

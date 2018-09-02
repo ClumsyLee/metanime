@@ -7,6 +7,7 @@ from .site import main, Site
 class Reddit(Site):
     """reddit.com/r/anime"""
 
+    BASE_URL = 'https://www.reddit.com/r/anime'
     NAMES = {
         'en': 'Reddit',
         'ja-jp': 'Reddit',
@@ -16,9 +17,9 @@ class Reddit(Site):
     MAX_RATING = 10
 
     def info_url(self, id):
-        return f'https://www.reddit.com/r/anime/comments/{id}'
+        return f'{self.BASE_URL}/comments/{id}'
 
-    def _get_info(self, id):
+    def _get_post(self, id):
         return (self._get_json(self.info_url(id) + '.json')[0]['data']
                 ['children'][0]['data'])
 
@@ -31,17 +32,29 @@ class Reddit(Site):
         return rating, count
 
     def get_rating(self, id):
-        info = self._get_info(id)
+        post = self._get_post(id)
         ratings = []
         counts = []
 
-        for m in re.finditer(r'youpoll\.me/(\d+)', info['selftext']):
+        for m in re.finditer(r'youpoll\.me/(\d+)', post['selftext']):
             rating, count = self._get_poll_rating(m.group(1))
             ratings.append(rating)
             counts.append(count)
 
         return mean(ratings), int(mean(counts))
 
+    def search(self, names):
+        params = {
+            'q': 'author:AutoLovepon ' + names['en-jp'],
+            'restrict_sr': 'on',
+            'sort': 'new',
+            't': 'all',
+        }
+        post = self._get_json(self.BASE_URL + '/search.json',
+                              params=params)['data']['children'][0]['data']
+
+        return post['id']
+
 
 if __name__ == '__main__':
-    main(Reddit(), '9a6pjj')
+    main(Reddit(), {'en-jp': 'Shoujo☆Kageki Revue Starlight'})

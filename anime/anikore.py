@@ -4,6 +4,7 @@ from .site import main, Site
 class Anikore(Site):
     """anikore.jp"""
 
+    BASE_URL = 'https://www.anikore.jp'
     NAMES = {
         'en': 'Anikore',
         'ja-jp': 'Anikore',
@@ -13,7 +14,7 @@ class Anikore(Site):
     MAX_RATING = 5
 
     def info_url(self, id):
-        return f'https://www.anikore.jp/anime/{id}'
+        return f'{self.BASE_URL}/anime/{id}'
 
     def get_rating(self, id):
         soup = self._get_soup(self.info_url(id))
@@ -28,6 +29,14 @@ class Anikore(Site):
 
         return rating, count
 
+    def search(self, names):
+        soup = self._get_soup(self.BASE_URL + '/anime_title/' + names['ja-jp'])
+
+        href = soup.find(class_='smt_title').find('a')['href']
+        id = href.split('/')[-2]
+
+        return id
+
 
 if __name__ == '__main__':
-    main(Anikore(), '11664')
+    main(Anikore(), {'ja-jp': '少女☆歌劇 レヴュースタァライト'})
