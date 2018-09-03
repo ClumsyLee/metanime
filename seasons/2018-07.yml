@@ -1,10 +1,11 @@
 hataraku-saibou-tv:
   names:
     en: Cells at Work!
-    en-jp: Hataraku Saibou
+    en-jp: Hataraku Saibou (TV)
     ja-jp: はたらく細胞
     zh-cn: 工作细胞
   site_ids:
+    amazon: null
     anidb: 13743
     anikore: 11553
     anilist: 100977
@@ -15,9 +16,11 @@ hataraku-saibou-tv:
     crunchyroll: cells-at-work
     douban: 28514091
     imdb: 8673610
-    kitsu: '14212'
+    kitsu: 14212
     myanimelist: 37141
+    nga: null
     reddit: 9c4ffy
+    saraba1st: null
     shikimori: 37141
     shinden: 52658
     worldart: 9548
@@ -25,9 +28,10 @@ shoujo-kageki-revue-starlight:
   names:
     en: Revue Starlight
     en-jp: Shoujo☆Kageki Revue Starlight
-    ja-jp: 少女☆歌劇 レヴュースタァライト
+    ja-jp: 少女☆歌劇 レヴュー・スタァライト
     zh-cn: 少女☆歌剧 Revue Starlight
   site_ids:
+    amazon: null
     anidb: 13152
     anikore: 11664
     anilist: 98658
@@ -35,11 +39,14 @@ shoujo-kageki-revue-starlight:
     animeplanet: shoujo-kageki-revue-starlight
     bangumi: 214265
     bilibili: 102892
+    crunchyroll: null
     douban: 27034594
     imdb: 8400680
-    kitsu: '14174'
+    kitsu: 14174
     myanimelist: 35503
+    nga: null
     reddit: 9c2vow
+    saraba1st: null
     shikimori: 35503
     shinden: 50927
     worldart: 9253

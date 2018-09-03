@@ -4,14 +4,13 @@ import sys
 from metanime import Anime
 
 
-logging.basicConfig(level=logging.INFO)
+def update_info(filename):
+    animes = Anime.load(filename)
+    for anime in animes:
+        anime.update()
+    Anime.dump(animes, filename)
 
 
 if __name__ == '__main__':
-    filename = sys.argv[1]
-    animes = Anime.load(filename)
-
-    for anime in animes:
-        anime.update()
-
-    Anime.dump(animes, filename)
+    logging.basicConfig(level=logging.INFO)
+    update_info(sys.argv[1])

@@ -4,13 +4,6 @@ import logging
 import yaml
 
 
-def without_none(d):
-    if d is None:
-        return {}
-    else:
-        return {key: value for key, value in d.items() if value is None}
-
-
 class Anime(object):
     """Anime"""
 
@@ -20,6 +13,8 @@ class Anime(object):
 
         with open(filename) as fp:
             for slug, attrs in yaml.load(fp).items():
+                if attrs is None:
+                    attrs = {}
                 animes.append(Anime(slug, **attrs))
 
         return animes
@@ -34,9 +29,14 @@ class Anime(object):
                              default_flow_style=False)
 
     def __init__(self, slug, names=None, site_ids=None):
+        if names is None:
+            names = {}
+        if site_ids is None:
+            site_ids = {}
+
         self.slug = slug
-        self.names = without_none(names)
-        self.site_ids = without_none(site_ids)
+        self.names = names
+        self.site_ids = site_ids
 
     def update(self):
         self.update_names()
@@ -58,10 +58,10 @@ class Anime(object):
             except Exception:
                 site_id = None
 
-            if site_id != old_site_id:
-                if site_id is None:
-                    # Warn if becoming None.
-                    logging.warn('    => null?')
-                else:
-                    self.site_ids[site_name] = site_id
+            if site_id is None and old_site_id is not None:
+                # Warn but don't reset it.
+                logging.warn('%s => null?', site.info_url(old_site_id))
+            else:
+                self.site_ids[site_name] = site_id
+                if site_id != old_site_id:
                     logging.info('    => %s', site.info_url(site_id))

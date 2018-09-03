@@ -38,7 +38,7 @@ class Kitsu(Site):
         anime = self._get_json(f'{self.API_BASE_URL}/anime',
                                params=params)['data'][0]
 
-        return anime['id']
+        return int(anime['id'])
 
     def get_names(self, slug):
         anime = self._get_json(f'{self.API_BASE_URL}/anime',
