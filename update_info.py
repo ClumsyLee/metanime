@@ -14,4 +14,4 @@ def update_info(filename):
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
-    update_info(sys.argv[1])
+    update_info(f'seasons/{sys.argv[1]}/info.yml')
