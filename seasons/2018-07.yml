@@ -32,7 +32,7 @@ angolmois-genkou-kassenki:
   site_ids:
     amazon: null
     anidb: 13255
-    anikore: null
+    anikore: 11630
     anilist: 99412
     animenewsnetwork: 20771
     animeplanet: angolmois-record-of-mongol-invasion
@@ -59,7 +59,7 @@ ani-ni-tsukeru-kusuri-wa-nai-2:
   site_ids:
     amazon: null
     anidb: 14098
-    anikore: null
+    anikore: 11761
     anilist: 101844
     animenewsnetwork: null
     animeplanet: null
@@ -136,10 +136,10 @@ back-street-girls:
   site_ids:
     amazon: null
     anidb: 10784
-    anikore: null
-    anilist: null
+    anikore: 11742
+    anilist: 100665
     animenewsnetwork: 20851
-    animeplanet: null
+    animeplanet: back-street-girls-gokudolls
     bangumi: 231278
     bilibili: 102512
     crunchyroll: null
@@ -160,10 +160,10 @@ baki-ona:
     zh-cn: 刃牙
   site_ids:
     amazon: null
-    anidb: null
+    anidb: 12569
     anikore: 7913
     anilist: 551
-    animenewsnetwork: null
+    animenewsnetwork: 19981
     animeplanet: baki
     bangumi: 199373
     bilibili: 102672
@@ -264,7 +264,7 @@ chuukan-kanriroku-tonegawa:
   site_ids:
     amazon: null
     anidb: 13813
-    anikore: null
+    anikore: 11623
     anilist: 101161
     animenewsnetwork: 20916
     animeplanet: null
@@ -290,7 +290,7 @@ cinderella-girls-gekijou-3rd-season:
   site_ids:
     amazon: null
     anidb: 12483
-    anikore: null
+    anikore: 11603
     anilist: 101267
     animenewsnetwork: 19183
     animeplanet: null
@@ -317,7 +317,7 @@ flcl-alternative:
     amazon: null
     anidb: 13258
     anikore: 11650
-    anilist: null
+    anilist: 21748
     animenewsnetwork: 277
     animeplanet: null
     bangumi: 175398
@@ -343,7 +343,7 @@ flcl-progressive:
     amazon: B07D9T14CN
     anidb: 12023
     anikore: 11651
-    anilist: null
+    anilist: 21746
     animenewsnetwork: 277
     animeplanet: null
     bangumi: 175399
@@ -370,7 +370,7 @@ free-dive-to-the-future:
     anikore: 11743
     anilist: 101117
     animenewsnetwork: 20895
-    animeplanet: null
+    animeplanet: free-dive-to-the-future
     bangumi: 228820
     bilibili: 102232
     crunchyroll: null
@@ -496,7 +496,7 @@ hataraku-onii-san-2:
   site_ids:
     amazon: null
     anidb: 13995
-    anikore: null
+    anikore: 11775
     anilist: 101435
     animenewsnetwork: 21104
     animeplanet: working-buddies-no-2
@@ -728,7 +728,7 @@ lord-of-vermilion-guren-no-ou:
     amazon: null
     anidb: 13958
     anikore: 11790
-    anilist: null
+    anilist: 101384
     animenewsnetwork: 20807
     animeplanet: null
     bangumi: 241091
@@ -779,11 +779,11 @@ one-room-2nd-season:
     amazon: null
     anidb: 13480
     anikore: 11762
-    anilist: null
+    anilist: 100133
     animenewsnetwork: 20897
     animeplanet: one-room-2nd-season
     bangumi: 226507
-    bilibili: null
+    bilibili: 103032
     crunchyroll: null
     douban: 26918893
     imdb: null
@@ -829,7 +829,7 @@ overlord-iii:
     zh-cn: OVERLORD III
   site_ids:
     amazon: null
-    anidb: null
+    anidb: 101474
     anikore: 11786
     anilist: 20832
     animenewsnetwork: 21105
@@ -855,8 +855,8 @@ phantom-in-the-twilight:
   site_ids:
     amazon: null
     anidb: 13978
-    anikore: null
-    anilist: null
+    anikore: 11657
+    anilist: 101382
     animenewsnetwork: 19740
     animeplanet: null
     bangumi: 241264
@@ -985,7 +985,7 @@ shingeki-no-kyojin-3:
   site_ids:
     amazon: null
     anidb: 13241
-    anikore: null
+    anikore: 11699
     anilist: 99147
     animenewsnetwork: 17998
     animeplanet: null
@@ -1011,7 +1011,7 @@ shinya-tensai-bakabon:
   site_ids:
     amazon: null
     anidb: 14002
-    anikore: null
+    anikore: 11724
     anilist: 101580
     animenewsnetwork: 20817
     animeplanet: late-night-the-genius-bakabon
@@ -1113,7 +1113,7 @@ tsukumogami-kashimasu:
   site_ids:
     amazon: null
     anidb: 13539
-    anikore: null
+    anikore: 11658
     anilist: 100562
     animenewsnetwork: 20758
     animeplanet: we-rent-tsukumogami
@@ -1165,7 +1165,7 @@ yami-shibai-6th-season:
   site_ids:
     amazon: null
     anidb: 10717
-    anikore: null
+    anikore: 11763
     anilist: null
     animenewsnetwork: 16156
     animeplanet: null
