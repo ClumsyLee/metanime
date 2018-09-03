@@ -5,6 +5,7 @@ class Kitsu(Site):
     """kitsu.io"""
 
     BASE_URL = 'https://kitsu.io'
+    API_BASE_URL = BASE_URL + '/api/edge'
     NAMES = {
         'en': 'Kitsu',
         'ja-jp': 'Kitsu',
@@ -17,8 +18,8 @@ class Kitsu(Site):
         return f'{self.BASE_URL}/anime/{id}'
 
     def _get_anime(self, id):
-        url = f'{self.BASE_URL}/api/edge/anime?&filter%5Bslug%5D={id}'
-        return self._get_json(url)['data'][0]
+        url = f'{self.API_BASE_URL}/anime/{id}'
+        return self._get_json(url)['data']
 
     def get_rating(self, id):
         attrs = self._get_anime(id)['attributes']
@@ -34,10 +35,10 @@ class Kitsu(Site):
             'filter[text]': names['ja-jp'],
             'page[limit]': 1,
         }
-        attrs = self._get_json(self.BASE_URL + '/api/edge/anime',
-                               params=params)['data'][0]['attributes']
+        anime = self._get_json(f'{self.API_BASE_URL}/anime',
+                               params=params)['data'][0]
 
-        return attrs['slug']
+        return anime['id']
 
 
 if __name__ == '__main__':
