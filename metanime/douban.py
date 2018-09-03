@@ -22,9 +22,11 @@ class Douban(Site):
 
         return anime['rating']['average'], anime['ratings_count']
 
-    def search(self, names):
+    def search(self, names, update_names=False):
         anime = self._get_json(f'{self.API_BASE_URL}/search',
                                params={'q': names['ja-jp']})['subjects'][0]
+
+        names['zh-cn'] = anime['title']  # Update Chinese title.
 
         return int(anime['id'])
 

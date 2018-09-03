@@ -40,6 +40,16 @@ class Kitsu(Site):
 
         return anime['id']
 
+    def get_names(self, slug):
+        anime = self._get_json(f'{self.API_BASE_URL}/anime',
+                               params={'filter[slug]': slug})['data'][0]
+        titles = anime['attributes']['titles']
+
+        return {local.replace('_', '-'): title
+                for local, title in titles.items()}
+
 
 if __name__ == '__main__':
+    site = Kitsu()
+    print(site.get_names('shoujo-kageki-revue-starlight'))
     main(Kitsu(), {'ja-jp': '少女☆歌劇 レヴュースタァライト'})
