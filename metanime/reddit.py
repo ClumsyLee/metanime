@@ -15,6 +15,7 @@ class Reddit(Site):
     }
     MIN_RATING = 1
     MAX_RATING = 10
+    DYNAMIC_ID = True
 
     def info_url(self, id):
         return f'{self.BASE_URL}/comments/{id}'

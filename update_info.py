@@ -7,8 +7,9 @@ from metanime import Anime
 def update_info(filename):
     animes = Anime.load(filename)
     for anime in animes:
+        logging.info('Updating %s...', anime.slug)
         anime.update()
-    Anime.dump(animes, filename)
+        Anime.dump(animes, filename)
 
 
 if __name__ == '__main__':

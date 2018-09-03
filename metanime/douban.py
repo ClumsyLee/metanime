@@ -1,3 +1,5 @@
+import re
+
 from .site import main, Site
 
 
@@ -17,18 +19,37 @@ class Douban(Site):
     def info_url(self, id):
         return f'{self.BASE_URL}/subject/{id}'
 
+    # def get_rating(self, id):
+    #     anime = self._get_json(f'{self.API_BASE_URL}/subject/{id}')
+
+    #     return anime['rating']['average'], anime['ratings_count']
+
     def get_rating(self, id):
-        anime = self._get_json(f'{self.API_BASE_URL}/subject/{id}')
+        soup = self._get_soup(self.info_url(id))
 
-        return anime['rating']['average'], anime['ratings_count']
+        rating = float(soup.find(property='v:average').get_text())
+        count = int(soup.find(property='v:votes').get_text())
 
-    def search(self, names, update_names=False):
-        anime = self._get_json(f'{self.API_BASE_URL}/search',
-                               params={'q': names['ja-jp']})['subjects'][0]
+        return rating, count
 
-        names['zh-cn'] = anime['title']  # Update Chinese title.
+    # def search(self, names, update_names=False):
+    #     anime = self._get_json(f'{self.API_BASE_URL}/search',
+    #                            params={'q': names['ja-jp']})['subjects'][0]
 
-        return int(anime['id'])
+    #     names['zh-cn'] = anime['title']  # Update Chinese title.
+
+    #     return int(anime['id'])
+    def search(self, names):
+        params = {
+            'cat': 1002,
+            'q': names['ja-jp'],
+        }
+        soup = self._get_soup('https://www.douban.com/search', params=params)
+
+        href = soup.find(class_='title').find('a')['href']
+        id = int(re.search(r'subject%2F(\d+)', href).group(1))
+
+        return id
 
 
 if __name__ == '__main__':

@@ -44,24 +44,25 @@ class Anime(object):
 
     def update_names(self):
         names = SITES['kitsu'].get_names(self.slug)
-        SITES['douban'].search(names, update_names=True)
+        try:
+            SITES['bangumi'].search(names, update_names=True)
+        except Exception as err:
+            logging.warn('Failed to update names from Bangumi: %s', err)
 
+        names.update(self.names)
         self.names = names
 
     def update_site_ids(self):
         for site_name, site in SITES.items():
-            old_site_id = self.site_ids.get(site_name)
+            # Skip static ids.
+            if not site.DYNAMIC_ID and self.site_ids.get(site_name):
+                continue
 
             logging.info('%s...', site_name)
             try:
                 site_id = site.search(self.names)
+                logging.info('    => %s', site.info_url(site_id))
             except Exception:
                 site_id = None
 
-            if site_id is None and old_site_id is not None:
-                # Warn but don't reset it.
-                logging.warn('%s => null?', site.info_url(old_site_id))
-            else:
-                self.site_ids[site_name] = site_id
-                if site_id != old_site_id:
-                    logging.info('    => %s', site.info_url(site_id))
+            self.site_ids[site_name] = site_id

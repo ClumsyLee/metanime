@@ -1,7 +1,522 @@
+aguu-tensai-ningyou:
+  names:
+    en-jp: 'Aguu: Tensai Ningyou'
+    ja-jp: 悪偶 -天才人形-
+    zh-cn: 天才玩偶
+  site_ids:
+    amazon: null
+    anidb: 14044
+    anikore: 11774
+    anilist: 101631
+    animenewsnetwork: 20901
+    animeplanet: null
+    bangumi: 242737
+    bilibili: null
+    crunchyroll: null
+    douban: 30203491
+    imdb: null
+    kitsu: 41380
+    myanimelist: 37769
+    nga: null
+    reddit: 9canmy
+    saraba1st: null
+    shikimori: 37769
+    shinden: 10021
+    worldart: 9691
+angolmois-genkou-kassenki:
+  names:
+    en: Angolmois
+    en-jp: 'Angolmois: Genkou Kassenki'
+    ja-jp: アンゴルモア 元寇合戦記
+    zh-cn: Angolmois 元寇合战记
+  site_ids:
+    amazon: null
+    anidb: 13255
+    anikore: null
+    anilist: 99412
+    animenewsnetwork: 20771
+    animeplanet: angolmois-record-of-mongol-invasion
+    bangumi: 218572
+    bilibili: 102692
+    crunchyroll: null
+    douban: 27080655
+    imdb: 8673808
+    kitsu: 13614
+    myanimelist: 35834
+    nga: null
+    reddit: 9b0yl3
+    saraba1st: null
+    shikimori: 35834
+    shinden: 51228
+    worldart: 9314
+ani-ni-tsukeru-kusuri-wa-nai-2:
+  names:
+    en: Please Take My Brother Away 2
+    en-cn: Kuài bǎ wǒ gē dài zǒu 2
+    en-jp: Ani ni Tsukeru Kusuri wa Nai! 2
+    ja-jp: 兄に付ける薬はない! 2
+    zh-cn: 快把我哥带走 第二季
+  site_ids:
+    amazon: null
+    anidb: 14098
+    anikore: null
+    anilist: 101844
+    animenewsnetwork: null
+    animeplanet: null
+    bangumi: 210811
+    bilibili: null
+    crunchyroll: null
+    douban: 26990819
+    imdb: null
+    kitsu: 41331
+    myanimelist: 37924
+    nga: null
+    reddit: 9ari3c
+    saraba1st: null
+    shikimori: 37924
+    shinden: 13776
+    worldart: 9700
+aru-zombie-shoujo-no-sainan:
+  names:
+    en: Calamity of a Zombie Girl
+    en-jp: Aru Zombie Shoujo no Sainan
+    en-us: Calamity of the Zombie Girl
+    ja-jp: あるゾンビ少女の災難
+    zh-cn: 某僵尸少女的灾难
+  site_ids:
+    amazon: null
+    anidb: 9285
+    anikore: 11782
+    anilist: 101525
+    animenewsnetwork: 20835
+    animeplanet: calamity-of-a-zombie-girl
+    bangumi: 101994
+    bilibili: null
+    crunchyroll: null
+    douban: 10833603
+    imdb: null
+    kitsu: 8018
+    myanimelist: 37735
+    nga: null
+    reddit: 8vu81r
+    saraba1st: null
+    shikimori: 33394
+    shinden: 45119
+    worldart: 1065
+asobi-asobase:
+  names:
+    en-jp: Asobi Asobase
+    ja-jp: あそびあそばせ
+    zh-cn: 来玩游戏吧
+  site_ids:
+    amazon: null
+    anidb: 14127
+    anikore: 11629
+    anilist: 101001
+    animenewsnetwork: 20583
+    animeplanet: asobi-asobase
+    bangumi: 236020
+    bilibili: null
+    crunchyroll: null
+    douban: 30128891
+    imdb: 8515062
+    kitsu: 41149
+    myanimelist: 38002
+    nga: null
+    reddit: 9cc316
+    saraba1st: null
+    shikimori: 37171
+    shinden: 52667
+    worldart: null
+back-street-girls:
+  names:
+    en-jp: Back Street Girls
+    ja-jp: バック ストリート ガールズ
+    zh-cn: 后街女孩
+  site_ids:
+    amazon: null
+    anidb: 10784
+    anikore: null
+    anilist: null
+    animenewsnetwork: 20851
+    animeplanet: null
+    bangumi: 231278
+    bilibili: 102512
+    crunchyroll: null
+    douban: 3286492
+    imdb: 8693818
+    kitsu: 41021
+    myanimelist: 3113
+    nga: null
+    reddit: 9c2myv
+    saraba1st: null
+    shikimori: 15787
+    shinden: 52359
+    worldart: null
+baki-ona:
+  names:
+    en-jp: Baki
+    ja-jp: バキ
+    zh-cn: 刃牙
+  site_ids:
+    amazon: null
+    anidb: null
+    anikore: 7913
+    anilist: 551
+    animenewsnetwork: null
+    animeplanet: baki
+    bangumi: 199373
+    bilibili: 102672
+    crunchyroll: null
+    douban: 26926309
+    imdb: 6357658
+    kitsu: 13140
+    myanimelist: 34443
+    nga: null
+    reddit: 9aofk6
+    saraba1st: null
+    shikimori: 551
+    shinden: 264
+    worldart: null
+banana-fish:
+  names:
+    en-jp: Banana Fish
+    ja-jp: バナナフィッシュ
+    zh-cn: 战栗杀机
+  site_ids:
+    amazon: null
+    anidb: 13536
+    anikore: 11594
+    anilist: 100388
+    animenewsnetwork: 20197
+    animeplanet: banana-fish
+    bangumi: 228350
+    bilibili: null
+    crunchyroll: null
+    douban: 3448362
+    imdb: 8515016
+    kitsu: 13988
+    myanimelist: 5904
+    nga: null
+    reddit: 9blhjb
+    saraba1st: null
+    shikimori: null
+    shinden: 52111
+    worldart: null
+bang-dream-garupa-pico:
+  names:
+    en-jp: BanG Dream! Garupa☆Pico
+    ja-jp: BanG Dream! ガルパ☆ピコ
+    zh-cn: BanG Dream! 少女乐团派对！☆PICO
+  site_ids:
+    amazon: null
+    anidb: 14077
+    anikore: 11799
+    anilist: 101632
+    animenewsnetwork: 18693
+    animeplanet: bang-dream-girls-band-party-pico
+    bangumi: 246431
+    bilibili: null
+    crunchyroll: null
+    douban: 30222878
+    imdb: null
+    kitsu: 41292
+    myanimelist: 37873
+    nga: null
+    reddit: 90cpqr
+    saraba1st: null
+    shikimori: 37873
+    shinden: 53636
+    worldart: 9692
+chio-chan-no-tsuugakuro:
+  names:
+    en: Chio's School Road
+    en-jp: Chio-chan no Tsuugakuro
+    en-us: Chio's School Road
+    ja-jp: ちおちゃんの通学路
+    zh-cn: 千绪的通学路
+  site_ids:
+    amazon: null
+    anidb: 13250
+    anikore: 11604
+    anilist: 99366
+    animenewsnetwork: 20512
+    animeplanet: chios-school-road
+    bangumi: 218226
+    bilibili: 102552
+    crunchyroll: chios-school-road
+    douban: 27079297
+    imdb: 8836500
+    kitsu: 13592
+    myanimelist: 35821
+    nga: null
+    reddit: 9bu3jm
+    saraba1st: null
+    shikimori: 35821
+    shinden: 51132
+    worldart: 9313
+chuukan-kanriroku-tonegawa:
+  names:
+    en: Mr. TONEGAWA Middle Management Blues
+    en-jp: Chuukan Kanriroku Tonegawa
+    ja-jp: 中間管理録 トネガワ
+    zh-cn: 中间管理录利根川
+  site_ids:
+    amazon: null
+    anidb: 13813
+    anikore: null
+    anilist: 101161
+    animenewsnetwork: 20916
+    animeplanet: null
+    bangumi: 237834
+    bilibili: 102632
+    crunchyroll: mr-tonegawa-middle-management-blues
+    douban: 30150632
+    imdb: 8113938
+    kitsu: 41023
+    myanimelist: 37338
+    nga: null
+    reddit: 9b1ppz
+    saraba1st: null
+    shikimori: 37338
+    shinden: 53013
+    worldart: 9573
+cinderella-girls-gekijou-3rd-season:
+  names:
+    en: The iDOLM@STER Cinderella Girls Theater 3rd Season
+    en-jp: Cinderella Girls Gekijou 3rd Season
+    ja-jp: シンデレラガールズ劇場 第3期
+    zh-cn: 偶像大师 灰姑娘女孩剧场 第三季
+  site_ids:
+    amazon: null
+    anidb: 12483
+    anikore: null
+    anilist: 101267
+    animenewsnetwork: 19183
+    animeplanet: null
+    bangumi: 238087
+    bilibili: 103012
+    crunchyroll: null
+    douban: 27160633
+    imdb: null
+    kitsu: 41377
+    myanimelist: 37422
+    nga: null
+    reddit: null
+    saraba1st: null
+    shikimori: 37422
+    shinden: 51632
+    worldart: null
+flcl-alternative:
+  names:
+    en: 'FLCL: Alternative'
+    en-jp: FLCL Alternative
+    ja-jp: フリクリ オルタナ
+    zh-cn: FLCL Alternative
+  site_ids:
+    amazon: null
+    anidb: 13258
+    anikore: 11650
+    anilist: null
+    animenewsnetwork: 277
+    animeplanet: null
+    bangumi: 175398
+    bilibili: null
+    crunchyroll: null
+    douban: 27081132
+    imdb: null
+    kitsu: 11962
+    myanimelist: 35842
+    nga: null
+    reddit: 8o69ge
+    saraba1st: null
+    shikimori: 35842
+    shinden: 51542
+    worldart: 9639
+flcl-progressive:
+  names:
+    en: 'FLCL: Progressive'
+    en-jp: FLCL Progressive
+    ja-jp: フリクリ プログレ
+    zh-cn: FLCL Progressive
+  site_ids:
+    amazon: B07D9T14CN
+    anidb: 12023
+    anikore: 11651
+    anilist: null
+    animenewsnetwork: 277
+    animeplanet: null
+    bangumi: 175399
+    bilibili: null
+    crunchyroll: null
+    douban: 27080660
+    imdb: 7112160
+    kitsu: 11961
+    myanimelist: 33010
+    nga: null
+    reddit: 8wz19z
+    saraba1st: null
+    shikimori: 33010
+    shinden: 45348
+    worldart: 9310
+free-dive-to-the-future:
+  names:
+    en-jp: 'Free!: Dive to the Future'
+    ja-jp: Free!-Dive to the Future-
+    zh-cn: Free! 第三季
+  site_ids:
+    amazon: null
+    anidb: 14090
+    anikore: 11743
+    anilist: 101117
+    animenewsnetwork: 20895
+    animeplanet: null
+    bangumi: 228820
+    bilibili: 102232
+    crunchyroll: null
+    douban: 27185561
+    imdb: null
+    kitsu: 14010
+    myanimelist: 36704
+    nga: null
+    reddit: 9bak2t
+    saraba1st: null
+    shikimori: 36704
+    shinden: 52190
+    worldart: 9453
+grand-blue:
+  names:
+    en: Grand Blue Dreaming
+    en-jp: Grand Blue
+    ja-jp: ぐらんぶる
+    zh-cn: 碧蓝之海
+  site_ids:
+    amazon: B07FFVCQMG
+    anidb: 13734
+    anikore: 3422
+    anilist: 100922
+    animenewsnetwork: 20709
+    animeplanet: grand-blue
+    bangumi: 235130
+    bilibili: 102312
+    crunchyroll: null
+    douban: 27666506
+    imdb: 8086718
+    kitsu: 14190
+    myanimelist: 37105
+    nga: null
+    reddit: 9bvvwv
+    saraba1st: null
+    shikimori: 37105
+    shinden: 53031
+    worldart: 9590
+hanebado:
+  names:
+    en: HANEBADO!
+    en-jp: Hanebado!
+    ja-jp: はねバド!
+    zh-cn: 轻羽飞扬
+  site_ids:
+    amazon: B07G9NYHC4
+    anidb: 13783
+    anikore: 11579
+    anilist: 101045
+    animenewsnetwork: 20613
+    animeplanet: hanebado
+    bangumi: 236590
+    bilibili: 102412
+    crunchyroll: hanebado
+    douban: 30140737
+    imdb: 8646234
+    kitsu: 40576
+    myanimelist: 37259
+    nga: null
+    reddit: 9cd4xc
+    saraba1st: null
+    shikimori: 37259
+    shinden: 52827
+    worldart: 9568
+happy-sugar-life:
+  names:
+    en-jp: Happy Sugar Life
+    ja-jp: ハッピーシュガーライフ
+    zh-cn: Happy Sugar Life
+  site_ids:
+    amazon: null
+    anidb: 13944
+    anikore: 11641
+    anilist: 101351
+    animenewsnetwork: 20787
+    animeplanet: happy-sugar-life
+    bangumi: 240828
+    bilibili: null
+    crunchyroll: null
+    douban: 30174401
+    imdb: 8696458
+    kitsu: 41097
+    myanimelist: 37517
+    nga: null
+    reddit: 9bvn4h
+    saraba1st: null
+    shikimori: 37517
+    shinden: 53384
+    worldart: 9633
+harukana-receive:
+  names:
+    en: Harukana Receive
+    en-jp: Harukana Receive
+    ja-jp: はるかなレシーブ
+    zh-cn: 遥的接球
+  site_ids:
+    amazon: null
+    anidb: 13296
+    anikore: 11635
+    anilist: 99586
+    animenewsnetwork: 20318
+    animeplanet: harukana-receive
+    bangumi: 220375
+    bilibili: null
+    crunchyroll: harukana-receive
+    douban: 27094900
+    imdb: 8530992
+    kitsu: 13659
+    myanimelist: 38067
+    nga: null
+    reddit: 9btnbc
+    saraba1st: null
+    shikimori: 35983
+    shinden: 53124
+    worldart: 9476
+hataraku-onii-san-2:
+  names:
+    en: Working Buddies! 2
+    en-jp: Hataraku Onii-san! No 2!
+    ja-jp: 働くお兄さん! の2!
+    zh-cn: 打工小哥！之2！
+  site_ids:
+    amazon: null
+    anidb: 13995
+    anikore: null
+    anilist: 101435
+    animenewsnetwork: 21104
+    animeplanet: working-buddies-no-2
+    bangumi: 241831
+    bilibili: 103072
+    crunchyroll: null
+    douban: 30242190
+    imdb: null
+    kitsu: 41376
+    myanimelist: 37646
+    nga: null
+    reddit: 9btr5n
+    saraba1st: null
+    shikimori: 37646
+    shinden: 53563
+    worldart: 9664
 hataraku-saibou-tv:
   names:
     en: Cells at Work!
-    en-jp: Hataraku Saibou (TV)
+    en-jp: Hataraku Saibou
     ja-jp: はたらく細胞
     zh-cn: 工作细胞
   site_ids:
@@ -24,12 +539,501 @@ hataraku-saibou-tv:
     shikimori: 37141
     shinden: 52658
     worldart: 9548
+high-score-girl:
+  names:
+    en-jp: High Score Girl
+    ja-jp: ハイスコアガール
+    zh-cn: 高分少女
+  site_ids:
+    amazon: null
+    anidb: 10352
+    anikore: 8182
+    anilist: 20574
+    animenewsnetwork: 20797
+    animeplanet: high-score-girl
+    bangumi: 91205
+    bilibili: null
+    crunchyroll: null
+    douban: 25798217
+    imdb: null
+    kitsu: 8158
+    myanimelist: 21877
+    nga: null
+    reddit: 9cdyit
+    saraba1st: null
+    shikimori: 21877
+    shinden: 35146
+    worldart: 9649
+hyakuren-no-haou-to-seiyaku-no-valkyria:
+  names:
+    en: The Master of Ragnarok & Blesser of Einherjar
+    en-jp: Hyakuren no Haou to Seiyaku no Valkyria
+    en-us: The Master of Ragnarok & Blesser of Einherjar
+    ja-jp: 百錬の覇王と聖約の戦乙女
+    zh-cn: 百炼霸王与圣约女武神
+  site_ids:
+    amazon: null
+    anidb: 13896
+    anikore: 11714
+    anilist: 101289
+    animenewsnetwork: 20735
+    animeplanet: the-master-of-ragnarok-blesser-of-einherjar
+    bangumi: 239960
+    bilibili: null
+    crunchyroll: the-master-of-ragnarok-blesser-of-einherjar
+    douban: 30166976
+    imdb: null
+    kitsu: 41052
+    myanimelist: 37446
+    nga: null
+    reddit: 9c4o06
+    saraba1st: null
+    shikimori: 37446
+    shinden: 53153
+    worldart: 9606
+isekai-maou-to-shoukan-shoujo-no-dorei-majutsu:
+  names:
+    en: How NOT to Summon a Demon Lord
+    en-jp: Isekai Maou to Shoukan Shoujo no Dorei Majutsu
+    ja-jp: 異世界魔王と召喚少女の奴隷魔術
+    zh-cn: 异世界魔王与召唤少女的奴隶魔术
+  site_ids:
+    amazon: null
+    anidb: 13757
+    anikore: 11633
+    anilist: 101004
+    animenewsnetwork: 20582
+    animeplanet: how-not-to-summon-a-demon-lord
+    bangumi: 236224
+    bilibili: 102752
+    crunchyroll: how-not-to-summon-a-demon-lord
+    douban: 30132464
+    imdb: null
+    kitsu: 41133
+    myanimelist: 37210
+    nga: null
+    reddit: 9bjo8n
+    saraba1st: null
+    shikimori: 37210
+    shinden: 52668
+    worldart: 9552
+island:
+  names:
+    en-jp: Island
+    ja-jp: ISLAND
+  site_ids:
+    amazon: null
+    anidb: 12020
+    anikore: 2964
+    anilist: 138
+    animenewsnetwork: 18175
+    animeplanet: island
+    bangumi: 175404
+    bilibili: 102292
+    crunchyroll: null
+    douban: 26774746
+    imdb: 57751
+    kitsu: 11965
+    myanimelist: 33012
+    nga: null
+    reddit: 9ccg7s
+    saraba1st: null
+    shikimori: 33012
+    shinden: 49266
+    worldart: null
+jashin-chan-dropkick:
+  names:
+    en: Dropkick On My Devil!!
+    en-jp: Jashin-chan Dropkick
+    en-us: Dropkick On My Devil!!
+    ja-jp: 邪神ちゃんドロップキック
+    zh-cn: 邪神与厨二病少女
+  site_ids:
+    amazon: B07FC7WLDL
+    anidb: 13637
+    anikore: 11428
+    anilist: 100714
+    animenewsnetwork: 20484
+    animeplanet: dropkick-on-my-devil
+    bangumi: 231722
+    bilibili: 102112
+    crunchyroll: null
+    douban: 27596991
+    imdb: null
+    kitsu: 41165
+    myanimelist: 36906
+    nga: null
+    reddit: 9aory8
+    saraba1st: null
+    shikimori: 36906
+    shinden: 53388
+    worldart: 9497
+kabutomushi-ouja-mushiking-mori-no-tami-no-densetsu:
+  names:
+    en: 'Mushiking: The King of Beetles'
+    en-jp: Kabutomushi Ouja Mushiking – Mori no Tami no Densetsu
+    ja-jp: Kabutomushi Ouja Mushiking – Mori no Tami no Densetsu
+  site_ids:
+    amazon: null
+    anidb: 2816
+    anikore: null
+    anilist: null
+    animenewsnetwork: 4834
+    animeplanet: null
+    bangumi: null
+    bilibili: null
+    crunchyroll: null
+    douban: 1475430
+    imdb: null
+    kitsu: 13104
+    myanimelist: 4050
+    nga: null
+    reddit: 98kp79
+    saraba1st: null
+    shikimori: 4050
+    shinden: 6564
+    worldart: null
+kyoto-teramachi-sanjou-no-holmes:
+  names:
+    en: Holmes at Kyoto Teramachi Sanjou
+    en-jp: Kyoto Teramachi Sanjou no Holmes
+    ja-jp: 京都寺町三条のホームズ
+    zh-cn: 京都寺町三条商店街的福尔摩斯
+  site_ids:
+    amazon: null
+    anidb: 13904
+    anikore: 11617
+    anilist: 101292
+    animenewsnetwork: 20843
+    animeplanet: holmes-of-kyoto
+    bangumi: 240198
+    bilibili: null
+    crunchyroll: null
+    douban: 30167969
+    imdb: 8683066
+    kitsu: 41381
+    myanimelist: 37458
+    nga: null
+    reddit: 9arjqw
+    saraba1st: null
+    shikimori: 37458
+    shinden: 49063
+    worldart: 9615
+lord-of-vermilion-guren-no-ou:
+  names:
+    en-jp: 'Lord of Vermilion: Guren no Ou'
+    ja-jp: ロード オブ ヴァーミリオン　紅蓮の王
+    zh-cn: LORD of VERMILION 红莲之王
+  site_ids:
+    amazon: null
+    anidb: 13958
+    anikore: 11790
+    anilist: null
+    animenewsnetwork: 20807
+    animeplanet: null
+    bangumi: 241091
+    bilibili: 102852
+    crunchyroll: null
+    douban: 30177687
+    imdb: null
+    kitsu: 41121
+    myanimelist: 37601
+    nga: null
+    reddit: 9bvo04
+    saraba1st: null
+    shikimori: 37601
+    shinden: 53323
+    worldart: null
+muhyo-to-rouji-no-mahouritsu-soudan-jimusho:
+  names:
+    en: Muhyo & Roji's Bureau of Supernatural Investigation
+    en-jp: Muhyo to Rouji no Mahouritsu Soudan Jimusho
+    ja-jp: ムヒョとロージーの魔法律相談事務所
+    zh-cn: 魔法律事务所
+  site_ids:
+    amazon: null
+    anidb: 13916
+    anikore: 11644
+    anilist: 101340
+    animenewsnetwork: 20762
+    animeplanet: muhyo-and-rojis-bureau-of-supernatural-investigation
+    bangumi: 240428
+    bilibili: null
+    crunchyroll: muhyo-rojis-bureau-of-supernatural-investigation
+    douban: 30174390
+    imdb: null
+    kitsu: 41076
+    myanimelist: 37487
+    nga: null
+    reddit: 9btwft
+    saraba1st: null
+    shikimori: 37487
+    shinden: 53400
+    worldart: 9623
+one-room-2nd-season:
+  names:
+    en-jp: 'One Room: Second Season'
+    ja-jp: One Room セカンドシーズン
+    zh-cn: One Room 第二季
+  site_ids:
+    amazon: null
+    anidb: 13480
+    anikore: 11762
+    anilist: null
+    animenewsnetwork: 20897
+    animeplanet: one-room-2nd-season
+    bangumi: 226507
+    bilibili: null
+    crunchyroll: null
+    douban: 26918893
+    imdb: null
+    kitsu: 13905
+    myanimelist: 38061
+    nga: null
+    reddit: 8vksno
+    saraba1st: null
+    shikimori: 34392
+    shinden: 49693
+    worldart: 9405
+ongaku-shoujo-tv:
+  names:
+    en: Music Girls
+    en-jp: Ongaku Shoujo
+    ja-jp: 音楽少女
+    zh-cn: 音乐少女
+  site_ids:
+    amazon: null
+    anidb: 11102
+    anikore: 9213
+    anilist: 21071
+    animenewsnetwork: 16807
+    animeplanet: music-girls
+    bangumi: 240366
+    bilibili: 102032
+    crunchyroll: music-girls
+    douban: 25924031
+    imdb: 8773498
+    kitsu: 10422
+    myanimelist: 29511
+    nga: null
+    reddit: 9c4wdq
+    saraba1st: null
+    shikimori: 37481
+    shinden: 53396
+    worldart: null
+overlord-iii:
+  names:
+    en: Overlord III
+    en-jp: Overlord III
+    ja-jp: オーバーロードⅢ
+    zh-cn: OVERLORD III
+  site_ids:
+    amazon: null
+    anidb: null
+    anikore: 11786
+    anilist: 20832
+    animenewsnetwork: 21105
+    animeplanet: overlord-iii
+    bangumi: 242170
+    bilibili: 102252
+    crunchyroll: null
+    douban: 30187694
+    imdb: null
+    kitsu: 41174
+    myanimelist: 37675
+    nga: null
+    reddit: 9azg5p
+    saraba1st: null
+    shikimori: 37675
+    shinden: 44158
+    worldart: 9667
+phantom-in-the-twilight:
+  names:
+    en-jp: Phantom in the Twilight
+    ja-jp: ファントム イン ザ トワイライト
+    zh-cn: 暮光幻影
+  site_ids:
+    amazon: null
+    anidb: 13978
+    anikore: null
+    anilist: null
+    animenewsnetwork: 19740
+    animeplanet: null
+    bangumi: 241264
+    bilibili: null
+    crunchyroll: null
+    douban: 27080657
+    imdb: 8189276
+    kitsu: 41120
+    myanimelist: 37598
+    nga: null
+    reddit: 9aqh73
+    saraba1st: null
+    shikimori: 37598
+    shinden: 53391
+    worldart: 9659
+planet-with:
+  names:
+    en: Planet With
+    en-jp: Planet With
+    ja-jp: プラネット・ウィズ
+    zh-cn: 行星与共
+  site_ids:
+    amazon: B01N35YDO6
+    anidb: 13965
+    anikore: 11656
+    anilist: 101368
+    animenewsnetwork: 20801
+    animeplanet: null
+    bangumi: 241133
+    bilibili: null
+    crunchyroll: planet-with
+    douban: 30179558
+    imdb: 98763
+    kitsu: 41093
+    myanimelist: 37578
+    nga: null
+    reddit: 9cchc3
+    saraba1st: null
+    shikimori: 37578
+    shinden: 53387
+    worldart: 9648
+satsuriku-no-tenshi:
+  names:
+    en: Angels of Death
+    en-jp: Satsuriku no Tenshi
+    ja-jp: 殺戮の天使
+    zh-cn: 杀戮天使
+  site_ids:
+    amazon: B014OIR7UO
+    anidb: 13307
+    anikore: 11627
+    anilist: 99629
+    animenewsnetwork: 20772
+    animeplanet: angels-of-death
+    bangumi: 220566
+    bilibili: 102792
+    crunchyroll: angels-of-death
+    douban: 27097730
+    imdb: 8670784
+    kitsu: 13715
+    myanimelist: 35994
+    nga: null
+    reddit: 9btei1
+    saraba1st: null
+    shikimori: 35994
+    shinden: 51481
+    worldart: 9523
+senjuushi:
+  names:
+    en: The Thousand Musketeers
+    en-jp: Senjuushi
+    ja-jp: 千銃士
+    zh-cn: 千铳士
+  site_ids:
+    amazon: null
+    anidb: 13960
+    anikore: 11655
+    anilist: 101380
+    animenewsnetwork: 20803
+    animeplanet: the-thousand-musketeers
+    bangumi: 241093
+    bilibili: 102832
+    crunchyroll: null
+    douban: 30179565
+    imdb: 8657808
+    kitsu: 41119
+    myanimelist: 37571
+    nga: null
+    reddit: 9aznrf
+    saraba1st: null
+    shikimori: 37571
+    shinden: 53354
+    worldart: 9655
+shichisei-no-subaru:
+  names:
+    en-jp: Shichisei no Subaru
+    en-us: Seven Senses of the Reunion
+    ja-jp: 七星のスバル
+    zh-cn: 昴宿七星
+  site_ids:
+    amazon: null
+    anidb: 13439
+    anikore: 11746
+    anilist: 100085
+    animenewsnetwork: 20850
+    animeplanet: seven-senses-of-the-reunion
+    bangumi: 225843
+    bilibili: 102732
+    crunchyroll: null
+    douban: 27144807
+    imdb: null
+    kitsu: 40893
+    myanimelist: 36316
+    nga: null
+    reddit: 9blf1n
+    saraba1st: null
+    shikimori: 36316
+    shinden: 51858
+    worldart: 9526
+shingeki-no-kyojin-3:
+  names:
+    en: Attack on Titan Season 3
+    en-jp: Shingeki no Kyojin Season 3
+    ja-jp: 進撃の巨人 Season 3
+    zh-cn: 进击的巨人 第三季
+  site_ids:
+    amazon: null
+    anidb: 13241
+    anikore: null
+    anilist: 99147
+    animenewsnetwork: 17998
+    animeplanet: null
+    bangumi: 217300
+    bilibili: 117372
+    crunchyroll: null
+    douban: 26268494
+    imdb: null
+    kitsu: 13569
+    myanimelist: 35760
+    nga: null
+    reddit: 9ce4fa
+    saraba1st: null
+    shikimori: 35760
+    shinden: 50711
+    worldart: 9292
+shinya-tensai-bakabon:
+  names:
+    en: Late Night! Genius Bakabon
+    en-jp: Shinya! Tensai Bakabon
+    ja-jp: 深夜! 天才バカボン
+    zh-cn: 深夜！天才傻鹏
+  site_ids:
+    amazon: null
+    anidb: 14002
+    anikore: null
+    anilist: 101580
+    animenewsnetwork: 20817
+    animeplanet: late-night-the-genius-bakabon
+    bangumi: 242082
+    bilibili: 102472
+    crunchyroll: null
+    douban: 30187690
+    imdb: 8231064
+    kitsu: 41189
+    myanimelist: 38001
+    nga: null
+    reddit: 9b18z9
+    saraba1st: null
+    shikimori: 37662
+    shinden: 8695
+    worldart: 9670
 shoujo-kageki-revue-starlight:
   names:
     en: Revue Starlight
     en-jp: Shoujo☆Kageki Revue Starlight
     ja-jp: 少女☆歌劇 レヴュー・スタァライト
-    zh-cn: 少女☆歌剧 Revue Starlight
+    zh-cn: 少女☆歌剧 Revue・Starlight
   site_ids:
     amazon: null
     anidb: 13152
@@ -50,3 +1054,208 @@ shoujo-kageki-revue-starlight:
     shikimori: 35503
     shinden: 50927
     worldart: 9253
+sirius-the-jaeger:
+  names:
+    en-jp: 'Tenrou: Sirius the Jaeger'
+    ja-jp: 天狼 Sirius the Jaeger
+  site_ids:
+    amazon: null
+    anidb: 13959
+    anikore: 11645
+    anilist: 101361
+    animenewsnetwork: 20894
+    animeplanet: sirius-the-jaeger
+    bangumi: 241089
+    bilibili: 102272
+    crunchyroll: null
+    douban: 30177737
+    imdb: null
+    kitsu: 41091
+    myanimelist: 37569
+    nga: null
+    reddit: 9c4xjg
+    saraba1st: null
+    shikimori: 37569
+    shinden: 53295
+    worldart: 9645
+sunoharasou-no-kanrinin-san:
+  names:
+    en: Miss caretaker of Sunohara-sou
+    en-jp: Sunoharasou no Kanrinin-san
+    en-us: Miss caretaker of Sunohara-sou
+    ja-jp: すのはら荘の管理人さん
+    zh-cn: 春原庄的管理人
+  site_ids:
+    amazon: null
+    anidb: 13589
+    anikore: 11497
+    anilist: 100556
+    animenewsnetwork: 20482
+    animeplanet: sunoharasou-no-kanrinin-san
+    bangumi: 230110
+    bilibili: 102592
+    crunchyroll: null
+    douban: 27621191
+    imdb: null
+    kitsu: 41379
+    myanimelist: 36817
+    nga: null
+    reddit: 9c3ppu
+    saraba1st: null
+    shikimori: 36817
+    shinden: 52540
+    worldart: 9525
+tsukumogami-kashimasu:
+  names:
+    en-jp: Tsukumogami Kashimasu
+    ja-jp: つくもがみ貸します
+    zh-cn: 付丧神出租中
+  site_ids:
+    amazon: null
+    anidb: 13539
+    anikore: null
+    anilist: 100562
+    animenewsnetwork: 20758
+    animeplanet: we-rent-tsukumogami
+    bangumi: 228382
+    bilibili: 102712
+    crunchyroll: null
+    douban: 27178674
+    imdb: 8574388
+    kitsu: 13991
+    myanimelist: 36654
+    nga: null
+    reddit: 9cdzpx
+    saraba1st: null
+    shikimori: 36654
+    shinden: 53399
+    worldart: 9619
+yama-no-susume-3rd-season:
+  names:
+    en: Encouragement of Climb 3rd Season
+    en-jp: 'Yama no Susume: Third Season'
+    ja-jp: ヤマノススメ サードシーズン
+    zh-cn: 向山进发 第三季
+  site_ids:
+    amazon: null
+    anidb: 13205
+    anikore: 11649
+    anilist: 98866
+    animenewsnetwork: 20513
+    animeplanet: encouragement-of-climb-3
+    bangumi: 216310
+    bilibili: 102152
+    crunchyroll: null
+    douban: 27061485
+    imdb: null
+    kitsu: 13583
+    myanimelist: 35672
+    nga: null
+    reddit: null
+    saraba1st: null
+    shikimori: 35672
+    shinden: 13764
+    worldart: 9273
+yami-shibai-6th-season:
+  names:
+    en: 'Yamishibai: Japanese Ghost Stories 6'
+    en-jp: Yami Shibai 6th Season
+    ja-jp: 闇芝居 6期
+    zh-cn: 暗芝居 第六季
+  site_ids:
+    amazon: null
+    anidb: 10717
+    anikore: null
+    anilist: null
+    animenewsnetwork: 16156
+    animeplanet: null
+    bangumi: 250117
+    bilibili: 103092
+    crunchyroll: null
+    douban: 30246873
+    imdb: null
+    kitsu: 41315
+    myanimelist: 37893
+    nga: null
+    reddit: 9bx5cq
+    saraba1st: null
+    shikimori: 37893
+    shinden: 53643
+    worldart: null
+yume-oukoku-to-nemureru-100-nin-no-ouji-sama:
+  names:
+    en: 100 Sleeping Princes & The Kingdom of Dreams
+    en-jp: Yume Oukoku to Nemureru 100 Nin no Ouji-sama
+    ja-jp: 夢王国と眠れる100人の王子様
+    zh-cn: 梦王国与沉睡的100名王子
+  site_ids:
+    amazon: null
+    anidb: 12363
+    anikore: 10850
+    anilist: 97604
+    animenewsnetwork: 21052
+    animeplanet: 100-sleeping-princes-and-the-kingdom-of-dreams
+    bangumi: 191323
+    bilibili: 102812
+    crunchyroll: null
+    douban: 30208025
+    imdb: null
+    kitsu: 41378
+    myanimelist: 33966
+    nga: null
+    reddit: 9bkdju
+    saraba1st: null
+    shikimori: 33966
+    shinden: 13
+    worldart: null
+yuragi-sou-no-yuuna-san:
+  names:
+    en: Yuuna and the Haunted Hot Springs
+    en-jp: Yuragi-sou no Yuuna-san
+    ja-jp: ゆらぎ荘の幽奈さん
+    zh-cn: 汤摇庄的幽奈同学
+  site_ids:
+    amazon: null
+    anidb: 13659
+    anikore: 11669
+    anilist: 100483
+    animenewsnetwork: 20447
+    animeplanet: yuuna-and-the-haunted-hot-springs
+    bangumi: 228969
+    bilibili: null
+    crunchyroll: yuuna-and-the-haunted-hot-springs
+    douban: 27186656
+    imdb: null
+    kitsu: 14090
+    myanimelist: 36950
+    nga: null
+    reddit: 9c46yi
+    saraba1st: null
+    shikimori: 36726
+    shinden: 52245
+    worldart: null
+zoids-wild:
+  names:
+    en-jp: Zoids Wild
+    ja-jp: ゾイドワイルド
+    zh-cn: 索斯机械兽WILD
+  site_ids:
+    amazon: null
+    anidb: 13845
+    anikore: 11773
+    anilist: 101228
+    animenewsnetwork: 20796
+    animeplanet: zoids-wild
+    bangumi: 238988
+    bilibili: null
+    crunchyroll: null
+    douban: 30157138
+    imdb: null
+    kitsu: 41088
+    myanimelist: 37395
+    nga: null
+    reddit: 98c7tg
+    saraba1st: null
+    shikimori: 37395
+    shinden: null
+    worldart: 9586

@@ -15,6 +15,7 @@ class Site(object):
     NAMES = None
     MIN_RATING = None
     MAX_RATING = None
+    DYNAMIC_ID = False
 
     def __init__(self):
         self.session = requests.Session()
