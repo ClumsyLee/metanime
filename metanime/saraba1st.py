@@ -15,12 +15,7 @@ class Saraba1st(Site):
 
     def __init__(self):
         super().__init__()
-
-        # Pretend to be on the advance search page.
-        soup = self._get_soup(self.BASE_URL +
-                              '/2b/search.php?mod=forum&adv=yes')
-        self._formhash = soup.find('input',
-                                   attrs={'name': 'formhash'})['value']
+        self._formhash = None
 
     def info_url(self, id):
         return f'{self.BASE_URL}/2b/thread-{id}-1-1.html'
@@ -40,6 +35,13 @@ class Saraba1st(Site):
         return rating, count
 
     def _search(self, name):
+        if self._formhash is None:
+            # Pretend to be on the advance search page.
+            soup = self._get_soup(self.BASE_URL +
+                                  '/2b/search.php?mod=forum&adv=yes')
+            self._formhash = soup.find('input',
+                                       attrs={'name': 'formhash'})['value']
+
         data = {
             'formhash': self._formhash,
             'srchtxt': name,
