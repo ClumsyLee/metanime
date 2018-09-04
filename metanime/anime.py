@@ -46,7 +46,9 @@ class Anime(object):
     def update_names(self):
         names = SITES['kitsu'].get_names(self.slug)
         try:
-            SITES['bangumi'].get_zh_cn_name(names['ja-jp'])
+            name = SITES['bangumi'].get_zh_cn_name(names['ja-jp'])
+            if name:
+                names['zh-cn'] = name
         except Exception as err:
             logging.warn('Failed to get zh-CN name from Bangumi: %s', err)
 
