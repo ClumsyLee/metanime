@@ -48,10 +48,7 @@ aguu-tensai-ningyou:
       rating_count: 56
       updated_at: '2018-09-04T04:13:51Z'
     shinden:
-      id: 10021
-      rating: 1.75
-      rating_count: 12
-      updated_at: '2018-09-04T04:13:53Z'
+      id: 53516
     worldart:
       id: 9691
 angolmois-genkou-kassenki:
@@ -171,11 +168,7 @@ ani-ni-tsukeru-kusuri-wa-nai-2:
       rating: 7.26
       rating_count: 237
       updated_at: '2018-09-04T04:14:11Z'
-    shinden:
-      id: 13776
-      rating: 8.43
-      rating_count: 348
-      updated_at: '2018-09-04T04:14:11Z'
+    shinden: null
     worldart:
       id: 9700
 aru-zombie-shoujo-no-sainan:
@@ -234,15 +227,9 @@ aru-zombie-shoujo-no-sainan:
       rating_count: 16
       updated_at: '2018-09-04T04:14:18Z'
     shikimori:
-      id: 33394
-      rating: 3.77
-      rating_count: 56
-      updated_at: '2018-09-04T04:14:19Z'
+      id: 37735
     shinden:
-      id: 45119
-      rating: 6.67
-      rating_count: 27
-      updated_at: '2018-09-04T04:14:19Z'
+      id: 53625
     worldart:
       id: 1065
       rating: 5.3
@@ -254,8 +241,10 @@ asobi-asobase:
     ja-jp: あそびあそばせ
     zh-cn: 来玩游戏吧
   sites:
+    crunchyroll:
+      id: asobi-asobase-workshop-of-fun-
     anidb:
-      id: 14127
+      id: 13750
     anikore:
       id: 11629
       rating: 3.4
@@ -278,8 +267,7 @@ asobi-asobase:
       rating: 7.6
       rating_count: 452
       updated_at: '2018-09-04T04:14:24Z'
-    bilibili:
-      id: 5615
+    bilibili: null
     douban:
       id: 30128891
       rating: 9.1
@@ -319,10 +307,7 @@ back-street-girls:
     zh-cn: 后街女孩
   sites:
     anidb:
-      id: 10784
-      rating: 4.37
-      rating_count: 699
-      updated_at: '2018-09-04T04:14:32Z'
+      id: 13619
     anikore:
       id: 11742
       rating: 3.3
@@ -346,10 +331,7 @@ back-street-girls:
       rating_count: 496
       updated_at: '2018-09-04T04:14:35Z'
     bilibili:
-      id: 102512
-      rating: 9.4
-      rating_count: 13223
-      updated_at: '2018-09-04T04:14:36Z'
+      id: 27186380
     douban:
       id: 3286492
     imdb:
@@ -363,20 +345,14 @@ back-street-girls:
       rating_count: 184
       updated_at: '2018-09-04T04:14:41Z'
     myanimelist:
-      id: 3113
-      rating: 4.64
-      rating_count: 308
-      updated_at: '2018-09-04T04:14:41Z'
+      id: 36873
     reddit:
       id: 9c2myv
       rating: 6.4725
       rating_count: 18
       updated_at: '2018-09-04T04:14:42Z'
     shikimori:
-      id: 15787
-      rating: 5.28
-      rating_count: 5
-      updated_at: '2018-09-04T04:14:43Z'
+      id: 36873
     shinden:
       id: 52359
       rating: 7.2
@@ -393,16 +369,9 @@ baki-ona:
       rating: 5.07
       rating_count: 26
       updated_at: '2018-09-04T04:14:44Z'
-    anikore:
-      id: 7913
-      rating: 4.3
-      rating_count: 4225
-      updated_at: '2018-09-04T04:14:45Z'
+    anikore: null
     anilist:
-      id: 551
-      rating: 67
-      rating_count: 502
-      updated_at: '2018-09-04T04:14:45Z'
+      id: 97888
     animenewsnetwork:
       id: 19981
     animeplanet:
@@ -443,15 +412,9 @@ baki-ona:
       rating_count: 4
       updated_at: '2018-09-04T04:14:51Z'
     shikimori:
-      id: 551
-      rating: 7.47
-      rating_count: 1591
-      updated_at: '2018-09-04T04:14:51Z'
+      id: 34443
     shinden:
-      id: 264
-      rating: 7.81
-      rating_count: 241
-      updated_at: '2018-09-04T04:14:51Z'
+      id: 52064
 banana-fish:
   names:
     en-jp: Banana Fish
@@ -486,10 +449,7 @@ banana-fish:
       rating_count: 160
       updated_at: '2018-09-04T04:14:55Z'
     douban:
-      id: 3448362
-      rating: 8.0
-      rating_count: 4784
-      updated_at: '2018-09-04T04:14:56Z'
+      id: 27178676
     imdb:
       id: 8515016
       rating: 7.4
@@ -501,10 +461,7 @@ banana-fish:
       rating_count: 531
       updated_at: '2018-09-04T04:14:57Z'
     myanimelist:
-      id: 5904
-      rating: 4.83
-      rating_count: 500
-      updated_at: '2018-09-04T04:14:57Z'
+      id: 36649
     reddit:
       id: 9blhjb
       rating: 8.813333333333334
@@ -739,11 +696,9 @@ cinderella-girls-gekijou-3rd-season:
     ja-jp: シンデレラガールズ劇場 第3期
     zh-cn: 偶像大师 灰姑娘女孩剧场 第三季
   sites:
+    crunchyroll: null
     anidb:
-      id: 12483
-      rating: 3.61
-      rating_count: 117
-      updated_at: '2018-09-04T04:15:29Z'
+      id: 13859
     anikore:
       id: 11603
       rating: 3.1
@@ -754,11 +709,7 @@ cinderella-girls-gekijou-3rd-season:
       rating: 53
       rating_count: 50
       updated_at: '2018-09-04T04:15:30Z'
-    animenewsnetwork:
-      id: 19183
-      rating: 6.67207
-      rating_count: 14
-      updated_at: '2018-09-04T04:15:30Z'
+    animenewsnetwork: null
     bangumi:
       id: 238087
       rating: 7
@@ -770,10 +721,7 @@ cinderella-girls-gekijou-3rd-season:
       rating_count: 184
       updated_at: '2018-09-04T04:15:31Z'
     douban:
-      id: 27160633
-      rating: 9.4
-      rating_count: 5398
-      updated_at: '2018-09-04T04:15:32Z'
+      id: 30256030
     kitsu:
       id: 41377
     myanimelist:
@@ -787,10 +735,7 @@ cinderella-girls-gekijou-3rd-season:
       rating_count: 25
       updated_at: '2018-09-04T04:15:33Z'
     shinden:
-      id: 51632
-      rating: 5.33
-      rating_count: 6
-      updated_at: '2018-09-04T04:15:33Z'
+      id: 53392
 flcl-alternative:
   names:
     en: 'FLCL: Alternative'
@@ -808,10 +753,7 @@ flcl-alternative:
     anilist:
       id: 21748
     animenewsnetwork:
-      id: 277
-      rating: 8.06717
-      rating_count: 8667
-      updated_at: '2018-09-04T04:15:36Z'
+      id: 19821
     bangumi:
       id: 175398
       rating: 6.9
@@ -830,7 +772,7 @@ flcl-alternative:
       rating_count: 1120
       updated_at: '2018-09-04T04:15:37Z'
     reddit:
-      id: 8o69ge
+      id: 88odky
     shikimori:
       id: 35842
       rating: 7.15
@@ -868,10 +810,7 @@ flcl-progressive:
       rating_count: 1049
       updated_at: '2018-09-04T04:15:46Z'
     animenewsnetwork:
-      id: 277
-      rating: 8.06717
-      rating_count: 8667
-      updated_at: '2018-09-04T04:15:46Z'
+      id: 19820
     bangumi:
       id: 175399
       rating: 6.5
@@ -918,7 +857,7 @@ free-dive-to-the-future:
     zh-cn: Free! 第三季
   sites:
     anidb:
-      id: 14090
+      id: 13548
     anikore:
       id: 11743
       rating: 3.4
@@ -996,10 +935,7 @@ grand-blue:
       rating_count: 88
       updated_at: '2018-09-04T04:16:05Z'
     anikore:
-      id: 3422
-      rating: 3.9
-      rating_count: 189
-      updated_at: '2018-09-04T04:16:05Z'
+      id: 11606
     anilist:
       id: 100922
       rating: 73
@@ -1654,15 +1590,9 @@ island:
       rating_count: 82
       updated_at: '2018-09-04T04:17:50Z'
     anikore:
-      id: 2964
-      rating: 3.9
-      rating_count: 334
-      updated_at: '2018-09-04T04:17:51Z'
+      id: 10564
     anilist:
-      id: 138
-      rating: 78
-      rating_count: 2371
-      updated_at: '2018-09-04T04:17:51Z'
+      id: 21712
     animenewsnetwork:
       id: 18175
     animeplanet:
@@ -1686,7 +1616,7 @@ island:
       rating_count: 242
       updated_at: '2018-09-04T04:17:54Z'
     imdb:
-      id: 57751
+      id: 8526106
     kitsu:
       id: 11965
       rating: 62.68
@@ -1789,43 +1719,6 @@ jashin-chan-dropkick:
       updated_at: '2018-09-04T04:18:12Z'
     worldart:
       id: 9497
-kabutomushi-ouja-mushiking-mori-no-tami-no-densetsu:
-  names:
-    en: 'Mushiking: The King of Beetles'
-    en-jp: Kabutomushi Ouja Mushiking – Mori no Tami no Densetsu
-    ja-jp: Kabutomushi Ouja Mushiking – Mori no Tami no Densetsu
-  sites:
-    anidb:
-      id: 2816
-      rating: 3.6
-      rating_count: 24
-      updated_at: '2018-09-04T04:18:15Z'
-    animenewsnetwork:
-      id: 4834
-    douban:
-      id: 1475430
-      rating: 7.3
-      rating_count: 222
-      updated_at: '2018-09-04T04:18:16Z'
-    kitsu:
-      id: 13104
-    myanimelist:
-      id: 4050
-      rating: 6.77
-      rating_count: 621
-      updated_at: '2018-09-04T04:18:17Z'
-    reddit:
-      id: 98kp79
-      rating: 8.4575
-      rating_count: 3
-      updated_at: '2018-09-04T04:18:18Z'
-    shikimori:
-      id: 4050
-      rating: 6.77
-      rating_count: 8
-      updated_at: '2018-09-04T04:18:18Z'
-    shinden:
-      id: 6564
 kyoto-teramachi-sanjou-no-holmes:
   names:
     en: Holmes at Kyoto Teramachi Sanjou
@@ -1888,10 +1781,7 @@ kyoto-teramachi-sanjou-no-holmes:
       rating_count: 192
       updated_at: '2018-09-04T04:18:24Z'
     shinden:
-      id: 49063
-      rating: 8.27
-      rating_count: 2383
-      updated_at: '2018-09-04T04:18:25Z'
+      id: 53397
     worldart:
       id: 9615
 lord-of-vermilion-guren-no-ou:
@@ -2061,10 +1951,7 @@ one-room-2nd-season:
       rating_count: 2608
       updated_at: '2018-09-04T04:18:46Z'
     douban:
-      id: 26918893
-      rating: 6.5
-      rating_count: 503
-      updated_at: '2018-09-04T04:18:47Z'
+      id: 27157764
     kitsu:
       id: 13905
       rating: 67.99
@@ -2078,15 +1965,9 @@ one-room-2nd-season:
     reddit:
       id: 8vksno
     shikimori:
-      id: 34392
-      rating: 5.68
-      rating_count: 1433
-      updated_at: '2018-09-04T04:18:49Z'
+      id: 36431
     shinden:
-      id: 49693
-      rating: 6.08
-      rating_count: 324
-      updated_at: '2018-09-04T04:18:49Z'
+      id: 51921
     worldart:
       id: 9405
 ongaku-shoujo-tv:
@@ -2097,22 +1978,13 @@ ongaku-shoujo-tv:
     zh-cn: 音乐少女
   sites:
     anidb:
-      id: 11102
-      rating: 3.79
-      rating_count: 273
-      updated_at: '2018-09-04T04:18:52Z'
+      id: 13913
     anikore:
-      id: 9213
-      rating: 3.2
-      rating_count: 50
-      updated_at: '2018-09-04T04:18:53Z'
+      id: 11621
     anilist:
-      id: 21071
-      rating: 59
-      rating_count: 734
-      updated_at: '2018-09-04T04:18:53Z'
+      id: 101309
     animenewsnetwork:
-      id: 16807
+      id: 20918
     animeplanet:
       id: music-girls
       rating: 4.402
@@ -2134,10 +2006,7 @@ ongaku-shoujo-tv:
       rating_count: 4
       updated_at: '2018-09-04T04:18:55Z'
     douban:
-      id: 25924031
-      rating: 5.4
-      rating_count: 169
-      updated_at: '2018-09-04T04:18:56Z'
+      id: 30208028
     imdb:
       id: 8773498
     kitsu:
@@ -2146,10 +2015,7 @@ ongaku-shoujo-tv:
       rating_count: 562
       updated_at: '2018-09-04T04:18:57Z'
     myanimelist:
-      id: 29511
-      rating: 6.31
-      rating_count: 4407
-      updated_at: '2018-09-04T04:18:58Z'
+      id: 37481
     reddit:
       id: 9c4wdq
       rating: 5.656666666666666
@@ -2173,17 +2039,14 @@ overlord-iii:
     zh-cn: OVERLORD III
   sites:
     anidb:
-      id: 101474
+      id: 14008
     anikore:
       id: 11786
       rating: 3.6
       rating_count: 69
       updated_at: '2018-09-04T04:19:02Z'
     anilist:
-      id: 20832
-      rating: 77
-      rating_count: 17427
-      updated_at: '2018-09-04T04:19:02Z'
+      id: 101474
     animenewsnetwork:
       id: 21105
     animeplanet:
@@ -2227,10 +2090,7 @@ overlord-iii:
       rating_count: 4169
       updated_at: '2018-09-04T04:19:08Z'
     shinden:
-      id: 44158
-      rating: 8.71
-      rating_count: 4858
-      updated_at: '2018-09-04T04:19:08Z'
+      id: 53382
     worldart:
       id: 9667
 phantom-in-the-twilight:
@@ -2255,7 +2115,7 @@ phantom-in-the-twilight:
       rating_count: 252
       updated_at: '2018-09-04T04:19:12Z'
     animenewsnetwork:
-      id: 19740
+      id: 20809
     bangumi:
       id: 241264
       rating: 4.9
@@ -2267,10 +2127,7 @@ phantom-in-the-twilight:
       rating_count: 451
       updated_at: '2018-09-04T04:19:13Z'
     douban:
-      id: 27080657
-      rating: 6.9
-      rating_count: 6968
-      updated_at: '2018-09-04T04:19:14Z'
+      id: 30179570
     imdb:
       id: 8189276
       rating: 5.4
@@ -2307,8 +2164,7 @@ planet-with:
     ja-jp: プラネット・ウィズ
     zh-cn: 行星与共
   sites:
-    amazon:
-      id: B01N35YDO6
+    amazon: null
     anidb:
       id: 13965
       rating: 4.91
@@ -2342,7 +2198,7 @@ planet-with:
       rating_count: 112
       updated_at: '2018-09-04T04:19:25Z'
     imdb:
-      id: 98763
+      id: 8774888
     kitsu:
       id: 41093
       rating: 70.02
@@ -2377,11 +2233,7 @@ satsuriku-no-tenshi:
     ja-jp: 殺戮の天使
     zh-cn: 杀戮天使
   sites:
-    amazon:
-      id: B014OIR7UO
-      rating: 4.7
-      rating_count: 217
-      updated_at: '2018-09-04T04:19:32Z'
+    amazon: null
     anidb:
       id: 13307
       rating: 3.44
@@ -2607,6 +2459,7 @@ shingeki-no-kyojin-3:
     ja-jp: 進撃の巨人 Season 3
     zh-cn: 进击的巨人 第三季
   sites:
+    crunchyroll: null
     anidb:
       id: 13241
       rating: 8.16
@@ -2623,7 +2476,7 @@ shingeki-no-kyojin-3:
       rating_count: 2473
       updated_at: '2018-09-04T04:20:08Z'
     animenewsnetwork:
-      id: 17998
+      id: 19819
     bangumi:
       id: 217300
       rating: 8.1
@@ -2632,7 +2485,7 @@ shingeki-no-kyojin-3:
     bilibili:
       id: 117372
     douban:
-      id: 26268494
+      id: 27072327
     kitsu:
       id: 13569
       rating: 84.27
@@ -2718,10 +2571,7 @@ shinya-tensai-bakabon:
       rating_count: 21
       updated_at: '2018-09-04T04:20:25Z'
     shinden:
-      id: 8695
-      rating: 10.0
-      rating_count: 1
-      updated_at: '2018-09-04T04:20:26Z'
+      id: 53565
     worldart:
       id: 9670
 shoujo-kageki-revue-starlight:
@@ -2943,6 +2793,7 @@ sunoharasou-no-kanrinin-san:
       id: 9525
 tsukumogami-kashimasu:
   names:
+    en: We Rent Tsukumogami
     en-jp: Tsukumogami Kashimasu
     ja-jp: つくもがみ貸します
     zh-cn: 付丧神出租中
@@ -3064,10 +2915,7 @@ yama-no-susume-3rd-season:
       rating_count: 43
       updated_at: '2018-09-04T04:21:27Z'
     shinden:
-      id: 13764
-      rating: 6.58
-      rating_count: 24
-      updated_at: '2018-09-04T04:21:28Z'
+      id: 52217
     worldart:
       id: 9273
 yami-shibai-6th-season:
@@ -3078,20 +2926,14 @@ yami-shibai-6th-season:
     zh-cn: 暗芝居 第六季
   sites:
     anidb:
-      id: 10717
-      rating: 3.93
-      rating_count: 377
-      updated_at: '2018-09-04T04:21:31Z'
+      id: 14088
     anikore:
       id: 11763
       rating: 3.3
       rating_count: 6
       updated_at: '2018-09-04T04:21:31Z'
     animenewsnetwork:
-      id: 16156
-      rating: 6.75524
-      rating_count: 64
-      updated_at: '2018-09-04T04:21:32Z'
+      id: 20937
     bangumi:
       id: 250117
       rating: 6
@@ -3137,7 +2979,7 @@ yume-oukoku-to-nemureru-100-nin-no-ouji-sama:
     zh-cn: 梦王国与沉睡的100名王子
   sites:
     anidb:
-      id: 12363
+      id: 12362
     anikore:
       id: 10850
       rating: 2.9
@@ -3187,11 +3029,7 @@ yume-oukoku-to-nemureru-100-nin-no-ouji-sama:
       rating: 5.67
       rating_count: 103
       updated_at: '2018-09-04T04:21:44Z'
-    shinden:
-      id: 13
-      rating: 8.3
-      rating_count: 145
-      updated_at: '2018-09-04T04:21:45Z'
+    shinden: null
 yuragi-sou-no-yuuna-san:
   names:
     en: Yuuna and the Haunted Hot Springs

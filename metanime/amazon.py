@@ -10,7 +10,7 @@ class Amazon(Site):
     NAMES = {
         'en': 'Amazon',
         'ja-jp': 'Amazon',
-        'zh-cn': 'Amazon',
+        'zh-cn': '亚马逊',
     }
     MIN_RATING = 1
     MAX_RATING = 5

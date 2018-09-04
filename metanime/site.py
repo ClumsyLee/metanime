@@ -44,8 +44,8 @@ class Site(object):
         return ElementTree.fromstring(self._get(url, **kws).content)
 
     def unify_rating(self, rating):
-        return int(round((rating - self.MIN_RATING) /
-                         (self.MAX_RATING - self.MIN_RATING) * 100))
+        return ((rating - self.MIN_RATING) /
+                (self.MAX_RATING - self.MIN_RATING) * 100)
 
     def get_rating(self, id):
         try:

@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script src="https://use.typekit.net/eyv3vjt.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="metanime.css">
+
+    <title>{{ name }} | Metanime</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="/">Metanime</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/">{{ i18n['navbar.current_season'] }}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">{{ i18n['navbar.about'] }}</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="header py-4 text-center">
+        <h1 class="tk-source-han-sans-simplified-c ultra-light">{{ name }}</h1>
+        <h4 class="subtitle tk-source-han-sans-simplified-c ultra-light">{{ subtitle }}</h4>
+      </div>
+
+      <div class="col-lg-7 col-md-9 col-sm-12 mx-auto mb-4">
+
+        {% for site_id, url, caption, rating in highers %}
+        <div class="row">
+          <div class="col-10">
+            <h2 class="tk-source-han-sans-simplified-c ultra-light"><a href="{{ url }}" class="{{ site_id }}">{{ i18n['site_name.' + site_id] }}<span class="ml-1 caption"> {{ caption }}</span></a></h2>
+          </div>
+          <div class="col-2">
+            <h2 class="text-right tk-source-han-sans-simplified-c ultra-light high-rating">{{ rating }}</h2>
+          </div>
+        </div>
+        {% endfor %}
+
+        <hr class="my-1">
+
+        {% for site_id, url, caption, rating in highs %}
+        <div class="row">
+          <div class="col-10">
+            <h2 class="tk-source-han-sans-simplified-c ultra-light"><a href="{{ url }}" class="{{ site_id }}">{{ i18n['site_name.' + site_id] }}<span class="ml-1 caption"> {{ caption }}</span></a></h2>
+          </div>
+          <div class="col-2">
+            <h2 class="text-right tk-source-han-sans-simplified-c ultra-light">{{ rating }}</h2>
+          </div>
+        </div>
+        {% endfor %}
+
+        <div class="row">
+          <div class="col-10">
+            <h2 class="tk-source-han-sans-simplified-c">{{ i18n['site_name.average'] }}</h2>
+          </div>
+          <div class="col-2">
+            <h2 class="text-right tk-source-han-sans-simplified-c">{{ average_rating }}</h2>
+          </div>
+        </div>
+
+        {% for site_id, url, caption, rating in lows %}
+        <div class="row">
+          <div class="col-10">
+            <h2 class="tk-source-han-sans-simplified-c ultra-light"><a href="{{ url }}" class="{{ site_id }}">{{ i18n['site_name.' + site_id] }}<span class="ml-1 caption"> {{ caption }}</span></a></h2>
+          </div>
+          <div class="col-2">
+            <h2 class="text-right tk-source-han-sans-simplified-c ultra-light">{{ rating }}</h2>
+          </div>
+        </div>
+        {% endfor %}
+
+        <hr class="my-1">
+
+        {% for site_id, url, caption, rating in lowers %}
+        <div class="row">
+          <div class="col-10">
+            <h2 class="tk-source-han-sans-simplified-c ultra-light"><a href="{{ url }}" class="{{ site_id }}">{{ i18n['site_name.' + site_id] }}<span class="ml-1 caption"> {{ caption }}</span></a></h2>
+          </div>
+          <div class="col-2">
+            <h2 class="text-right tk-source-han-sans-simplified-c ultra-light low-rating">{{ rating }}</h2>
+          </div>
+        </div>
+        {% endfor %}
+
+        <div class="my-4"></div>
+
+        {% for site_id, url, caption, rating in others %}
+        <div class="row">
+          <div class="col-10">
+            <h2 class="tk-source-han-sans-simplified-c ultra-light"><a href="{{ url }}" class="{{ site_id }}">{{ i18n['site_name.' + site_id] }}<span class="ml-1 caption"> {{ caption }}</span></a></h2>
+          </div>
+          <div class="col-2">
+            <h2 class="text-right tk-source-han-sans-simplified-c ultra-light"></h2>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
