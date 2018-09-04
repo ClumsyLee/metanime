@@ -1,7 +1,8 @@
-from .singleton import SITES
-
+from datetime import datetime
 import logging
 import yaml
+
+from .singleton import SITES
 
 
 class Anime(object):
@@ -61,8 +62,32 @@ class Anime(object):
                 continue
 
             logging.info('%s...', site_id)
-
             id = site.search(self.names)
+
             if id is not None:
                 self.sites[site_id] = {'id': id}
                 logging.info('    => %s', site.info_url(id))
+
+    def update_ratings(self):
+        for site_id, info in self.sites.items():
+            if info is None:
+                continue
+
+            logging.info('%s...', site_id)
+            rating, count = SITES[site_id].get_rating(info['id'])
+
+            if rating is not None:
+                info['rating'] = rating
+
+                if count is None:
+                    info.pop('rating_count', None)
+                    logging.info('    => %f', rating)
+                else:
+                    info['rating_count'] = count
+                    logging.info('    => %g (%d)', rating, count)
+
+                info['updated_at'] = iso8601_now()
+
+
+def iso8601_now():
+    return datetime.utcnow().replace(microsecond=0).isoformat() + 'Z'
