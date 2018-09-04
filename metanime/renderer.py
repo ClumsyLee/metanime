@@ -22,6 +22,9 @@ class Renderer(object):
         others = []
 
         for site_id, info in anime.sites.items():
+            if info is None:
+                continue
+
             site = SITES[site_id]
             url = site.info_url(info['id'])
 
@@ -39,7 +42,7 @@ class Renderer(object):
                 rating = ''
                 others.append((site_id, url, caption, rating))
 
-        average = int(round(mean(row[-1] for row in rows)))
+        average = mean(row[-1] for row in rows)
         rows.sort(key=lambda row: row[-1], reverse=True)
         others.sort(key=lambda row: row[0])
 

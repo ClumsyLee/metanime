@@ -108,10 +108,7 @@ angolmois-genkou-kassenki:
       rating_count: 3651
       updated_at: '2018-09-04T04:14:02Z'
     reddit:
-      id: 9b0yl3
-      rating: 7.0575
-      rating_count: 12
-      updated_at: '2018-09-04T04:14:03Z'
+      id: 9cxvah
     shikimori:
       id: 35834
       rating: 7.11
@@ -241,8 +238,6 @@ asobi-asobase:
     ja-jp: あそびあそばせ
     zh-cn: 来玩游戏吧
   sites:
-    crunchyroll:
-      id: asobi-asobase-workshop-of-fun-
     anidb:
       id: 13750
     anikore:
@@ -268,6 +263,8 @@ asobi-asobase:
       rating_count: 452
       updated_at: '2018-09-04T04:14:24Z'
     bilibili: null
+    crunchyroll:
+      id: asobi-asobase-workshop-of-fun-
     douban:
       id: 30128891
       rating: 9.1
@@ -673,10 +670,7 @@ chuukan-kanriroku-tonegawa:
       rating_count: 2227
       updated_at: '2018-09-04T04:15:24Z'
     reddit:
-      id: 9b1ppz
-      rating: 7.776666666666667
-      rating_count: 11
-      updated_at: '2018-09-04T04:15:25Z'
+      id: 9cyo9t
     shikimori:
       id: 37338
       rating: 6.44
@@ -696,7 +690,6 @@ cinderella-girls-gekijou-3rd-season:
     ja-jp: シンデレラガールズ劇場 第3期
     zh-cn: 偶像大师 灰姑娘女孩剧场 第三季
   sites:
-    crunchyroll: null
     anidb:
       id: 13859
     anikore:
@@ -720,6 +713,7 @@ cinderella-girls-gekijou-3rd-season:
       rating: 9.7
       rating_count: 184
       updated_at: '2018-09-04T04:15:31Z'
+    crunchyroll: null
     douban:
       id: 30256030
     kitsu:
@@ -729,6 +723,8 @@ cinderella-girls-gekijou-3rd-season:
       rating: 6.6
       rating_count: 290
       updated_at: '2018-09-04T04:15:33Z'
+    reddit:
+      id: 9ayooc
     shikimori:
       id: 37422
       rating: 6.59
@@ -772,7 +768,7 @@ flcl-alternative:
       rating_count: 1120
       updated_at: '2018-09-04T04:15:37Z'
     reddit:
-      id: 88odky
+      id: 8o69ge
     shikimori:
       id: 35842
       rating: 7.15
@@ -1963,7 +1959,7 @@ one-room-2nd-season:
       rating_count: 803
       updated_at: '2018-09-04T04:18:48Z'
     reddit:
-      id: 8vksno
+      id: 9cnkra
     shikimori:
       id: 36431
     shinden:
@@ -2080,10 +2076,7 @@ overlord-iii:
       rating_count: 24916
       updated_at: '2018-09-04T04:19:05Z'
     reddit:
-      id: 9azg5p
-      rating: 8.13125
-      rating_count: 246
-      updated_at: '2018-09-04T04:19:08Z'
+      id: 9cw5q4
     shikimori:
       id: 37675
       rating: 8.36
@@ -2459,7 +2452,6 @@ shingeki-no-kyojin-3:
     ja-jp: 進撃の巨人 Season 3
     zh-cn: 进击的巨人 第三季
   sites:
-    crunchyroll: null
     anidb:
       id: 13241
       rating: 8.16
@@ -2484,6 +2476,7 @@ shingeki-no-kyojin-3:
       updated_at: '2018-09-04T04:20:09Z'
     bilibili:
       id: 117372
+    crunchyroll: null
     douban:
       id: 27072327
     kitsu:
@@ -2561,10 +2554,7 @@ shinya-tensai-bakabon:
     myanimelist:
       id: 38001
     reddit:
-      id: 9b18z9
-      rating: 6.8225
-      rating_count: 3
-      updated_at: '2018-09-04T04:20:25Z'
+      id: 9cy6at
     shikimori:
       id: 37662
       rating: 5.97
@@ -2830,6 +2820,8 @@ tsukumogami-kashimasu:
       rating: 9.6
       rating_count: 942
       updated_at: '2018-09-04T04:21:13Z'
+    crunchyroll:
+      id: we-rent-tsukumogami
     douban:
       id: 27178674
       rating: 7.2
@@ -2909,6 +2901,8 @@ yama-no-susume-3rd-season:
       rating: 7.44
       rating_count: 880
       updated_at: '2018-09-04T04:21:27Z'
+    reddit:
+      id: 9co8d5
     shikimori:
       id: 35672
       rating: 7.44
@@ -2932,6 +2926,8 @@ yami-shibai-6th-season:
       rating: 3.3
       rating_count: 6
       updated_at: '2018-09-04T04:21:31Z'
+    anilist:
+      id: 101743
     animenewsnetwork:
       id: 20937
     bangumi:

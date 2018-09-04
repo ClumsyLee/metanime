@@ -65,6 +65,10 @@ class Anime(object):
             id = site.search(self.names)
 
             if id is not None:
+                if ((self.sites.get(site_id) and
+                     self.sites[site_id].get('id') == id)):
+                    continue  # The ID doesn't change.
+
                 self.sites[site_id] = {'id': id}
                 logging.info('    => %s', site.info_url(id))
 
