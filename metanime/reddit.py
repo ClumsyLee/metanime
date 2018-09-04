@@ -16,6 +16,7 @@ class Reddit(Site):
     MIN_RATING = 1
     MAX_RATING = 10
     DYNAMIC_ID = True
+    SEARCH_LOCALES = ['en-jp']
 
     def info_url(self, id):
         return f'{self.BASE_URL}/comments/{id}'
@@ -32,7 +33,7 @@ class Reddit(Site):
 
         return rating, count
 
-    def get_rating(self, id):
+    def _get_rating(self, id):
         text = self._get_post(id)['selftext']
         poll_ids = re.findall(r'youpoll\.me/(\d+)', text)
         link_ids = re.findall(r'redd\.it/(\w+)', text)
@@ -51,9 +52,9 @@ class Reddit(Site):
 
         return mean(ratings), int(mean(counts))
 
-    def search(self, names):
+    def _search(self, name):
         params = {
-            'q': 'author:AutoLovepon ' + names['en-jp'],
+            'q': 'author:AutoLovepon ' + name,
             'restrict_sr': 'on',
             'sort': 'new',
             't': 'all',

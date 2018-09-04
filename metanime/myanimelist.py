@@ -16,7 +16,7 @@ class MyAnimeList(Site):
     def info_url(self, id):
         return f'{self.BASE_URL}/anime/{id}'
 
-    def get_rating(self, id):
+    def _get_rating(self, id):
         soup = self._get_soup(self.info_url(id))
 
         rating = float(soup.find(itemprop='ratingValue').get_text())
@@ -26,10 +26,10 @@ class MyAnimeList(Site):
 
         return rating, count
 
-    def search(self, names):
+    def _search(self, name):
         params = {
             'type': 'anime',
-            'keyword': names['ja-jp'],
+            'keyword': name,
         }
         media = self._get_json(self.BASE_URL + '/search/prefix.json',
                                params=params)['categories'][0]['items'][0]

@@ -22,7 +22,7 @@ class AniList(Site):
         return self._post_json('https://graphql.anilist.co',
                                {'query': query})['data']['Media']
 
-    def get_rating(self, id):
+    def _get_rating(self, id):
         media = self._query_media(f"""{{
             Media(id: {id}, type: ANIME) {{
                 meanScore
@@ -42,8 +42,8 @@ class AniList(Site):
 
         return rating, count
 
-    def search(self, names):
-        search = json.dumps(names['ja-jp'])
+    def _search(self, name):
+        search = json.dumps(name)  # Escape the name in JSON.
         media = self._query_media(f"""{{
             Media(search: {search}, type: ANIME, sort:SEARCH_MATCH) {{
                 id

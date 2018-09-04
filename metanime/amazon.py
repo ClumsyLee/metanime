@@ -14,11 +14,12 @@ class Amazon(Site):
     }
     MIN_RATING = 1
     MAX_RATING = 5
+    SEARCH_LOCALES = ['en']
 
     def info_url(self, id):
         return f'{self.BASE_URL}/dp/{id}'
 
-    def get_rating(self, id):
+    def _get_rating(self, id):
         soup = self._get_soup(self.info_url(id))
 
         rating_str = soup.find(class_="arp-rating-out-of-text").get_text()
@@ -28,10 +29,10 @@ class Amazon(Site):
 
         return rating, count
 
-    def search(self, names):
+    def _search(self, name):
         # Amazon has lots of stuff, so we only match whole words here.
         params = {
-            'field-keywords': '"' + names['en'] + '"',
+            'field-keywords': '"' + name + '"',
             'rh': 'n:2858778011,n:2864549011',
         }
         soup = self._get_soup(self.BASE_URL + '/s', params=params)

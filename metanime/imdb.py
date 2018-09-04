@@ -14,11 +14,12 @@ class IMDB(Site):
     }
     MIN_RATING = 1
     MAX_RATING = 10
+    SEARCH_LOCALES = ['en-jp']
 
     def info_url(self, id):
         return f'{self.BASE_URL}/title/tt{id}'
 
-    def get_rating(self, id):
+    def _get_rating(self, id):
         soup = self._get_soup(self.info_url(id))
         json_str = soup.find('script', type='application/ld+json').get_text()
         aggregate_rating = json.loads(json_str)['aggregateRating']
@@ -28,9 +29,9 @@ class IMDB(Site):
 
         return rating, count
 
-    def search(self, names):
+    def _search(self, name):
         params = {
-            'title': names['en-jp'],
+            'title': name,
             'title_type': 'tv_series',
         }
         soup = self._get_soup(self.BASE_URL + '/search/title', params=params)

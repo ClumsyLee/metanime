@@ -19,7 +19,7 @@ class Shinden(Site):
     def info_url(self, id):
         return f'{self.BASE_URL}/series/{id}'
 
-    def get_rating(self, id):
+    def _get_rating(self, id):
         soup = self._get_soup(self.info_url(id))
         json_str = soup.body.find('script',
                                   type='application/ld+json').get_text()
@@ -30,9 +30,9 @@ class Shinden(Site):
 
         return rating, count
 
-    def search(self, names):
+    def _search(self, name):
         params = {
-            'search': names['ja-jp'],
+            'search': name,
             'series_type[0]': 'TV',
         }
         soup = self._get_soup(self.BASE_URL + '/series', params=params)

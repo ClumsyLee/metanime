@@ -16,7 +16,7 @@ class AnimePlanet(Site):
     def info_url(self, id):
         return f'{self.BASE_URL}/anime/{id}'
 
-    def get_rating(self, id):
+    def _get_rating(self, id):
         soup = self._get_soup(self.info_url(id))
 
         rating = float(soup.find(itemprop='ratingValue')['content'])
@@ -24,9 +24,9 @@ class AnimePlanet(Site):
 
         return rating, count
 
-    def search(self, names):
+    def _search(self, name):
         params = {
-            'name': names['ja-jp'],
+            'name': name,
             'sort': 'status_2',
             'order': 'desc',
         }

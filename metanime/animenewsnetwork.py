@@ -18,7 +18,7 @@ class AnimeNewsNetwork(Site):
     def info_url(self, id):
         return f'{self.BASE_URL}/encyclopedia/anime.php?id={id}'
 
-    def get_rating(self, id):
+    def _get_rating(self, id):
         tree = self._get_xml('https://cdn.animenewsnetwork.com/encyclopedia/'
                              f'api.xml?anime={id}')
         ratings = tree.find('anime/ratings')
@@ -28,9 +28,9 @@ class AnimeNewsNetwork(Site):
 
         return rating, count
 
-    def search(self, names):
+    def _search(self, name):
         soup = self._get_soup(self.BASE_URL + '/encyclopedia/search/name',
-                              params={'q': names['ja-jp']})
+                              params={'q': name})
 
         regex = re.compile(r'/encyclopedia/anime\.php\?id=(\d+)')
         href = soup.find('a', href=regex)['href']

@@ -12,6 +12,7 @@ class Saraba1st(Site):
     }
     MIN_RATING = -2
     MAX_RATING = 2
+    SEARCH_LOCALES = ['ja-jp', 'zh-cn']
 
     def __init__(self):
         super().__init__()
@@ -20,7 +21,7 @@ class Saraba1st(Site):
     def info_url(self, id):
         return f'{self.BASE_URL}/2b/thread-{id}-1-1.html'
 
-    def get_rating(self, id):
+    def _get_rating(self, id):
         soup = self._get_soup(self.info_url(id))
 
         counts = [int(node.get_text().strip('()')) for node in
@@ -59,14 +60,6 @@ class Saraba1st(Site):
         id = int(soup.find(class_='pbw')['id'])
 
         return id
-
-    def search(self, names):
-        try:
-            return self._search(names['ja-jp'])
-        except Exception:
-            pass
-
-        return self._search(names['zh-cn'])
 
 
 if __name__ == '__main__':

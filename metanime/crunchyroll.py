@@ -14,6 +14,7 @@ class Crunchyroll(Site):
     }
     MIN_RATING = 1
     MAX_RATING = 5
+    SEARCH_LOCALES = ['en']
 
     def __init__(self):
         super().__init__()
@@ -33,7 +34,7 @@ class Crunchyroll(Site):
                 for entry in data
                 if entry['type'] == 'Series' and entry['name'] is not None}
 
-    def get_rating(self, id):
+    def _get_rating(self, id):
         soup = self._get_soup(self.info_url(id))
 
         rating = float(soup.find(itemprop='average').get_text())
@@ -41,8 +42,8 @@ class Crunchyroll(Site):
 
         return rating, count
 
-    def search(self, names):
-        return self._search_candidates[names['en'].lower()]
+    def _search(self, name):
+        return self._search_candidates[name.lower()]
 
 
 if __name__ == '__main__':

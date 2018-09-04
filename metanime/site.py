@@ -16,6 +16,7 @@ class Site(object):
     MIN_RATING = None
     MAX_RATING = None
     DYNAMIC_ID = False
+    SEARCH_LOCALES = ['ja-jp']
 
     def __init__(self):
         self.session = requests.Session()
@@ -46,20 +47,43 @@ class Site(object):
         return int(round((rating - self.MIN_RATING) /
                          (self.MAX_RATING - self.MIN_RATING) * 100))
 
+    def get_rating(self, id):
+        try:
+            return self._get_rating(id)
+        except Exception:
+            return None, None
+
+    def search(self, names):
+        for locale in self.SEARCH_LOCALES:
+            if locale in names:
+                try:
+                    return self._search(names[locale])
+                except Exception:
+                    pass  # No worries, just try next locale.
+
+        return None
+
     def info_url(self, id):
         raise NotImplementedError
 
-    def get_rating(self, id):
+    def _get_rating(self, id):
         raise NotImplementedError
 
-    def search(self, names):
+    def _search(self, name):
         raise NotImplementedError
 
 
 def main(site, names):
     id = site.search(names)
+    if id is None:
+        return
+
     print(site.info_url(id))
 
     rating, count = site.get_rating(id)
-    unified_rating = site.unify_rating(rating)
+    if rating is not None:
+        unified_rating = site.unify_rating(rating)
+    else:
+        unified_rating = None
+
     print(f'{rating} ({count}), {unified_rating}')

@@ -13,21 +13,22 @@ class Bilibili(Site):
     }
     MIN_RATING = 2
     MAX_RATING = 10
+    SEARCH_LOCALES = ['ja-jp', 'zh-cn']
 
     def info_url(self, id):
         return f'{self.BASE_URL}/bangumi/media/md{id}'
 
-    def get_rating(self, id):
+    def _get_rating(self, id):
         anime = self._get_json(f'{self.API_BASE_URL}/season',
                                params={'media_id': id})['result']
         rating = anime['rating']
 
         return float(rating['score']), int(rating['count'])
 
-    def search(self, names):
+    def _search(self, name):
         params = {
             'search_type': 'media_bangumi',
-            'keyword': names['ja-jp']
+            'keyword': name,
         }
         media = self._get_json(
             'https://api.bilibili.com/x/web-interface/search/type',

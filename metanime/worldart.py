@@ -18,7 +18,7 @@ class WorldArt(Site):
     def info_url(self, id):
         return f'{self.BASE_URL}/animation/animation.php?id={id}'
 
-    def get_rating(self, id):
+    def _get_rating(self, id):
         soup = self._get_soup(self.info_url(id))
 
         rating_str = (soup.find(text='Средний балл').next_element.next_element
@@ -31,10 +31,9 @@ class WorldArt(Site):
 
         return rating, count
 
-    def search(self, names):
+    def _search(self, name):
         params = {
-            'public_search': names['ja-jp'].encode('ascii',
-                                                   'xmlcharrefreplace'),
+            'public_search': name.encode('ascii', 'xmlcharrefreplace'),
             'global_sector': 'animation',
         }
         soup = self._get_soup(self.BASE_URL + '/search.php', params=params)

@@ -16,7 +16,7 @@ class Anikore(Site):
     def info_url(self, id):
         return f'{self.BASE_URL}/anime/{id}'
 
-    def get_rating(self, id):
+    def _get_rating(self, id):
         soup = self._get_soup(self.info_url(id))
 
         rating = float(
@@ -29,8 +29,8 @@ class Anikore(Site):
 
         return rating, count
 
-    def search(self, names):
-        soup = self._get_soup(self.BASE_URL + '/anime_title/' + names['ja-jp'])
+    def _search(self, name):
+        soup = self._get_soup(self.BASE_URL + '/anime_title/' + name)
 
         href = soup.find(class_='smt_title').find('a')['href']
         id = int(href.split('/')[-2])

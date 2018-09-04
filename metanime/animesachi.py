@@ -18,7 +18,7 @@ class Animesachi(Site):
     def info_url(self, id):
         return f'{self.BASE_URL}/visitor/sakuhin_{id}.html'
 
-    def get_rating(self, id):
+    def _get_rating(self, id):
         soup = self._get_soup(self.info_url(id))
         tds = soup.find('table', class_='normal_2').find_all('td')
 
@@ -27,9 +27,9 @@ class Animesachi(Site):
 
         return rating, count
 
-    def search(self, names):
+    def _search(self, name):
         soup = self._get_soup(self.BASE_URL + '/visitor/search.php',
-                              params={'key': names['ja-jp']})
+                              params={'key': name})
 
         regex = re.compile(r'sakuhin_(\d+)\.html')
         href = soup.find('a', href=regex)['href']

@@ -21,7 +21,7 @@ class Kitsu(Site):
         url = f'{self.API_BASE_URL}/anime/{id}'
         return self._get_json(url)['data']
 
-    def get_rating(self, id):
+    def _get_rating(self, id):
         attrs = self._get_anime(id)['attributes']
 
         rating = float(attrs['averageRating'])
@@ -30,9 +30,9 @@ class Kitsu(Site):
 
         return rating, count
 
-    def search(self, names):
+    def _search(self, name):
         params = {
-            'filter[text]': names['ja-jp'],
+            'filter[text]': name,
             'page[limit]': 1,
         }
         anime = self._get_json(f'{self.API_BASE_URL}/anime',

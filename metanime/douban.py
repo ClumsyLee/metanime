@@ -19,12 +19,11 @@ class Douban(Site):
     def info_url(self, id):
         return f'{self.BASE_URL}/subject/{id}'
 
-    # def get_rating(self, id):
+    # def _get_rating(self, id):
     #     anime = self._get_json(f'{self.API_BASE_URL}/subject/{id}')
-
     #     return anime['rating']['average'], anime['ratings_count']
 
-    def get_rating(self, id):
+    def _get_rating(self, id):
         soup = self._get_soup(self.info_url(id))
 
         rating = float(soup.find(property='v:average').get_text())
@@ -32,17 +31,15 @@ class Douban(Site):
 
         return rating, count
 
-    # def search(self, names, update_names=False):
+    # def _search(self, name):
     #     anime = self._get_json(f'{self.API_BASE_URL}/search',
-    #                            params={'q': names['ja-jp']})['subjects'][0]
-
-    #     names['zh-cn'] = anime['title']  # Update Chinese title.
-
+    #                            params={'q': name})['subjects'][0]
     #     return int(anime['id'])
-    def search(self, names):
+
+    def _search(self, name):
         params = {
             'cat': 1002,
-            'q': names['ja-jp'],
+            'q': name,
         }
         soup = self._get_soup('https://www.douban.com/search', params=params)
 

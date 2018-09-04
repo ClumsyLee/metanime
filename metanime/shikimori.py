@@ -16,7 +16,7 @@ class Shikimori(Site):
     def info_url(self, id):
         return f'{self.BASE_URL}/animes/{id}'
 
-    def get_rating(self, id):
+    def _get_rating(self, id):
         info = self._get_json(f'{self.BASE_URL}/api/animes/{id}')
 
         rating = float(info['score'])
@@ -24,9 +24,9 @@ class Shikimori(Site):
 
         return rating, count
 
-    def search(self, names):
+    def _search(self, name):
         params = {
-            'search': names['ja-jp'],
+            'search': name,
             'kind': 'tv',
             'limit': 1,
         }

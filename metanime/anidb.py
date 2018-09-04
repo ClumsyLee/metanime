@@ -16,7 +16,7 @@ class AniDB(Site):
     def info_url(self, id):
         return f'{self.BASE_URL}/perl-bin/animedb.pl?show=anime&aid={id}'
 
-    def get_rating(self, id):
+    def _get_rating(self, id):
         soup = self._get_soup(self.info_url(id))
 
         rating = float(soup.find(itemprop='ratingValue').get_text())
@@ -26,11 +26,11 @@ class AniDB(Site):
 
         return rating, count
 
-    def search(self, names):
+    def _search(self, name):
         params = {
             'show': 'search',
             'do': 'fulltext',
-            'adb.search': names['ja-jp'],
+            'adb.search': name,
             'entity.animetb': 1,
             'field.titles': 1,
         }

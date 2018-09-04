@@ -14,6 +14,7 @@ class NGA(Site):
     }
     MIN_RATING = 1
     MAX_RATING = 10
+    SEARCH_LOCALES = ['ja-jp', 'zh-cn']
 
     def __init__(self, uid=None, cid=None):
         super().__init__()
@@ -33,7 +34,7 @@ class NGA(Site):
     def info_url(self, id):
         return f'{self.BASE_URL}/read.php?tid={id}'
 
-    def get_rating(self, id):
+    def _get_rating(self, id):
         soup = self._get_soup(self.info_url(id))
         vote_script = soup.find(id='votec0').next_sibling.string
         vote_parts = vote_script.split('~')[-1].split(',')
@@ -55,14 +56,6 @@ class NGA(Site):
         id = int(href.split('=')[-1])
 
         return id
-
-    def search(self, names):
-        try:
-            return self._search(names['ja-jp'])
-        except Exception:
-            pass
-
-        return self._search(names['zh-cn'])
 
 
 if __name__ == '__main__':

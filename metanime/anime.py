@@ -21,48 +21,48 @@ class Anime(object):
 
     @staticmethod
     def dump(animes, filename):
-        objs = {anime.slug: {'names': anime.names, 'site_ids': anime.site_ids}
+        objs = {anime.slug: {'names': anime.names, 'sites': anime.sites}
                 for anime in animes}
 
         with open(filename, 'w') as fp:
             return yaml.dump(objs, fp, allow_unicode=True,
                              default_flow_style=False)
 
-    def __init__(self, slug, names=None, site_ids=None):
+    def __init__(self, slug, names=None, sites=None):
         if names is None:
             names = {}
-        if site_ids is None:
-            site_ids = {}
+        if sites is None:
+            sites = {}
 
         self.slug = slug
         self.names = names
-        self.site_ids = site_ids
+        self.sites = sites
 
-    def update(self):
+    def update_info(self):
         self.update_names()
-        self.update_site_ids()
+        self.update_ids()
 
     def update_names(self):
         names = SITES['kitsu'].get_names(self.slug)
         try:
-            SITES['bangumi'].search(names, update_names=True)
+            SITES['bangumi'].get_zh_cn_name(names['ja-jp'])
         except Exception as err:
-            logging.warn('Failed to update names from Bangumi: %s', err)
+            logging.warn('Failed to get zh-CN name from Bangumi: %s', err)
 
-        names.update(self.names)
+        names.update(self.names)  # Keep existing names.
         self.names = names
 
-    def update_site_ids(self):
-        for site_name, site in SITES.items():
-            # Skip static ids.
-            if not site.DYNAMIC_ID and self.site_ids.get(site_name):
+    def update_ids(self):
+        for site_id, site in SITES.items():
+            # Skip existing sites unless they use dynamic ids.
+            # Notice that we'll skip even self.sites[site_id] is None.
+            # This ensures that there's a way to override false matches.
+            if not site.DYNAMIC_ID and site_id in self.sites:
                 continue
 
-            logging.info('%s...', site_name)
-            try:
-                site_id = site.search(self.names)
-                logging.info('    => %s', site.info_url(site_id))
-            except Exception:
-                site_id = None
+            logging.info('%s...', site_id)
 
-            self.site_ids[site_name] = site_id
+            id = site.search(self.names)
+            if id is not None:
+                self.sites[site_id] = {'id': id}
+                logging.info('    => %s', site.info_url(id))
