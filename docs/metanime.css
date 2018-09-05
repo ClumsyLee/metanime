@@ -1,0 +1,138 @@
+a {
+    color: #535A60;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a.amazon:hover {
+    color: #111111;
+}
+
+a.anidb:hover {
+    color: #F4AD64;
+}
+
+a.anikore:hover {
+    color: #FAD851;
+}
+
+a.anilist:hover {
+    color: #44A8F8;
+}
+
+a.animenewsnetwork:hover {
+    color: #2D50A7;
+}
+
+a.animeplanet:hover {
+    color: #7F0074;
+}
+
+a.animesachi:hover {
+    color: #006699;
+}
+
+a.bangumi:hover {
+    color: #F09199;
+}
+
+a.bilibili:hover {
+    color: #FB7299;
+}
+
+a.crunchyroll:hover {
+    color: #E67C3A;
+}
+
+a.douban:hover {
+    color: #4D9348;
+}
+
+a.imdb:hover {
+    color: #F3CE00;
+}
+
+a.kitsu:hover {
+    color: #7F5E7E;
+}
+
+a.myanimelist:hover {
+    color: #2E51A2;
+}
+
+a.nga:hover {
+    color: #FFF0CD;
+}
+
+a.reddit:hover {
+    color: #557EB8;
+}
+
+a.saraba1st:hover {
+    color: #2D2D2D;
+}
+
+a.shikimori:hover {
+    color: #4C86C8;
+}
+
+a.worldart:hover {
+    color: #557EB8;
+}
+
+
+.ultra-light {
+    font-weight: 100;
+}
+
+.navbar {
+    background-color: rgba(255, 134, 102, 0.5)
+}
+
+h1 {
+    color: #FF8666;
+    font-size: 3.5rem;
+}
+
+.high-rating {
+    color: #28A745;
+}
+
+.low-rating {
+    color: #FF8666;
+}
+
+.subtitle {
+    color: lightgrey;
+    font-size: 1.5rem;
+}
+
+.caption {
+    color: lightgrey;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 36px;
+        font-size: 9.72vw;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-size: 5.56vw;
+    }
+
+    .subtitle {
+        font-size: 15px;
+        font-size: 4.17vw;
+    }
+
+    .caption {
+        font-size: 11px;
+        font-size: 3.47vw;
+    }
+}
+

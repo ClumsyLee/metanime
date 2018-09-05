@@ -12,6 +12,7 @@ class AnimePlanet(Site):
     }
     MIN_RATING = 1
     MAX_RATING = 10
+    SEARCH_LOCALES = ['ja-jp', 'en-jp']
 
     def info_url(self, id):
         return f'{self.BASE_URL}/anime/{id}'

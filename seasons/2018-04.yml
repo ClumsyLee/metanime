@@ -1,15 +1,18 @@
 3d-kanojo-real-girl:
   names:
+    en: Real Girl
     en-jp: '3D Kanojo: Real Girl'
     ja-jp: ３Ｄ彼女　リアルガール
     zh-cn: 3D彼女
   sites:
     anidb:
-      id: 14165
+      id: 13581
     anikore:
       id: 11556
     animenewsnetwork:
       id: 20317
+    animeplanet:
+      id: real-girl
     bangumi:
       id: 229805
     douban:
@@ -27,14 +30,14 @@
     shikimori:
       id: 36793
     shinden:
-      id: 45224
+      id: 52232
     worldart:
-      id: 9729
+      id: 9470
 aikatsu-friends:
   names:
     en-jp: Aikatsu Friends!
     ja-jp: アイカツフレンズ!
-    zh-cn: 偶像活动Stars 第二年
+    zh-cn: 偶像活动Friends
   sites:
     anidb:
       id: 13755
@@ -47,9 +50,8 @@ aikatsu-friends:
     animeplanet:
       id: aikatsu-friends
     bangumi:
-      id: 207491
-    douban:
-      id: 10535492
+      id: 234413
+    douban: null
     kitsu:
       id: 41015
     myanimelist:
