@@ -394,6 +394,7 @@ baki-ona:
     ja-jp: バキ
     zh-cn: 刃牙
   sites:
+    amazon: null
     anidb:
       id: 12569
       rating: 5.07
@@ -460,6 +461,8 @@ banana-fish:
     ja-jp: バナナフィッシュ
     zh-cn: 战栗杀机
   sites:
+    amazon:
+      id: B07F8H7SHY
     anidb:
       id: 13536
       rating: 5.98
@@ -1161,6 +1164,8 @@ happy-sugar-life:
     ja-jp: ハッピーシュガーライフ
     zh-cn: Happy Sugar Life
   sites:
+    amazon:
+      id: B07FJX3LV5
     anidb:
       id: 13944
       rating: 4.93
@@ -1666,6 +1671,7 @@ island:
     en-jp: Island
     ja-jp: ISLAND
   sites:
+    amazon: null
     anidb:
       id: 12020
       rating: 3.94
@@ -1698,6 +1704,8 @@ island:
       rating: 9.2
       rating_count: 3513
       updated_at: '2018-09-04T22:32:54Z'
+    crunchyroll:
+      id: island
     douban:
       id: 26774746
       rating: 6.5
@@ -2265,6 +2273,8 @@ phantom-in-the-twilight:
       rating: 6.8
       rating_count: 453
       updated_at: '2018-09-04T22:34:24Z'
+    crunchyroll:
+      id: phantom-in-the-twilight
     douban:
       id: 30179570
     imdb:

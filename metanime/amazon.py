@@ -14,7 +14,7 @@ class Amazon(Site):
     }
     MIN_RATING = 1
     MAX_RATING = 5
-    SEARCH_LOCALES = ['en']
+    SEARCH_LOCALES = ['en-jp', 'en']
 
     def info_url(self, id):
         return f'{self.BASE_URL}/dp/{id}'

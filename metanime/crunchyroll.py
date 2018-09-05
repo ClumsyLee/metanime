@@ -14,7 +14,7 @@ class Crunchyroll(Site):
     }
     MIN_RATING = 1
     MAX_RATING = 5
-    SEARCH_LOCALES = ['en']
+    SEARCH_LOCALES = ['en-jp', 'en']
 
     def __init__(self):
         super().__init__()
