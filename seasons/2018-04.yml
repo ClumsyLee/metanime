@@ -218,13 +218,19 @@ boku-no-hero-academia-3rd-season:
     en-jp: Boku no Hero Academia 3rd Season
     en-us: My Hero Academia 3
     ja-jp: 僕のヒーローアカデミア 3rdシーズン
+    zh-cn: 我的英雄学院 第三季
   sites:
-    amazon:
-      id: B07FZ6NCR6
+    amazon: null
     anidb:
-      id: 11739
+      id: 13485
+    anilist:
+      id: 100166
     animenewsnetwork:
-      id: 17786
+      id: 20356
+    bangumi:
+      id: 226677
+    bilibili:
+      id: 78552
     douban:
       id: 27160633
     kitsu:
@@ -237,6 +243,8 @@ boku-no-hero-academia-3rd-season:
       id: 36456
     shinden:
       id: 51930
+    worldart:
+      id: 9410
 butlers-chitose-momotose-monogatari:
   names:
     en: Butlers x Battlers
@@ -269,20 +277,23 @@ butlers-chitose-momotose-monogatari:
       id: 36309
     shinden:
       id: 52046
+    worldart:
+      id: 9402
 caligula:
   names:
     en-jp: Caligula
     ja-jp: カリギュラ
     zh-cn: 卡利古拉
   sites:
-    amazon:
-      id: B00VS6F4QU
+    amazon: null
     anidb:
       id: 13592
     anikore:
       id: 11501
     anilist:
       id: 100569
+    animenewsnetwork:
+      id: 20392
     animeplanet:
       id: caligula
     bangumi:
@@ -292,7 +303,7 @@ caligula:
     crunchyroll:
       id: caligula
     douban:
-      id: 26843144
+      id: 27186357
     imdb:
       id: 8303808
     kitsu:
@@ -320,23 +331,22 @@ captain-tsubasa-2018:
     anidb:
       id: 13655
     anikore:
-      id: 116
+      id: 11505
     anilist:
-      id: 1614
+      id: 100745
     animenewsnetwork:
       id: 20614
     animeplanet:
       id: captain-tsubasa-2018
     bangumi:
       id: 232072
-    bilibili:
-      id: 2139
+    bilibili: null
     douban:
-      id: 2079898
+      id: 27604333
     imdb:
       id: 7784442
     kitsu:
-      id: 1451
+      id: 14182
     myanimelist:
       id: 36934
     reddit:
@@ -345,6 +355,8 @@ captain-tsubasa-2018:
       id: 36934
     shinden:
       id: 52493
+    worldart:
+      id: 9504
 comic-girls:
   names:
     en: Comic Girls
@@ -506,6 +518,8 @@ devils-line:
       id: 35928
     shinden:
       id: 52654
+    worldart:
+      id: 9475
 dorei-ku-the-animation:
   names:
     en-jp: Dorei-ku The Animation
@@ -578,9 +592,9 @@ emiya-san-chi-no-kyou-no-gohan:
     reddit:
       id: 9c2w9u
     shikimori:
-      id: 2494
+      id: 37033
     shinden:
-      id: 13517
+      id: 52548
     worldart:
       id: 9531
 full-metal-panic-invisible-victory:
@@ -592,7 +606,7 @@ full-metal-panic-invisible-victory:
     amazon:
       id: B07CWGP6QN
     anidb:
-      id: 10198
+      id: 11731
     anikore:
       id: 10469
     anilist:
@@ -617,6 +631,8 @@ full-metal-panic-invisible-victory:
       id: 31931
     reddit:
       id: 90bkaj
+    saraba1st:
+      id: 1727165
     shikimori:
       id: 31931
     shinden:
@@ -674,10 +690,12 @@ gegege-no-kitarou-2018:
   sites:
     anidb:
       id: 13742
+    anikore:
+      id: 11552
     anilist:
       id: 100978
     animenewsnetwork:
-      id: 3666
+      id: 20562
     animeplanet:
       id: gegege-no-kitarou-2018
     bangumi:
@@ -685,7 +703,7 @@ gegege-no-kitarou-2018:
     crunchyroll:
       id: gegege-no-kitaro
     douban:
-      id: 1908327
+      id: 30025662
     imdb:
       id: 7899522
     kitsu:
@@ -708,7 +726,7 @@ ginga-eiyuu-densetsu-die-neue-these-kaikou:
     zh-cn: 银河英雄传说 Die Neue These 邂逅
   sites:
     anidb:
-      id: 13473
+      id: 11495
     anikore:
       id: 11326
     anilist:
@@ -746,13 +764,13 @@ golden-kamuy:
     zh-cn: 黄金神威
   sites:
     anidb:
-      id: 14085
+      id: 13337
     anikore:
       id: 11444
     anilist:
       id: 99699
     animenewsnetwork:
-      id: 21137
+      id: 20206
     animeplanet:
       id: golden-kamuy
     bangumi:
@@ -775,6 +793,8 @@ golden-kamuy:
       id: 36028
     shinden:
       id: 51504
+    worldart:
+      id: 9355
 gundam-build-divers:
   names:
     en: Gundam Build Divers
@@ -811,7 +831,7 @@ gundam-build-divers:
     shikimori:
       id: 37245
     shinden:
-      id: 15671
+      id: 52834
     worldart:
       id: 9562
 gurazeni:
@@ -821,7 +841,7 @@ gurazeni:
     zh-cn: 钱进球场
   sites:
     anidb:
-      id: 14182
+      id: 12995
     anikore:
       id: 11175
     anilist:
@@ -836,8 +856,7 @@ gurazeni:
       id: 78192
     douban:
       id: 27008396
-    imdb:
-      id: 7694480
+    imdb: null
     kitsu:
       id: 13981
     myanimelist:
@@ -850,6 +869,8 @@ gurazeni:
       id: 35183
     shinden:
       id: 50499
+    worldart:
+      id: 9194
 high-school-dxd-hero:
   names:
     en: High School DxD Hero
@@ -861,6 +882,8 @@ high-school-dxd-hero:
       id: B07CSWKVZN
     anidb:
       id: 12498
+    anikore:
+      id: 11002
     anilist:
       id: 97767
     animenewsnetwork:
@@ -881,6 +904,8 @@ high-school-dxd-hero:
       id: 14346145
     reddit:
       id: 8vz810
+    saraba1st:
+      id: 1722768
     shikimori:
       id: 34281
     shinden:
@@ -895,7 +920,7 @@ hinamatsuri:
     zh-cn: 黑社会的超能力女儿
   sites:
     anidb:
-      id: 13435
+      id: 13434
     anikore:
       id: 11480
     anilist:
@@ -921,7 +946,7 @@ hinamatsuri:
     nga:
       id: 14329437
     reddit:
-      id: 8ykfr9
+      id: 8t1cde
     saraba1st:
       id: 1718349
     shikimori:
@@ -975,9 +1000,15 @@ hoozuki-no-reitetsu-2nd-season-sono-ni:
     zh-cn: 鬼灯的冷彻 第二季 其之二
   sites:
     anidb:
-      id: 12954
+      id: 13704
+    anikore:
+      id: 11515
+    anilist:
+      id: 100852
     animenewsnetwork:
-      id: 19363
+      id: 20677
+    animeplanet:
+      id: hozukis-coolheadedness-2nd-season-part-ii
     bangumi:
       id: 234305
     bilibili:
@@ -991,7 +1022,7 @@ hoozuki-no-reitetsu-2nd-season-sono-ni:
     shikimori:
       id: 37029
     shinden:
-      id: 50477
+      id: 53262
     worldart:
       id: 9530
 isekai-izakaya-nobu:
@@ -1000,6 +1031,10 @@ isekai-izakaya-nobu:
     ja-jp: 異世界居酒屋～古都アイテーリアの居酒屋のぶ～
     zh-cn: 异世界居酒屋～古都阿伊特力亚的居酒屋「阿信」
   sites:
+    anidb:
+      id: 12562
+    anikore:
+      id: 11022
     anilist:
       id: 97873
     animenewsnetwork:
@@ -1021,9 +1056,9 @@ isekai-izakaya-nobu:
     reddit:
       id: 9bq0qb
     shikimori:
-      id: 30437
+      id: 34420
     shinden:
-      id: 35574
+      id: 53473
     worldart:
       id: 9036
 juushinki-pandora:
@@ -1115,16 +1150,16 @@ ladyspo:
       id: ladyspo
     bangumi:
       id: 239962
-    douban:
-      id: 26418093
-    imdb:
-      id: 53529
+    douban: null
+    imdb: null
     kitsu:
       id: 41054
     myanimelist:
       id: 37448
     shikimori:
       id: 37448
+    shinden:
+      id: 53455
     worldart:
       id: 9607
 last-period:
@@ -1135,6 +1170,8 @@ last-period:
   sites:
     anidb:
       id: 13779
+    anikore:
+      id: 11581
     anilist:
       id: 101044
     animenewsnetwork:
@@ -1161,15 +1198,20 @@ layton-mystery-tanteisha-katri-no-nazotoki-file:
   names:
     en-jp: 'Layton Mystery Tanteisha: Katri no Nazotoki File'
     ja-jp: レイトン ミステリー探偵社~カトリーのナゾトキファイル~
+    zh-cn: 雷顿 神秘侦探社～卡托莉的解谜档案～
   sites:
     anidb:
       id: 13497
+    anikore:
+      id: 11524
     anilist:
       id: 100785
     animenewsnetwork:
       id: 20481
     animeplanet:
       id: laytons-mystery-journey-katrielle-and-the-millionaires-conspiracy
+    bangumi:
+      id: 226986
     bilibili:
       id: 78492
     douban:
@@ -1191,8 +1233,7 @@ lost-song:
     en-jp: Lost Song
     ja-jp: LOST SONG
   sites:
-    amazon:
-      id: B071GX8JKR
+    amazon: null
     anidb:
       id: 12523
     anikore:
@@ -1222,9 +1263,9 @@ lost-song:
     saraba1st:
       id: 1712765
     shikimori:
-      id: 1184
+      id: 34338
     shinden:
-      id: 45207
+      id: 53042
     worldart:
       id: 9363
 lostorage-conflated-wixoss:
@@ -1234,7 +1275,7 @@ lostorage-conflated-wixoss:
     zh-cn: 失忆融合WIXOSS
   sites:
     anidb:
-      id: 13361
+      id: 12686
     anikore:
       id: 11509
     anilist:
@@ -1262,7 +1303,9 @@ lostorage-conflated-wixoss:
     shikimori:
       id: 34607
     shinden:
-      id: 50546
+      id: 53731
+    worldart:
+      id: 9365
 lupin-iii-part-v:
   names:
     en: 'Lupin the Third: Part V'
@@ -1502,15 +1545,20 @@ nobunaga-no-shinobi-anegawa-ishiyama-hen:
   names:
     en-jp: 'Nobunaga no Shinobi: Anegawa Ishiyama-hen'
     ja-jp: 信長の忍び~姉川・石山篇~
+    zh-cn: 信长的忍者 姊川·石山篇
   sites:
     anidb:
       id: 13740
+    anikore:
+      id: 11548
     anilist:
       id: 100966
     animenewsnetwork:
       id: 20566
     animeplanet:
       id: ninja-girl-samurai-master-3rd-season
+    bangumi:
+      id: 235421
     bilibili:
       id: 78532
     douban:
@@ -1551,7 +1599,7 @@ omae-wa-mada-gunma-wo-shiranai:
     crunchyroll:
       id: you-dont-know-gunma-yet
     douban:
-      id: 26969669
+      id: 30140019
     imdb:
       id: 6511320
     kitsu:
@@ -1563,7 +1611,7 @@ omae-wa-mada-gunma-wo-shiranai:
     shikimori:
       id: 37258
     shinden:
-      id: 11504
+      id: 52828
     worldart:
       id: 9567
 pastel-life:
@@ -1571,6 +1619,7 @@ pastel-life:
     en-jp: Pastel Life
     en-us: Pastel Life
     ja-jp: ぱすてるらいふ
+    zh-cn: 粉彩回忆
   sites:
     anidb:
       id: 14049
@@ -1586,8 +1635,7 @@ pastel-life:
       id: 243923
     douban:
       id: 30155204
-    imdb:
-      id: 2147138
+    imdb: null
     kitsu:
       id: 41304
     myanimelist:
@@ -1605,12 +1653,12 @@ persona-5-the-animation:
     en: PERSONA 5 the Animation
     en-jp: Persona 5 the Animation
     ja-jp: PERSONA5 the Animation
-    zh-cn: 女神异闻录5 -THE DAY BREAKERS-
+    zh-cn: 女神异闻录5
   sites:
     anidb:
-      id: 11607
+      id: 13331
     anikore:
-      id: 10687
+      id: 11503
     anilist:
       id: 99693
     animenewsnetwork:
@@ -1618,7 +1666,7 @@ persona-5-the-animation:
     animeplanet:
       id: persona-5-the-animation
     bangumi:
-      id: 147067
+      id: 221062
     bilibili:
       id: 79312
     douban:
@@ -1635,6 +1683,8 @@ persona-5-the-animation:
       id: 36023
     shinden:
       id: 52665
+    worldart:
+      id: 9353
 piano-no-mori-tv:
   names:
     en-jp: Piano no Mori (TV)
@@ -1642,17 +1692,17 @@ piano-no-mori-tv:
     zh-cn: 钢琴之森
   sites:
     anidb:
-      id: 14193
+      id: 13537
     anikore:
-      id: 1940
+      id: 11417
     anilist:
-      id: 2594
+      id: 100401
     animenewsnetwork:
-      id: 7466
+      id: 20596
     animeplanet:
       id: piano-no-mori-2018
     bangumi:
-      id: 3846
+      id: 228380
     bilibili:
       id: 78372
     douban:
@@ -1669,6 +1719,8 @@ piano-no-mori-tv:
       id: 36652
     shinden:
       id: 53047
+    worldart:
+      id: 9447
 rokuhoudou-yotsuiro-biyori:
   names:
     en-jp: Rokuhoudou Yotsuiro Biyori
@@ -1715,8 +1767,7 @@ saredo-tsumibito-wa-ryuu-to-odoru:
     ja-jp: されど罪人は竜と踊る
     zh-cn: 罪人与龙共舞
   sites:
-    amazon:
-      id: B0172UQBQ2
+    amazon: null
     anidb:
       id: 12337
     anikore:
@@ -1773,8 +1824,12 @@ shokugeki-no-souma-san-no-sara-toutsuki-ressha-hen:
       id: 14092
     myanimelist:
       id: 36949
+    nga:
+      id: 14350113
     reddit:
       id: 8tixv8
+    saraba1st:
+      id: 1718360
     shikimori:
       id: 36949
     shinden:
@@ -1786,11 +1841,20 @@ souten-no-ken-regenesis:
     en: 'Fist of the Blue Sky: Regenesis'
     en-jp: Souten no Ken Re:Genesis
     ja-jp: 蒼天の拳 RE:GENESIS
+    zh-cn: 苍天之拳 REGENESIS
   sites:
     anidb:
       id: 13843
+    anikore:
+      id: 11513
+    anilist:
+      id: 100408
     animenewsnetwork:
       id: 20470
+    animeplanet:
+      id: fist-of-the-blue-sky-regenesis
+    bangumi:
+      id: 228259
     bilibili:
       id: 78772
     crunchyroll:
@@ -1803,10 +1867,16 @@ souten-no-ken-regenesis:
       id: 13983
     myanimelist:
       id: 36655
+    reddit:
+      id: 8s1d92
+    saraba1st:
+      id: 1720441
     shikimori:
-      id: 1541
+      id: 37388
     shinden:
-      id: 53073
+      id: 52116
+    worldart:
+      id: 9449
 steins-gate-0:
   names:
     en: Steins;Gate 0
@@ -1816,6 +1886,8 @@ steins-gate-0:
   sites:
     anidb:
       id: 11167
+    anikore:
+      id: 9407
     anilist:
       id: 21127
     animenewsnetwork:
@@ -1874,6 +1946,8 @@ sword-art-online-alternative-gun-gale-online:
       id: 14350160
     reddit:
       id: 8v3088
+    saraba1st:
+      id: 1720011
     shikimori:
       id: 36475
     shinden:
@@ -1888,13 +1962,15 @@ sword-gai-the-animation:
     zh-cn: SWORD GAI 装刀凯
   sites:
     anidb:
-      id: 14000
+      id: 10858
+    anikore:
+      id: 8329
     anilist:
       id: 20875
     animenewsnetwork:
       id: 19984
     animeplanet:
-      id: sword-gai-the-animation-part-ii
+      id: sword-gai-the-animation
     bangumi:
       id: 114706
     bilibili:
@@ -1907,12 +1983,13 @@ sword-gai-the-animation:
       id: 9730
     myanimelist:
       id: 27783
-    reddit:
-      id: 93bqvf
+    reddit: null
     shikimori:
-      id: 5032
+      id: 27783
     shinden:
-      id: 449
+      id: 43968
+    worldart:
+      id: 9486
 tachibanakan-to-lie-triangle:
   names:
     en: Love to Lie Angle
@@ -1997,8 +2074,7 @@ to-be-heroine:
     ja-jp: TO BE HEROINE
     zh-cn: 凸变英雄 LEAF
   sites:
-    amazon:
-      id: B0190TCE82
+    amazon: null
     anidb:
       id: 12939
     anikore:
@@ -2015,8 +2091,9 @@ to-be-heroine:
       id: 92572
     crunchyroll:
       id: to-be-heroine
-    imdb:
-      id: 2198675
+    douban:
+      id: 27020958
+    imdb: null
     kitsu:
       id: 40592
     myanimelist:
@@ -2026,9 +2103,11 @@ to-be-heroine:
     saraba1st:
       id: 1722701
     shikimori:
-      id: 34009
+      id: 35044
     shinden:
       id: 53049
+    worldart:
+      id: 78058
 tokyo-ghoul-re:
   names:
     en-jp: Tokyo Ghoul:re
@@ -2037,8 +2116,14 @@ tokyo-ghoul-re:
   sites:
     amazon:
       id: B07CZB95S8
+    anikore:
+      id: 11365
+    anidb:
+      id: 14059
+    anilist:
+      id: 100240
     animenewsnetwork:
-      id: 16318
+      id: 20173
     animeplanet:
       id: tokyo-ghoul-re
     bangumi:
@@ -2046,7 +2131,7 @@ tokyo-ghoul-re:
     bilibili:
       id: 78672
     douban:
-      id: 30214032
+      id: 26378164
     imdb:
       id: 8213522
     kitsu:
@@ -2055,10 +2140,14 @@ tokyo-ghoul-re:
       id: 36511
     nga:
       id: 14335243
+    saraba1st:
+      id: 1715827
     shikimori:
       id: 36511
     shinden:
-      id: 53607
+      id: 51976
+    worldart:
+      id: 9420
 uchuu-senkan-tiramisu:
   names:
     en: Space Battleship Tiramisu
@@ -2073,7 +2162,7 @@ uchuu-senkan-tiramisu:
     anilist:
       id: 100009
     animenewsnetwork:
-      id: 21136
+      id: 20679
     animeplanet:
       id: space-battleship-tiramisu
     bangumi:
@@ -2098,6 +2187,8 @@ uchuu-senkan-tiramisu:
       id: 36267
     shinden:
       id: 53053
+    worldart:
+      id: 9393
 uma-musume-pretty-derby-tv:
   names:
     en: 'Umamusume: Pretty Derby'
@@ -2111,6 +2202,8 @@ uma-musume-pretty-derby-tv:
       id: 11443
     anilist:
       id: 98514
+    animenewsnetwork:
+      id: 20598
     animeplanet:
       id: uma-musume-pretty-derby
     bangumi:
@@ -2127,6 +2220,8 @@ uma-musume-pretty-derby-tv:
       id: 13485
     myanimelist:
       id: 34453
+    nga:
+      id: 14329416
     reddit:
       id: 8rs05x
     saraba1st:
@@ -2143,16 +2238,18 @@ wakaokami-wa-shougakusei:
     ja-jp: 若おかみは小学生！
     zh-cn: 年轻老板娘是小学生！
   sites:
+    anidb:
+      id: 13875
     anikore:
       id: 11639
     anilist:
       id: 101277
     animenewsnetwork:
-      id: 21112
+      id: 20733
     animeplanet:
       id: wakaokami-wa-shougakusei
     bangumi:
-      id: 242483
+      id: 239839
     bilibili:
       id: 78752
     douban:
@@ -2166,7 +2263,9 @@ wakaokami-wa-shougakusei:
     shikimori:
       id: 37433
     shinden:
-      id: 310
+      id: 53310
+    worldart:
+      id: 9613
 wotaku-ni-koi-wa-muzukashii:
   names:
     en: 'Wotakoi: Love Is Hard for Otaku'

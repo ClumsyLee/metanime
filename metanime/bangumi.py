@@ -25,7 +25,7 @@ class Bangumi(Site):
         return rating['score'], rating['total']
 
     def _get_anime_by_name(self, name):
-        name = name.replace('-', ' ').replace('!', ' ')
+        name = name.replace('-', ' ').replace('!', ' ').replace('~', ' ')
         params = {
             'type': 2,  # Anime.
             'responseGroup': 'small',
