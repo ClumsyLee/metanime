@@ -13,6 +13,7 @@ class Kitsu(Site):
     }
     MIN_RATING = 5
     MAX_RATING = 100
+    SEARCH_LOCALES = ['ja-jp', 'en-jp', 'en']
 
     def info_url(self, id):
         return f'{self.BASE_URL}/anime/{id}'

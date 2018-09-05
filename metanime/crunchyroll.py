@@ -18,8 +18,7 @@ class Crunchyroll(Site):
 
     def __init__(self):
         super().__init__()
-
-        self._search_candidates = self._get_search_candidates()
+        self._search_candidates = None
 
     def info_url(self, id):
         return f'{self.BASE_URL}/{id}'
@@ -43,6 +42,8 @@ class Crunchyroll(Site):
         return rating, count
 
     def _search(self, name):
+        if self._search_candidates is None:
+            self._search_candidates = self._get_search_candidates()
         return self._search_candidates[name.lower()]
 
 

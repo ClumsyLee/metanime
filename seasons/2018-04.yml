@@ -5,10 +5,13 @@
     ja-jp: ３Ｄ彼女　リアルガール
     zh-cn: 3D彼女
   sites:
+    amazon: null
     anidb:
       id: 13581
     anikore:
       id: 11556
+    anilist:
+      id: 100526
     animenewsnetwork:
       id: 20317
     animeplanet:
@@ -80,6 +83,8 @@ akkun-to-kanojo:
       id: 100645
     animenewsnetwork:
       id: 20553
+    animeplanet:
+      id: my-sweet-tyrant
     bangumi:
       id: 230940
     bilibili:
@@ -121,7 +126,7 @@ alice-or-alice:
     douban:
       id: 27097734
     imdb:
-      id: 73955
+      id: 8278732
     kitsu:
       id: 13679
     myanimelist:
@@ -142,10 +147,16 @@ amanchu-advance:
     ja-jp: あまんちゅ！あどばんす
     zh-cn: 蓝海少女 第二季
   sites:
+    anidb:
+      id: 13583
+    anikore:
+      id: 11418
     anilist:
       id: 100532
     animenewsnetwork:
       id: 20692
+    animeplanet:
+      id: amanchu-advance
     bangumi:
       id: 229947
     bilibili:
@@ -158,10 +169,14 @@ amanchu-advance:
       id: 36800
     reddit:
       id: 8tahu9
+    saraba1st:
+      id: 1718356
     shikimori:
       id: 36800
     shinden:
-      id: 45109
+      id: 52265
+    worldart:
+      id: 9471
 binan-koukou-chikyuu-bouei-bu-happy-kiss:
   names:
     en: Cute High Earth Defense Club Happy Kiss!
@@ -171,6 +186,8 @@ binan-koukou-chikyuu-bouei-bu-happy-kiss:
   sites:
     anidb:
       id: 13706
+    anikore:
+      id: 11681
     anilist:
       id: 101046
     animenewsnetwork:
@@ -187,6 +204,8 @@ binan-koukou-chikyuu-bouei-bu-happy-kiss:
       id: 41018
     myanimelist:
       id: 37036
+    reddit:
+      id: 8vc124
     shikimori:
       id: 37036
     shinden:
@@ -256,16 +275,22 @@ caligula:
     ja-jp: カリギュラ
     zh-cn: 卡利古拉
   sites:
+    amazon:
+      id: B00VS6F4QU
     anidb:
       id: 13592
     anikore:
       id: 11501
     anilist:
       id: 100569
+    animeplanet:
+      id: caligula
     bangumi:
       id: 230176
     bilibili:
       id: 77552
+    crunchyroll:
+      id: caligula
     douban:
       id: 26843144
     imdb:
@@ -308,6 +333,8 @@ captain-tsubasa-2018:
       id: 2139
     douban:
       id: 2079898
+    imdb:
+      id: 7784442
     kitsu:
       id: 1451
     myanimelist:
@@ -435,6 +462,8 @@ darling-in-the-franxx:
       id: 14266752
     reddit:
       id: 8wu654
+    saraba1st:
+      id: 1722806
     shikimori:
       id: 35849
     shinden:
@@ -491,6 +520,8 @@ dorei-ku-the-animation:
       id: 100251
     animenewsnetwork:
       id: 20321
+    animeplanet:
+      id: dorei-ku-the-animation
     bangumi:
       id: 227231
     bilibili:
@@ -538,6 +569,8 @@ emiya-san-chi-no-kyou-no-gohan:
       id: todays-menu-for-the-emiya-family
     douban:
       id: 27619800
+    imdb:
+      id: 7954970
     kitsu:
       id: 14154
     myanimelist:
@@ -556,6 +589,8 @@ full-metal-panic-invisible-victory:
     ja-jp: フルメタル・パニック！Invisible Victory
     zh-cn: 全金属狂潮 Invisible Victory
   sites:
+    amazon:
+      id: B07CWGP6QN
     anidb:
       id: 10198
     anikore:
@@ -564,10 +599,14 @@ full-metal-panic-invisible-victory:
       id: 21451
     animenewsnetwork:
       id: 18796
+    animeplanet:
+      id: full-metal-panic-invisible-victory
     bangumi:
       id: 150246
     bilibili:
       id: 78432
+    crunchyroll:
+      id: full-metal-panic-invisible-victory
     douban:
       id: 26655968
     imdb:
@@ -639,12 +678,16 @@ gegege-no-kitarou-2018:
       id: 100978
     animenewsnetwork:
       id: 3666
+    animeplanet:
+      id: gegege-no-kitarou-2018
     bangumi:
       id: 234531
     crunchyroll:
       id: gegege-no-kitaro
     douban:
       id: 1908327
+    imdb:
+      id: 7899522
     kitsu:
       id: 14246
     myanimelist:
@@ -672,12 +715,16 @@ ginga-eiyuu-densetsu-die-neue-these-kaikou:
       id: 20628
     animenewsnetwork:
       id: 20144
+    animeplanet:
+      id: legend-of-the-galactic-heroes-die-neue-these
     bangumi:
       id: 143694
     bilibili:
       id: 78812
     douban:
       id: 25828516
+    imdb:
+      id: 7407236
     kitsu:
       id: 11331
     myanimelist:
@@ -710,6 +757,8 @@ golden-kamuy:
       id: golden-kamuy
     bangumi:
       id: 221127
+    crunchyroll:
+      id: golden-kamuy
     douban:
       id: 27102516
     imdb:
@@ -787,6 +836,8 @@ gurazeni:
       id: 78192
     douban:
       id: 27008396
+    imdb:
+      id: 7694480
     kitsu:
       id: 13981
     myanimelist:
@@ -820,6 +871,8 @@ high-school-dxd-hero:
       id: 195845
     douban:
       id: 23115832
+    imdb:
+      id: 2230051
     kitsu:
       id: 12677
     myanimelist:
@@ -899,6 +952,8 @@ hisone-to-masotan:
       id: 231474
     douban:
       id: 27191426
+    imdb:
+      id: 8528256
     kitsu:
       id: 14042
     myanimelist:
@@ -1062,6 +1117,8 @@ ladyspo:
       id: 239962
     douban:
       id: 26418093
+    imdb:
+      id: 53529
     kitsu:
       id: 41054
     myanimelist:
@@ -1082,6 +1139,8 @@ last-period:
       id: 101044
     animenewsnetwork:
       id: 20612
+    animeplanet:
+      id: last-period-the-journey-to-the-end-of-the-despair
     bangumi:
       id: 236947
     douban:
@@ -1132,6 +1191,8 @@ lost-song:
     en-jp: Lost Song
     ja-jp: LOST SONG
   sites:
+    amazon:
+      id: B071GX8JKR
     anidb:
       id: 12523
     anikore:
@@ -1253,6 +1314,8 @@ mahou-shoujo-ore:
       id: 100715
     animenewsnetwork:
       id: 20403
+    animeplanet:
+      id: mahou-shoujo-ore
     bangumi:
       id: 109956
     bilibili:
@@ -1261,6 +1324,8 @@ mahou-shoujo-ore:
       id: magical-girl-ore
     douban:
       id: 27600965
+    imdb:
+      id: 8322496
     kitsu:
       id: 14072
     myanimelist:
@@ -1338,6 +1403,8 @@ major-2nd:
       id: 227739
     bilibili:
       id: 77612
+    crunchyroll:
+      id: major-2nd
     douban:
       id: 27154747
     kitsu:
@@ -1442,6 +1509,8 @@ nobunaga-no-shinobi-anegawa-ishiyama-hen:
       id: 100966
     animenewsnetwork:
       id: 20566
+    animeplanet:
+      id: ninja-girl-samurai-master-3rd-season
     bilibili:
       id: 78532
     douban:
@@ -1473,6 +1542,8 @@ omae-wa-mada-gunma-wo-shiranai:
       id: 101042
     animenewsnetwork:
       id: 20616
+    animeplanet:
+      id: you-dont-know-gunma-yet
     bangumi:
       id: 237046
     bilibili:
@@ -1481,6 +1552,8 @@ omae-wa-mada-gunma-wo-shiranai:
       id: you-dont-know-gunma-yet
     douban:
       id: 26969669
+    imdb:
+      id: 6511320
     kitsu:
       id: 41146
     myanimelist:
@@ -1513,6 +1586,8 @@ pastel-life:
       id: 243923
     douban:
       id: 30155204
+    imdb:
+      id: 2147138
     kitsu:
       id: 41304
     myanimelist:
@@ -1582,6 +1657,8 @@ piano-no-mori-tv:
       id: 78372
     douban:
       id: 27178675
+    imdb:
+      id: 8043492
     kitsu:
       id: 13984
     myanimelist:
@@ -1606,12 +1683,16 @@ rokuhoudou-yotsuiro-biyori:
       id: 100727
     animenewsnetwork:
       id: 20408
+    animeplanet:
+      id: rokuhoudou-yotsuiro-biyori
     bangumi:
       id: 227136
     bilibili:
       id: 78872
     douban:
       id: 27166457
+    imdb:
+      id: 7725942
     kitsu:
       id: 13932
     myanimelist:
@@ -1644,6 +1725,8 @@ saredo-tsumibito-wa-ryuu-to-odoru:
       id: 87504
     animenewsnetwork:
       id: 19908
+    animeplanet:
+      id: dances-with-the-dragons
     bangumi:
       id: 190254
     crunchyroll:
@@ -1656,6 +1739,8 @@ saredo-tsumibito-wa-ryuu-to-odoru:
       id: 33889
     reddit:
       id: 8sucl3
+    saraba1st:
+      id: 1718344
     shikimori:
       id: 33889
     shinden:
@@ -1712,6 +1797,8 @@ souten-no-ken-regenesis:
       id: fist-of-the-blue-sky-regenesis
     douban:
       id: 27180921
+    imdb:
+      id: 8390536
     kitsu:
       id: 13983
     myanimelist:
@@ -1773,6 +1860,8 @@ sword-art-online-alternative-gun-gale-online:
       id: sword-art-online-alternative-gun-gale-online
     bangumi:
       id: 226750
+    crunchyroll:
+      id: sword-art-online-alternative-gun-gale-online
     douban:
       id: 27160681
     imdb:
@@ -1846,6 +1935,8 @@ tachibanakan-to-lie-triangle:
       id: 232165
     douban:
       id: 27605547
+    imdb:
+      id: 8795248
     kitsu:
       id: 41016
     myanimelist:
@@ -1906,6 +1997,8 @@ to-be-heroine:
     ja-jp: TO BE HEROINE
     zh-cn: 凸变英雄 LEAF
   sites:
+    amazon:
+      id: B0190TCE82
     anidb:
       id: 12939
     anikore:
@@ -1920,6 +2013,8 @@ to-be-heroine:
       id: 206924
     bilibili:
       id: 92572
+    crunchyroll:
+      id: to-be-heroine
     imdb:
       id: 2198675
     kitsu:
@@ -1940,14 +2035,20 @@ tokyo-ghoul-re:
     ja-jp: 東京喰種トーキョーグール：re
     zh-cn: 东京喰种:re
   sites:
+    amazon:
+      id: B07CZB95S8
     animenewsnetwork:
       id: 16318
+    animeplanet:
+      id: tokyo-ghoul-re
     bangumi:
       id: 148481
     bilibili:
       id: 78672
     douban:
       id: 30214032
+    imdb:
+      id: 8213522
     kitsu:
       id: 13929
     myanimelist:
@@ -1983,6 +2084,8 @@ uchuu-senkan-tiramisu:
       id: space-battleship-tiramisu
     douban:
       id: 27133023
+    imdb:
+      id: 8631252
     kitsu:
       id: 40875
     myanimelist:
@@ -2018,6 +2121,8 @@ uma-musume-pretty-derby-tv:
       id: umamusume-pretty-derby
     douban:
       id: 30203373
+    imdb:
+      id: 8253268
     kitsu:
       id: 13485
     myanimelist:
@@ -2044,6 +2149,8 @@ wakaokami-wa-shougakusei:
       id: 101277
     animenewsnetwork:
       id: 21112
+    animeplanet:
+      id: wakaokami-wa-shougakusei
     bangumi:
       id: 242483
     bilibili:

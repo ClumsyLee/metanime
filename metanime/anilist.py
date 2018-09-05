@@ -14,6 +14,7 @@ class AniList(Site):
     }
     MIN_RATING = 10
     MAX_RATING = 100
+    SEARCH_LOCALES = ['ja-jp', 'en-jp', 'en']
 
     def info_url(self, id):
         return f'{self.BASE_URL}/anime/{id}'

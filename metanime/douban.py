@@ -15,6 +15,7 @@ class Douban(Site):
     }
     MIN_RATING = 2
     MAX_RATING = 10
+    SEARCH_LOCALES = ['ja-jp', 'zh-cn']
 
     def info_url(self, id):
         return f'{self.BASE_URL}/subject/{id}'

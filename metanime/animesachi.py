@@ -14,6 +14,7 @@ class Animesachi(Site):
     }
     MIN_RATING = 0
     MAX_RATING = 100
+    SEARCH_LOCALES = ['ja-jp', 'en']
 
     def info_url(self, id):
         return f'{self.BASE_URL}/visitor/sakuhin_{id}.html'

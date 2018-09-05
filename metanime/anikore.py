@@ -12,6 +12,7 @@ class Anikore(Site):
     }
     MIN_RATING = 1
     MAX_RATING = 5
+    SEARCH_LOCALES = ['ja-jp', 'en']
 
     def info_url(self, id):
         return f'{self.BASE_URL}/anime/{id}'

@@ -13,6 +13,7 @@ class Bangumi(Site):
     }
     MIN_RATING = 1
     MAX_RATING = 10
+    SEARCH_LOCALES = ['ja-jp', 'zh-cn', 'en-jp', 'en']
 
     def info_url(self, id):
         return f'{self.BASE_URL}/subject/{id}'

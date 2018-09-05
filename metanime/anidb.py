@@ -12,6 +12,7 @@ class AniDB(Site):
     }
     MIN_RATING = 1  # See https://wiki.anidb.info/w/Votes.
     MAX_RATING = 10
+    SEARCH_LOCALES = ['ja-jp', 'en-jp', 'en']
 
     def info_url(self, id):
         return f'{self.BASE_URL}/perl-bin/animedb.pl?show=anime&aid={id}'
