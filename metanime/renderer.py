@@ -6,8 +6,8 @@ from .singleton import SITES
 
 I18NS = {
     'zh-cn': {
-        'navbar.current_season': '当季番剧',
-        'navbar.about': '关于',
+        'navbar.current_season': '七月番剧',
+        'navbar.previous_season': '四月番剧',
         'row.average': '平均',
     }
 }
