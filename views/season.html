@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% from 'row.html' import row %}
+
+{% block content %}
+  <div class="col-lg-7 col-md-9 col-sm-12 mx-auto my-4">
+
+    {% for r in rows %}
+    {{ row(r.name, r.url, rating=r.rating) }}
+    {% endfor %}
+
+    <div class="my-4"></div>
+
+    {% for r in other_rows %}
+    {{ row(r.name, r.url) }}
+    {% endfor %}
+
+  </div>
+{% endblock %}

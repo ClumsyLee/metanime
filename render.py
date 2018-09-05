@@ -4,14 +4,15 @@ import sys
 from metanime import Anime, Renderer
 
 
-def render(filename, input_dir, output_dir):
-    animes = Anime.load(filename)
-    renderer = Renderer(input_dir, output_dir)
+def render(season):
+    animes = Anime.load(f'seasons/{season}.yml')
+    renderer = Renderer('views', 'docs')
 
     for anime in animes:
         renderer.render_anime(anime)
+    renderer.render_season(season, animes)
 
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
-    render(f'seasons/{sys.argv[1]}.yml', 'views', 'docs')
+    render(sys.argv[1])

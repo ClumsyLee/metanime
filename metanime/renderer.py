@@ -29,6 +29,7 @@ class Renderer(object):
     """Renderer"""
 
     ANIME_TEMPLATE = 'anime.html'
+    SEASON_TEMPLATE = 'season.html'
 
     def __init__(self, input_dir, output_dir):
         self.input_dir = input_dir
@@ -36,6 +37,7 @@ class Renderer(object):
 
         self.env = Environment(loader=FileSystemLoader(input_dir))
         self.anime_template = self.env.get_template(self.ANIME_TEMPLATE)
+        self.season_template = self.env.get_template(self.SEASON_TEMPLATE)
 
     def render_anime(self, anime):
         rows = []
@@ -82,7 +84,7 @@ class Renderer(object):
 
         params = {
             'path': path,
-            'name': name,
+            'title': name,
             'subtitle': subtitle,
             'average_rating': average,
             'higher_rows': [row for row in rows
@@ -99,3 +101,34 @@ class Renderer(object):
 
         with open(self.output_dir + path + '.html', 'w') as fp:
             fp.write(self.anime_template.render(params))
+
+    def render_season(self, season, animes):
+        rows = []
+        other_rows = []
+
+        for anime in animes:
+            name = anime.name('zh-cn')
+            url = '/' + anime.slug
+            rating = anime.rating
+
+            if rating:
+                rows.append(Row(name, url, rating=rating))
+            else:
+                other_rows.append(Row(name, url))
+
+        rows.sort(key=lambda row: row.rating, reverse=True)
+        other_rows.sort(key=lambda row: row.name)
+
+        path = '/' + season
+        title = 'Season ' + season
+
+        params = {
+            'path': path,
+            'title': title,
+            'rows': rows,
+            'other_rows': other_rows,
+            'i18n': I18NS['zh-cn'],
+        }
+
+        with open(self.output_dir + path + '.html', 'w') as fp:
+            fp.write(self.season_template.render(params))

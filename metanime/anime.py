@@ -1,5 +1,6 @@
 from datetime import datetime
 import logging
+from statistics import mean
 import yaml
 
 from .singleton import SITES
@@ -38,6 +39,21 @@ class Anime(object):
         self.slug = slug
         self.names = names
         self.sites = sites
+
+    @property
+    def rating(self):
+        ratings = []
+
+        for site_id, info in self.sites.items():
+            if ((info is None or info.get('rating') is None or
+                 info.get('rating_count', 0) < 10)):
+                continue
+            ratings.append(SITES[site_id].unify_rating(info['rating']))
+
+        return mean(ratings) if ratings else None
+
+    def name(self, locale='ja-jp'):
+        return self.names.get(locale, self.names['ja-jp'])
 
     def update_info(self):
         self.update_names()
