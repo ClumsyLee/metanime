@@ -1,4 +1,5 @@
 import json
+import re
 
 from .site import main, Site
 
@@ -14,7 +15,7 @@ class IMDB(Site):
     }
     MIN_RATING = 1
     MAX_RATING = 10
-    SEARCH_LOCALES = ['en-jp']
+    SEARCH_LOCALES = ['en-jp', 'en']
 
     def info_url(self, id):
         return f'{self.BASE_URL}/title/tt{id}'
@@ -31,13 +32,15 @@ class IMDB(Site):
 
     def _search(self, name):
         params = {
-            'title': name,
-            'title_type': 'tv_series',
+            'q': name,
+            's': 'tt',
+            'ttype': 'tv',
         }
-        soup = self._get_soup(self.BASE_URL + '/search/title', params=params)
+        soup = self._get_soup(self.BASE_URL + '/find', params=params)
 
-        href = soup.find(class_='lister-item-header').find('a')['href']
-        id = int(href.split('/')[2].lstrip('tt'))
+        regex = re.compile(r'/title/tt(\d+)')
+        href = soup.find(class_='article').find('a', href=regex)['href']
+        id = int(regex.search(href).group(1))
 
         return id
 

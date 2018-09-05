@@ -21,6 +21,8 @@ aguu-tensai-ningyou:
       updated_at: '2018-09-04T22:27:41Z'
     animenewsnetwork:
       id: 20901
+    animeplanet:
+      id: aguu-tensai-ningyou
     bangumi:
       id: 242737
       rating: 5.6
@@ -144,6 +146,8 @@ ani-ni-tsukeru-kusuri-wa-nai-2:
       rating: 61
       rating_count: 111
       updated_at: '2018-09-04T22:28:11Z'
+    animeplanet:
+      id: ani-ni-tsukeru-kusuri-wa-nai-2
     bangumi:
       id: 210811
       rating: 6.6
@@ -154,6 +158,8 @@ ani-ni-tsukeru-kusuri-wa-nai-2:
       rating: 7.8
       rating_count: 3164
       updated_at: '2018-09-04T22:28:14Z'
+    imdb:
+      id: 8938030
     kitsu:
       id: 41331
     myanimelist:
@@ -676,6 +682,8 @@ chuukan-kanriroku-tonegawa:
       updated_at: '2018-09-04T22:29:42Z'
     animenewsnetwork:
       id: 20916
+    animeplanet:
+      id: mr-tonegawa-middle-management-blues
     bangumi:
       id: 237834
       rating: 6.6
@@ -748,6 +756,8 @@ cinderella-girls-gekijou-3rd-season:
       rating_count: 50
       updated_at: '2018-09-04T22:29:55Z'
     animenewsnetwork: null
+    animeplanet:
+      id: the-idolmaster-cinderella-girls-theater-3rd-season
     bangumi:
       id: 238087
       rating: 7
@@ -801,6 +811,8 @@ flcl-alternative:
       id: 21748
     animenewsnetwork:
       id: 19821
+    animeplanet:
+      id: flcl-alternative
     bangumi:
       id: 175398
       rating: 6.9
@@ -808,6 +820,8 @@ flcl-alternative:
       updated_at: '2018-09-04T22:30:07Z'
     douban:
       id: 27081132
+    imdb:
+      id: 7112162
     kitsu:
       id: 11962
       rating: 78.48
@@ -861,6 +875,8 @@ flcl-progressive:
       rating: 7.36799
       rating_count: 45
       updated_at: '2018-09-04T22:30:18Z'
+    animeplanet:
+      id: flcl-progressive
     bangumi:
       id: 175399
       rating: 6.5
@@ -885,6 +901,8 @@ flcl-progressive:
       updated_at: '2018-09-04T22:30:24Z'
     reddit:
       id: 8wz19z
+    saraba1st:
+      id: 1728991
     shikimori:
       id: 33010
       rating: 6.99
@@ -1614,6 +1632,8 @@ isekai-maou-to-shoukan-shoujo-no-dorei-majutsu:
       rating: 6.4
       rating_count: 253
       updated_at: '2018-09-04T22:32:43Z'
+    imdb:
+      id: 8438524
     kitsu:
       id: 41133
       rating: 74.26
@@ -1703,6 +1723,7 @@ island:
       rating: 7.324
       rating_count: 48
       updated_at: '2018-09-04T22:32:59Z'
+    saraba1st: null
     shikimori:
       id: 33012
       rating: 6.14
@@ -1763,6 +1784,8 @@ jashin-chan-dropkick:
       rating: 6.6
       rating_count: 257
       updated_at: '2018-09-04T22:33:07Z'
+    imdb:
+      id: 8400662
     kitsu:
       id: 41165
       rating: 63.47
@@ -1884,6 +1907,8 @@ lord-of-vermilion-guren-no-ou:
       updated_at: '2018-09-04T22:33:25Z'
     animenewsnetwork:
       id: 20807
+    animeplanet:
+      id: lord-of-vermilion-the-crimson-king
     bangumi:
       id: 241091
       rating: 3.1
@@ -2122,6 +2147,7 @@ ongaku-shoujo-tv:
       rating: 5.656666666666666
       rating_count: 4
       updated_at: '2018-09-04T22:34:03Z'
+    saraba1st: null
     shikimori:
       id: 37481
       rating: 5.58
@@ -2176,6 +2202,7 @@ overlord-iii:
       rating: 8.0
       rating_count: 1101
       updated_at: '2018-09-04T22:34:13Z'
+    imdb: null
     kitsu:
       id: 41174
       rating: 83.66
@@ -2226,6 +2253,8 @@ phantom-in-the-twilight:
       updated_at: '2018-09-04T22:34:22Z'
     animenewsnetwork:
       id: 20809
+    animeplanet:
+      id: phantom-in-the-twilight
     bangumi:
       id: 241264
       rating: 4.9
@@ -2298,6 +2327,8 @@ planet-with:
       rating: 6.95564
       rating_count: 14
       updated_at: '2018-09-04T22:34:34Z'
+    animeplanet:
+      id: planet-with
     bangumi:
       id: 241133
       rating: 6.9
@@ -2541,6 +2572,8 @@ shichisei-no-subaru:
       rating: 4.6
       rating_count: 80
       updated_at: '2018-09-04T22:35:16Z'
+    imdb:
+      id: 8343748
     kitsu:
       id: 40893
       rating: 63.71
@@ -2595,6 +2628,8 @@ shingeki-no-kyojin-3:
       rating: 7.95895
       rating_count: 13
       updated_at: '2018-09-04T22:35:25Z'
+    animeplanet:
+      id: attack-on-titan-3rd-season
     bangumi:
       id: 217300
       rating: 8.1
@@ -3265,6 +3300,7 @@ zoids-wild:
       updated_at: '2018-09-04T22:37:25Z'
     douban:
       id: 30157138
+    imdb: null
     kitsu:
       id: 41088
     myanimelist:
