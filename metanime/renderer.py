@@ -4,13 +4,33 @@ from jinja2 import Environment, FileSystemLoader
 from .singleton import SITES
 
 
+I18NS = {
+    'zh-cn': {
+        'navbar.current_season': '当季番剧',
+        'navbar.about': '关于',
+        'row.average': '平均',
+    }
+}
+
+
+class Row(object):
+    """Row"""
+
+    def __init__(self, name, url, caption='', rating=None,
+                 link_class='metanime'):
+        self.name = name
+        self.url = url
+        self.caption = caption
+        self.rating = rating
+        self.link_class = link_class
+
+
 class Renderer(object):
     """Renderer"""
 
     ANIME_TEMPLATE = 'anime.html'
 
-    def __init__(self, animes, input_dir, output_dir):
-        self.animes = animes
+    def __init__(self, input_dir, output_dir):
         self.input_dir = input_dir
         self.output_dir = output_dir
 
@@ -19,52 +39,63 @@ class Renderer(object):
 
     def render_anime(self, anime):
         rows = []
-        others = []
+        other_rows = []
 
         for site_id, info in anime.sites.items():
-            if info is None:
+            if info is None or info.get('id') is None:
                 continue
 
             site = SITES[site_id]
+            name = site.NAMES['zh-cn']
             url = site.info_url(info['id'])
 
             rating = info.get('rating')
             count = info.get('rating_count')
-            if rating is not None:
-                caption = f'{round(rating, 2)} ({count})'
-                if count >= 10:
-                    rating = site.unify_rating(rating)
-                    rows.append((site_id, url, caption, rating))
-                else:
-                    others.append((site_id, url, caption, ''))
-            else:
-                caption = ''
-                rating = ''
-                others.append((site_id, url, caption, rating))
 
-        average = mean(row[-1] for row in rows)
-        rows.sort(key=lambda row: row[-1], reverse=True)
-        others.sort(key=lambda row: row[0])
+            if rating is None:
+                other_rows.append(Row(name, url, link_class=site_id))
+            else:
+                caption = str(round(rating, 2))
+                if count is not None:
+                    caption += f' ({count})'
+
+                if count is not None and count >= 10:
+                    unified_rating = site.unify_rating(rating)
+                    rows.append(Row(name, url, caption=caption,
+                                    rating=unified_rating,
+                                    link_class=site_id))
+                else:
+                    other_rows.append(Row(name, url, caption=caption,
+                                          link_class=site_id))
+
+        average = mean(row.rating for row in rows) if rows else None
+        rows.sort(key=lambda row: row.rating, reverse=True)
+        other_rows.sort(key=lambda row: row.name)
+
+        path = '/' + anime.slug
+
+        name = anime.names.get('zh-cn')
+        subtitle = anime.names['ja-jp']
+        if name is None:
+            name = subtitle
+            subtitle = None
 
         params = {
-            'name': anime.names.get('zh-cn', anime.names['ja-jp']),
-            'subtitle': anime.names['ja-jp'],
+            'path': path,
+            'name': name,
+            'subtitle': subtitle,
             'average_rating': average,
-            'highers': [row for row in rows if average + 5 <= row[-1]],
-            'highs': [row for row in rows if average <= row[-1] < average + 5],
-            'lows': [row for row in rows if average - 5 < row[-1] < average],
-            'lowers': [row for row in rows if row[-1] <= average - 5],
-            'others': others,
-            'i18n': {
-                'navbar.current_season': '当季番剧',
-                'navbar.about': '关于',
-                'navbar.about': '关于',
-                'site_name.average': '平均',
-            },
+            'higher_rows': [row for row in rows
+                            if average + 5 <= row.rating],
+            'high_rows': [row for row in rows
+                          if average <= row.rating < average + 5],
+            'low_rows': [row for row in rows
+                         if average - 5 < row.rating < average],
+            'lowers_rows': [row for row in rows
+                            if row.rating <= average - 5],
+            'other_rows': other_rows,
+            'i18n': I18NS['zh-cn'],
         }
 
-        for site_id, site in SITES.items():
-            params['i18n']['site_name.' + site_id] = site.NAMES['zh-cn']
-
-        with open(f'{self.output_dir}/{anime.slug}.html', 'w') as fp:
+        with open(self.output_dir + path + '.html', 'w') as fp:
             fp.write(self.anime_template.render(params))

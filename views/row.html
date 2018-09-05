@@ -1,0 +1,10 @@
+{% macro row(name, url, caption='', rating=None, link_class='metanime', rating_class='', bold=false) -%}
+  <div class="row">
+    <div class="col-10">
+      <h2 class="tk-source-han-sans-simplified-c {{ 'ultra-light' if not bold }}"><a href="{{ url }}" class="{{ link_class }}">{{ name }}<span class="ml-1 caption"> {{ caption }}</span></a></h2>
+    </div>
+    <div class="col-2">
+      <h2 class="text-right tk-source-han-sans-simplified-c {{ 'ultra-light' if not bold }} {{ rating_class }}">{{ rating|round|int if rating is number }}</h2>
+    </div>
+  </div>
+{%- endmacro %}

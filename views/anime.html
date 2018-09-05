@@ -1,4 +1,5 @@
 {% extends "layout.html" %}
+{% from 'row.html' import row %}
 
 {% block content %}
   <div class="header py-4 text-center">
@@ -8,75 +9,33 @@
 
   <div class="col-lg-7 col-md-9 col-sm-12 mx-auto mb-4">
 
-    {% for site_id, url, caption, rating in highers %}
-    <div class="row">
-      <div class="col-10">
-        <h2 class="tk-source-han-sans-simplified-c ultra-light"><a href="{{ url }}" class="{{ site_id }}">{{ i18n['site_name.' + site_id] }}<span class="ml-1 caption"> {{ caption }}</span></a></h2>
-      </div>
-      <div class="col-2">
-        <h2 class="text-right tk-source-han-sans-simplified-c ultra-light high-rating">{{ rating }}</h2>
-      </div>
-    </div>
+    {% for r in higher_rows %}
+    {{ row(r.name, r.url, caption=r.caption, rating=r.rating, link_class=r.link_class, rating_class='high-rating') }}
     {% endfor %}
 
     <hr class="my-1">
 
-
-    {% for site_id, url, caption, rating in highs %}
-    <div class="row">
-      <div class="col-10">
-        <h2 class="tk-source-han-sans-simplified-c ultra-light"><a href="{{ url }}" class="{{ site_id }}">{{ i18n['site_name.' + site_id] }}<span class="ml-1 caption"> {{ caption }}</span></a></h2>
-      </div>
-      <div class="col-2">
-        <h2 class="text-right tk-source-han-sans-simplified-c ultra-light">{{ rating }}</h2>
-      </div>
-    </div>
+    {% for r in high_rows %}
+    {{ row(r.name, r.url, caption=r.caption, rating=r.rating, link_class=r.link_class) }}
     {% endfor %}
 
-    <div class="row">
-      <div class="col-10">
-        <h2 class="tk-source-han-sans-simplified-c">{{ i18n['site_name.average'] }}</h2>
-      </div>
-      <div class="col-2">
-        <h2 class="text-right tk-source-han-sans-simplified-c">{{ average_rating }}</h2>
-      </div>
-    </div>
+    {{ row(i18n['row.average'], path, rating=average_rating, bold=True) }}
 
-    {% for site_id, url, caption, rating in lows %}
-    <div class="row">
-      <div class="col-10">
-        <h2 class="tk-source-han-sans-simplified-c ultra-light"><a href="{{ url }}" class="{{ site_id }}">{{ i18n['site_name.' + site_id] }}<span class="ml-1 caption"> {{ caption }}</span></a></h2>
-      </div>
-      <div class="col-2">
-        <h2 class="text-right tk-source-han-sans-simplified-c ultra-light">{{ rating }}</h2>
-      </div>
-    </div>
+    {% for r in low_rows %}
+    {{ row(r.name, r.url, caption=r.caption, rating=r.rating, link_class=r.link_class) }}
     {% endfor %}
 
     <hr class="my-1">
 
-    {% for site_id, url, caption, rating in lowers %}
-    <div class="row">
-      <div class="col-10">
-        <h2 class="tk-source-han-sans-simplified-c ultra-light"><a href="{{ url }}" class="{{ site_id }}">{{ i18n['site_name.' + site_id] }}<span class="ml-1 caption"> {{ caption }}</span></a></h2>
-      </div>
-      <div class="col-2">
-        <h2 class="text-right tk-source-han-sans-simplified-c ultra-light low-rating">{{ rating }}</h2>
-      </div>
-    </div>
+    {% for r in lowers_rows %}
+    {{ row(r.name, r.url, caption=r.caption, rating=r.rating, link_class=r.link_class, rating_class='low-rating') }}
     {% endfor %}
 
     <div class="my-4"></div>
 
-    {% for site_id, url, caption, rating in others %}
-    <div class="row">
-      <div class="col-10">
-        <h2 class="tk-source-han-sans-simplified-c ultra-light"><a href="{{ url }}" class="{{ site_id }}">{{ i18n['site_name.' + site_id] }}<span class="ml-1 caption"> {{ caption }}</span></a></h2>
-      </div>
-      <div class="col-2">
-        <h2 class="text-right tk-source-han-sans-simplified-c ultra-light"></h2>
-      </div>
-    </div>
+    {% for r in other_rows %}
+    {{ row(r.name, r.url, caption=r.caption, rating=r.rating, link_class=r.link_class) }}
     {% endfor %}
+
   </div>
 {% endblock %}
