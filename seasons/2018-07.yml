@@ -146,6 +146,7 @@ ani-ni-tsukeru-kusuri-wa-nai-2:
       rating: 61
       rating_count: 111
       updated_at: '2018-09-04T22:28:11Z'
+    animenewsnetwork: null
     animeplanet:
       id: ani-ni-tsukeru-kusuri-wa-nai-2
     bangumi:
@@ -321,6 +322,8 @@ asobi-asobase:
       rating: 8.21
       rating_count: 14
       updated_at: '2018-09-04T22:28:42Z'
+    worldart:
+      id: 9551
 back-street-girls:
   names:
     en-jp: Back Street Girls
@@ -388,6 +391,8 @@ back-street-girls:
       rating: 7.24
       rating_count: 51
       updated_at: '2018-09-04T22:28:54Z'
+    worldart:
+      id: 9501
 baki-ona:
   names:
     en-jp: Baki
@@ -455,6 +460,8 @@ baki-ona:
       rating: 8.69
       rating_count: 160
       updated_at: '2018-09-04T22:29:03Z'
+    worldart:
+      id: 9043
 banana-fish:
   names:
     en-jp: Banana Fish
@@ -515,11 +522,15 @@ banana-fish:
       rating: 8.813333333333334
       rating_count: 79
       updated_at: '2018-09-04T22:29:13Z'
+    shikimori:
+      id: 36649
     shinden:
       id: 52111
       rating: 8.67
       rating_count: 301
       updated_at: '2018-09-04T22:29:14Z'
+    worldart:
+      id: 9446
 bang-dream-garupa-pico:
   names:
     en-jp: BanG Dream! Garupa☆Pico
@@ -796,6 +807,8 @@ cinderella-girls-gekijou-3rd-season:
       rating: 8.0
       rating_count: 1
       updated_at: '2018-09-04T22:30:04Z'
+    worldart:
+      id: 9612
 flcl-alternative:
   names:
     en: 'FLCL: Alternative'
@@ -1742,6 +1755,8 @@ island:
       rating: 7.9
       rating_count: 129
       updated_at: '2018-09-04T22:33:00Z'
+    worldart:
+      id: 8731
 jashin-chan-dropkick:
   names:
     en: Dropkick On My Devil!!
@@ -1954,6 +1969,8 @@ lord-of-vermilion-guren-no-ou:
       rating: 7.62
       rating_count: 40
       updated_at: '2018-09-04T22:33:32Z'
+    worldart:
+      id: 9644
 muhyo-to-rouji-no-mahouritsu-soudan-jimusho:
   names:
     en: Muhyo & Roji's Bureau of Supernatural Investigation
@@ -2166,6 +2183,8 @@ ongaku-shoujo-tv:
       rating: 7.67
       rating_count: 3
       updated_at: '2018-09-04T22:34:03Z'
+    worldart:
+      id: 9621
 overlord-iii:
   names:
     en: Overlord III
@@ -3116,6 +3135,8 @@ yami-shibai-6th-season:
       updated_at: '2018-09-04T22:37:01Z'
     animenewsnetwork:
       id: 20937
+    animeplanet:
+      id: yamishibai-japanese-ghost-stories-6th-season
     bangumi:
       id: 250117
       rating: 6
@@ -3153,6 +3174,8 @@ yami-shibai-6th-season:
       rating: 6.5
       rating_count: 8
       updated_at: '2018-09-04T22:37:07Z'
+    worldart:
+      id: 9697
 yume-oukoku-to-nemureru-100-nin-no-ouji-sama:
   names:
     en: 100 Sleeping Princes & The Kingdom of Dreams
@@ -3215,6 +3238,8 @@ yume-oukoku-to-nemureru-100-nin-no-ouji-sama:
       rating_count: 103
       updated_at: '2018-09-04T22:37:14Z'
     shinden: null
+    worldart:
+      id: 9236
 yuragi-sou-no-yuuna-san:
   names:
     en: Yuuna and the Haunted Hot Springs
@@ -3281,6 +3306,8 @@ yuragi-sou-no-yuuna-san:
       rating: 8.27
       rating_count: 244
       updated_at: '2018-09-04T22:37:22Z'
+    worldart:
+      id: 9509
 zoids-wild:
   names:
     en-jp: Zoids Wild
@@ -3328,5 +3355,7 @@ zoids-wild:
       rating: 5.73
       rating_count: 24
       updated_at: '2018-09-04T22:37:28Z'
+    shinden:
+      id: 53806
     worldart:
       id: 9586

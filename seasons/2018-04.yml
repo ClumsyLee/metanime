@@ -2116,10 +2116,10 @@ tokyo-ghoul-re:
   sites:
     amazon:
       id: B07CZB95S8
-    anikore:
-      id: 11365
     anidb:
       id: 14059
+    anikore:
+      id: 11365
     anilist:
       id: 100240
     animenewsnetwork:

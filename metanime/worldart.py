@@ -39,9 +39,15 @@ class WorldArt(Site):
         }
         soup = self._get_soup(self.BASE_URL + '/search.php', params=params)
 
-        regex = re.compile(r'/animation/animation\.php\?id=(\d+)')
-        content = soup.find('meta', content=regex)['content']
-        id = int(regex.search(content).group(1))
+        regex = re.compile(r'animation/animation\.php\?id=(\d+)')
+
+        # Detect whether we were redirected.
+        meta = soup.find('meta', content=regex)
+        if meta:
+            url_str = meta['content']
+        else:
+            url_str = soup.find('a', href=regex)['href']
+        id = int(regex.search(url_str).group(1))
 
         return id
 
