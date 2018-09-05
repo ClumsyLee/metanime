@@ -4,7 +4,8 @@ import sys
 from metanime import Anime
 
 
-def update_ratings(filename):
+def update_ratings(season):
+    filename = f'seasons/{season}.yml'
     animes = Anime.load(filename)
 
     for anime in animes:
