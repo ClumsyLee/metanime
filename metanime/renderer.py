@@ -82,7 +82,7 @@ class Renderer(object):
         subtitle = anime.names['ja-jp']
         if name is None:
             name = subtitle
-            subtitle = None
+            subtitle = ''
 
         higher_rows = [row for row in rows
                        if average + self.LOCAL_MARGIN <= row.rating]
