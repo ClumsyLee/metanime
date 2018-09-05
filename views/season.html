@@ -2,10 +2,28 @@
 {% from 'row.html' import row %}
 
 {% block content %}
-  <div class="col-lg-7 col-md-9 col-sm-12 mx-auto my-4">
+  <div class="col-lg-8 col-md-12 mx-auto my-4">
 
-    {% for r in rows %}
+    {% for r in higher_rows %}
+    {{ row(r.name, r.url, rating=r.rating, rating_class='high-rating') }}
+    {% endfor %}
+
+    <hr class="my-1">
+
+    {% for r in high_rows %}
     {{ row(r.name, r.url, rating=r.rating) }}
+    {% endfor %}
+
+    {{ row(i18n['row.average'], path, rating=average_rating, bold=True) }}
+
+    {% for r in low_rows %}
+    {{ row(r.name, r.url, rating=r.rating) }}
+    {% endfor %}
+
+    <hr class="my-1">
+
+    {% for r in lowers_rows %}
+    {{ row(r.name, r.url, rating=r.rating, rating_class='low-rating') }}
     {% endfor %}
 
     <div class="my-4"></div>

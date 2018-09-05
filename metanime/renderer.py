@@ -31,6 +31,9 @@ class Renderer(object):
     ANIME_TEMPLATE = 'anime.html'
     SEASON_TEMPLATE = 'season.html'
 
+    LOCAL_MARGIN = 5
+    GLOBAL_MARGIN = 10
+
     def __init__(self, input_dir, output_dir):
         self.input_dir = input_dir
         self.output_dir = output_dir
@@ -75,26 +78,29 @@ class Renderer(object):
         other_rows.sort(key=lambda row: row.name)
 
         path = '/' + anime.slug
-
         name = anime.names.get('zh-cn')
         subtitle = anime.names['ja-jp']
         if name is None:
             name = subtitle
             subtitle = None
 
+        higher_rows = [row for row in rows
+                       if average + self.LOCAL_MARGIN <= row.rating]
+        high_rows = [row for row in rows
+                     if average <= row.rating < average + self.LOCAL_MARGIN]
+        low_rows = [row for row in rows
+                    if average - self.LOCAL_MARGIN < row.rating < average]
+        lowers_rows = [row for row in rows
+                       if row.rating <= average - self.LOCAL_MARGIN]
         params = {
             'path': path,
             'title': name,
             'subtitle': subtitle,
             'average_rating': average,
-            'higher_rows': [row for row in rows
-                            if average + 5 <= row.rating],
-            'high_rows': [row for row in rows
-                          if average <= row.rating < average + 5],
-            'low_rows': [row for row in rows
-                         if average - 5 < row.rating < average],
-            'lowers_rows': [row for row in rows
-                            if row.rating <= average - 5],
+            'higher_rows': higher_rows,
+            'high_rows': high_rows,
+            'low_rows': low_rows,
+            'lowers_rows': lowers_rows,
             'other_rows': other_rows,
             'i18n': I18NS['zh-cn'],
         }
@@ -116,16 +122,30 @@ class Renderer(object):
             else:
                 other_rows.append(Row(name, url))
 
+        average = mean(row.rating for row in rows) if rows else None
         rows.sort(key=lambda row: row.rating, reverse=True)
         other_rows.sort(key=lambda row: row.name)
 
         path = '/' + season
         title = 'Season ' + season
 
+        higher_rows = [row for row in rows
+                       if average + self.GLOBAL_MARGIN <= row.rating]
+        high_rows = [row for row in rows
+                     if average <= row.rating < average + self.GLOBAL_MARGIN]
+        low_rows = [row for row in rows
+                    if average - self.GLOBAL_MARGIN < row.rating < average]
+        lowers_rows = [row for row in rows
+                       if row.rating <= average - self.GLOBAL_MARGIN]
+
         params = {
             'path': path,
             'title': title,
-            'rows': rows,
+            'average_rating': average,
+            'higher_rows': higher_rows,
+            'high_rows': high_rows,
+            'low_rows': low_rows,
+            'lowers_rows': lowers_rows,
             'other_rows': other_rows,
             'i18n': I18NS['zh-cn'],
         }
