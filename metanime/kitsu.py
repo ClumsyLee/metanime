@@ -22,6 +22,10 @@ class Kitsu(Site):
         url = f'{self.API_BASE_URL}/anime/{id}'
         return self._get_json(url)['data']
 
+    def _get_anime_by_slug(self, slug):
+        url = f'{self.API_BASE_URL}/anime'
+        return self._get_json(url, params={'filter[slug]': slug})['data'][0]
+
     def _get_rating(self, id):
         attrs = self._get_anime(id)['attributes']
 
@@ -41,10 +45,11 @@ class Kitsu(Site):
 
         return int(anime['id'])
 
+    def search_by_slug(self, slug):
+        return int(self._get_anime_by_slug(slug)['id'])
+
     def get_names(self, slug):
-        anime = self._get_json(f'{self.API_BASE_URL}/anime',
-                               params={'filter[slug]': slug})['data'][0]
-        titles = anime['attributes']['titles']
+        titles = self._get_anime_by_slug(slug)['attributes']['titles']
 
         return {local.replace('_', '-'): title
                 for local, title in titles.items()}

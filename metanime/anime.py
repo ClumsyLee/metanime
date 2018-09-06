@@ -80,7 +80,11 @@ class Anime(object):
                 continue
 
             logging.info('%s...', site_id)
-            id = site.search(self.names)
+
+            if site_id == 'kitsu':
+                id = site.search_by_slug(self.slug)  # Ensures 1-to-1 mappings.
+            else:
+                id = site.search(self.names)
 
             if id is not None:
                 if ((self.sites.get(site_id) and
