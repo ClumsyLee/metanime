@@ -3089,7 +3089,7 @@ megalo-box:
       rating_count: 3730
       updated_at: '2018-09-06T05:38:23Z'
     myanimelist:
-      id: 37703
+      id: 36563
     nga:
       id: 14329502
       rating: 8.560975609756097
@@ -4006,10 +4006,7 @@ sword-art-online-alternative-gun-gale-online:
       rating_count: 3645
       updated_at: '2018-09-06T05:40:33Z'
     myanimelist:
-      id: 37831
-      rating: 6.42
-      rating_count: 5697
-      updated_at: '2018-09-06T05:40:33Z'
+      id: 36475
     nga:
       id: 14350160
       rating: 8.204545454545455
