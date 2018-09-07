@@ -6,9 +6,9 @@ class Saraba1st(Site):
 
     BASE_URL = 'https://bbs.saraba1st.com'
     NAMES = {
-        'en': 'Saraba1st',
-        'ja-jp': 'Saraba1st',
-        'zh-cn': 'Saraba1st',
+        'en': 'Stage1st',
+        'ja-jp': 'Stage1st',
+        'zh-cn': 'Stage1st',
     }
     MIN_RATING = -2
     MAX_RATING = 2
