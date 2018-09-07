@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -e
+
+SEASONS="
+    2018-04
+    2018-07
+"
+
+for season in $SEASONS; do
+    python3 update_ratings.py $season
+    python3 render.py $season
+done
+
+git add docs seasons
+git commit -m 'Update ratings'
+git push
