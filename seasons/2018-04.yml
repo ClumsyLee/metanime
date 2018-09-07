@@ -526,6 +526,8 @@ butlers-chitose-momotose-monogatari:
       rating: 4.376
       rating_count: 362
       updated_at: '2018-09-06T07:35:07Z'
+    bangumi:
+      id: 225819
     bilibili:
       id: 77532
       rating: 7.1
@@ -2464,6 +2466,8 @@ last-period:
       updated_at: '2018-09-06T07:40:33Z'
     reddit:
       id: 8uasu3
+    saraba1st:
+      id: 1718901
     shikimori:
       id: 37254
       rating: 6.61
@@ -3939,7 +3943,7 @@ steins-gate-0:
       rating_count: 47870
       updated_at: '2018-09-06T07:44:12Z'
     reddit:
-      id: 99fp4v
+      id: 9d8u11
     shikimori:
       id: 30484
       rating: 8.91

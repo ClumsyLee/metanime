@@ -527,10 +527,7 @@ banana-fish:
       rating_count: 10369
       updated_at: '2018-09-06T07:47:49Z'
     reddit:
-      id: 9blhjb
-      rating: 8.813333333333334
-      rating_count: 80
-      updated_at: '2018-09-06T07:47:52Z'
+      id: 9dkyg3
     shikimori:
       id: 36649
       rating: 7.97
@@ -607,6 +604,8 @@ chio-chan-no-tsuugakuro:
     ja-jp: ちおちゃんの通学路
     zh-cn: 千绪的通学路
   sites:
+    amazon:
+      id: B07G9LQN9D
     anidb:
       id: 13250
       rating: 6.05
@@ -1015,10 +1014,7 @@ free-dive-to-the-future:
       rating_count: 4215
       updated_at: '2018-09-06T07:49:04Z'
     reddit:
-      id: 9bak2t
-      rating: 8.49
-      rating_count: 17
-      updated_at: '2018-09-06T07:49:05Z'
+      id: 9d7zcq
     shikimori:
       id: 36704
       rating: 7.86
@@ -1280,6 +1276,8 @@ harukana-receive:
     ja-jp: はるかなレシーブ
     zh-cn: 遥的接球
   sites:
+    amazon:
+      id: B07GBGVGKX
     anidb:
       id: 13296
       rating: 4.36
@@ -1635,6 +1633,8 @@ isekai-maou-to-shoukan-shoujo-no-dorei-majutsu:
     ja-jp: 異世界魔王と召喚少女の奴隷魔術
     zh-cn: 异世界魔王与召唤少女的奴隶魔术
   sites:
+    amazon:
+      id: B07G9MV71R
     anidb:
       id: 13757
       rating: 5.3
@@ -1696,10 +1696,7 @@ isekai-maou-to-shoukan-shoujo-no-dorei-majutsu:
       rating_count: 23938
       updated_at: '2018-09-06T07:50:55Z'
     reddit:
-      id: 9bjo8n
-      rating: 7.96
-      rating_count: 100
-      updated_at: '2018-09-06T07:50:57Z'
+      id: 9dinzm
     shikimori:
       id: 37210
       rating: 7.42
@@ -3294,10 +3291,7 @@ yume-oukoku-to-nemureru-100-nin-no-ouji-sama:
       rating_count: 993
       updated_at: '2018-09-06T07:54:49Z'
     reddit:
-      id: 9bkdju
-      rating: 2.352222222222222
-      rating_count: 2
-      updated_at: '2018-09-06T07:54:50Z'
+      id: 9djg9p
     shikimori:
       id: 33966
       rating: 5.67
@@ -3347,6 +3341,8 @@ yuragi-sou-no-yuuna-san:
       updated_at: '2018-09-06T07:54:55Z'
     douban:
       id: 27186656
+    imdb:
+      id: 8948304
     kitsu:
       id: 14090
       rating: 70.02
