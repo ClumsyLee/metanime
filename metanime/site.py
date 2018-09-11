@@ -1,3 +1,5 @@
+import logging
+
 from bs4 import BeautifulSoup
 from xml.etree import ElementTree
 import requests
@@ -74,6 +76,8 @@ class Site(object):
 
 
 def main(site, names):
+    logging.basicConfig(level=logging.DEBUG)
+
     id = site.search(names)
     if id is None:
         return

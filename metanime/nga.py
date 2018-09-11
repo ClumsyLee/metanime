@@ -6,7 +6,7 @@ from .site import main, Site
 class NGA(Site):
     """ngacn.cc"""
 
-    BASE_URL = 'https://bbs.ngacn.cc'
+    BASE_URL = 'https://bbs.nga.cn'
     NAMES = {
         'en': 'NGA',
         'ja-jp': 'NGA',
