@@ -120,7 +120,7 @@ aikatsu-friends:
       rating_count: 575
       updated_at: '2018-10-01T23:41:54Z'
     reddit:
-      id: 9cdtas
+      id: 9khbo8
     shikimori:
       id: 37204
       rating: 7.15
@@ -197,7 +197,7 @@ akkun-to-kanojo:
       rating_count: 10254
       updated_at: '2018-10-01T23:42:10Z'
     reddit:
-      id: 9bubrr
+      id: 9hqti3
     shikimori:
       id: 36864
       rating: 6.85
@@ -484,7 +484,7 @@ boku-no-hero-academia-3rd-season:
       rating_count: 125545
       updated_at: '2018-10-01T23:43:06Z'
     reddit:
-      id: 9c1u7t
+      id: 9jv9bu
     shikimori:
       id: 36456
       rating: 8.84
@@ -725,7 +725,7 @@ captain-tsubasa-2018:
       rating_count: 7711
       updated_at: '2018-10-01T23:43:51Z'
     reddit:
-      id: 9cx8zy
+      id: 9it8ly
     shikimori:
       id: 36934
       rating: 7.57
@@ -1232,7 +1232,7 @@ emiya-san-chi-no-kyou-no-gohan:
       rating_count: 8274
       updated_at: '2018-10-01T23:45:38Z'
     reddit:
-      id: 9c2w9u
+      id: 9kg4gx
     shikimori:
       id: 37033
       rating: 7.69
@@ -1488,7 +1488,7 @@ gegege-no-kitarou-2018:
       rating_count: 4449
       updated_at: '2018-10-01T23:46:36Z'
     reddit:
-      id: 9c8u6k
+      id: 9k2qup
     shikimori:
       id: 37140
       rating: 6.79
@@ -1733,7 +1733,7 @@ gundam-build-divers:
       rating_count: 2385
       updated_at: '2018-10-01T23:47:43Z'
     reddit:
-      id: 9cu9ad
+      id: 9iqu9f
     shikimori:
       id: 37245
       rating: 6.35
@@ -2164,6 +2164,7 @@ hoozuki-no-reitetsu-2nd-season-sono-ni:
       updated_at: '2018-10-01T23:49:59Z'
 isekai-izakaya-nobu:
   names:
+    en: 'Isekai Izakaya: Japanese Food from Another World'
     en-jp: 'Isekai Izakaya: Koto Aitheria no Izakaya Nobu'
     ja-jp: 異世界居酒屋～古都アイテーリアの居酒屋のぶ～
     zh-cn: 异世界居酒屋～古都阿伊特力亚的居酒屋「阿信」
@@ -2203,6 +2204,8 @@ isekai-izakaya-nobu:
       rating: 8.9
       rating_count: 1243
       updated_at: '2018-10-01T23:50:05Z'
+    crunchyroll:
+      id: isekai-izakaya-japanese-food-from-another-world
     douban:
       id: 26934286
       rating: 6.7
@@ -2224,7 +2227,7 @@ isekai-izakaya-nobu:
       rating_count: 2746
       updated_at: '2018-10-01T23:50:07Z'
     reddit:
-      id: 9bq0qb
+      id: 9foj3r
     shikimori:
       id: 34420
       rating: 7.14
@@ -2242,6 +2245,7 @@ isekai-izakaya-nobu:
       updated_at: '2018-10-01T23:50:13Z'
 juushinki-pandora:
   names:
+    en: Last Hope
     en-jp: Juushinki Pandora
     ja-jp: 重神機パンドーラ
     zh-cn: 重神机潘多拉
@@ -2294,7 +2298,7 @@ juushinki-pandora:
       rating_count: 1076
       updated_at: '2018-10-01T23:50:20Z'
     reddit:
-      id: 99qvam
+      id: 9k9sfl
     shikimori:
       id: 33531
       rating: 6.24
@@ -2373,7 +2377,7 @@ kakuriyo-no-yadomeshi:
       rating_count: 8757
       updated_at: '2018-10-01T23:50:34Z'
     reddit:
-      id: 9cly4l
+      id: 9iif3f
     shikimori:
       id: 36754
       rating: 7.29
@@ -2570,7 +2574,7 @@ layton-mystery-tanteisha-katri-no-nazotoki-file:
       rating_count: 1263
       updated_at: '2018-10-01T23:51:16Z'
     reddit:
-      id: 9cbgu6
+      id: 9jw8x3
     shikimori:
       id: 37023
       rating: 7.01
@@ -2798,7 +2802,9 @@ lupin-iii-part-v:
       rating_count: 3079
       updated_at: '2018-10-01T23:52:04Z'
     reddit:
-      id: 9cyf03
+      id: 9gxgkg
+    saraba1st:
+      id: 1762273
     shikimori:
       id: 35857
       rating: 8.17
@@ -3059,7 +3065,7 @@ major-2nd:
       rating_count: 2973
       updated_at: '2018-10-01T23:52:51Z'
     reddit:
-      id: 9c29t6
+      id: 9hyvvn
     shikimori:
       id: 36565
       rating: 7.71
@@ -3298,7 +3304,7 @@ nobunaga-no-shinobi-anegawa-ishiyama-hen:
       rating_count: 1054
       updated_at: '2018-10-01T23:53:36Z'
     reddit:
-      id: 9bvxqf
+      id: 9jpbwf
     shikimori:
       id: 37126
       rating: 6.95
@@ -3516,7 +3522,7 @@ persona-5-the-animation:
       rating_count: 13020
       updated_at: '2018-10-01T23:54:20Z'
     reddit:
-      id: 9c4ntx
+      id: 9jylog
     shikimori:
       id: 36023
       rating: 6.94
@@ -4000,7 +4006,7 @@ steins-gate-0:
       rating_count: 55814
       updated_at: '2018-10-01T23:56:04Z'
     reddit:
-      id: 9d8u11
+      id: 9j4mlg
     shikimori:
       id: 30484
       rating: 8.87
@@ -4494,6 +4500,8 @@ tokyo-ghoul-re:
       rating: 5.133333333333334
       rating_count: 15
       updated_at: '2018-10-01T23:57:55Z'
+    reddit:
+      id: 8s9jzy
     saraba1st:
       id: 1715827
       rating: -0.5

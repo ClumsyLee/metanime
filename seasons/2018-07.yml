@@ -46,10 +46,7 @@ aguu-tensai-ningyou:
       rating_count: 512
       updated_at: '2018-10-01T23:59:36Z'
     reddit:
-      id: 9canmy
-      rating: 6.0625
-      rating_count: 3
-      updated_at: '2018-10-01T23:59:39Z'
+      id: 9k27f4
     shikimori:
       id: 37769
       rating: 5.56
@@ -125,10 +122,7 @@ angolmois-genkou-kassenki:
       rating_count: 7595
       updated_at: '2018-10-01T23:59:58Z'
     reddit:
-      id: 9cxvah
-      rating: 7.278888888888889
-      rating_count: 12
-      updated_at: '2018-10-02T00:00:02Z'
+      id: 9iu8xx
     shikimori:
       id: 35834
       rating: 7.2
@@ -196,10 +190,7 @@ ani-ni-tsukeru-kusuri-wa-nai-2:
       rating_count: 1040
       updated_at: '2018-10-02T00:00:19Z'
     reddit:
-      id: 9co2zx
-      rating: 6.4
-      rating_count: 3
-      updated_at: '2018-10-02T00:00:21Z'
+      id: 9kl3a5
     shikimori:
       id: 37924
       rating: 7.32
@@ -280,6 +271,7 @@ aru-zombie-shoujo-no-sainan:
       updated_at: '2018-10-02T00:00:37Z'
 asobi-asobase:
   names:
+    en: Asobi Asobase -workshop of fun-
     en-jp: Asobi Asobase
     ja-jp: あそびあそばせ
     zh-cn: 来玩游戏吧
@@ -338,10 +330,7 @@ asobi-asobase:
     myanimelist:
       id: 38002
     reddit:
-      id: 9cc316
-      rating: 8.947777777777778
-      rating_count: 106
-      updated_at: '2018-10-02T00:00:54Z'
+      id: 9i8ej5
     shikimori:
       id: 37171
       rating: 8.21
@@ -359,6 +348,7 @@ asobi-asobase:
       updated_at: '2018-10-02T00:01:00Z'
 back-street-girls:
   names:
+    en: Back Street Girls
     en-jp: Back Street Girls
     ja-jp: バック ストリート ガールズ
     zh-cn: 后街女孩
@@ -413,10 +403,7 @@ back-street-girls:
       rating_count: 7040
       updated_at: '2018-10-02T00:01:11Z'
     reddit:
-      id: 9c2myv
-      rating: 6.54375
-      rating_count: 18
-      updated_at: '2018-10-02T00:01:14Z'
+      id: 9gdfjj
     shikimori:
       id: 36873
       rating: 6.73
@@ -485,10 +472,7 @@ baki-ona:
       rating_count: 3919
       updated_at: '2018-10-02T00:01:26Z'
     reddit:
-      id: 9cjrl7
-      rating: 6.485
-      rating_count: 6
-      updated_at: '2018-10-02T00:01:29Z'
+      id: 9ke8tg
     shikimori:
       id: 34443
       rating: 7.66
@@ -503,6 +487,7 @@ baki-ona:
       id: 9043
 banana-fish:
   names:
+    en: Banana Fish
     en-jp: Banana Fish
     ja-jp: バナナフィッシュ
     zh-cn: 战栗杀机
@@ -560,10 +545,7 @@ banana-fish:
       rating_count: 13051
       updated_at: '2018-10-02T00:01:46Z'
     reddit:
-      id: 9dkyg3
-      rating: 8.89
-      rating_count: 83
-      updated_at: '2018-10-02T00:01:50Z'
+      id: 9hhjbr
     shikimori:
       id: 36649
       rating: 8.06
@@ -609,6 +591,8 @@ bang-dream-garupa-pico:
       rating: 7
       rating_count: 66
       updated_at: '2018-10-02T00:01:59Z'
+    bilibili:
+      id: 135252
     douban:
       id: 30222878
     kitsu:
@@ -703,10 +687,7 @@ chio-chan-no-tsuugakuro:
       rating_count: 13650
       updated_at: '2018-10-02T00:02:27Z'
     reddit:
-      id: 9bu3jm
-      rating: 8.182222222222222
-      rating_count: 40
-      updated_at: '2018-10-02T00:02:30Z'
+      id: 9hqi2u
     shikimori:
       id: 35821
       rating: 7.47
@@ -787,10 +768,7 @@ chuukan-kanriroku-tonegawa:
       rating_count: 2595
       updated_at: '2018-10-02T00:02:47Z'
     reddit:
-      id: 9cyo9t
-      rating: 7.787
-      rating_count: 11
-      updated_at: '2018-10-02T00:02:50Z'
+      id: 9gxptc
     shikimori:
       id: 37338
       rating: 6.48
@@ -849,10 +827,7 @@ cinderella-girls-gekijou-3rd-season:
       rating_count: 590
       updated_at: '2018-10-02T00:03:04Z'
     reddit:
-      id: 9ayooc
-      rating: 2.3
-      rating_count: 1
-      updated_at: '2018-10-02T00:03:07Z'
+      id: 9irv2k
     shikimori:
       id: 37422
       rating: 6.59
@@ -872,6 +847,8 @@ flcl-alternative:
     ja-jp: フリクリ オルタナ
     zh-cn: FLCL Alternative
   sites:
+    amazon:
+      id: B07H7C1LWT
     anidb:
       id: 13258
       rating: 3.96
@@ -917,7 +894,7 @@ flcl-alternative:
       rating_count: 1716
       updated_at: '2018-10-02T00:03:21Z'
     reddit:
-      id: 8o69ge
+      id: 9k38v1
     shikimori:
       id: 35842
       rating: 7.18
@@ -1010,6 +987,7 @@ flcl-progressive:
       updated_at: '2018-10-02T00:03:56Z'
 free-dive-to-the-future:
   names:
+    en: Free! Dive to the Future
     en-jp: 'Free!: Dive to the Future'
     ja-jp: Free!-Dive to the Future-
     zh-cn: Free! 第三季
@@ -1065,10 +1043,7 @@ free-dive-to-the-future:
       rating_count: 7378
       updated_at: '2018-10-02T00:04:04Z'
     reddit:
-      id: 9d7zcq
-      rating: 8.568888888888889
-      rating_count: 18
-      updated_at: '2018-10-02T00:04:08Z'
+      id: 9j3t17
     shikimori:
       id: 36704
       rating: 7.83
@@ -1152,10 +1127,7 @@ grand-blue:
       rating_count: 27535
       updated_at: '2018-10-02T00:04:27Z'
     reddit:
-      id: 9bvvwv
-      rating: 8.4225
-      rating_count: 134
-      updated_at: '2018-10-02T00:04:32Z'
+      id: 9jp9fn
     shikimori:
       id: 37105
       rating: 8.25
@@ -1241,10 +1213,7 @@ hanebado:
       rating_count: 12912
       updated_at: '2018-10-02T00:04:55Z'
     reddit:
-      id: 9cd4xc
-      rating: 7.893
-      rating_count: 112
-      updated_at: '2018-10-02T00:05:00Z'
+      id: 9k7g3v
     shikimori:
       id: 37259
       rating: 7.31
@@ -1322,10 +1291,7 @@ happy-sugar-life:
       rating_count: 13936
       updated_at: '2018-10-02T00:05:17Z'
     reddit:
-      id: 9bvn4h
-      rating: 8.178749999999999
-      rating_count: 50
-      updated_at: '2018-10-02T00:05:20Z'
+      id: 9jp08k
     shikimori:
       id: 37517
       rating: 7.16
@@ -1406,10 +1372,9 @@ harukana-receive:
       rating_count: 144
       updated_at: '2018-10-02T00:05:39Z'
     reddit:
-      id: 9btnbc
-      rating: 7.731111111111111
-      rating_count: 37
-      updated_at: '2018-10-02T00:05:43Z'
+      id: 9hpwii
+    saraba1st:
+      id: 1765601
     shikimori:
       id: 35983
       rating: 6.89
@@ -1474,10 +1439,7 @@ hataraku-onii-san-2:
       rating_count: 502
       updated_at: '2018-10-02T00:05:55Z'
     reddit:
-      id: 9btr5n
-      rating: 8.203333333333333
-      rating_count: 2
-      updated_at: '2018-10-02T00:05:59Z'
+      id: 9hq1b8
     shikimori:
       id: 37646
       rating: 6.28
@@ -1558,10 +1520,7 @@ hataraku-saibou-tv:
       rating_count: 30336
       updated_at: '2018-10-02T00:06:12Z'
     reddit:
-      id: 9c4ffy
-      rating: 8.586666666666666
-      rating_count: 120
-      updated_at: '2018-10-02T00:06:15Z'
+      id: 9jycl5
     shikimori:
       id: 37141
       rating: 7.81
@@ -1579,6 +1538,7 @@ hataraku-saibou-tv:
       updated_at: '2018-10-02T00:06:21Z'
 high-score-girl:
   names:
+    en: High Score Girl
     en-jp: High Score Girl
     ja-jp: ハイスコアガール
     zh-cn: 高分少女
@@ -1629,10 +1589,9 @@ high-score-girl:
       rating_count: 5051
       updated_at: '2018-10-02T00:06:26Z'
     reddit:
-      id: 9cdyit
-      rating: 8.661249999999999
-      rating_count: 47
-      updated_at: '2018-10-02T00:06:29Z'
+      id: 9jswab
+    saraba1st:
+      id: 1770224
     shikimori:
       id: 21877
       rating: 7.89
@@ -1712,10 +1671,7 @@ hyakuren-no-haou-to-seiyaku-no-valkyria:
       rating_count: 13501
       updated_at: '2018-10-02T00:06:42Z'
     reddit:
-      id: 9c4o06
-      rating: 4.642222222222222
-      rating_count: 14
-      updated_at: '2018-10-02T00:06:45Z'
+      id: 9i18d1
     shikimori:
       id: 37446
       rating: 5.98
@@ -1804,10 +1760,7 @@ isekai-maou-to-shoukan-shoujo-no-dorei-majutsu:
       rating_count: 51437
       updated_at: '2018-10-02T00:07:05Z'
     reddit:
-      id: 9dinzm
-      rating: 8.074
-      rating_count: 107
-      updated_at: '2018-10-02T00:07:09Z'
+      id: 9hfciu
     shikimori:
       id: 37210
       rating: 7.36
@@ -1825,6 +1778,7 @@ isekai-maou-to-shoukan-shoujo-no-dorei-majutsu:
       updated_at: '2018-10-02T00:07:16Z'
 island:
   names:
+    en: Island
     en-jp: Island
     ja-jp: ISLAND
   sites:
@@ -1890,10 +1844,7 @@ island:
       rating_count: 14024
       updated_at: '2018-10-02T00:07:29Z'
     reddit:
-      id: 9ccg7s
-      rating: 7.404
-      rating_count: 50
-      updated_at: '2018-10-02T00:07:33Z'
+      id: 9gazhx
     saraba1st: null
     shikimori:
       id: 33012
@@ -1979,10 +1930,7 @@ jashin-chan-dropkick:
       rating_count: 7454
       updated_at: '2018-10-02T00:07:57Z'
     reddit:
-      id: 9clb01
-      rating: 6.6066666666666665
-      rating_count: 18
-      updated_at: '2018-10-02T00:07:59Z'
+      id: 9kg4zz
     shikimori:
       id: 36906
       rating: 6.85
@@ -2056,10 +2004,7 @@ kyoto-teramachi-sanjou-no-holmes:
       rating_count: 5556
       updated_at: '2018-10-02T00:08:14Z'
     reddit:
-      id: 9co0gy
-      rating: 6.493333333333333
-      rating_count: 8
-      updated_at: '2018-10-02T00:08:17Z'
+      id: 9ikkj0
     shikimori:
       id: 37458
       rating: 6.83
@@ -2077,6 +2022,7 @@ kyoto-teramachi-sanjou-no-holmes:
       updated_at: '2018-10-02T00:08:22Z'
 lord-of-vermilion-guren-no-ou:
   names:
+    en: 'Lord of Vermilion: The Crimson King'
     en-jp: 'Lord of Vermilion: Guren no Ou'
     ja-jp: ロード オブ ヴァーミリオン　紅蓮の王
     zh-cn: LORD of VERMILION 红莲之王
@@ -2113,6 +2059,8 @@ lord-of-vermilion-guren-no-ou:
       rating: 4.7
       rating_count: 1568
       updated_at: '2018-10-02T00:08:29Z'
+    crunchyroll:
+      id: lord-of-vermilion-the-crimson-king
     douban:
       id: 30177687
       rating: 4.5
@@ -2129,10 +2077,7 @@ lord-of-vermilion-guren-no-ou:
       rating_count: 2182
       updated_at: '2018-10-02T00:08:32Z'
     reddit:
-      id: 9bvo04
-      rating: 3.81
-      rating_count: 4
-      updated_at: '2018-10-02T00:08:37Z'
+      id: 9jp2a2
     shikimori:
       id: 37601
       rating: 5.53
@@ -2200,10 +2145,7 @@ muhyo-to-rouji-no-mahouritsu-soudan-jimusho:
       rating_count: 1947
       updated_at: '2018-10-02T00:09:01Z'
     reddit:
-      id: 9btwft
-      rating: 6.072
-      rating_count: 7
-      updated_at: '2018-10-02T00:09:03Z'
+      id: 9jn7kn
     shikimori:
       id: 37487
       rating: 6.41
@@ -2218,6 +2160,7 @@ muhyo-to-rouji-no-mahouritsu-soudan-jimusho:
       id: 9623
 one-room-2nd-season:
   names:
+    en: One Room 2
     en-jp: 'One Room: Second Season'
     ja-jp: One Room セカンドシーズン
     zh-cn: One Room 第二季
@@ -2270,10 +2213,9 @@ one-room-2nd-season:
       rating_count: 3416
       updated_at: '2018-10-02T00:09:19Z'
     reddit:
-      id: 9cnkra
-      rating: 6.12
-      rating_count: 5
-      updated_at: '2018-10-02T00:09:23Z'
+      id: 9ik5df
+    saraba1st:
+      id: 1767451
     shikimori:
       id: 36431
       rating: 6.28
@@ -2351,10 +2293,7 @@ ongaku-shoujo-tv:
       rating_count: 1480
       updated_at: '2018-10-02T00:09:45Z'
     reddit:
-      id: 9c4wdq
-      rating: 5.656666666666666
-      rating_count: 4
-      updated_at: '2018-10-02T00:09:49Z'
+      id: 9i1hhz
     saraba1st: null
     shikimori:
       id: 37481
@@ -2430,10 +2369,7 @@ overlord-iii:
       rating_count: 36420
       updated_at: '2018-10-02T00:10:05Z'
     reddit:
-      id: 9cw5q4
-      rating: 8.231111111111112
-      rating_count: 266
-      updated_at: '2018-10-02T00:10:10Z'
+      id: 9iuacj
     shikimori:
       id: 37675
       rating: 8.37
@@ -2448,6 +2384,7 @@ overlord-iii:
       id: 9667
 phantom-in-the-twilight:
   names:
+    en: Phantom in the Twilight
     en-jp: Phantom in the Twilight
     ja-jp: ファントム イン ザ トワイライト
     zh-cn: 暮光幻影
@@ -2510,10 +2447,7 @@ phantom-in-the-twilight:
       rating_count: 3121
       updated_at: '2018-10-02T00:10:34Z'
     reddit:
-      id: 9cmxe0
-      rating: 5.283333333333333
-      rating_count: 4
-      updated_at: '2018-10-02T00:10:37Z'
+      id: 9ijhiu
     shikimori:
       id: 37598
       rating: 6.21
@@ -2593,10 +2527,9 @@ planet-with:
       rating_count: 7082
       updated_at: '2018-10-02T00:10:55Z'
     reddit:
-      id: 9cchc3
-      rating: 8.503333333333334
-      rating_count: 43
-      updated_at: '2018-10-02T00:11:01Z'
+      id: 9i8s9s
+    saraba1st:
+      id: 1766070
     shikimori:
       id: 37578
       rating: 7.5
@@ -2681,10 +2614,7 @@ satsuriku-no-tenshi:
       rating_count: 26988
       updated_at: '2018-10-02T00:11:20Z'
     reddit:
-      id: 9btei1
-      rating: 7.484444444444445
-      rating_count: 64
-      updated_at: '2018-10-02T00:11:25Z'
+      id: 9hpnnk
     shikimori:
       id: 35994
       rating: 6.99
@@ -2757,10 +2687,7 @@ senjuushi:
       rating_count: 730
       updated_at: '2018-10-02T00:11:49Z'
     reddit:
-      id: 9aznrf
-      rating: 1.7066666666666666
-      rating_count: 4
-      updated_at: '2018-10-02T00:11:55Z'
+      id: 9isvxk
     shikimori:
       id: 37571
       rating: 4.14
@@ -2778,11 +2705,15 @@ senjuushi:
       updated_at: '2018-10-02T00:12:01Z'
 shichisei-no-subaru:
   names:
+    en: Seven Senses of the Re'Union
     en-jp: Shichisei no Subaru
     en-us: Seven Senses of the Reunion
     ja-jp: 七星のスバル
+    ko-kr: 칠성의 스바루
     zh-cn: 昴宿七星
   sites:
+    amazon:
+      id: B07F8H985N
     anidb:
       id: 13439
       rating: 3.66
@@ -2839,10 +2770,7 @@ shichisei-no-subaru:
       rating_count: 11955
       updated_at: '2018-10-02T00:12:15Z'
     reddit:
-      id: 9blf1n
-      rating: 5.507777777777778
-      rating_count: 26
-      updated_at: '2018-10-02T00:12:20Z'
+      id: 9hh0gy
     shikimori:
       id: 36316
       rating: 6.24
@@ -2911,10 +2839,7 @@ shingeki-no-kyojin-3:
       rating_count: 46071
       updated_at: '2018-10-02T00:12:33Z'
     reddit:
-      id: 9ce4fa
-      rating: 8.937142857142856
-      rating_count: 328
-      updated_at: '2018-10-02T00:12:37Z'
+      id: 9iafiq
     shikimori:
       id: 35760
       rating: 8.65
@@ -2978,10 +2903,7 @@ shinya-tensai-bakabon:
     myanimelist:
       id: 38001
     reddit:
-      id: 9cy6at
-      rating: 6.8933333333333335
-      rating_count: 3
-      updated_at: '2018-10-02T00:12:58Z'
+      id: 9iuklg
     shikimori:
       id: 37662
       rating: 5.98
@@ -3057,10 +2979,7 @@ shoujo-kageki-revue-starlight:
       rating_count: 3662
       updated_at: '2018-10-02T00:13:15Z'
     reddit:
-      id: 9c2vow
-      rating: 8.95
-      rating_count: 67
-      updated_at: '2018-10-02T00:13:18Z'
+      id: 9jw3kz
     shikimori:
       id: 35503
       rating: 7.59
@@ -3078,6 +2997,7 @@ shoujo-kageki-revue-starlight:
       updated_at: '2018-10-02T00:13:23Z'
 sirius-the-jaeger:
   names:
+    en: Sirius the Jaeger
     en-jp: 'Tenrou: Sirius the Jaeger'
     ja-jp: 天狼 Sirius the Jaeger
   sites:
@@ -3118,6 +3038,8 @@ sirius-the-jaeger:
       rating: 7.8
       rating_count: 1846
       updated_at: '2018-10-02T00:13:31Z'
+    imdb:
+      id: 8565136
     kitsu:
       id: 41091
       rating: 75.94
@@ -3129,10 +3051,7 @@ sirius-the-jaeger:
       rating_count: 7300
       updated_at: '2018-10-02T00:13:32Z'
     reddit:
-      id: 9c4xjg
-      rating: 7.61
-      rating_count: 17
-      updated_at: '2018-10-02T00:13:35Z'
+      id: 9ildpz
     shikimori:
       id: 37569
       rating: 7.52
@@ -3207,10 +3126,7 @@ sunoharasou-no-kanrinin-san:
       rating_count: 7823
       updated_at: '2018-10-02T00:13:49Z'
     reddit:
-      id: 9c3ppu
-      rating: 7.03
-      rating_count: 12
-      updated_at: '2018-10-02T00:13:52Z'
+      id: 9i7eu2
     shikimori:
       id: 36817
       rating: 7.04
@@ -3288,10 +3204,7 @@ tsukumogami-kashimasu:
       rating_count: 1116
       updated_at: '2018-10-02T00:14:17Z'
     reddit:
-      id: 9cdzpx
-      rating: 6.441428571428571
-      rating_count: 4
-      updated_at: '2018-10-02T00:14:20Z'
+      id: 9iaan1
     shikimori:
       id: 36654
       rating: 6.25
@@ -3362,10 +3275,9 @@ yama-no-susume-3rd-season:
       rating_count: 2036
       updated_at: '2018-10-02T00:14:35Z'
     reddit:
-      id: 9co8d5
-      rating: 8.956
-      rating_count: 11
-      updated_at: '2018-10-02T00:14:38Z'
+      id: 9ikss3
+    saraba1st:
+      id: 1767456
     shikimori:
       id: 35672
       rating: 7.48
@@ -3436,10 +3348,7 @@ yami-shibai-6th-season:
       rating_count: 1204
       updated_at: '2018-10-02T00:14:55Z'
     reddit:
-      id: 9bx5cq
-      rating: 3.4433333333333334
-      rating_count: 2
-      updated_at: '2018-10-02T00:14:58Z'
+      id: 9jqjzg
     shikimori:
       id: 37893
       rating: 6.1
@@ -3507,10 +3416,7 @@ yume-oukoku-to-nemureru-100-nin-no-ouji-sama:
       rating_count: 1176
       updated_at: '2018-10-02T00:15:11Z'
     reddit:
-      id: 9djg9p
-      rating: 4.9879999999999995
-      rating_count: 3
-      updated_at: '2018-10-02T00:15:14Z'
+      id: 9hg0il
     shikimori:
       id: 33966
       rating: 5.96
@@ -3582,10 +3488,7 @@ yuragi-sou-no-yuuna-san:
       rating_count: 10598
       updated_at: '2018-10-02T00:15:34Z'
     reddit:
-      id: 9c46yi
-      rating: 7.1075
-      rating_count: 17
-      updated_at: '2018-10-02T00:15:37Z'
+      id: 9jy3ih
     shikimori:
       id: 36726
       rating: 7.18
@@ -3639,10 +3542,7 @@ zoids-wild:
       rating_count: 303
       updated_at: '2018-10-02T00:15:53Z'
     reddit:
-      id: 98c7tg
-      rating: 3.2616666666666667
-      rating_count: 2
-      updated_at: '2018-10-02T00:15:54Z'
+      id: 9hbtpn
     shikimori:
       id: 37395
       rating: 5.75
