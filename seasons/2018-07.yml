@@ -340,6 +340,11 @@ asobi-asobase:
       rating: 9.025833333333333
       rating_count: 110
       updated_at: '2018-10-02T05:45:04Z'
+    saraba1st:
+      id: 1766053
+      rating: 1.8373983739837398
+      rating_count: 123
+      updated_at: '2018-10-02T07:03:41Z'
     shikimori:
       id: 37171
       rating: 8.21
@@ -709,6 +714,11 @@ chio-chan-no-tsuugakuro:
       rating: 8.245
       rating_count: 35
       updated_at: '2018-10-02T05:46:33Z'
+    saraba1st:
+      id: 1765300
+      rating: 0.8
+      rating_count: 55
+      updated_at: '2018-10-02T07:03:43Z'
     shikimori:
       id: 35821
       rating: 7.47
@@ -1005,7 +1015,7 @@ flcl-progressive:
       id: 1728991
       rating: 0.0
       rating_count: 7
-      updated_at: '2018-10-02T05:47:36Z'
+      updated_at: '2018-10-02T07:03:45Z'
     shikimori:
       id: 33010
       rating: 6.92
@@ -1170,6 +1180,11 @@ grand-blue:
       rating: 8.576666666666666
       rating_count: 117
       updated_at: '2018-10-02T05:48:07Z'
+    saraba1st:
+      id: 1770236
+      rating: 0.9302325581395349
+      rating_count: 43
+      updated_at: '2018-10-02T07:03:47Z'
     shikimori:
       id: 37105
       rating: 8.25
@@ -1259,6 +1274,11 @@ hanebado:
       rating: 7.881538461538462
       rating_count: 105
       updated_at: '2018-10-02T05:48:27Z'
+    saraba1st:
+      id: 1771135
+      rating: -1.2307692307692308
+      rating_count: 39
+      updated_at: '2018-10-02T07:03:48Z'
     shikimori:
       id: 37259
       rating: 7.31
@@ -1340,6 +1360,11 @@ happy-sugar-life:
       rating: 8.466666666666667
       rating_count: 63
       updated_at: '2018-10-02T05:48:43Z'
+    saraba1st:
+      id: 1770234
+      rating: 1.0588235294117647
+      rating_count: 17
+      updated_at: '2018-10-02T07:03:48Z'
     shikimori:
       id: 37517
       rating: 7.16
@@ -1428,7 +1453,7 @@ harukana-receive:
       id: 1765601
       rating: 0.90625
       rating_count: 32
-      updated_at: '2018-10-02T05:49:06Z'
+      updated_at: '2018-10-02T07:03:50Z'
     shikimori:
       id: 35983
       rating: 6.89
@@ -1658,9 +1683,9 @@ high-score-girl:
       updated_at: '2018-10-02T05:49:53Z'
     saraba1st:
       id: 1770224
-      rating: 1.8518518518518519
-      rating_count: 81
-      updated_at: '2018-10-02T05:49:54Z'
+      rating: 1.853658536585366
+      rating_count: 82
+      updated_at: '2018-10-02T07:03:53Z'
     shikimori:
       id: 21877
       rating: 7.89
@@ -2089,6 +2114,11 @@ kyoto-teramachi-sanjou-no-holmes:
       rating: 6.748333333333333
       rating_count: 7
       updated_at: '2018-10-02T05:51:24Z'
+    saraba1st:
+      id: 1770229
+      rating: 0.0
+      rating_count: 2
+      updated_at: '2018-10-02T07:03:56Z'
     shikimori:
       id: 37458
       rating: 6.75
@@ -2314,7 +2344,7 @@ one-room-2nd-season:
       id: 1767451
       rating: 0.8571428571428571
       rating_count: 14
-      updated_at: '2018-10-02T05:52:07Z'
+      updated_at: '2018-10-02T07:03:58Z'
     shikimori:
       id: 36431
       rating: 6.28
@@ -2641,9 +2671,9 @@ planet-with:
       updated_at: '2018-10-02T05:53:18Z'
     saraba1st:
       id: 1766070
-      rating: 0.660377358490566
-      rating_count: 53
-      updated_at: '2018-10-02T05:53:21Z'
+      rating: 0.6666666666666666
+      rating_count: 54
+      updated_at: '2018-10-02T07:03:59Z'
     shikimori:
       id: 37578
       rating: 7.5
@@ -3036,6 +3066,11 @@ shinya-tensai-bakabon:
       rating: 6.9475
       rating_count: 3
       updated_at: '2018-10-02T05:54:46Z'
+    saraba1st:
+      id: 1767259
+      rating: 1.7142857142857142
+      rating_count: 14
+      updated_at: '2018-10-02T07:04:01Z'
     shikimori:
       id: 37662
       rating: 5.98
@@ -3115,6 +3150,11 @@ shoujo-kageki-revue-starlight:
       rating: 9.0675
       rating_count: 66
       updated_at: '2018-10-02T05:55:06Z'
+    saraba1st:
+      id: 1768997
+      rating: 1.5349794238683128
+      rating_count: 243
+      updated_at: '2018-10-02T07:04:03Z'
     shikimori:
       id: 35503
       rating: 7.59
@@ -3193,6 +3233,11 @@ sirius-the-jaeger:
       rating: 7.510909090909091
       rating_count: 14
       updated_at: '2018-10-02T05:55:25Z'
+    saraba1st:
+      id: 1770232
+      rating: -0.3673469387755102
+      rating_count: 49
+      updated_at: '2018-10-02T07:04:04Z'
     shikimori:
       id: 37569
       rating: 7.52
@@ -3430,7 +3475,7 @@ yama-no-susume-3rd-season:
       id: 1767456
       rating: 1.8823529411764706
       rating_count: 34
-      updated_at: '2018-10-02T05:56:13Z'
+      updated_at: '2018-10-02T07:04:05Z'
     shikimori:
       id: 35672
       rating: 7.51

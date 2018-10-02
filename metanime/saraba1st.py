@@ -1,3 +1,5 @@
+from time import sleep, time
+
 from .site import main, Site
 
 
@@ -13,10 +15,12 @@ class Saraba1st(Site):
     MIN_RATING = -2
     MAX_RATING = 2
     SEARCH_LOCALES = ['ja-jp', 'zh-cn']
+    MIN_SEARCH_INTERVAL = 11
 
     def __init__(self):
         super().__init__()
         self._formhash = None
+        self._last_search_epoch = 0
 
     def info_url(self, id):
         return f'{self.BASE_URL}/2b/thread-{id}-1-1.html'
@@ -42,6 +46,11 @@ class Saraba1st(Site):
                                   '/2b/search.php?mod=forum&adv=yes')
             self._formhash = soup.find('input',
                                        attrs={'name': 'formhash'})['value']
+
+        delay = self._last_search_epoch + self.MIN_SEARCH_INTERVAL - time()
+        if delay > 0:
+            sleep(delay)
+        self._last_search_epoch = time()
 
         data = {
             'formhash': self._formhash,
