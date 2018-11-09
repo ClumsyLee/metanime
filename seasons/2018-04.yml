@@ -448,6 +448,8 @@ boku-no-hero-academia-3rd-season:
       rating: 8.25
       rating_count: 571
       updated_at: '2018-10-11T06:22:33Z'
+    anikore:
+      id: 11495
     anilist:
       id: 100166
       rating: 85
@@ -458,6 +460,8 @@ boku-no-hero-academia-3rd-season:
       rating: 8.44478
       rating_count: 128
       updated_at: '2018-10-11T06:22:34Z'
+    animeplanet:
+      id: my-hero-academia-3
     bangumi:
       id: 226677
       rating: 7.6
@@ -2074,6 +2078,8 @@ hisone-to-masotan:
       rating: 7.5
       rating_count: 6
       updated_at: '2018-10-11T06:29:54Z'
+    reddit:
+      id: 8vc8uu
     saraba1st:
       id: 1718945
       rating: 0.9753086419753086
@@ -2150,6 +2156,8 @@ hoozuki-no-reitetsu-2nd-season-sono-ni:
       rating: 7.8
       rating_count: 3877
       updated_at: '2018-10-11T06:30:17Z'
+    reddit:
+      id: 8v3f07
     shikimori:
       id: 37029
       rating: 7.8
@@ -3614,6 +3622,8 @@ piano-no-mori-tv:
       rating: 7.4
       rating_count: 7853
       updated_at: '2018-10-11T06:36:22Z'
+    reddit:
+      id: 8x98e2
     saraba1st:
       id: 1720456
       rating: 0.45454545454545453

@@ -300,6 +300,8 @@ gaikotsu-shotenin-honda-san:
   sites:
     anidb:
       id: 13440
+    anikore:
+      id: 11838
     anilist:
       id: 100093
     animenewsnetwork:
@@ -409,6 +411,8 @@ golden-kamuy-2:
   sites:
     anidb:
       id: 14185
+    anikore:
+      id: 11842
     anilist:
       id: 102977
     animenewsnetwork:
@@ -431,6 +435,8 @@ golden-kamuy-2:
       id: 37989
     shinden:
       id: 53753
+    worldart:
+      id: 9744
 gurazeni-season-2:
   names:
     en: 'Gurazeni: Money Pitch 2'
@@ -1318,6 +1324,8 @@ senran-kagura-2:
       id: 21370
     animeplanet:
       id: senran-kagura-shinovi-master
+    bangumi:
+      id: 221190
     douban:
       id: 27107626
     kitsu:
@@ -1331,6 +1339,8 @@ senran-kagura-2:
       id: 36037
     shinden:
       id: 53997
+    worldart:
+      id: 9784
 sono-toki-kanojo-wa:
   names:
     en: She's in love.
@@ -1600,6 +1610,8 @@ tokyo-ghoul-re-2nd-season:
   sites:
     anidb:
       id: 14059
+    anikore:
+      id: 11847
     anilist:
       id: 102351
     animenewsnetwork:
