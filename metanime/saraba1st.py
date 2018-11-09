@@ -12,7 +12,7 @@ class Saraba1st(Site):
     }
     MIN_RATING = -2
     MAX_RATING = 2
-    MIN_SEARCH_INTERVAL = 11
+    MIN_ACTION_INTERVAL = 11
     SEARCH_LOCALES = ['ja-jp', 'zh-cn']
 
     def __init__(self):

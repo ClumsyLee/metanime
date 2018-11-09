@@ -19,13 +19,13 @@ class Site(object):
     MIN_RATING = None
     MAX_RATING = None
     DYNAMIC_ID = False
-    MIN_SEARCH_INTERVAL = 0
+    MIN_ACTION_INTERVAL = 0
     SEARCH_LOCALES = ['ja-jp']
 
     def __init__(self):
         self.session = requests.Session()
         self.session.headers['User-Agent'] = USER_AGENT
-        self._last_search_epoch = 0
+        self._last_action_epoch = 0
 
     def _get(self, url, **kws):
         return self.session.get(url, **kws)
@@ -48,12 +48,19 @@ class Site(object):
     def _get_xml(self, url, **kws):
         return ElementTree.fromstring(self._get(url, **kws).content)
 
+    def _sleep_if_needed(self):
+        delay = self._last_action_epoch + self.MIN_ACTION_INTERVAL - time()
+        if delay > 0:
+            sleep(delay)
+        self._last_action_epoch = time()
+
     def unify_rating(self, rating):
         return ((rating - self.MIN_RATING) /
                 (self.MAX_RATING - self.MIN_RATING) * 100)
 
     def get_rating(self, id):
         try:
+            self._sleep_if_needed()
             return self._get_rating(id)
         except Exception:
             return None, None
@@ -61,12 +68,7 @@ class Site(object):
     def search(self, names):
         for locale in self.SEARCH_LOCALES:
             if locale in names:
-                delay = (self._last_search_epoch + self.MIN_SEARCH_INTERVAL -
-                         time())
-                if delay > 0:
-                    sleep(delay)
-                self._last_search_epoch = time()
-
+                self._sleep_if_needed()
                 try:
                     return self._search(names[locale])
                 except Exception:
