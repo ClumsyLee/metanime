@@ -409,6 +409,8 @@ golden-kamuy-2:
     ja-jp: ゴールデンカムイ 2
     zh-cn: 黄金神威 第二季
   sites:
+    amazon:
+      id: B07K2DGF73
     anidb:
       id: 14185
     anikore:

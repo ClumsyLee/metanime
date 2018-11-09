@@ -120,7 +120,7 @@ aikatsu-friends:
       rating_count: 580
       updated_at: '2018-10-11T06:21:24Z'
     reddit:
-      id: 9khbo8
+      id: 9ufi7x
     shikimori:
       id: 37204
       rating: 7.16
@@ -729,7 +729,7 @@ captain-tsubasa-2018:
       rating_count: 7869
       updated_at: '2018-10-11T06:23:29Z'
     reddit:
-      id: 9it8ly
+      id: 9v1ley
     shikimori:
       id: 36934
       rating: 7.56
@@ -1236,7 +1236,7 @@ emiya-san-chi-no-kyou-no-gohan:
       rating_count: 8452
       updated_at: '2018-10-11T06:26:10Z'
     reddit:
-      id: 9kg4gx
+      id: 9t96sd
     shikimori:
       id: 37033
       rating: 7.72
@@ -1492,7 +1492,7 @@ gegege-no-kitarou-2018:
       rating_count: 4545
       updated_at: '2018-10-11T06:27:21Z'
     reddit:
-      id: 9k2qup
+      id: 9u04bu
     shikimori:
       id: 37140
       rating: 6.78
@@ -1595,6 +1595,8 @@ golden-kamuy:
     ja-jp: ゴールデンカムイ
     zh-cn: 黄金神威
   sites:
+    amazon:
+      id: B07JQSM1KS
     anidb:
       id: 13337
       rating: 7.06
@@ -2301,6 +2303,8 @@ juushinki-pandora:
       rating: 4.4
       rating_count: 406
       updated_at: '2018-10-11T06:30:51Z'
+    imdb:
+      id: 8893554
     kitsu:
       id: 12297
       rating: 62.7
@@ -2312,7 +2316,7 @@ juushinki-pandora:
       rating_count: 1245
       updated_at: '2018-10-11T06:30:52Z'
     reddit:
-      id: 9k9sfl
+      id: 9nv7yx
     shikimori:
       id: 33531
       rating: 6.27
@@ -2335,6 +2339,8 @@ kakuriyo-no-yadomeshi:
     ja-jp: かくりよの宿飯
     zh-cn: 妖怪旅馆营业中
   sites:
+    amazon:
+      id: B07GNXYGVN
     anidb:
       id: 13564
       rating: 4.68
@@ -2588,7 +2594,7 @@ layton-mystery-tanteisha-katri-no-nazotoki-file:
       rating_count: 1289
       updated_at: '2018-10-11T06:31:59Z'
     reddit:
-      id: 9jw8x3
+      id: 9v27sw
     shikimori:
       id: 37023
       rating: 7.01
@@ -3246,6 +3252,8 @@ nil-admirari-no-tenbin-teito-genwaku-kitan:
       rating: 6.0
       rating_count: 255
       updated_at: '2018-10-11T06:34:42Z'
+    imdb:
+      id: 9162914
     kitsu:
       id: 12762
       rating: 64.7
@@ -3275,6 +3283,7 @@ nil-admirari-no-tenbin-teito-genwaku-kitan:
       updated_at: '2018-10-11T06:34:48Z'
 nobunaga-no-shinobi-anegawa-ishiyama-hen:
   names:
+    en: 'Ninja Girl & Samurai Master: Anegawa and Ishiyama Arc'
     en-jp: 'Nobunaga no Shinobi: Anegawa Ishiyama-hen'
     ja-jp: 信長の忍び~姉川・石山篇~
     zh-cn: 信长的忍者 姊川·石山篇
@@ -4277,7 +4286,7 @@ tachibanakan-to-lie-triangle:
       rating_count: 10398
       updated_at: '2018-10-11T06:38:45Z'
     reddit:
-      id: 8lblso
+      id: 8saj4b
     shikimori:
       id: 36943
       rating: 5.56
