@@ -7,31 +7,64 @@ akanesasu-shoujo:
   sites:
     anidb:
       id: 13956
+      rating: 4.0
+      rating_count: 58
+      updated_at: '2018-11-09T10:52:37Z'
     anikore:
       id: 11814
+      rating: 3.0
+      rating_count: 55
+      updated_at: '2018-11-09T10:52:38Z'
     anilist:
       id: 101360
+      rating: 55
+      rating_count: 423
+      updated_at: '2018-11-09T10:52:39Z'
     animenewsnetwork:
       id: 20780
     animeplanet:
       id: the-girl-in-twilight
+      rating: 4.922
+      rating_count: 173
+      updated_at: '2018-11-09T10:52:40Z'
     bangumi:
       id: 241033
+      rating: 6.4
+      rating_count: 178
+      updated_at: '2018-11-09T10:52:40Z'
     bilibili: null
     douban:
       id: 30177689
     imdb:
       id: 9073902
+      rating: 6.9
+      rating_count: 7
+      updated_at: '2018-11-09T10:52:44Z'
     kitsu:
       id: 41943
+      rating: 66.18
+      rating_count: 100
+      updated_at: '2018-11-09T10:52:44Z'
     myanimelist:
       id: 37561
+      rating: 6.13
+      rating_count: 2399
+      updated_at: '2018-11-09T10:52:45Z'
     reddit:
       id: 9ucrsd
+      rating: 7.223333333333334
+      rating_count: 21
+      updated_at: '2018-11-09T10:52:46Z'
     shikimori:
       id: 37561
+      rating: 6.13
+      rating_count: 178
+      updated_at: '2018-11-09T10:52:47Z'
     shinden:
       id: 53975
+      rating: 7.44
+      rating_count: 16
+      updated_at: '2018-11-09T10:52:49Z'
     worldart:
       id: 9642
 anima-yell:
@@ -43,33 +76,69 @@ anima-yell:
   sites:
     anidb:
       id: 13756
+      rating: 3.98
+      rating_count: 33
+      updated_at: '2018-11-09T10:52:52Z'
     anikore:
       id: 11801
+      rating: 3.3
+      rating_count: 40
+      updated_at: '2018-11-09T10:52:53Z'
     anilist:
       id: 101013
+      rating: 62
+      rating_count: 386
+      updated_at: '2018-11-09T10:52:53Z'
     animenewsnetwork:
       id: 21227
     animeplanet:
       id: anima-yell
+      rating: 6.426
+      rating_count: 126
+      updated_at: '2018-11-09T10:52:54Z'
     bangumi:
       id: 236196
+      rating: 6.4
+      rating_count: 161
+      updated_at: '2018-11-09T10:52:54Z'
     bilibili:
       id: 139392
+      rating: 9.6
+      rating_count: 1379
+      updated_at: '2018-11-09T10:52:55Z'
     crunchyroll:
       id: anima-yell
+      rating: 4.8
+      rating_count: 5
+      updated_at: '2018-11-09T10:52:56Z'
     douban:
       id: 30129013
     imdb: null
     kitsu:
       id: 41423
+      rating: 70.1
+      rating_count: 84
+      updated_at: '2018-11-09T10:52:57Z'
     myanimelist:
       id: 37206
+      rating: 6.71
+      rating_count: 2032
+      updated_at: '2018-11-09T10:52:58Z'
     reddit:
       id: 9u4yxh
+      rating: 8.033999999999999
+      rating_count: 25
+      updated_at: '2018-11-09T10:52:59Z'
     shikimori:
       id: 37206
+      rating: 6.71
+      rating_count: 76
+      updated_at: '2018-11-09T10:52:59Z'
     shinden:
       id: 54005
+      rating: 8.0
+      rating_count: 3
+      updated_at: '2018-11-09T10:53:00Z'
     worldart:
       id: 9768
 beelzebub-jou-no-okinimesu-mama:
@@ -81,32 +150,71 @@ beelzebub-jou-no-okinimesu-mama:
   sites:
     anidb:
       id: 14025
+      rating: 4.05
+      rating_count: 43
+      updated_at: '2018-11-09T10:53:07Z'
     anikore:
       id: 11756
+      rating: 3.0
+      rating_count: 40
+      updated_at: '2018-11-09T10:53:08Z'
     anilist:
       id: 101505
+      rating: 62
+      rating_count: 344
+      updated_at: '2018-11-09T10:53:08Z'
     animenewsnetwork:
       id: 20847
     animeplanet:
       id: as-miss-beelzebub-likes
+      rating: 5.898
+      rating_count: 183
+      updated_at: '2018-11-09T10:53:09Z'
     bangumi:
       id: 242633
+      rating: 6.3
+      rating_count: 122
+      updated_at: '2018-11-09T10:53:09Z'
     bilibili:
       id: 139272
+      rating: 9.4
+      rating_count: 1765
+      updated_at: '2018-11-09T10:53:10Z'
     crunchyroll:
       id: as-miss-beelzebub-likes-it
+      rating: 3.3
+      rating_count: 17
+      updated_at: '2018-11-09T10:53:10Z'
     douban:
       id: 30194394
+      rating: 6.8
+      rating_count: 127
+      updated_at: '2018-11-09T10:53:11Z'
     kitsu:
       id: 41218
+      rating: 71.26
+      rating_count: 99
+      updated_at: '2018-11-09T10:53:11Z'
     myanimelist:
       id: 37716
+      rating: 6.78
+      rating_count: 2609
+      updated_at: '2018-11-09T10:53:12Z'
     reddit:
       id: 9v2pww
+      rating: 8.38
+      rating_count: 21
+      updated_at: '2018-11-09T10:53:13Z'
     shikimori:
       id: 37716
+      rating: 6.78
+      rating_count: 277
+      updated_at: '2018-11-09T10:53:13Z'
     shinden:
       id: 53457
+      rating: 7.92
+      rating_count: 37
+      updated_at: '2018-11-09T10:53:14Z'
     worldart:
       id: 9681
 conception-ore-no-kodomo-wo-undekure:
@@ -120,34 +228,73 @@ conception-ore-no-kodomo-wo-undekure:
       id: B07K5DVZFN
     anidb:
       id: 14068
+      rating: 1.49
+      rating_count: 50
+      updated_at: '2018-11-09T10:53:22Z'
     anikore:
       id: 11844
+      rating: 2.6
+      rating_count: 37
+      updated_at: '2018-11-09T10:53:23Z'
     anilist:
       id: 101609
+      rating: 42
+      rating_count: 522
+      updated_at: '2018-11-09T10:53:23Z'
     animenewsnetwork:
       id: 21301
     animeplanet:
       id: conception
+      rating: 3.64
+      rating_count: 332
+      updated_at: '2018-11-09T10:53:24Z'
     bangumi:
       id: 245531
+      rating: 4
+      rating_count: 147
+      updated_at: '2018-11-09T10:53:24Z'
     bilibili:
       id: 1363308
     crunchyroll:
       id: conception
+      rating: 2.1
+      rating_count: 51
+      updated_at: '2018-11-09T10:53:25Z'
     douban:
       id: 30214048
+      rating: 3.3
+      rating_count: 143
+      updated_at: '2018-11-09T10:53:26Z'
     imdb:
       id: 8403818
+      rating: 6.0
+      rating_count: 14
+      updated_at: '2018-11-09T10:53:28Z'
     kitsu:
       id: 41269
+      rating: 51.34
+      rating_count: 165
+      updated_at: '2018-11-09T10:53:28Z'
     myanimelist:
       id: 37823
+      rating: 4.75
+      rating_count: 5259
+      updated_at: '2018-11-09T10:53:28Z'
     reddit:
       id: 9urafp
+      rating: 4.1080000000000005
+      rating_count: 29
+      updated_at: '2018-11-09T10:53:29Z'
     shikimori:
       id: 37823
+      rating: 4.75
+      rating_count: 559
+      updated_at: '2018-11-09T10:53:29Z'
     shinden:
       id: 53613
+      rating: 7.15
+      rating_count: 130
+      updated_at: '2018-11-09T10:53:30Z'
     worldart:
       id: 9686
 dakaretai-otoko-1-i-ni-odosarete-imasu.:
@@ -159,30 +306,66 @@ dakaretai-otoko-1-i-ni-odosarete-imasu.:
   sites:
     anidb:
       id: 13979
+      rating: 3.32
+      rating_count: 20
+      updated_at: '2018-11-09T10:53:37Z'
     anikore:
       id: 11886
+      rating: 3.0
+      rating_count: 25
+      updated_at: '2018-11-09T10:53:38Z'
     anilist:
       id: 101381
+      rating: 58
+      rating_count: 206
+      updated_at: '2018-11-09T10:53:38Z'
     animenewsnetwork:
       id: 20808
     animeplanet:
       id: dakaichi-im-being-harassed-by-the-sexiest-man-of-the-year
+      rating: 7.508
+      rating_count: 298
+      updated_at: '2018-11-09T10:53:39Z'
     bangumi:
       id: 241265
+      rating: 6.3
+      rating_count: 61
+      updated_at: '2018-11-09T10:53:39Z'
     douban:
       id: 30179568
+      rating: 7.6
+      rating_count: 1046
+      updated_at: '2018-11-09T10:53:40Z'
     imdb:
       id: 9085692
+      rating: 8.1
+      rating_count: 11
+      updated_at: '2018-11-09T10:53:41Z'
     kitsu:
       id: 41151
+      rating: 77.84
+      rating_count: 101
+      updated_at: '2018-11-09T10:53:41Z'
     myanimelist:
       id: 37597
+      rating: 7.09
+      rating_count: 2651
+      updated_at: '2018-11-09T10:53:41Z'
     reddit:
       id: 9tlooh
+      rating: 6.248
+      rating_count: 17
+      updated_at: '2018-11-09T10:53:42Z'
     shikimori:
       id: 37597
+      rating: 7.09
+      rating_count: 470
+      updated_at: '2018-11-09T10:53:42Z'
     shinden:
       id: 53333
+      rating: 8.63
+      rating_count: 351
+      updated_at: '2018-11-09T10:53:43Z'
     worldart:
       id: 9658
 devidol:
@@ -194,14 +377,23 @@ devidol:
       id: 14389
     anikore:
       id: 11863
+      rating: 3.2
+      rating_count: 13
+      updated_at: '2018-11-09T10:53:53Z'
     anilist:
       id: 104214
     animenewsnetwork:
       id: 21366
     animeplanet:
       id: devidol
+      rating: 3.654
+      rating_count: 16
+      updated_at: '2018-11-09T10:53:54Z'
     bangumi:
       id: 261082
+      rating: 6.2
+      rating_count: 13
+      updated_at: '2018-11-09T10:53:54Z'
     douban:
       id: 30335148
     imdb: null
@@ -209,10 +401,19 @@ devidol:
       id: 41947
     myanimelist:
       id: 38284
+      rating: 4.89
+      rating_count: 98
+      updated_at: '2018-11-09T10:53:56Z'
     reddit:
       id: 9sz1vr
+      rating: 5.5
+      rating_count: 2
+      updated_at: '2018-11-09T10:53:56Z'
     shikimori:
       id: 38284
+      rating: 4.89
+      rating_count: 21
+      updated_at: '2018-11-09T10:53:56Z'
     shinden:
       id: 54012
     worldart:
@@ -228,34 +429,76 @@ double-decker-doug-kiril:
       id: B07JX82S3Y
     anidb:
       id: 13923
+      rating: 4.86
+      rating_count: 38
+      updated_at: '2018-11-09T10:54:07Z'
     anikore:
       id: 11862
+      rating: 3.2
+      rating_count: 38
+      updated_at: '2018-11-09T10:54:08Z'
     anilist:
       id: 101318
+      rating: 62
+      rating_count: 308
+      updated_at: '2018-11-09T10:54:08Z'
     animenewsnetwork:
       id: 20811
     animeplanet:
       id: double-decker-doug-kirill
+      rating: 6.758
+      rating_count: 245
+      updated_at: '2018-11-09T10:54:09Z'
     bangumi:
       id: 234761
+      rating: 6.8
+      rating_count: 72
+      updated_at: '2018-11-09T10:54:09Z'
     bilibili:
       id: 140652
+      rating: 9.3
+      rating_count: 139
+      updated_at: '2018-11-09T10:54:10Z'
     crunchyroll:
       id: double-decker-doug-kirill
+      rating: 4.3
+      rating_count: 16
+      updated_at: '2018-11-09T10:54:10Z'
     douban:
       id: 30174386
+      rating: 7.6
+      rating_count: 77
+      updated_at: '2018-11-09T10:54:11Z'
     imdb:
       id: 8489330
+      rating: 7.5
+      rating_count: 8
+      updated_at: '2018-11-09T10:54:12Z'
     kitsu:
       id: 41075
+      rating: 72.57
+      rating_count: 96
+      updated_at: '2018-11-09T10:54:13Z'
     myanimelist:
       id: 37496
+      rating: 6.83
+      rating_count: 2201
+      updated_at: '2018-11-09T10:54:13Z'
     reddit:
       id: 9u3yke
+      rating: 7.761428571428572
+      rating_count: 11
+      updated_at: '2018-11-09T10:54:14Z'
     shikimori:
       id: 37496
+      rating: 6.83
+      rating_count: 204
+      updated_at: '2018-11-09T10:54:15Z'
     shinden:
       id: 53309
+      rating: 8.0
+      rating_count: 6
+      updated_at: '2018-11-09T10:54:16Z'
     worldart:
       id: 9618
 fairy-tail-2018:
@@ -267,28 +510,61 @@ fairy-tail-2018:
   sites:
     anidb:
       id: 13295
+      rating: 6.41
+      rating_count: 26
+      updated_at: '2018-11-09T10:54:22Z'
     anikore:
       id: 11900
+      rating: 3.2
+      rating_count: 5
+      updated_at: '2018-11-09T10:54:23Z'
     anilist:
       id: 99749
+      rating: 77
+      rating_count: 920
+      updated_at: '2018-11-09T10:54:23Z'
     animenewsnetwork:
       id: 20846
     animeplanet:
       id: fairy-tail-2018
+      rating: 9.062
+      rating_count: 1170
+      updated_at: '2018-11-09T10:54:24Z'
     bangumi:
       id: 174186
+      rating: 7.4
+      rating_count: 37
+      updated_at: '2018-11-09T10:54:24Z'
     douban:
       id: 27107659
+      rating: 8.8
+      rating_count: 227
+      updated_at: '2018-11-09T10:54:25Z'
     kitsu:
       id: 13658
+      rating: 84.17
+      rating_count: 25458
+      updated_at: '2018-11-09T10:54:26Z'
     myanimelist:
       id: 35972
+      rating: 8.3
+      rating_count: 11314
+      updated_at: '2018-11-09T10:54:26Z'
     reddit:
       id: 9tyd2x
+      rating: 7.222
+      rating_count: 33
+      updated_at: '2018-11-09T10:54:27Z'
     shikimori:
       id: 35972
+      rating: 8.3
+      rating_count: 2217
+      updated_at: '2018-11-09T10:54:27Z'
     shinden:
       id: 50508
+      rating: 8.96
+      rating_count: 477
+      updated_at: '2018-11-09T10:54:28Z'
     worldart:
       id: 9338
 gaikotsu-shotenin-honda-san:
@@ -300,34 +576,76 @@ gaikotsu-shotenin-honda-san:
   sites:
     anidb:
       id: 13440
+      rating: 2.94
+      rating_count: 40
+      updated_at: '2018-11-09T10:54:37Z'
     anikore:
       id: 11838
+      rating: 3.0
+      rating_count: 21
+      updated_at: '2018-11-09T10:54:39Z'
     anilist:
       id: 100093
+      rating: 65
+      rating_count: 493
+      updated_at: '2018-11-09T10:54:39Z'
     animenewsnetwork:
       id: 21115
     animeplanet:
       id: skull-face-bookseller-honda-san
+      rating: 6.784
+      rating_count: 294
+      updated_at: '2018-11-09T10:54:40Z'
     bangumi:
       id: 225850
+      rating: 6.4
+      rating_count: 127
+      updated_at: '2018-11-09T10:54:40Z'
     bilibili:
       id: 134952
+      rating: 9.5
+      rating_count: 1474
+      updated_at: '2018-11-09T10:54:40Z'
     crunchyroll:
       id: skull-face-bookseller-honda-san
+      rating: 4.5
+      rating_count: 15
+      updated_at: '2018-11-09T10:54:41Z'
     douban:
       id: 27144971
+      rating: 7.6
+      rating_count: 448
+      updated_at: '2018-11-09T10:54:42Z'
     imdb:
       id: 9100954
+      rating: 5.8
+      rating_count: 9
+      updated_at: '2018-11-09T10:54:43Z'
     kitsu:
       id: 13821
+      rating: 73.29
+      rating_count: 164
+      updated_at: '2018-11-09T10:54:43Z'
     myanimelist:
       id: 36317
+      rating: 7.05
+      rating_count: 4113
+      updated_at: '2018-11-09T10:54:44Z'
     reddit:
       id: 9u5h5o
+      rating: 7.938000000000001
+      rating_count: 23
+      updated_at: '2018-11-09T10:54:45Z'
     shikimori:
       id: 36317
+      rating: 7.05
+      rating_count: 247
+      updated_at: '2018-11-09T10:54:45Z'
     shinden:
       id: 51827
+      rating: 6.5
+      rating_count: 6
+      updated_at: '2018-11-09T10:54:46Z'
     worldart:
       id: 9718
 gakuen-basara:
@@ -339,28 +657,55 @@ gakuen-basara:
   sites:
     anidb:
       id: 14001
+      rating: 2.05
+      rating_count: 22
+      updated_at: '2018-11-09T10:54:52Z'
     anikore:
       id: 11839
+      rating: 2.9
+      rating_count: 8
+      updated_at: '2018-11-09T10:54:53Z'
     anilist:
       id: 101470
+      rating: 45
+      rating_count: 98
+      updated_at: '2018-11-09T10:54:53Z'
     animenewsnetwork:
       id: 20961
     animeplanet:
       id: gakuen-basara
+      rating: 4.798
+      rating_count: 81
+      updated_at: '2018-11-09T10:54:54Z'
     bangumi:
       id: 241949
+      rating: 6.4
+      rating_count: 13
+      updated_at: '2018-11-09T10:54:54Z'
     douban:
       id: 30186500
     kitsu:
       id: 41263
     myanimelist:
       id: 37657
+      rating: 5.53
+      rating_count: 947
+      updated_at: '2018-11-09T10:54:55Z'
     reddit:
       id: 9tpzib
+      rating: 4.85
+      rating_count: 2
+      updated_at: '2018-11-09T10:54:56Z'
     shikimori:
       id: 37657
+      rating: 5.54
+      rating_count: 65
+      updated_at: '2018-11-09T10:54:56Z'
     shinden:
       id: 54009
+      rating: 7.6
+      rating_count: 5
+      updated_at: '2018-11-09T10:54:57Z'
     worldart:
       id: 9666
 goblin-slayer:
@@ -373,33 +718,69 @@ goblin-slayer:
       id: B07K36TVLL
     anidb:
       id: 13831
+      rating: 6.24
+      rating_count: 156
+      updated_at: '2018-11-09T10:55:08Z'
     anikore:
       id: 11843
+      rating: 3.3
+      rating_count: 102
+      updated_at: '2018-11-09T10:55:09Z'
     anilist:
       id: 101165
+      rating: 71
+      rating_count: 2623
+      updated_at: '2018-11-09T10:55:09Z'
     animenewsnetwork:
       id: 20672
     animeplanet:
       id: goblin-slayer
+      rating: 8.43
+      rating_count: 2179
+      updated_at: '2018-11-09T10:55:10Z'
     bangumi:
       id: 238006
+      rating: 6.7
+      rating_count: 506
+      updated_at: '2018-11-09T10:55:10Z'
     bilibili: null
     crunchyroll:
       id: goblin-slayer
+      rating: 4.3
+      rating_count: 311
+      updated_at: '2018-11-09T10:55:10Z'
     douban:
       id: 30150636
+      rating: 7.9
+      rating_count: 925
+      updated_at: '2018-11-09T10:55:12Z'
     imdb:
       id: 8690728
+      rating: 7.7
+      rating_count: 270
+      updated_at: '2018-11-09T10:55:13Z'
     kitsu:
       id: 40597
+      rating: 76.17
+      rating_count: 909
+      updated_at: '2018-11-09T10:55:13Z'
     myanimelist:
       id: 37349
+      rating: 7.62
+      rating_count: 37783
+      updated_at: '2018-11-09T10:55:14Z'
     reddit:
       id: 9tvgmb
     shikimori:
       id: 37349
+      rating: 7.62
+      rating_count: 4331
+      updated_at: '2018-11-09T10:55:16Z'
     shinden:
       id: 52934
+      rating: 8.34
+      rating_count: 600
+      updated_at: '2018-11-09T10:55:17Z'
     worldart:
       id: 9577
 golden-kamuy-2:
@@ -413,30 +794,63 @@ golden-kamuy-2:
       id: B07K2DGF73
     anidb:
       id: 14185
+      rating: 6.54
+      rating_count: 34
+      updated_at: '2018-11-09T10:55:22Z'
     anikore:
       id: 11842
+      rating: 3.3
+      rating_count: 39
+      updated_at: '2018-11-09T10:55:23Z'
     anilist:
       id: 102977
+      rating: 72
+      rating_count: 398
+      updated_at: '2018-11-09T10:55:23Z'
     animenewsnetwork:
       id: 21137
     animeplanet:
       id: golden-kamuy-2nd-season
+      rating: 8.586
+      rating_count: 274
+      updated_at: '2018-11-09T10:55:24Z'
     bangumi:
       id: 251547
+      rating: 7.3
+      rating_count: 76
+      updated_at: '2018-11-09T10:55:24Z'
     douban:
       id: 30257538
+      rating: 8.7
+      rating_count: 134
+      updated_at: '2018-11-09T10:55:25Z'
     imdb: null
     kitsu:
       id: 41442
+      rating: 78.38
+      rating_count: 121
+      updated_at: '2018-11-09T10:55:25Z'
     myanimelist:
       id: 37989
+      rating: 7.86
+      rating_count: 3841
+      updated_at: '2018-11-09T10:55:26Z'
     reddit:
       id: 9ufkpd
+      rating: 9.044
+      rating_count: 32
+      updated_at: '2018-11-09T10:55:28Z'
     saraba1st: null
     shikimori:
       id: 37989
+      rating: 7.86
+      rating_count: 299
+      updated_at: '2018-11-09T10:55:28Z'
     shinden:
       id: 53753
+      rating: 8.0
+      rating_count: 14
+      updated_at: '2018-11-09T10:55:28Z'
     worldart:
       id: 9744
 gurazeni-season-2:
@@ -450,26 +864,50 @@ gurazeni-season-2:
       id: 14182
     anikore:
       id: 11909
+      rating: 3.4
+      rating_count: 5
+      updated_at: '2018-11-09T10:55:38Z'
     anilist:
       id: 102974
+      rating: 49
+      rating_count: 51
+      updated_at: '2018-11-09T10:55:38Z'
     animenewsnetwork:
       id: 21125
     animeplanet:
       id: gurazeni-money-pitch-2nd-season
+      rating: 7.346
+      rating_count: 35
+      updated_at: '2018-11-09T10:55:39Z'
     bangumi:
       id: 251060
+      rating: 7.2
+      rating_count: 53
+      updated_at: '2018-11-09T10:55:39Z'
     bilibili:
       id: 139692
+      rating: 9.7
+      rating_count: 444
+      updated_at: '2018-11-09T10:55:40Z'
     douban:
       id: 30284911
     kitsu:
       id: 41948
     myanimelist:
       id: 37990
+      rating: 6.49
+      rating_count: 296
+      updated_at: '2018-11-09T10:55:41Z'
     reddit:
       id: 9tklfj
+      rating: 6.82
+      rating_count: 5
+      updated_at: '2018-11-09T10:55:42Z'
     shikimori:
       id: 37990
+      rating: 6.49
+      rating_count: 17
+      updated_at: '2018-11-09T10:55:42Z'
     shinden:
       id: 54010
     worldart:
@@ -485,28 +923,55 @@ gyakuten-saiban-sono-shinjitsu-igi-ari-season-2:
       id: B07K28WBGH
     anidb:
       id: 13918
+      rating: 3.27
+      rating_count: 10
+      updated_at: '2018-11-09T10:55:52Z'
     anikore:
       id: 11841
+      rating: 3.0
+      rating_count: 7
+      updated_at: '2018-11-09T10:55:53Z'
     anilist:
       id: 101313
+      rating: 57
+      rating_count: 132
+      updated_at: '2018-11-09T10:55:53Z'
     animenewsnetwork:
       id: 21192
     animeplanet:
       id: ace-attorney-season-2
+      rating: 6.382
+      rating_count: 89
+      updated_at: '2018-11-09T10:55:54Z'
     bangumi:
       id: 240499
+      rating: 6
+      rating_count: 68
+      updated_at: '2018-11-09T10:55:54Z'
     bilibili:
       id: 139332
+      rating: 9.4
+      rating_count: 545
+      updated_at: '2018-11-09T10:55:54Z'
     douban:
       id: 30174387
     kitsu:
       id: 41069
     myanimelist:
       id: 37490
+      rating: 6.92
+      rating_count: 1095
+      updated_at: '2018-11-09T10:55:56Z'
     reddit:
       id: 9tt8k0
+      rating: 6.568
+      rating_count: 6
+      updated_at: '2018-11-09T10:55:57Z'
     shikimori:
       id: 37490
+      rating: 6.91
+      rating_count: 45
+      updated_at: '2018-11-09T10:55:57Z'
     shinden:
       id: 53256
     worldart:
@@ -521,16 +986,28 @@ hangyakusei-million-arthur:
       id: 13952
     anikore:
       id: 11803
+      rating: 3.1
+      rating_count: 13
+      updated_at: '2018-11-09T10:56:08Z'
     anilist:
       id: 101359
     animenewsnetwork:
       id: 20788
     animeplanet:
       id: han-gyaku-sei-million-arthur
+      rating: 4.37
+      rating_count: 21
+      updated_at: '2018-11-09T10:56:09Z'
     bangumi:
       id: 240974
+      rating: 5.1
+      rating_count: 27
+      updated_at: '2018-11-09T10:56:09Z'
     bilibili:
       id: 139412
+      rating: 7.1
+      rating_count: 914
+      updated_at: '2018-11-09T10:56:09Z'
     douban:
       id: 30176696
     imdb:
@@ -539,12 +1016,24 @@ hangyakusei-million-arthur:
       id: 41313
     myanimelist:
       id: 37555
+      rating: 5.84
+      rating_count: 263
+      updated_at: '2018-11-09T10:56:12Z'
     reddit:
       id: 9uz6yo
+      rating: 6.58
+      rating_count: 4
+      updated_at: '2018-11-09T10:56:13Z'
     shikimori:
       id: 37555
+      rating: 5.82
+      rating_count: 56
+      updated_at: '2018-11-09T10:56:13Z'
     shinden:
       id: 54003
+      rating: 10.0
+      rating_count: 3
+      updated_at: '2018-11-09T10:56:14Z'
     worldart:
       id: 9640
 hashiri-tsuzukete-yokattatte:
@@ -558,14 +1047,26 @@ hashiri-tsuzukete-yokattatte:
       id: 14349
     anikore:
       id: 11872
+      rating: 3.2
+      rating_count: 20
+      updated_at: '2018-11-09T10:56:23Z'
     anilist:
       id: 104078
+      rating: 54
+      rating_count: 80
+      updated_at: '2018-11-09T10:56:24Z'
     animenewsnetwork:
       id: 21362
     animeplanet:
       id: hashiri-tsuzukete-yokattatte
+      rating: 6.858
+      rating_count: 45
+      updated_at: '2018-11-09T10:56:24Z'
     bangumi:
       id: 259135
+      rating: 6.2
+      rating_count: 80
+      updated_at: '2018-11-09T10:56:24Z'
     bilibili:
       id: 2435657
     douban:
@@ -574,14 +1075,29 @@ hashiri-tsuzukete-yokattatte:
       id: 41962
     myanimelist:
       id: 38254
+      rating: 6.62
+      rating_count: 703
+      updated_at: '2018-11-09T10:56:28Z'
     reddit:
       id: 9scu59
+      rating: 3.223333333333333
+      rating_count: 2
+      updated_at: '2018-11-09T10:56:28Z'
     shikimori:
       id: 38254
+      rating: 6.62
+      rating_count: 187
+      updated_at: '2018-11-09T10:56:28Z'
     shinden:
       id: 54013
+      rating: 8.0
+      rating_count: 2
+      updated_at: '2018-11-09T10:56:29Z'
     worldart:
       id: 9814
+      rating: 6.6
+      rating_count: 10
+      updated_at: '2018-11-09T10:56:31Z'
 himote-house:
   names:
     en: 'HIMOTE HOUSE: A share house of super psychic girls'
@@ -591,18 +1107,36 @@ himote-house:
   sites:
     anidb:
       id: 13629
+      rating: 1.94
+      rating_count: 35
+      updated_at: '2018-11-09T10:56:37Z'
     anikore:
       id: 11848
+      rating: 2.8
+      rating_count: 29
+      updated_at: '2018-11-09T10:56:38Z'
     anilist:
       id: 102875
+      rating: 43
+      rating_count: 204
+      updated_at: '2018-11-09T10:56:38Z'
     animenewsnetwork:
       id: 21409
     animeplanet:
       id: himote-house
+      rating: 3.208
+      rating_count: 80
+      updated_at: '2018-11-09T10:56:39Z'
     bangumi:
       id: 228898
+      rating: 6.7
+      rating_count: 78
+      updated_at: '2018-11-09T10:56:39Z'
     crunchyroll:
       id: himote-house-a-share-house-of-super-psychic-girls
+      rating: 2.4
+      rating_count: 12
+      updated_at: '2018-11-09T10:56:39Z'
     douban:
       id: 27597060
     imdb:
@@ -611,12 +1145,24 @@ himote-house:
       id: 41961
     myanimelist:
       id: 36945
+      rating: 4.59
+      rating_count: 1141
+      updated_at: '2018-11-09T10:56:42Z'
     reddit:
       id: 9u5dge
+      rating: 5.914
+      rating_count: 6
+      updated_at: '2018-11-09T10:56:43Z'
     shikimori:
       id: 36945
+      rating: 4.6
+      rating_count: 50
+      updated_at: '2018-11-09T10:56:43Z'
     shinden:
       id: 54014
+      rating: 1.0
+      rating_count: 1
+      updated_at: '2018-11-09T10:56:45Z'
     worldart:
       id: 9512
 hinomaruzumou:
@@ -630,32 +1176,71 @@ hinomaruzumou:
       id: B07K2DXZSW
     anidb:
       id: 13695
+      rating: 5.95
+      rating_count: 34
+      updated_at: '2018-11-09T10:56:52Z'
     anikore:
       id: 11741
+      rating: 3.2
+      rating_count: 26
+      updated_at: '2018-11-09T10:56:53Z'
     anilist:
       id: 100990
+      rating: 67
+      rating_count: 366
+      updated_at: '2018-11-09T10:56:53Z'
     animenewsnetwork:
       id: 20760
     animeplanet:
       id: hinomaru-sumo
+      rating: 7.952
+      rating_count: 334
+      updated_at: '2018-11-09T10:56:54Z'
     bangumi:
       id: 234059
+      rating: 6.2
+      rating_count: 71
+      updated_at: '2018-11-09T10:56:54Z'
     bilibili:
       id: 139672
+      rating: 9.0
+      rating_count: 842
+      updated_at: '2018-11-09T10:56:54Z'
     crunchyroll:
       id: hinomaru-sumo
+      rating: 4.4
+      rating_count: 17
+      updated_at: '2018-11-09T10:56:55Z'
     douban:
       id: 27616195
+      rating: 7.5
+      rating_count: 134
+      updated_at: '2018-11-09T10:56:56Z'
     kitsu:
       id: 41148
+      rating: 76.51
+      rating_count: 115
+      updated_at: '2018-11-09T10:56:56Z'
     myanimelist:
       id: 37007
+      rating: 7.43
+      rating_count: 3808
+      updated_at: '2018-11-09T10:56:57Z'
     reddit:
       id: 9tkw99
+      rating: 7.888
+      rating_count: 26
+      updated_at: '2018-11-09T10:56:58Z'
     shikimori:
       id: 37007
+      rating: 7.43
+      rating_count: 358
+      updated_at: '2018-11-09T10:56:58Z'
     shinden:
       id: 53633
+      rating: 8.14
+      rating_count: 14
+      updated_at: '2018-11-09T10:56:59Z'
     worldart:
       id: 9532
 iroduku-sekai-no-ashita-kara:
@@ -669,28 +1254,61 @@ iroduku-sekai-no-ashita-kara:
       id: B07J1VC599
     anidb:
       id: 13925
+      rating: 6.27
+      rating_count: 92
+      updated_at: '2018-11-09T10:57:07Z'
     anikore:
       id: 11642
+      rating: 3.6
+      rating_count: 129
+      updated_at: '2018-11-09T10:57:09Z'
     anilist:
       id: 101316
+      rating: 71
+      rating_count: 1082
+      updated_at: '2018-11-09T10:57:09Z'
     animenewsnetwork:
       id: 20794
     animeplanet:
       id: iroduku-the-world-in-colors
+      rating: 8.38
+      rating_count: 591
+      updated_at: '2018-11-09T10:57:09Z'
     bangumi:
       id: 240562
+      rating: 7.3
+      rating_count: 421
+      updated_at: '2018-11-09T10:57:09Z'
     douban:
       id: 30174389
+      rating: 8.3
+      rating_count: 308
+      updated_at: '2018-11-09T10:57:10Z'
     kitsu:
       id: 41101
+      rating: 77.59
+      rating_count: 297
+      updated_at: '2018-11-09T10:57:11Z'
     myanimelist:
       id: 37497
+      rating: 7.76
+      rating_count: 11075
+      updated_at: '2018-11-09T10:57:11Z'
     reddit:
       id: 9tm93g
+      rating: 8.502
+      rating_count: 107
+      updated_at: '2018-11-09T10:57:13Z'
     shikimori:
       id: 37497
+      rating: 7.76
+      rating_count: 998
+      updated_at: '2018-11-09T10:57:13Z'
     shinden:
       id: 53377
+      rating: 8.38
+      rating_count: 129
+      updated_at: '2018-11-09T10:57:13Z'
     worldart:
       id: 9653
 jingai-san-no-yome:
@@ -701,34 +1319,73 @@ jingai-san-no-yome:
   sites:
     anidb:
       id: 14174
+      rating: 1.54
+      rating_count: 40
+      updated_at: '2018-11-09T10:57:22Z'
     anikore:
       id: 11845
+      rating: 2.6
+      rating_count: 18
+      updated_at: '2018-11-09T10:57:23Z'
     anilist:
       id: 103000
+      rating: 44
+      rating_count: 272
+      updated_at: '2018-11-09T10:57:23Z'
     animenewsnetwork:
       id: 21130
     animeplanet:
       id: jingai-san-no-yome
+      rating: 4.288
+      rating_count: 233
+      updated_at: '2018-11-09T10:57:24Z'
     bangumi:
       id: 250802
+      rating: 5
+      rating_count: 41
+      updated_at: '2018-11-09T10:57:24Z'
     bilibili:
       id: 142612
+      rating: 9.7
+      rating_count: 650
+      updated_at: '2018-11-09T10:57:25Z'
     crunchyroll:
       id: jingai-san-no-yome
+      rating: 2.5
+      rating_count: 30
+      updated_at: '2018-11-09T10:57:25Z'
     douban:
       id: 27608255
+      rating: 6.6
+      rating_count: 129
+      updated_at: '2018-11-09T10:57:26Z'
     imdb:
       id: 9150104
     kitsu:
       id: 41951
+      rating: 63.83
+      rating_count: 92
+      updated_at: '2018-11-09T10:57:27Z'
     myanimelist:
       id: 37992
+      rating: 5.26
+      rating_count: 2331
+      updated_at: '2018-11-09T10:57:28Z'
     reddit:
       id: 9uqp9z
+      rating: 5.908333333333333
+      rating_count: 11
+      updated_at: '2018-11-09T10:57:29Z'
     shikimori:
       id: 37992
+      rating: 5.26
+      rating_count: 222
+      updated_at: '2018-11-09T10:57:29Z'
     shinden:
       id: 54016
+      rating: 6.91
+      rating_count: 33
+      updated_at: '2018-11-09T10:57:29Z'
     worldart:
       id: 9734
 jojo-s-bizarre-adventure-part-5-vento-aureo:
@@ -740,30 +1397,66 @@ jojo-s-bizarre-adventure-part-5-vento-aureo:
   sites:
     anidb:
       id: 14173
+      rating: 7.59
+      rating_count: 32
+      updated_at: '2018-11-09T10:57:37Z'
     anikore:
       id: 11760
+      rating: 3.4
+      rating_count: 42
+      updated_at: '2018-11-09T10:57:38Z'
     anilist:
       id: 102883
+      rating: 83
+      rating_count: 1234
+      updated_at: '2018-11-09T10:57:38Z'
     animenewsnetwork:
       id: 21131
     animeplanet:
       id: jojos-bizarre-adventure-golden-wind
+      rating: 9.17
+      rating_count: 570
+      updated_at: '2018-11-09T10:57:39Z'
     bangumi:
       id: 235128
+      rating: 8.1
+      rating_count: 423
+      updated_at: '2018-11-09T10:57:39Z'
     bilibili:
       id: 135652
+      rating: 9.9
+      rating_count: 20759
+      updated_at: '2018-11-09T10:57:40Z'
     douban:
       id: 27666505
+      rating: 9.6
+      rating_count: 1926
+      updated_at: '2018-11-09T10:57:41Z'
     kitsu:
       id: 41410
+      rating: 83.2
+      rating_count: 403
+      updated_at: '2018-11-09T10:57:41Z'
     myanimelist:
       id: 37991
+      rating: 8.84
+      rating_count: 16876
+      updated_at: '2018-11-09T10:57:42Z'
     reddit:
       id: 9tm1bt
+      rating: 9.246
+      rating_count: 354
+      updated_at: '2018-11-09T10:57:43Z'
     shikimori:
       id: 37991
+      rating: 8.84
+      rating_count: 2733
+      updated_at: '2018-11-09T10:57:43Z'
     shinden:
       id: 53735
+      rating: 9.21
+      rating_count: 107
+      updated_at: '2018-11-09T10:57:45Z'
     worldart:
       id: 9730
 karakuri-circus:
@@ -776,32 +1469,68 @@ karakuri-circus:
       id: B07J68L6MX
     anidb:
       id: 13898
+      rating: 6.72
+      rating_count: 36
+      updated_at: '2018-11-09T10:57:52Z'
     anikore:
       id: 11811
+      rating: 3.5
+      rating_count: 48
+      updated_at: '2018-11-09T10:57:54Z'
     anilist:
       id: 101336
+      rating: 67
+      rating_count: 368
+      updated_at: '2018-11-09T10:57:54Z'
     animenewsnetwork:
       id: 20774
     animeplanet:
       id: karakuri-circus
+      rating: 7.38
+      rating_count: 192
+      updated_at: '2018-11-09T10:57:55Z'
     bangumi:
       id: 239974
+      rating: 7.2
+      rating_count: 160
+      updated_at: '2018-11-09T10:57:55Z'
     bilibili:
       id: 139432
+      rating: 9.6
+      rating_count: 1922
+      updated_at: '2018-11-09T10:57:55Z'
     douban:
       id: 30166975
+      rating: 8.7
+      rating_count: 410
+      updated_at: '2018-11-09T10:57:56Z'
     imdb:
       id: 9050366
+      rating: 8.6
+      rating_count: 20
+      updated_at: '2018-11-09T10:57:57Z'
     kitsu:
       id: 41053
+      rating: 76.31
+      rating_count: 89
+      updated_at: '2018-11-09T10:57:58Z'
     myanimelist:
       id: 37447
+      rating: 7.49
+      rating_count: 3056
+      updated_at: '2018-11-09T10:57:58Z'
     reddit:
       id: 9vb8qp
     shikimori:
       id: 37447
+      rating: 7.49
+      rating_count: 272
+      updated_at: '2018-11-09T10:57:59Z'
     shinden:
       id: 54011
+      rating: 7.77
+      rating_count: 13
+      updated_at: '2018-11-09T10:58:00Z'
     worldart:
       id: 9614
 kaze-ga-tsuyoku-fuiteiru:
@@ -813,33 +1542,72 @@ kaze-ga-tsuyoku-fuiteiru:
   sites:
     anidb:
       id: 14109
+      rating: 5.85
+      rating_count: 41
+      updated_at: '2018-11-09T10:58:07Z'
     anikore:
       id: 11759
+      rating: 3.3
+      rating_count: 37
+      updated_at: '2018-11-09T10:58:08Z'
     anilist:
       id: 101903
+      rating: 69
+      rating_count: 600
+      updated_at: '2018-11-09T10:58:08Z'
     animenewsnetwork:
       id: 21078
     animeplanet:
       id: run-with-the-wind
+      rating: 8.0
+      rating_count: 385
+      updated_at: '2018-11-09T10:58:09Z'
     bangumi:
       id: 248154
+      rating: 7.6
+      rating_count: 241
+      updated_at: '2018-11-09T10:58:10Z'
     bilibili:
       id: 139352
+      rating: 9.8
+      rating_count: 3650
+      updated_at: '2018-11-09T10:58:10Z'
     crunchyroll:
       id: run-with-the-wind
+      rating: 4.8
+      rating_count: 24
+      updated_at: '2018-11-09T10:58:10Z'
     douban:
       id: 30238385
+      rating: 9.3
+      rating_count: 1424
+      updated_at: '2018-11-09T10:58:11Z'
     imdb: null
     kitsu:
       id: 41372
+      rating: 76.87
+      rating_count: 188
+      updated_at: '2018-11-09T10:58:11Z'
     myanimelist:
       id: 37965
+      rating: 7.64
+      rating_count: 5494
+      updated_at: '2018-11-09T10:58:12Z'
     reddit:
       id: 9urjf8
+      rating: 8.7
+      rating_count: 52
+      updated_at: '2018-11-09T10:58:13Z'
     shikimori:
       id: 37965
+      rating: 7.64
+      rating_count: 420
+      updated_at: '2018-11-09T10:58:14Z'
     shinden:
       id: 53696
+      rating: 8.33
+      rating_count: 30
+      updated_at: '2018-11-09T10:58:15Z'
     worldart:
       id: 9703
 ken-en-ken-aoki-kagayaki:
@@ -851,18 +1619,36 @@ ken-en-ken-aoki-kagayaki:
   sites:
     anidb:
       id: 14237
+      rating: 3.02
+      rating_count: 27
+      updated_at: '2018-11-09T10:58:22Z'
     anikore:
       id: 11891
+      rating: 3.1
+      rating_count: 9
+      updated_at: '2018-11-09T10:58:23Z'
     anilist:
       id: 104103
+      rating: 47
+      rating_count: 138
+      updated_at: '2018-11-09T10:58:23Z'
     animenewsnetwork:
       id: 21250
     animeplanet:
       id: xuan-yuan-sword-luminary
+      rating: 5.006
+      rating_count: 119
+      updated_at: '2018-11-09T10:58:24Z'
     bangumi:
       id: 154771
+      rating: 5.7
+      rating_count: 25
+      updated_at: '2018-11-09T10:58:24Z'
     crunchyroll:
       id: xuan-yuan-sword-luminary
+      rating: 3.5
+      rating_count: 17
+      updated_at: '2018-11-09T10:58:24Z'
     douban:
       id: 26663871
     imdb:
@@ -871,12 +1657,24 @@ ken-en-ken-aoki-kagayaki:
       id: 41946
     myanimelist:
       id: 38083
+      rating: 6.04
+      rating_count: 1043
+      updated_at: '2018-11-09T10:58:27Z'
     reddit:
       id: 9uh13v
+      rating: 5.7683333333333335
+      rating_count: 5
+      updated_at: '2018-11-09T10:58:28Z'
     shikimori:
       id: 38083
+      rating: 6.04
+      rating_count: 104
+      updated_at: '2018-11-09T10:58:28Z'
     shinden:
       id: 54076
+      rating: 7.67
+      rating_count: 6
+      updated_at: '2018-11-09T10:58:28Z'
     worldart:
       id: 9779
 kishuku-gakkou-no-juliet:
@@ -890,30 +1688,66 @@ kishuku-gakkou-no-juliet:
       id: B07J1YMVCD
     anidb:
       id: 13911
+      rating: 4.11
+      rating_count: 40
+      updated_at: '2018-11-09T10:58:37Z'
     anikore:
       id: 11739
+      rating: 3.3
+      rating_count: 61
+      updated_at: '2018-11-09T10:58:38Z'
     anilist:
       id: 101310
+      rating: 66
+      rating_count: 779
+      updated_at: '2018-11-09T10:58:38Z'
     animenewsnetwork:
       id: 21013
     animeplanet:
       id: boarding-school-juliet
+      rating: 7.528
+      rating_count: 441
+      updated_at: '2018-11-09T10:58:39Z'
     bangumi:
       id: 240346
+      rating: 6.3
+      rating_count: 202
+      updated_at: '2018-11-09T10:58:39Z'
     douban:
       id: 30170837
+      rating: 7.5
+      rating_count: 119
+      updated_at: '2018-11-09T10:58:40Z'
     imdb:
       id: 8496638
+      rating: 7.8
+      rating_count: 25
+      updated_at: '2018-11-09T10:58:41Z'
     kitsu:
       id: 41065
+      rating: 73.87
+      rating_count: 236
+      updated_at: '2018-11-09T10:58:41Z'
     myanimelist:
       id: 37475
+      rating: 7.47
+      rating_count: 8585
+      updated_at: '2018-11-09T10:58:42Z'
     reddit:
       id: 9tlz4l
+      rating: 8.192
+      rating_count: 61
+      updated_at: '2018-11-09T10:58:43Z'
     shikimori:
       id: 37475
+      rating: 7.47
+      rating_count: 774
+      updated_at: '2018-11-09T10:58:43Z'
     shinden:
       id: 53294
+      rating: 8.37
+      rating_count: 221
+      updated_at: '2018-11-09T10:58:44Z'
     worldart:
       id: 9616
 kitsune-no-koe:
@@ -925,18 +1759,36 @@ kitsune-no-koe:
   sites:
     anidb:
       id: 13735
+      rating: 2.93
+      rating_count: 11
+      updated_at: '2018-11-09T10:58:52Z'
     anikore:
       id: 11840
+      rating: 3.0
+      rating_count: 5
+      updated_at: '2018-11-09T10:58:53Z'
     anilist:
       id: 102385
+      rating: 49
+      rating_count: 50
+      updated_at: '2018-11-09T10:58:53Z'
     animenewsnetwork:
       id: 21265
     animeplanet:
       id: voice-of-fox
+      rating: 5.882
+      rating_count: 89
+      updated_at: '2018-11-09T10:58:54Z'
     bangumi:
       id: 223127
+      rating: 4.2
+      rating_count: 5
+      updated_at: '2018-11-09T10:58:54Z'
     crunchyroll:
       id: voice-of-fox
+      rating: 4.5
+      rating_count: 2
+      updated_at: '2018-11-09T10:58:54Z'
     douban:
       id: 30294115
     imdb: null
@@ -944,12 +1796,24 @@ kitsune-no-koe:
       id: 41942
     myanimelist:
       id: 37106
+      rating: 6.28
+      rating_count: 671
+      updated_at: '2018-11-09T10:58:56Z'
     reddit:
       id: 9ug6ng
+      rating: 5.35
+      rating_count: 4
+      updated_at: '2018-11-09T10:58:56Z'
     shikimori:
       id: 37106
+      rating: 6.28
+      rating_count: 99
+      updated_at: '2018-11-09T10:58:56Z'
     shinden:
       id: 53896
+      rating: 8.54
+      rating_count: 26
+      updated_at: '2018-11-09T10:58:57Z'
     worldart:
       id: 9643
 merc-storia-mukiryoku-no-shounen-to-bin--no-naka-no-shoujo:
@@ -961,32 +1825,68 @@ merc-storia-mukiryoku-no-shounen-to-bin--no-naka-no-shoujo:
   sites:
     anidb:
       id: 13768
+      rating: 2.73
+      rating_count: 27
+      updated_at: '2018-11-09T10:59:07Z'
     anikore:
       id: 11897
+      rating: 3.3
+      rating_count: 25
+      updated_at: '2018-11-09T10:59:08Z'
     anilist:
       id: 101125
+      rating: 54
+      rating_count: 208
+      updated_at: '2018-11-09T10:59:08Z'
     animenewsnetwork:
       id: 21254
     animeplanet:
       id: merc-storia-the-apathetic-boy-and-the-girl-in-a-bottle
+      rating: 5.246
+      rating_count: 171
+      updated_at: '2018-11-09T10:59:09Z'
     bangumi:
       id: 236612
+      rating: 6.1
+      rating_count: 51
+      updated_at: '2018-11-09T10:59:09Z'
     bilibili:
       id: 139452
+      rating: 9.6
+      rating_count: 856
+      updated_at: '2018-11-09T10:59:09Z'
     crunchyroll:
       id: merc-storia-the-apathetic-boy-and-the-girl-in-a-bottle
+      rating: 3.5
+      rating_count: 10
+      updated_at: '2018-11-09T10:59:10Z'
     douban:
       id: 30135531
     kitsu:
       id: 41965
+      rating: 71.08
+      rating_count: 62
+      updated_at: '2018-11-09T10:59:11Z'
     myanimelist:
       id: 37232
+      rating: 6.22
+      rating_count: 1535
+      updated_at: '2018-11-09T10:59:11Z'
     reddit:
       id: 9vazrj
+      rating: 6.632
+      rating_count: 8
+      updated_at: '2018-11-09T10:59:12Z'
     shikimori:
       id: 37232
+      rating: 6.22
+      rating_count: 145
+      updated_at: '2018-11-09T10:59:12Z'
     shinden:
       id: 52839
+      rating: 7.25
+      rating_count: 16
+      updated_at: '2018-11-09T10:59:13Z'
     worldart:
       id: 9785
 okoshiyasu-chitose-chan-anime:
@@ -999,26 +1899,50 @@ okoshiyasu-chitose-chan-anime:
       id: 14241
     anikore:
       id: 11883
+      rating: 3.0
+      rating_count: 10
+      updated_at: '2018-11-09T10:59:23Z'
     anilist:
       id: 103872
+      rating: 52
+      rating_count: 76
+      updated_at: '2018-11-09T10:59:23Z'
     animenewsnetwork:
       id: 21242
     animeplanet:
       id: okoshiyasu-chitose-chan
+      rating: 5.038
+      rating_count: 31
+      updated_at: '2018-11-09T10:59:23Z'
     bangumi:
       id: 255550
+      rating: 5.7
+      rating_count: 15
+      updated_at: '2018-11-09T10:59:24Z'
     douban:
       id: 30290622
     kitsu:
       id: 41944
     myanimelist:
       id: 38089
+      rating: 6.18
+      rating_count: 366
+      updated_at: '2018-11-09T10:59:25Z'
     reddit:
       id: 9lzqfe
+      rating: 7.0
+      rating_count: 6
+      updated_at: '2018-11-09T10:59:26Z'
     shikimori:
       id: 38089
+      rating: 6.19
+      rating_count: 21
+      updated_at: '2018-11-09T10:59:26Z'
     shinden:
       id: 54017
+      rating: 8.5
+      rating_count: 2
+      updated_at: '2018-11-09T10:59:26Z'
     worldart:
       id: 9788
 ore-ga-suki-nano-wa-imouto-dakedo-imouto-ja-nai:
@@ -1030,34 +1954,76 @@ ore-ga-suki-nano-wa-imouto-dakedo-imouto-ja-nai:
   sites:
     anidb:
       id: 13534
+      rating: 2.16
+      rating_count: 55
+      updated_at: '2018-11-09T10:59:37Z'
     anikore:
       id: 11726
+      rating: 2.7
+      rating_count: 96
+      updated_at: '2018-11-09T10:59:38Z'
     anilist:
       id: 100382
+      rating: 45
+      rating_count: 618
+      updated_at: '2018-11-09T10:59:38Z'
     animenewsnetwork:
       id: 20853
     animeplanet:
       id: my-sister-my-writer
+      rating: 4.83
+      rating_count: 320
+      updated_at: '2018-11-09T10:59:40Z'
     bangumi:
       id: 228255
+      rating: 4.1
+      rating_count: 257
+      updated_at: '2018-11-09T10:59:41Z'
     bilibili:
       id: 139612
+      rating: 5.5
+      rating_count: 10331
+      updated_at: '2018-11-09T10:59:41Z'
     crunchyroll:
       id: my-sister-my-writer
+      rating: 2.9
+      rating_count: 16
+      updated_at: '2018-11-09T10:59:41Z'
     douban:
       id: 27178671
+      rating: 4.0
+      rating_count: 171
+      updated_at: '2018-11-09T10:59:43Z'
     imdb:
       id: 9050410
+      rating: 4.7
+      rating_count: 11
+      updated_at: '2018-11-09T10:59:44Z'
     kitsu:
       id: 41938
+      rating: 56.33
+      rating_count: 178
+      updated_at: '2018-11-09T10:59:44Z'
     myanimelist:
       id: 36632
+      rating: 5.34
+      rating_count: 6024
+      updated_at: '2018-11-09T10:59:45Z'
     reddit:
       id: 9v0e0z
+      rating: 5.117999999999999
+      rating_count: 57
+      updated_at: '2018-11-09T10:59:46Z'
     shikimori:
       id: 36632
+      rating: 5.34
+      rating_count: 586
+      updated_at: '2018-11-09T10:59:46Z'
     shinden:
       id: 52105
+      rating: 7.98
+      rating_count: 120
+      updated_at: '2018-11-09T10:59:47Z'
     worldart:
       id: 9682
 otona-no-bouguya-san:
@@ -1069,28 +2035,55 @@ otona-no-bouguya-san:
   sites:
     anidb:
       id: 14412
+      rating: 3.42
+      rating_count: 17
+      updated_at: '2018-11-09T10:59:52Z'
     anikore:
       id: 11882
+      rating: 3.0
+      rating_count: 15
+      updated_at: '2018-11-09T10:59:53Z'
     anilist:
       id: 104308
+      rating: 50
+      rating_count: 148
+      updated_at: '2018-11-09T10:59:53Z'
     animenewsnetwork:
       id: 21450
     animeplanet:
       id: otona-no-bouguya-san
+      rating: 4.346
+      rating_count: 139
+      updated_at: '2018-11-09T10:59:53Z'
     bangumi:
       id: 262112
+      rating: 6
+      rating_count: 71
+      updated_at: '2018-11-09T10:59:54Z'
     douban:
       id: 30337238
     kitsu:
       id: 41974
     myanimelist:
       id: 38395
+      rating: 5.81
+      rating_count: 1114
+      updated_at: '2018-11-09T10:59:55Z'
     reddit:
       id: 9ukq4b
+      rating: 4.976
+      rating_count: 3
+      updated_at: '2018-11-09T10:59:56Z'
     shikimori:
       id: 38395
+      rating: 5.8
+      rating_count: 102
+      updated_at: '2018-11-09T10:59:56Z'
     shinden:
       id: 54027
+      rating: 6.91
+      rating_count: 33
+      updated_at: '2018-11-09T10:59:57Z'
     worldart:
       id: 9833
 pingu-in-the-city-2nd-season:
@@ -1102,20 +2095,35 @@ pingu-in-the-city-2nd-season:
       id: 14371
     anikore:
       id: 11908
+      rating: 0.0
+      rating_count: 0
+      updated_at: '2018-11-09T11:00:08Z'
     anilist:
       id: 99995
     animenewsnetwork: null
     animeplanet:
       id: pingu-in-the-city-2018
+      rating: 7.656
+      rating_count: 14
+      updated_at: '2018-11-09T11:00:08Z'
     douban: null
     kitsu:
       id: 41981
     myanimelist:
       id: 38262
+      rating: 8.45
+      rating_count: 1168
+      updated_at: '2018-11-09T11:00:09Z'
     reddit:
       id: 9lum1j
+      rating: 9.61
+      rating_count: 54
+      updated_at: '2018-11-09T11:00:10Z'
     shikimori:
       id: 38262
+      rating: 8.44
+      rating_count: 52
+      updated_at: '2018-11-09T11:00:10Z'
     shinden: null
     worldart:
       id: 9816
@@ -1130,33 +2138,66 @@ radiant:
       id: B07K5C79DC
     anidb:
       id: 13767
+      rating: 3.61
+      rating_count: 38
+      updated_at: '2018-11-09T11:00:22Z'
     anikore:
       id: 11573
+      rating: 3.3
+      rating_count: 21
+      updated_at: '2018-11-09T11:00:23Z'
     anilist:
       id: 101024
+      rating: 60
+      rating_count: 593
+      updated_at: '2018-11-09T11:00:24Z'
     animenewsnetwork:
       id: 20793
     animeplanet:
       id: radiant
+      rating: 6.776
+      rating_count: 468
+      updated_at: '2018-11-09T11:00:24Z'
     bangumi:
       id: 236597
+      rating: 5
+      rating_count: 26
+      updated_at: '2018-11-09T11:00:24Z'
     bilibili: null
     crunchyroll:
       id: radiant
+      rating: 3.6
+      rating_count: 31
+      updated_at: '2018-11-09T11:00:25Z'
     douban:
       id: 30135532
     imdb:
       id: 9225320
     kitsu:
       id: 41099
+      rating: 69.03
+      rating_count: 210
+      updated_at: '2018-11-09T11:00:28Z'
     myanimelist:
       id: 37202
+      rating: 6.61
+      rating_count: 5813
+      updated_at: '2018-11-09T11:00:28Z'
     reddit:
       id: 9ttbb2
+      rating: 7.442
+      rating_count: 50
+      updated_at: '2018-11-09T11:00:29Z'
     shikimori:
       id: 37202
+      rating: 6.61
+      rating_count: 419
+      updated_at: '2018-11-09T11:00:30Z'
     shinden:
       id: 52678
+      rating: 8.06
+      rating_count: 48
+      updated_at: '2018-11-09T11:00:30Z'
     worldart:
       id: 9560
 release-the-spyce:
@@ -1168,30 +2209,63 @@ release-the-spyce:
   sites:
     anidb:
       id: 13760
+      rating: 3.43
+      rating_count: 40
+      updated_at: '2018-11-09T11:00:37Z'
     anikore:
       id: 11666
+      rating: 3.2
+      rating_count: 49
+      updated_at: '2018-11-09T11:00:38Z'
     anilist:
       id: 101014
+      rating: 63
+      rating_count: 559
+      updated_at: '2018-11-09T11:00:38Z'
     animenewsnetwork:
       id: 20595
     animeplanet:
       id: release-the-spyce
+      rating: 5.806
+      rating_count: 196
+      updated_at: '2018-11-09T11:00:39Z'
     bangumi:
       id: 236510
+      rating: 6.9
+      rating_count: 253
+      updated_at: '2018-11-09T11:00:39Z'
     douban:
       id: 30133710
+      rating: 7.6
+      rating_count: 93
+      updated_at: '2018-11-09T11:00:40Z'
     imdb:
       id: 9238088
     kitsu:
       id: 41405
+      rating: 70.58
+      rating_count: 119
+      updated_at: '2018-11-09T11:00:41Z'
     myanimelist:
       id: 37221
+      rating: 6.76
+      rating_count: 3087
+      updated_at: '2018-11-09T11:00:41Z'
     reddit:
       id: 9twjle
+      rating: 7.684
+      rating_count: 36
+      updated_at: '2018-11-09T11:00:43Z'
     shikimori:
       id: 37221
+      rating: 6.76
+      rating_count: 138
+      updated_at: '2018-11-09T11:00:43Z'
     shinden:
       id: 53465
+      rating: 7.08
+      rating_count: 13
+      updated_at: '2018-11-09T11:00:45Z'
     worldart:
       id: 9557
 renai-bakumatsu-kareshi:
@@ -1204,18 +2278,36 @@ renai-bakumatsu-kareshi:
     amazon: null
     anidb:
       id: 13971
+      rating: 3.15
+      rating_count: 24
+      updated_at: '2018-11-09T11:00:52Z'
     anikore:
       id: 11899
+      rating: 2.8
+      rating_count: 8
+      updated_at: '2018-11-09T11:00:53Z'
     anilist:
       id: 101373
+      rating: 43
+      rating_count: 118
+      updated_at: '2018-11-09T11:00:53Z'
     animenewsnetwork:
       id: 20795
     animeplanet:
       id: bakumatsu
+      rating: 4.092
+      rating_count: 116
+      updated_at: '2018-11-09T11:00:54Z'
     bangumi:
       id: 241181
+      rating: 4.3
+      rating_count: 3
+      updated_at: '2018-11-09T11:00:54Z'
     crunchyroll:
       id: bakumatsu
+      rating: 2.6
+      rating_count: 5
+      updated_at: '2018-11-09T11:00:54Z'
     douban:
       id: 30179571
     imdb: null
@@ -1223,12 +2315,24 @@ renai-bakumatsu-kareshi:
       id: 41112
     myanimelist:
       id: 37584
+      rating: 5.37
+      rating_count: 954
+      updated_at: '2018-11-09T11:00:56Z'
     reddit:
       id: 9ve7uf
+      rating: 5.38
+      rating_count: 3
+      updated_at: '2018-11-09T11:00:57Z'
     shikimori:
       id: 37584
+      rating: 5.38
+      rating_count: 83
+      updated_at: '2018-11-09T11:00:57Z'
     shinden:
       id: 54008
+      rating: 7.75
+      rating_count: 16
+      updated_at: '2018-11-09T11:00:58Z'
     worldart:
       id: 9652
 rerided-tokigoe-no-derrida:
@@ -1242,32 +2346,68 @@ rerided-tokigoe-no-derrida:
       id: B07K2Z2WXJ
     anidb:
       id: 13254
+      rating: 3.31
+      rating_count: 42
+      updated_at: '2018-11-09T11:01:07Z'
     anikore:
       id: 11784
+      rating: 3.0
+      rating_count: 41
+      updated_at: '2018-11-09T11:01:08Z'
     anilist:
       id: 99413
+      rating: 52
+      rating_count: 376
+      updated_at: '2018-11-09T11:01:08Z'
     animenewsnetwork:
       id: 20763
     animeplanet:
       id: rerided-derrida-who-leaps-through-time
+      rating: 5.82
+      rating_count: 222
+      updated_at: '2018-11-09T11:01:09Z'
     bangumi:
       id: 240800
+      rating: 5.1
+      rating_count: 77
+      updated_at: '2018-11-09T11:01:09Z'
     bilibili:
       id: 139372
+      rating: 7.9
+      rating_count: 1039
+      updated_at: '2018-11-09T11:01:10Z'
     crunchyroll:
       id: rerided-derrida-who-leaps-through-time
+      rating: 3.3
+      rating_count: 14
+      updated_at: '2018-11-09T11:01:10Z'
     douban:
       id: 30174392
     kitsu:
       id: 13613
+      rating: 65.53
+      rating_count: 111
+      updated_at: '2018-11-09T11:01:11Z'
     myanimelist:
       id: 35835
+      rating: 5.97
+      rating_count: 2785
+      updated_at: '2018-11-09T11:01:12Z'
     reddit:
       id: 9v05pi
+      rating: 5.7700000000000005
+      rating_count: 14
+      updated_at: '2018-11-09T11:01:13Z'
     shikimori:
       id: 35835
+      rating: 5.97
+      rating_count: 274
+      updated_at: '2018-11-09T11:01:13Z'
     shinden:
       id: 53258
+      rating: 7.63
+      rating_count: 35
+      updated_at: '2018-11-09T11:01:15Z'
     worldart:
       id: 9630
 seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai:
@@ -1279,32 +2419,71 @@ seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai:
   sites:
     anidb:
       id: 13900
+      rating: 7.38
+      rating_count: 134
+      updated_at: '2018-11-09T11:01:23Z'
     anikore:
       id: 11846
+      rating: 3.4
+      rating_count: 127
+      updated_at: '2018-11-09T11:01:24Z'
     anilist:
       id: 101291
+      rating: 79
+      rating_count: 2257
+      updated_at: '2018-11-09T11:01:24Z'
     animenewsnetwork:
       id: 20848
     animeplanet:
       id: rascal-does-not-dream-of-bunny-girl-senpai
+      rating: 8.788
+      rating_count: 1104
+      updated_at: '2018-11-09T11:01:24Z'
     bangumi:
       id: 240038
+      rating: 7.6
+      rating_count: 957
+      updated_at: '2018-11-09T11:01:25Z'
     bilibili:
       id: 134932
+      rating: 9.8
+      rating_count: 29423
+      updated_at: '2018-11-09T11:01:25Z'
     crunchyroll:
       id: rascal-does-not-dream-of-bunny-girl-senpai
+      rating: 4.9
+      rating_count: 97
+      updated_at: '2018-11-09T11:01:26Z'
     douban:
       id: 30166978
+      rating: 8.9
+      rating_count: 1898
+      updated_at: '2018-11-09T11:01:27Z'
     imdb:
       id: 8993398
+      rating: 8.0
+      rating_count: 107
+      updated_at: '2018-11-09T11:01:28Z'
     kitsu:
       id: 41056
+      rating: 83.81
+      rating_count: 765
+      updated_at: '2018-11-09T11:01:28Z'
     myanimelist:
       id: 37450
+      rating: 8.51
+      rating_count: 31105
+      updated_at: '2018-11-09T11:01:29Z'
     reddit:
       id: 9v26ag
+      rating: 9.001666666666667
+      rating_count: 570
+      updated_at: '2018-11-09T11:01:31Z'
     shikimori:
       id: 37450
+      rating: 8.51
+      rating_count: 3310
+      updated_at: '2018-11-09T11:01:31Z'
     shinden:
       id: 53568
     worldart:
@@ -1318,29 +2497,56 @@ senran-kagura-2:
   sites:
     anidb:
       id: 13341
+      rating: 4.65
+      rating_count: 20
+      updated_at: '2018-11-09T11:01:37Z'
     anikore:
       id: 11907
+      rating: 3.2
+      rating_count: 13
+      updated_at: '2018-11-09T11:01:38Z'
     anilist:
       id: 102822
+      rating: 54
+      rating_count: 112
+      updated_at: '2018-11-09T11:01:38Z'
     animenewsnetwork:
       id: 21370
     animeplanet:
       id: senran-kagura-shinovi-master
+      rating: 5.492
+      rating_count: 83
+      updated_at: '2018-11-09T11:01:42Z'
     bangumi:
       id: 221190
+      rating: 6.3
+      rating_count: 43
+      updated_at: '2018-11-09T11:01:42Z'
     douban:
       id: 27107626
     kitsu:
       id: 13690
     myanimelist:
       id: 36037
+      rating: 6.51
+      rating_count: 992
+      updated_at: '2018-11-09T11:01:44Z'
     reddit:
       id: 9tmqc7
+      rating: 6.7175
+      rating_count: 11
+      updated_at: '2018-11-09T11:01:45Z'
     saraba1st: null
     shikimori:
       id: 36037
+      rating: 6.51
+      rating_count: 51
+      updated_at: '2018-11-09T11:01:45Z'
     shinden:
       id: 53997
+      rating: 6.45
+      rating_count: 11
+      updated_at: '2018-11-09T11:01:45Z'
     worldart:
       id: 9784
 sono-toki-kanojo-wa:
@@ -1355,14 +2561,26 @@ sono-toki-kanojo-wa:
       id: 14339
     anikore:
       id: 11910
+      rating: 3.0
+      rating_count: 6
+      updated_at: '2018-11-09T11:01:53Z'
     anilist:
       id: 104073
+      rating: 42
+      rating_count: 113
+      updated_at: '2018-11-09T11:01:53Z'
     animenewsnetwork:
       id: 21402
     animeplanet:
       id: sono-toki-kanojo-wa
+      rating: 3.996
+      rating_count: 71
+      updated_at: '2018-11-09T11:01:54Z'
     bangumi:
       id: 259054
+      rating: 6.2
+      rating_count: 30
+      updated_at: '2018-11-09T11:01:54Z'
     douban:
       id: 30317770
     imdb: null
@@ -1370,12 +2588,24 @@ sono-toki-kanojo-wa:
       id: 41960
     myanimelist:
       id: 38251
+      rating: 5.29
+      rating_count: 771
+      updated_at: '2018-11-09T11:01:55Z'
     reddit:
       id: 9pzq8m
+      rating: 4.296666666666667
+      rating_count: 5
+      updated_at: '2018-11-09T11:01:56Z'
     shikimori:
       id: 38251
+      rating: 5.29
+      rating_count: 80
+      updated_at: '2018-11-09T11:01:56Z'
     shinden:
       id: 54018
+      rating: 6.33
+      rating_count: 6
+      updated_at: '2018-11-09T11:01:56Z'
     worldart:
       id: 9813
 sora-to-umi-no-aida:
@@ -1387,34 +2617,67 @@ sora-to-umi-no-aida:
   sites:
     anidb:
       id: 13312
+      rating: 1.59
+      rating_count: 36
+      updated_at: '2018-11-09T11:02:07Z'
     anikore:
       id: 11757
+      rating: 2.7
+      rating_count: 53
+      updated_at: '2018-11-09T11:02:08Z'
     anilist:
       id: 99639
+      rating: 44
+      rating_count: 343
+      updated_at: '2018-11-09T11:02:08Z'
     animenewsnetwork:
       id: 20389
     animeplanet:
       id: between-the-sky-and-sea
+      rating: 3.282
+      rating_count: 134
+      updated_at: '2018-11-09T11:02:09Z'
     bangumi:
       id: 220658
+      rating: 4.3
+      rating_count: 99
+      updated_at: '2018-11-09T11:02:09Z'
     bilibili:
       id: 140752
     crunchyroll:
       id: between-the-sky-and-sea
+      rating: 2.2
+      rating_count: 22
+      updated_at: '2018-11-09T11:02:10Z'
     douban:
       id: 30179569
     imdb:
       id: 7179032
     kitsu:
       id: 40856
+      rating: 58.76
+      rating_count: 98
+      updated_at: '2018-11-09T11:02:12Z'
     myanimelist:
       id: 36000
+      rating: 4.9
+      rating_count: 1945
+      updated_at: '2018-11-09T11:02:13Z'
     reddit:
       id: 9v16dz
+      rating: 5.903333333333333
+      rating_count: 14
+      updated_at: '2018-11-09T11:02:14Z'
     shikimori:
       id: 36000
+      rating: 4.9
+      rating_count: 109
+      updated_at: '2018-11-09T11:02:14Z'
     shinden:
       id: 53466
+      rating: 7.11
+      rating_count: 9
+      updated_at: '2018-11-09T11:02:15Z'
     worldart:
       id: 9345
 ssss-gridman:
@@ -1428,32 +2691,71 @@ ssss-gridman:
       id: B07JL4J4QB
     anidb:
       id: 13260
+      rating: 4.32
+      rating_count: 52
+      updated_at: '2018-11-09T11:02:23Z'
     anikore:
       id: 11675
+      rating: 3.4
+      rating_count: 96
+      updated_at: '2018-11-09T11:02:23Z'
     anilist:
       id: 99424
+      rating: 66
+      rating_count: 911
+      updated_at: '2018-11-09T11:02:23Z'
     animenewsnetwork:
       id: 20369
     animeplanet:
       id: ssss-gridman
+      rating: 6.892
+      rating_count: 333
+      updated_at: '2018-11-09T11:02:24Z'
     bangumi:
       id: 218712
+      rating: 7.6
+      rating_count: 660
+      updated_at: '2018-11-09T11:02:24Z'
     crunchyroll:
       id: ssssgridman
+      rating: 4.4
+      rating_count: 15
+      updated_at: '2018-11-09T11:02:25Z'
     douban:
       id: 27080659
+      rating: 8.7
+      rating_count: 645
+      updated_at: '2018-11-09T11:02:26Z'
     imdb:
       id: 8747928
+      rating: 8.1
+      rating_count: 27
+      updated_at: '2018-11-09T11:02:27Z'
     kitsu:
       id: 13601
+      rating: 70.46
+      rating_count: 263
+      updated_at: '2018-11-09T11:02:27Z'
     myanimelist:
       id: 35847
+      rating: 7.04
+      rating_count: 7306
+      updated_at: '2018-11-09T11:02:28Z'
     reddit:
       id: 9tw2fs
+      rating: 8.096
+      rating_count: 143
+      updated_at: '2018-11-09T11:02:30Z'
     shikimori:
       id: 35847
+      rating: 7.04
+      rating_count: 477
+      updated_at: '2018-11-09T11:02:30Z'
     shinden:
       id: 53376
+      rating: 7.23
+      rating_count: 31
+      updated_at: '2018-11-09T11:02:31Z'
     worldart:
       id: 9489
 sword-art-online-alicization:
@@ -1464,30 +2766,66 @@ sword-art-online-alicization:
   sites:
     anidb:
       id: 13493
+      rating: 7.58
+      rating_count: 93
+      updated_at: '2018-11-09T11:02:38Z'
     anikore:
       id: 11636
+      rating: 3.6
+      rating_count: 128
+      updated_at: '2018-11-09T11:02:39Z'
     anilist:
       id: 100182
+      rating: 76
+      rating_count: 2036
+      updated_at: '2018-11-09T11:02:39Z'
     animenewsnetwork:
       id: 20665
     animeplanet:
       id: sword-art-online-alicization
+      rating: 8.604
+      rating_count: 1504
+      updated_at: '2018-11-09T11:02:40Z'
     bangumi:
       id: 225604
+      rating: 7.6
+      rating_count: 668
+      updated_at: '2018-11-09T11:02:40Z'
     bilibili:
       id: 130412
+      rating: 9.7
+      rating_count: 28793
+      updated_at: '2018-11-09T11:02:41Z'
     douban:
       id: 27144972
+      rating: 8.8
+      rating_count: 1256
+      updated_at: '2018-11-09T11:02:42Z'
     kitsu:
       id: 13893
+      rating: 82.72
+      rating_count: 1433
+      updated_at: '2018-11-09T11:02:42Z'
     myanimelist:
       id: 36474
+      rating: 8.19
+      rating_count: 26307
+      updated_at: '2018-11-09T11:02:42Z'
     reddit:
       id: 9tvhsp
+      rating: 8.370000000000001
+      rating_count: 388
+      updated_at: '2018-11-09T11:02:44Z'
     shikimori:
       id: 36474
+      rating: 8.19
+      rating_count: 3737
+      updated_at: '2018-11-09T11:02:44Z'
     shinden:
       id: 51933
+      rating: 9.04
+      rating_count: 772
+      updated_at: '2018-11-09T11:02:45Z'
     worldart:
       id: 9417
 tensei-shitara-slime-datta-ken:
@@ -1501,34 +2839,76 @@ tensei-shitara-slime-datta-ken:
       id: B07K2XSV6L
     anidb:
       id: 13871
+      rating: 6.69
+      rating_count: 155
+      updated_at: '2018-11-09T11:02:53Z'
     anikore:
       id: 11608
+      rating: 3.3
+      rating_count: 145
+      updated_at: '2018-11-09T11:02:54Z'
     anilist:
       id: 101280
+      rating: 76
+      rating_count: 2136
+      updated_at: '2018-11-09T11:02:54Z'
     animenewsnetwork:
       id: 20736
     animeplanet:
       id: that-time-i-got-reincarnated-as-a-slime
+      rating: 8.992
+      rating_count: 2053
+      updated_at: '2018-11-09T11:02:54Z'
     bangumi:
       id: 239816
+      rating: 7
+      rating_count: 695
+      updated_at: '2018-11-09T11:02:55Z'
     bilibili:
       id: 139252
+      rating: 9.7
+      rating_count: 16866
+      updated_at: '2018-11-09T11:02:55Z'
     crunchyroll:
       id: that-time-i-got-reincarnated-as-a-slime
+      rating: 4.7
+      rating_count: 158
+      updated_at: '2018-11-09T11:02:55Z'
     douban:
       id: 30163731
+      rating: 8.5
+      rating_count: 1262
+      updated_at: '2018-11-09T11:02:56Z'
     imdb:
       id: 9054364
+      rating: 8.1
+      rating_count: 101
+      updated_at: '2018-11-09T11:02:57Z'
     kitsu:
       id: 41024
+      rating: 83.01
+      rating_count: 771
+      updated_at: '2018-11-09T11:02:58Z'
     myanimelist:
       id: 37430
+      rating: 8.25
+      rating_count: 27142
+      updated_at: '2018-11-09T11:02:58Z'
     reddit:
       id: 9uf14f
+      rating: 8.968333333333334
+      rating_count: 384
+      updated_at: '2018-11-09T11:03:00Z'
     shikimori:
       id: 37430
+      rating: 8.25
+      rating_count: 3412
+      updated_at: '2018-11-09T11:03:00Z'
     shinden:
       id: 53156
+      rating: 8.92
+      rating_count: 664
+      updated_at: '2018-11-09T11:03:00Z'
     worldart:
       id: 9598
 the-idolmaster-sidem-wake-atte-mini:
@@ -1541,28 +2921,49 @@ the-idolmaster-sidem-wake-atte-mini:
       id: 14295
     anikore:
       id: 11834
+      rating: 3.0
+      rating_count: 3
+      updated_at: '2018-11-09T11:03:08Z'
     anilist:
       id: 103923
     animenewsnetwork:
       id: 21309
     animeplanet:
       id: the-idolmaster-side-m-wake-atte-mini
+      rating: 6.192
+      rating_count: 12
+      updated_at: '2018-11-09T11:03:09Z'
     bangumi:
       id: 257844
+      rating: 5.2
+      rating_count: 6
+      updated_at: '2018-11-09T11:03:09Z'
     bilibili:
       id: 139472
     crunchyroll:
       id: the-idolmster-sidem-wakeatte-mini
+      rating: 0.0
+      rating_count: 0
+      updated_at: '2018-11-09T11:03:10Z'
     douban:
       id: 30305526
     kitsu:
       id: 41954
     myanimelist:
       id: 38203
+      rating: 5.96
+      rating_count: 171
+      updated_at: '2018-11-09T11:03:12Z'
     reddit:
       id: 9uop6z
+      rating: 4.334
+      rating_count: 2
+      updated_at: '2018-11-09T11:03:13Z'
     shikimori:
       id: 38203
+      rating: 5.96
+      rating_count: 6
+      updated_at: '2018-11-09T11:03:13Z'
     shinden:
       id: 54015
     worldart:
@@ -1576,31 +2977,67 @@ toaru-majutsu-no-index-iii:
   sites:
     anidb:
       id: 13481
+      rating: 6.63
+      rating_count: 48
+      updated_at: '2018-11-09T11:03:23Z'
     anikore:
       id: 11758
+      rating: 3.4
+      rating_count: 94
+      updated_at: '2018-11-09T11:03:23Z'
     anilist:
       id: 100185
+      rating: 70
+      rating_count: 630
+      updated_at: '2018-11-09T11:03:24Z'
     animenewsnetwork:
       id: 21108
     animeplanet:
       id: a-certain-magical-index-iii
+      rating: 8.09
+      rating_count: 471
+      updated_at: '2018-11-09T11:03:24Z'
     bangumi:
       id: 226540
+      rating: 6.7
+      rating_count: 513
+      updated_at: '2018-11-09T11:03:24Z'
     bilibili:
       id: 134912
+      rating: 9.1
+      rating_count: 15113
+      updated_at: '2018-11-09T11:03:25Z'
     douban:
       id: 27157689
+      rating: 7.7
+      rating_count: 634
+      updated_at: '2018-11-09T11:03:26Z'
     imdb: null
     kitsu:
       id: 13880
+      rating: 78.0
+      rating_count: 193
+      updated_at: '2018-11-09T11:03:26Z'
     myanimelist:
       id: 36432
+      rating: 7.8
+      rating_count: 6343
+      updated_at: '2018-11-09T11:03:26Z'
     reddit:
       id: 9tkmuy
+      rating: 7.404
+      rating_count: 97
+      updated_at: '2018-11-09T11:03:29Z'
     shikimori:
       id: 36432
+      rating: 7.8
+      rating_count: 586
+      updated_at: '2018-11-09T11:03:29Z'
     shinden:
       id: 51923
+      rating: 8.46
+      rating_count: 74
+      updated_at: '2018-11-09T11:03:30Z'
     worldart:
       id: 9416
 tokyo-ghoul-re-2nd-season:
@@ -1612,31 +3049,67 @@ tokyo-ghoul-re-2nd-season:
   sites:
     anidb:
       id: 14059
+      rating: 3.82
+      rating_count: 29
+      updated_at: '2018-11-09T11:03:37Z'
     anikore:
       id: 11847
+      rating: 3.2
+      rating_count: 28
+      updated_at: '2018-11-09T11:03:38Z'
     anilist:
       id: 102351
+      rating: 63
+      rating_count: 1089
+      updated_at: '2018-11-09T11:03:38Z'
     animenewsnetwork:
       id: 21116
     animeplanet:
       id: tokyo-ghoul-re-2nd-season
+      rating: 7.916
+      rating_count: 1052
+      updated_at: '2018-11-09T11:03:39Z'
     bangumi:
       id: 244878
+      rating: 5.7
+      rating_count: 108
+      updated_at: '2018-11-09T11:03:39Z'
     bilibili:
       id: 140692
+      rating: 8.1
+      rating_count: 200
+      updated_at: '2018-11-09T11:03:40Z'
     douban:
       id: 30214032
+      rating: 7.4
+      rating_count: 1330
+      updated_at: '2018-11-09T11:03:41Z'
     imdb: null
     kitsu:
       id: 41359
+      rating: 79.78
+      rating_count: 1201
+      updated_at: '2018-11-09T11:03:41Z'
     myanimelist:
       id: 37799
+      rating: 6.53
+      rating_count: 16304
+      updated_at: '2018-11-09T11:03:42Z'
     reddit:
       id: 9up1jd
+      rating: 4.132
+      rating_count: 140
+      updated_at: '2018-11-09T11:03:44Z'
     shikimori:
       id: 37799
+      rating: 6.53
+      rating_count: 2600
+      updated_at: '2018-11-09T11:03:44Z'
     shinden:
       id: 53607
+      rating: 8.35
+      rating_count: 916
+      updated_at: '2018-11-09T11:03:44Z'
     worldart:
       id: 9678
 tonari-no-kyuuketsuki-san:
@@ -1648,34 +3121,76 @@ tonari-no-kyuuketsuki-san:
   sites:
     anidb:
       id: 13966
+      rating: 4.0
+      rating_count: 54
+      updated_at: '2018-11-09T11:03:52Z'
     anikore:
       id: 11770
+      rating: 3.3
+      rating_count: 56
+      updated_at: '2018-11-09T11:03:53Z'
     anilist:
       id: 101371
+      rating: 65
+      rating_count: 662
+      updated_at: '2018-11-09T11:03:53Z'
     animenewsnetwork:
       id: 21135
     animeplanet:
       id: ms-vampire-who-lives-in-my-neighborhood
+      rating: 6.506
+      rating_count: 293
+      updated_at: '2018-11-09T11:03:54Z'
     bangumi:
       id: 241158
+      rating: 7
+      rating_count: 308
+      updated_at: '2018-11-09T11:03:54Z'
     bilibili:
       id: 139632
+      rating: 9.7
+      rating_count: 3095
+      updated_at: '2018-11-09T11:03:55Z'
     crunchyroll:
       id: ms-vampire-who-lives-in-my-neighborhood
+      rating: 4.6
+      rating_count: 13
+      updated_at: '2018-11-09T11:03:55Z'
     douban:
       id: 30179562
+      rating: 7.5
+      rating_count: 153
+      updated_at: '2018-11-09T11:03:56Z'
     imdb:
       id: 9085330
+      rating: 8.0
+      rating_count: 10
+      updated_at: '2018-11-09T11:03:57Z'
     kitsu:
       id: 41111
+      rating: 72.2
+      rating_count: 167
+      updated_at: '2018-11-09T11:03:57Z'
     myanimelist:
       id: 37579
+      rating: 7.04
+      rating_count: 4524
+      updated_at: '2018-11-09T11:03:58Z'
     reddit:
       id: 9tjwt4
+      rating: 7.972
+      rating_count: 38
+      updated_at: '2018-11-09T11:03:59Z'
     shikimori:
       id: 37579
+      rating: 7.03
+      rating_count: 274
+      updated_at: '2018-11-09T11:03:59Z'
     shinden:
       id: 53551
+      rating: 8.52
+      rating_count: 31
+      updated_at: '2018-11-09T11:04:00Z'
     worldart:
       id: 9650
 tsurune-kazemai-koko-kyudo-bu:
@@ -1687,34 +3202,73 @@ tsurune-kazemai-koko-kyudo-bu:
   sites:
     anidb:
       id: 13538
+      rating: 5.62
+      rating_count: 27
+      updated_at: '2018-11-09T11:04:07Z'
     anikore:
       id: 11783
+      rating: 3.4
+      rating_count: 30
+      updated_at: '2018-11-09T11:04:08Z'
     anilist:
       id: 100402
+      rating: 66
+      rating_count: 312
+      updated_at: '2018-11-09T11:04:08Z'
     animenewsnetwork:
       id: 21268
     animeplanet:
       id: tsurune
+      rating: 8.332
+      rating_count: 193
+      updated_at: '2018-11-09T11:04:09Z'
     bangumi:
       id: 228378
+      rating: 7
+      rating_count: 103
+      updated_at: '2018-11-09T11:04:09Z'
     bilibili:
       id: 139292
+      rating: 9.5
+      rating_count: 1840
+      updated_at: '2018-11-09T11:04:10Z'
     crunchyroll:
       id: tsurune
+      rating: 5.0
+      rating_count: 6
+      updated_at: '2018-11-09T11:04:10Z'
     douban:
       id: 27178673
+      rating: 7.6
+      rating_count: 293
+      updated_at: '2018-11-09T11:04:11Z'
     imdb:
       id: 8994044
     kitsu:
       id: 13990
+      rating: 77.0
+      rating_count: 87
+      updated_at: '2018-11-09T11:04:12Z'
     myanimelist:
       id: 36653
+      rating: 7.5
+      rating_count: 2704
+      updated_at: '2018-11-09T11:04:12Z'
     reddit:
       id: 9u5x46
+      rating: 8.129999999999999
+      rating_count: 45
+      updated_at: '2018-11-09T11:04:13Z'
     shikimori:
       id: 36653
+      rating: 7.5
+      rating_count: 240
+      updated_at: '2018-11-09T11:04:14Z'
     shinden:
       id: 53998
+      rating: 8.36
+      rating_count: 14
+      updated_at: '2018-11-09T11:04:14Z'
     worldart:
       id: 9448
 uchi-no-maid-ga-uzasugiru:
@@ -1726,34 +3280,76 @@ uchi-no-maid-ga-uzasugiru:
   sites:
     anidb:
       id: 14026
+      rating: 4.9
+      rating_count: 65
+      updated_at: '2018-11-09T11:04:22Z'
     anikore:
       id: 11687
+      rating: 3.4
+      rating_count: 70
+      updated_at: '2018-11-09T11:04:23Z'
     anilist:
       id: 101506
+      rating: 67
+      rating_count: 753
+      updated_at: '2018-11-09T11:04:23Z'
     animenewsnetwork:
       id: 20845
     animeplanet:
       id: uchi-no-maid-ga-uzasugiru
+      rating: 7.22
+      rating_count: 306
+      updated_at: '2018-11-09T11:04:24Z'
     bangumi:
       id: 242670
+      rating: 6.9
+      rating_count: 378
+      updated_at: '2018-11-09T11:04:24Z'
     bilibili:
       id: 139312
+      rating: 9.7
+      rating_count: 4399
+      updated_at: '2018-11-09T11:04:25Z'
     crunchyroll:
       id: uzamaid
+      rating: 3.9
+      rating_count: 20
+      updated_at: '2018-11-09T11:04:25Z'
     douban:
       id: 30194944
+      rating: 7.0
+      rating_count: 294
+      updated_at: '2018-11-09T11:04:26Z'
     imdb:
       id: 8993614
+      rating: 6.6
+      rating_count: 12
+      updated_at: '2018-11-09T11:04:27Z'
     kitsu:
       id: 41209
+      rating: 74.19
+      rating_count: 194
+      updated_at: '2018-11-09T11:04:28Z'
     myanimelist:
       id: 37722
+      rating: 7.39
+      rating_count: 5553
+      updated_at: '2018-11-09T11:04:28Z'
     reddit:
       id: 9tl5wo
+      rating: 8.126
+      rating_count: 51
+      updated_at: '2018-11-09T11:04:29Z'
     shikimori:
       id: 37722
+      rating: 7.39
+      rating_count: 508
+      updated_at: '2018-11-09T11:04:30Z'
     shinden:
       id: 53462
+      rating: 8.88
+      rating_count: 58
+      updated_at: '2018-11-09T11:04:30Z'
     worldart:
       id: 9674
 uchuu-senkan-tiramisu-ii:
@@ -1765,29 +3361,59 @@ uchuu-senkan-tiramisu-ii:
   sites:
     anidb:
       id: 14187
+      rating: 3.76
+      rating_count: 12
+      updated_at: '2018-11-09T11:04:37Z'
     anikore:
       id: 11837
+      rating: 3.2
+      rating_count: 17
+      updated_at: '2018-11-09T11:04:38Z'
     anilist:
       id: 102978
+      rating: 55
+      rating_count: 97
+      updated_at: '2018-11-09T11:04:38Z'
     animenewsnetwork:
       id: 21136
     animeplanet:
       id: space-battleship-tiramisu-zwei
+      rating: 6.554
+      rating_count: 66
+      updated_at: '2018-11-09T11:04:39Z'
     bangumi:
       id: 251666
+      rating: 6.6
+      rating_count: 77
+      updated_at: '2018-11-09T11:04:39Z'
     bilibili:
       id: 140332
+      rating: 9.6
+      rating_count: 419
+      updated_at: '2018-11-09T11:04:40Z'
     douban:
       id: 30257539
+      rating: 7.5
+      rating_count: 79
+      updated_at: '2018-11-09T11:04:41Z'
     imdb: null
     kitsu:
       id: 41926
     myanimelist:
       id: 37988
+      rating: 6.5
+      rating_count: 575
+      updated_at: '2018-11-09T11:04:41Z'
     reddit:
       id: 9ufvbs
+      rating: 9.238333333333333
+      rating_count: 2
+      updated_at: '2018-11-09T11:04:42Z'
     shikimori:
       id: 37988
+      rating: 6.5
+      rating_count: 30
+      updated_at: '2018-11-09T11:04:42Z'
     shinden:
       id: 54019
     worldart:
@@ -1803,32 +3429,68 @@ ulysses-jeanne-darc-to-renkin-no-kishi:
       id: B07K3Y3N4C
     anidb:
       id: 13498
+      rating: 2.39
+      rating_count: 58
+      updated_at: '2018-11-09T11:04:53Z'
     anikore:
       id: 11709
+      rating: 3.1
+      rating_count: 41
+      updated_at: '2018-11-09T11:04:53Z'
     anilist:
       id: 100432
+      rating: 52
+      rating_count: 509
+      updated_at: '2018-11-09T11:04:54Z'
     animenewsnetwork:
       id: 21193
     animeplanet:
       id: ulysses-jeanne-darc-and-the-alchemist-knight
+      rating: 5.648
+      rating_count: 420
+      updated_at: '2018-11-09T11:04:54Z'
     bangumi:
       id: 227098
+      rating: 5.6
+      rating_count: 89
+      updated_at: '2018-11-09T11:04:55Z'
     crunchyroll:
       id: ulysses-jeanne-darc-and-the-alchemist-knight
+      rating: 2.1
+      rating_count: 47
+      updated_at: '2018-11-09T11:04:55Z'
     douban:
       id: 27180937
     imdb:
       id: 8800144
+      rating: 5.7
+      rating_count: 15
+      updated_at: '2018-11-09T11:04:57Z'
     kitsu:
       id: 13994
+      rating: 65.32
+      rating_count: 153
+      updated_at: '2018-11-09T11:04:57Z'
     myanimelist:
       id: 36510
+      rating: 6.02
+      rating_count: 5154
+      updated_at: '2018-11-09T11:04:58Z'
     reddit:
       id: 9u479f
+      rating: 5.776
+      rating_count: 26
+      updated_at: '2018-11-09T11:04:59Z'
     shikimori:
       id: 36510
+      rating: 6.02
+      rating_count: 478
+      updated_at: '2018-11-09T11:04:59Z'
     shinden:
       id: 52120
+      rating: 7.66
+      rating_count: 123
+      updated_at: '2018-11-09T11:05:00Z'
     worldart:
       id: 9687
 yagate-kimi-ni-naru:
@@ -1840,32 +3502,71 @@ yagate-kimi-ni-naru:
   sites:
     anidb:
       id: 14053
+      rating: 5.93
+      rating_count: 56
+      updated_at: '2018-11-09T11:05:07Z'
     anikore:
       id: 11700
+      rating: 3.4
+      rating_count: 62
+      updated_at: '2018-11-09T11:05:08Z'
     anilist:
       id: 101573
+      rating: 72
+      rating_count: 852
+      updated_at: '2018-11-09T11:05:08Z'
     animenewsnetwork:
       id: 21239
     animeplanet:
       id: bloom-into-you
+      rating: 7.45
+      rating_count: 344
+      updated_at: '2018-11-09T11:05:09Z'
     bangumi:
       id: 243981
+      rating: 7.7
+      rating_count: 512
+      updated_at: '2018-11-09T11:05:09Z'
     bilibili:
       id: 138832
+      rating: 9.8
+      rating_count: 4727
+      updated_at: '2018-11-09T11:05:10Z'
     douban:
       id: 30206427
+      rating: 8.6
+      rating_count: 617
+      updated_at: '2018-11-09T11:05:11Z'
     imdb:
       id: 8993464
+      rating: 7.5
+      rating_count: 22
+      updated_at: '2018-11-09T11:05:12Z'
     kitsu:
       id: 41240
+      rating: 75.68
+      rating_count: 222
+      updated_at: '2018-11-09T11:05:12Z'
     myanimelist:
       id: 37786
+      rating: 7.6
+      rating_count: 6284
+      updated_at: '2018-11-09T11:05:12Z'
     reddit:
       id: 9tkc8b
+      rating: 8.792
+      rating_count: 90
+      updated_at: '2018-11-09T11:05:14Z'
     shikimori:
       id: 37786
+      rating: 7.6
+      rating_count: 493
+      updated_at: '2018-11-09T11:05:14Z'
     shinden:
       id: 53544
+      rating: 8.55
+      rating_count: 102
+      updated_at: '2018-11-09T11:05:15Z'
     worldart:
       id: 9677
 zombieland-saga:
@@ -1879,33 +3580,75 @@ zombieland-saga:
       id: B07K5XQ7B8
     anidb:
       id: 14198
+      rating: 5.63
+      rating_count: 99
+      updated_at: '2018-11-09T11:05:23Z'
     anikore:
       id: 11857
+      rating: 3.4
+      rating_count: 85
+      updated_at: '2018-11-09T11:05:23Z'
     anilist:
       id: 103871
+      rating: 71
+      rating_count: 1647
+      updated_at: '2018-11-09T11:05:24Z'
     animenewsnetwork:
       id: 21363
     animeplanet:
       id: zombieland-saga
+      rating: 7.464
+      rating_count: 882
+      updated_at: '2018-11-09T11:05:25Z'
     bangumi:
       id: 252655
+      rating: 7.5
+      rating_count: 664
+      updated_at: '2018-11-09T11:05:25Z'
     bilibili:
       id: 140772
+      rating: 9.7
+      rating_count: 1328
+      updated_at: '2018-11-09T11:05:26Z'
     crunchyroll:
       id: zombie-land-saga
+      rating: 4.3
+      rating_count: 70
+      updated_at: '2018-11-09T11:05:26Z'
     douban:
       id: 30267274
+      rating: 8.7
+      rating_count: 806
+      updated_at: '2018-11-09T11:05:27Z'
     imdb:
       id: 9054354
+      rating: 8.0
+      rating_count: 53
+      updated_at: '2018-11-09T11:05:29Z'
     kitsu:
       id: 41459
+      rating: 75.17
+      rating_count: 500
+      updated_at: '2018-11-09T11:05:29Z'
     myanimelist:
       id: 37976
+      rating: 7.46
+      rating_count: 17269
+      updated_at: '2018-11-09T11:05:29Z'
     reddit:
       id: 9vbhvu
+      rating: 8.501666666666667
+      rating_count: 369
+      updated_at: '2018-11-09T11:05:31Z'
     shikimori:
       id: 37976
+      rating: 7.46
+      rating_count: 1125
+      updated_at: '2018-11-09T11:05:32Z'
     shinden:
       id: 53991
+      rating: 7.69
+      rating_count: 161
+      updated_at: '2018-11-09T11:05:32Z'
     worldart:
       id: 9751
