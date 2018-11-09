@@ -12,6 +12,7 @@ class AniDB(Site):
     }
     MIN_RATING = 1  # See https://wiki.anidb.info/w/Votes.
     MAX_RATING = 10
+    MIN_SEARCH_INTERVAL = 15
     SEARCH_LOCALES = ['ja-jp', 'en-jp', 'en']
 
     def info_url(self, id):

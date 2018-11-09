@@ -1,4 +1,5 @@
 import logging
+from time import sleep, time
 
 from bs4 import BeautifulSoup
 from xml.etree import ElementTree
@@ -18,11 +19,13 @@ class Site(object):
     MIN_RATING = None
     MAX_RATING = None
     DYNAMIC_ID = False
+    MIN_SEARCH_INTERVAL = 0
     SEARCH_LOCALES = ['ja-jp']
 
     def __init__(self):
         self.session = requests.Session()
         self.session.headers['User-Agent'] = USER_AGENT
+        self._last_search_epoch = 0
 
     def _get(self, url, **kws):
         return self.session.get(url, **kws)
@@ -58,6 +61,12 @@ class Site(object):
     def search(self, names):
         for locale in self.SEARCH_LOCALES:
             if locale in names:
+                delay = (self._last_search_epoch + self.MIN_SEARCH_INTERVAL -
+                         time())
+                if delay > 0:
+                    sleep(delay)
+                self._last_search_epoch = time()
+
                 try:
                     return self._search(names[locale])
                 except Exception:
