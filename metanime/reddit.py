@@ -53,8 +53,9 @@ class Reddit(Site):
         return mean(ratings), int(mean(counts))
 
     def _search(self, name):
-        # AutoLovepon usually use numbers instead of words.
         name = name.lower()
+        name = name.replace(':', ' ')
+        # AutoLovepon usually use numbers instead of words.
         name = name.replace('1st', '1').replace('first', '1')
         name = name.replace('2nd', '2').replace('second', '2')
         name = name.replace('3rd', '3').replace('third', '3')
