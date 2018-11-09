@@ -1963,7 +1963,8 @@ island:
       rating: 7.679166666666666
       rating_count: 51
       updated_at: '2018-10-11T06:51:27Z'
-    saraba1st: null
+    saraba1st:
+      id: 1756090
     shikimori:
       id: 33012
       rating: 6.5
@@ -3641,7 +3642,8 @@ yume-oukoku-to-nemureru-100-nin-no-ouji-sama:
       rating: 5.96
       rating_count: 174
       updated_at: '2018-10-11T06:59:20Z'
-    shinden: null
+    shinden:
+      id: 53398
     worldart:
       id: 9236
       rating: 6.5
