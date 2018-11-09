@@ -59,7 +59,7 @@ class Renderer(object):
             rating = info.get('rating')
             count = info.get('rating_count')
 
-            if rating is None:
+            if rating is None or count == 0:
                 other_rows.append(Row(name, url, link_class=site_id))
             else:
                 caption = str(round(rating, 2))
