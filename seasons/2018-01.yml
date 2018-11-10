@@ -950,6 +950,7 @@ gdgd-mens-party:
     en: gdgd men's Party
     en-jp: gdMen
     ja-jp: gdメン
+    zh-cn: gdgd男
   sites:
     anidb:
       id: 13582
@@ -1496,6 +1497,7 @@ idolish7:
     en: IDOLiSH7
     en-jp: IDOLiSH7
     ja-jp: アイドリッシュセブン
+    zh-cn: IDOLiSH7
   sites:
     anidb:
       id: 12339
