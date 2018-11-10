@@ -1,47 +1,1776 @@
-a-place-further-than-the-universe: null
-basilisk-ouka-ninpouchou: null
-beatless: null
-cardcaptor-sakura-clear-card-hen: null
-citrus: null
-dagashi-kashi-2: null
-dame-x-prince-anime-caravan: null
-darling-in-the-franxx: null
-death-march-kara-hajimaru-isekai-kyousoukyoku: null
-fate-extra-last-encore: null
-gakuen-babysitters: null
-gdgd-mens-party: null
-gin-no-guardian-2nd-season: null
-gintama-shirogane-no-tamashii-hen: null
-grancrest-senki: null
-hakata-tonkotsu-ramens: null
-hakumei-to-mikochi: null
-hakyuu-houshin-engi: null
-hitori-no-shita-the-outcast-2nd-season: null
-hugtto-precure: null
-idolish7: null
-itou-junji-collection: null
-kaijuu-girls-ultra-kaijuu-gijinka-keikaku-2nd-season: null
-karakai-jouzu-no-takagi-san: null
-killing-bites: null
-koi-wa-ameagari-no-you-ni: null
-kokkoku: null
-marchen-madchen: null
-miira-no-kaikata: null
-mitsuboshi-colors: null
-nanatsu-no-bitoku: null
-nanatsu-no-taizai-imashime-no-fukkatsu: null
-overlord-ii: null
-pop-team-epic: null
-ramen-daisuki-koizumi-san: null
-ryuuou-no-oshigoto: null
-saiki-kusuo-no-psi-nan-2: null
-sanrio-danshi: null
-shinkansen-henkei-robo-shinkalion-the-animation: null
-slow-start: null
-takunomi: null
-toji-no-miko: null
-uchuu-senkan-yamato-2202-ai-no-senshi-tachi-2018: null
-violet-evergarden: null
-yowamushi-pedal-glory-line: null
-yuru-camp: null
-zoku-touken-ranbu-hanamaru: null
+a-place-further-than-the-universe:
+  names:
+    en: A Place Further Than the Universe
+    en-jp: Sora yori mo Tooi Basho
+    ja-jp: 宇宙よりも遠い場所
+    zh-cn: 比宇宙更远的地方
+  sites:
+    anidb:
+      id: 13257
+    anikore:
+      id: 11393
+    anilist:
+      id: 99426
+    animenewsnetwork:
+      id: 19828
+    animeplanet:
+      id: a-place-further-than-the-universe
+    bangumi:
+      id: 218708
+    bilibili:
+      id: 13032
+    crunchyroll:
+      id: a-place-further-than-the-universe
+    douban:
+      id: 27080661
+    imdb:
+      id: 7836688
+    kitsu:
+      id: 13615
+    myanimelist:
+      id: 35839
+    nga:
+      id: 13715836
+    saraba1st:
+      id: 1592307
+    shikimori:
+      id: 35839
+    shinden:
+      id: 52228
+    worldart:
+      id: 9312
+basilisk-ouka-ninpouchou:
+  names:
+    en: 'Basilisk: The Ouka Ninja Scrolls'
+    en-jp: 'Basilisk: Ouka Ninpouchou'
+    ja-jp: バジリスク ～桜花忍法帖～
+    zh-cn: 樱花忍法帖
+  sites:
+    anidb:
+      id: 13291
+    anikore:
+      id: 11472
+    anilist:
+      id: 99569
+    animenewsnetwork:
+      id: 20185
+    animeplanet:
+      id: basilisk-the-ouka-ninja-scrolls
+    bangumi:
+      id: 220187
+    bilibili:
+      id: 11692
+    crunchyroll:
+      id: basilisk-the-ouka-ninja-scrolls
+    douban:
+      id: 27101956
+    imdb:
+      id: 7848474
+    kitsu:
+      id: 13676
+    myanimelist:
+      id: 35964
+    reddit:
+      id: 8s0oxr
+    saraba1st:
+      id: 1718333
+    shikimori:
+      id: 35964
+    shinden:
+      id: 51485
+    worldart:
+      id: 9330
+beatless:
+  names:
+    en: Beatless
+    en-jp: Beatless
+    ja-jp: BEATLESS
+    zh-cn: BEATLESS -没有心跳的少女-
+  sites:
+    amazon:
+      id: B079159WLM
+    anidb:
+      id: 13500
+    anikore:
+      id: 11405
+    anilist:
+      id: 100245
+    animenewsnetwork:
+      id: 20316
+    animeplanet:
+      id: beatless
+    bangumi:
+      id: 227102
+    douban:
+      id: 27163301
+    imdb:
+      id: 7900936
+    kitsu:
+      id: 13939
+    myanimelist:
+      id: 36516
+    reddit:
+      id: 9juzc1
+    saraba1st:
+      id: 1770216
+    shikimori:
+      id: 36516
+    shinden:
+      id: 52067
+    worldart:
+      id: 9422
+cardcaptor-sakura-clear-card-hen:
+  names:
+    en: 'Cardcaptor Sakura: Clear Card'
+    en-jp: 'Cardcaptor Sakura: Clear Card-hen'
+    ja-jp: カードキャプターさくら クリアカード編
+    zh-cn: 魔卡少女樱 透明牌篇
+  sites:
+    anidb:
+      id: 12140
+    anikore:
+      id: 10740
+    anilist:
+      id: 97881
+    animenewsnetwork:
+      id: 19487
+    animeplanet:
+      id: cardcaptor-sakura-clear-card-hen
+    bangumi:
+      id: 183891
+    bilibili:
+      id: 8752
+    crunchyroll:
+      id: cardcaptor-sakura-clear-card
+    douban:
+      id: 26923124
+    imdb:
+      id: 6279576
+    kitsu:
+      id: 12237
+    myanimelist:
+      id: 33354
+    nga:
+      id: 14266743
+    reddit:
+      id: 8pxf14
+    saraba1st:
+      id: 1715273
+    shikimori:
+      id: 33354
+    shinden:
+      id: 49989
+    worldart:
+      id: 9035
+citrus:
+  names:
+    en: Citrus
+    en-jp: Citrus
+    ja-jp: citrus
+    zh-cn: citrus～柑橘味香气～
+  sites:
+    amazon: null
+    anidb:
+      id: 12545
+    anikore:
+      id: 10979
+    anilist:
+      id: 97832
+    animenewsnetwork:
+      id: 19398
+    animeplanet:
+      id: citrus
+    bangumi:
+      id: 198098
+    bilibili:
+      id: 8992
+    crunchyroll:
+      id: citrus
+    douban:
+      id: 26915507
+    imdb:
+      id: 7521578
+    kitsu:
+      id: 12737
+    myanimelist:
+      id: 34382
+    nga:
+      id: 13729375
+    reddit:
+      id: 86tjcn
+    saraba1st:
+      id: 1590462
+    shikimori:
+      id: 34382
+    shinden:
+      id: 49681
+    worldart:
+      id: 9207
+dagashi-kashi-2:
+  names:
+    en: Dagashi Kashi 2
+    en-jp: Dagashi Kashi 2
+    ja-jp: だがしかし2
+    zh-cn: 粗点心战争2
+  sites:
+    anidb:
+      id: 13355
+    anikore:
+      id: 11307
+    anilist:
+      id: 99734
+    animenewsnetwork:
+      id: 20012
+    animeplanet:
+      id: dagashi-kashi-2
+    bangumi:
+      id: 221490
+    bilibili:
+      id: 9052
+    douban:
+      id: 27107138
+    imdb: null
+    kitsu:
+      id: 13701
+    myanimelist:
+      id: 36049
+    reddit:
+      id: 88fr8h
+    saraba1st:
+      id: 1593778
+    shikimori:
+      id: 36049
+    shinden:
+      id: 51577
+    worldart:
+      id: 9360
+dame-x-prince-anime-caravan:
+  names:
+    en: Damepri Anime Caravan
+    en-jp: Dame x Prince Anime Caravan
+    ja-jp: ダメプリ ANIME CARAVAN
+    zh-cn: 废柴王子
+  sites:
+    anidb:
+      id: 13300
+    anikore:
+      id: 11491
+    anilist:
+      id: 99637
+    animenewsnetwork:
+      id: 19922
+    animeplanet:
+      id: dame-x-prince-anime-caravan
+    bangumi:
+      id: 220458
+    douban:
+      id: 27097733
+    kitsu:
+      id: 13706
+    myanimelist:
+      id: 35988
+    reddit:
+      id: 87ufj7
+    shikimori:
+      id: 35988
+    shinden:
+      id: 51745
+    worldart:
+      id: 9339
+darling-in-the-franxx:
+  names:
+    en: DARLING in the FRANXX
+    en-jp: Darling in the FranXX
+    ja-jp: ダーリン・イン・ザ・フランキス
+    zh-cn: DARLING in the FRANXX
+  sites:
+    anidb:
+      id: 13259
+      rating: 5.03
+      rating_count: 1136
+      updated_at: '2018-11-09T10:28:15Z'
+    anikore:
+      id: 11395
+      rating: 3.7
+      rating_count: 595
+      updated_at: '2018-11-09T10:28:15Z'
+    anilist:
+      id: 99423
+      rating: 71
+      rating_count: 17193
+      updated_at: '2018-11-09T10:28:15Z'
+    animenewsnetwork:
+      id: 19850
+      rating: 7.00939
+      rating_count: 266
+      updated_at: '2018-11-09T10:28:16Z'
+    animeplanet:
+      id: darling-in-the-franxx
+      rating: 8.156
+      rating_count: 7959
+      updated_at: '2018-11-09T10:28:16Z'
+    bangumi:
+      id: 218711
+      rating: 6
+      rating_count: 3690
+      updated_at: '2018-11-09T10:28:16Z'
+    bilibili:
+      id: 9192
+      rating: 8.7
+      rating_count: 13012
+      updated_at: '2018-11-09T10:28:17Z'
+    crunchyroll:
+      id: darling-in-the-franxx
+      rating: 4.3
+      rating_count: 659
+      updated_at: '2018-11-09T10:28:17Z'
+    douban:
+      id: 27080657
+      rating: 6.9
+      rating_count: 7607
+      updated_at: '2018-11-09T10:28:18Z'
+    imdb:
+      id: 7865090
+      rating: 7.4
+      rating_count: 1460
+      updated_at: '2018-11-09T10:28:20Z'
+    kitsu:
+      id: 13600
+      rating: 77.81
+      rating_count: 10526
+      updated_at: '2018-11-09T10:28:20Z'
+    myanimelist:
+      id: 35849
+      rating: 7.63
+      rating_count: 187497
+      updated_at: '2018-11-09T10:28:20Z'
+    nga:
+      id: 14266752
+      rating: 2.8600405679513186
+      rating_count: 493
+      updated_at: '2018-11-09T10:28:21Z'
+    reddit:
+      id: 8wu654
+    saraba1st:
+      id: 1722806
+      rating: -1.407936507936508
+      rating_count: 630
+      updated_at: '2018-11-09T10:28:24Z'
+    shikimori:
+      id: 35849
+      rating: 7.63
+      rating_count: 28478
+      updated_at: '2018-11-09T10:28:24Z'
+    shinden:
+      id: 51227
+      rating: 8.96
+      rating_count: 4809
+      updated_at: '2018-11-09T10:28:25Z'
+    worldart:
+      id: 9308
+      rating: 7.4
+      rating_count: 806
+      updated_at: '2018-11-09T10:28:28Z'
+death-march-kara-hajimaru-isekai-kyousoukyoku:
+  names:
+    en: Death March to the Parallel World Rhapsody
+    en-jp: Death March kara Hajimaru Isekai Kyousoukyoku
+    ja-jp: デスマーチからはじまる異世界狂想曲
+    zh-cn: 爆肝工程师的异世界狂想曲
+  sites:
+    anidb:
+      id: 12603
+    anikore:
+      id: 10993
+    anilist:
+      id: 97907
+    animenewsnetwork:
+      id: 19996
+    animeplanet:
+      id: death-march-to-the-parallel-world-rhapsody
+    bangumi:
+      id: 200589
+    crunchyroll:
+      id: death-march-to-the-parallel-world-rhapsody
+    douban:
+      id: 26934287
+    imdb:
+      id: 7712706
+    kitsu:
+      id: 13276
+    myanimelist:
+      id: 34497
+    nga:
+      id: 13729413
+    reddit:
+      id: 882ehi
+    saraba1st:
+      id: 1593349
+    shikimori:
+      id: 34497
+    shinden:
+      id: 50080
+    worldart:
+      id: 9047
+fate-extra-last-encore:
+  names:
+    en: 'Fate/Extra: Last Encore'
+    en-jp: 'Fate/Extra: Last Encore'
+    ja-jp: Fate/EXTRA Last Encore
+  sites:
+    anidb:
+      id: 12046
+    anikore:
+      id: 10577
+    anilist:
+      id: 21717
+    animenewsnetwork:
+      id: 18984
+    animeplanet:
+      id: fate-extra-last-encore
+    bangumi:
+      id: 175601
+    bilibili:
+      id: 8772
+    douban:
+      id: 26759495
+    imdb:
+      id: 7940468
+    kitsu:
+      id: 12006
+    myanimelist:
+      id: 33047
+    reddit:
+      id: 93wj10
+    saraba1st:
+      id: 1729592
+    shikimori:
+      id: 33047
+    shinden:
+      id: 45346
+    worldart:
+      id: 8743
+gakuen-babysitters:
+  names:
+    en: School Babysitters
+    en-jp: Gakuen Babysitters
+    ja-jp: 学園ベビーシッターズ
+    zh-cn: 学园奶爸
+  sites:
+    anidb:
+      id: 13023
+    anikore:
+      id: 11490
+    anilist:
+      id: 98503
+    animenewsnetwork:
+      id: 19400
+    animeplanet:
+      id: school-babysitters
+    bangumi:
+      id: 211844
+    crunchyroll:
+      id: school-babysitters
+    douban:
+      id: 27003548
+    imdb:
+      id: 7964088
+    kitsu:
+      id: 13265
+    myanimelist:
+      id: 35222
+    reddit:
+      id: 8716oe
+    saraba1st:
+      id: 1591135
+    shikimori:
+      id: 35222
+    shinden:
+      id: 51479
+    worldart:
+      id: 9198
+gdgd-mens-party:
+  names:
+    en: gdgd men's Party
+    en-jp: gdMen
+    ja-jp: gdメン
+  sites:
+    anidb:
+      id: 13582
+    anikore:
+      id: 11538
+    anilist:
+      id: 100527
+    animenewsnetwork:
+      id: 20460
+    animeplanet:
+      id: gdgd-mens-party
+    bangumi:
+      id: 229872
+    crunchyroll:
+      id: gdgd-mens-party
+    douban:
+      id: 27198150
+    imdb:
+      id: 7847678
+    kitsu:
+      id: 14093
+    myanimelist:
+      id: 36797
+    reddit:
+      id: 7s8ykl
+    shikimori:
+      id: 36797
+    shinden:
+      id: 52659
+    worldart:
+      id: 9473
+gin-no-guardian-2nd-season:
+  names:
+    en: The Silver Guardian Season 2
+    en-jp: Gin no Guardian 2nd Season
+    ja-jp: 銀の墓守り 第2期
+    zh-cn: 银之守墓人 第二季
+  sites:
+    anidb:
+      id: 13237
+    anikore:
+      id: 11544
+    anilist:
+      id: 99148
+    animenewsnetwork:
+      id: 20500
+    animeplanet:
+      id: the-silver-guardian-2nd-season
+    bangumi:
+      id: 217239
+    bilibili: null
+    douban:
+      id: 27075249
+    kitsu:
+      id: 13573
+    myanimelist:
+      id: 35757
+    reddit:
+      id: 7y7d6d
+    shikimori:
+      id: 35757
+    shinden:
+      id: 50989
+    worldart:
+      id: 9291
+grancrest-senki:
+  names:
+    en: Record of Grancrest War
+    en-jp: Grancrest Senki
+    ja-jp: グランクレスト戦記
+    zh-cn: 皇帝圣印战记
+  sites:
+    anidb:
+      id: 12496
+    anikore:
+      id: 10983
+    anilist:
+      id: 97768
+    animenewsnetwork:
+      id: 19711
+    animeplanet:
+      id: record-of-grancrest-war
+    bangumi:
+      id: 195843
+    bilibili:
+      id: 9092
+    crunchyroll:
+      id: record-of-grancrest-war
+    douban:
+      id: 26898892
+    imdb:
+      id: 7897050
+    kitsu:
+      id: 12705
+    myanimelist:
+      id: 34279
+    nga:
+      id: 14360930
+    reddit:
+      id: 8t2pus
+    saraba1st:
+      id: 1718072
+    shikimori:
+      id: 34279
+    shinden:
+      id: 51231
+    worldart:
+      id: 9271
+hakata-tonkotsu-ramens:
+  names:
+    en: Hakata Tonkotsu Ramens
+    en-jp: Hakata Tonkotsu Ramens
+    ja-jp: 博多豚骨ラーメンズ
+    zh-cn: 博多豚骨拉面
+  sites:
+    anidb:
+      id: 13276
+    anikore:
+      id: 11432
+    anilist:
+      id: 99483
+    animenewsnetwork:
+      id: 20014
+    animeplanet:
+      id: hakata-tonkotsu-ramens
+    bangumi:
+      id: 219568
+    bilibili:
+      id: 12872
+    crunchyroll:
+      id: hakata-tonkotsu-ramens
+    douban:
+      id: 27086870
+    imdb:
+      id: 8129662
+    kitsu:
+      id: 14024
+    myanimelist:
+      id: 35889
+    nga:
+      id: 13729459
+    reddit:
+      id: 88aym9
+    saraba1st:
+      id: 1594549
+    shikimori:
+      id: 35889
+    shinden:
+      id: 52262
+    worldart:
+      id: 9368
+hakumei-to-mikochi:
+  names:
+    en: Hakumei and Mikochi
+    en-jp: Hakumei to Mikochi
+    ja-jp: ハクメイとミコチ
+    zh-cn: 妖精森林的小不点
+  sites:
+    anidb:
+      id: 13362
+    anikore:
+      id: 11373
+    anilist:
+      id: 99748
+    animenewsnetwork:
+      id: 20186
+    animeplanet:
+      id: hakumei-and-mikochi
+    bangumi:
+      id: 221726
+    bilibili:
+      id: 11672
+    douban:
+      id: 27107139
+    imdb:
+      id: 7806844
+    kitsu:
+      id: 13950
+    myanimelist:
+      id: 36094
+    reddit:
+      id: 88ac6h
+    saraba1st:
+      id: 1593781
+    shikimori:
+      id: 36094
+    shinden:
+      id: 52358
+    worldart:
+      id: 9364
+hakyuu-houshin-engi:
+  names:
+    en: Hakyu Hoshin Engi
+    en-jp: Hakyuu Houshin Engi
+    ja-jp: 覇穹 封神演義
+    zh-cn: 霸穹 封神演义
+  sites:
+    anidb:
+      id: 13336
+    anikore:
+      id: 11461
+    anilist:
+      id: 99727
+    animenewsnetwork:
+      id: 19986
+    animeplanet:
+      id: hakyuu-hoshin-engi
+    bangumi:
+      id: 221126
+    crunchyroll:
+      id: hakyu-hoshin-engi
+    douban:
+      id: 27107559
+    kitsu:
+      id: 13686
+    myanimelist:
+      id: 36029
+    reddit:
+      id: 8utgw9
+    saraba1st:
+      id: 1722752
+    shikimori:
+      id: 36029
+    shinden:
+      id: 52363
+    worldart:
+      id: 9354
+hugtto-precure:
+  names:
+    en-jp: Hugtto! Precure
+    ja-jp: HuGっと! プリキュア
+    zh-cn: HUGtto！光之美少女
+  sites:
+    anidb:
+      id: 13526
+    anikore:
+      id: 11584
+    anilist:
+      id: 100661
+    animenewsnetwork:
+      id: 20473
+    animeplanet:
+      id: hugtto-pretty-cure
+    bangumi:
+      id: 240583
+    douban:
+      id: 27613078
+    imdb:
+      id: 9005780
+    kitsu:
+      id: 13972
+    myanimelist:
+      id: 36593
+    reddit:
+      id: 9s4oft
+    shikimori:
+      id: 36593
+    shinden:
+      id: 52660
+idolish7:
+  names:
+    en: IDOLiSH7
+    en-jp: IDOLiSH7
+    ja-jp: アイドリッシュセブン
+  sites:
+    anidb:
+      id: 12339
+    anikore:
+      id: 11475
+    anilist:
+      id: 87495
+    animenewsnetwork:
+      id: 20122
+    animeplanet:
+      id: idolish-7
+    bangumi:
+      id: 190441
+    bilibili:
+      id: 6692
+    crunchyroll:
+      id: idolish7
+    douban:
+      id: 26862235
+    imdb: null
+    kitsu:
+      id: 12558
+    myanimelist:
+      id: 33899
+    reddit:
+      id: 8kkuy1
+    shikimori:
+      id: 33899
+    shinden:
+      id: 52192
+itou-junji-collection:
+  names:
+    en: Junji Ito "Collection"
+    en-jp: 'Ito Junji: Collection'
+    ja-jp: 伊藤潤二「コレクション」
+    zh-cn: 伊藤润二惊选集
+  sites:
+    anidb:
+      id: 13385
+    anikore:
+      id: 11385
+    anilist:
+      id: 99940
+    animenewsnetwork:
+      id: 20207
+    animeplanet:
+      id: junji-ito-collection
+    bangumi:
+      id: 218453
+    crunchyroll:
+      id: junji-ito-collection
+    douban:
+      id: 27080650
+    imdb:
+      id: 7814574
+    kitsu:
+      id: 13717
+    myanimelist:
+      id: 36124
+    reddit:
+      id: 86l1um
+    saraba1st:
+      id: 1590316
+    shikimori:
+      id: 36124
+    shinden:
+      id: 51746
+kaijuu-girls-ultra-kaijuu-gijinka-keikaku-2nd-season:
+  names:
+    en-jp: 'Kaijuu Girls: Ultra Kaijuu Gijinka Keikaku 2nd Season'
+    ja-jp: 怪獣娘～ウルトラ怪獣擬人化計画～ 第2期
+    zh-cn: 怪兽娘～奥特怪兽拟人化计划～ 第二季
+  sites:
+    anidb:
+      id: 13401
+    anikore:
+      id: 11430
+    anilist:
+      id: 99888
+    animenewsnetwork:
+      id: 20504
+    animeplanet:
+      id: kaijuu-girls-2nd-season
+    bangumi:
+      id: 223407
+    douban:
+      id: 27124478
+    kitsu:
+      id: 14152
+    myanimelist:
+      id: 36196
+    reddit:
+      id: 87if3j
+    shikimori:
+      id: 36196
+    shinden:
+      id: 52568
+karakai-jouzu-no-takagi-san:
+  names:
+    en: Karakai Jozu no Takagi-san
+    en-jp: Karakai Jouzu no Takagi-san
+    ja-jp: からかい上手の高木さん
+    zh-cn: 擅长捉弄的高木同学
+  sites:
+    anidb:
+      id: 13270
+    anikore:
+      id: 11269
+    anilist:
+      id: 99468
+    animenewsnetwork:
+      id: 20176
+    animeplanet:
+      id: karakai-jouzu-no-takagi-san
+    bangumi:
+      id: 219200
+    crunchyroll:
+      id: karakai-jozu-no-takagi-san
+    douban:
+      id: 27085551
+    imdb:
+      id: 7808344
+    kitsu:
+      id: 13635
+    myanimelist:
+      id: 35860
+    nga:
+      id: 13729349
+    reddit:
+      id: 879zhm
+    saraba1st:
+      id: 1591541
+    shikimori:
+      id: 35860
+    shinden:
+      id: 51386
+    worldart:
+      id: 9316
+killing-bites:
+  names:
+    en: Killing Bites
+    en-jp: Killing Bites
+    ja-jp: キリングバイツ
+    zh-cn: 牙斗
+  sites:
+    amazon:
+      id: B078YTKJGS
+    anidb:
+      id: 12888
+    anikore:
+      id: 11492
+    anilist:
+      id: 98389
+    animenewsnetwork:
+      id: 20213
+    animeplanet:
+      id: killing-bites
+    bangumi:
+      id: 210230
+    bilibili: null
+    douban:
+      id: 26990175
+    imdb:
+      id: 7879138
+    kitsu:
+      id: 14082
+    myanimelist:
+      id: 34964
+    reddit:
+      id: 88cg0s
+    saraba1st:
+      id: 1594741
+    shikimori:
+      id: 34964
+    shinden:
+      id: 50394
+    worldart:
+      id: 9406
+koi-wa-ameagari-no-you-ni:
+  names:
+    en: After the Rain
+    en-jp: Koi wa Ameagari no You ni
+    ja-jp: 恋は雨上がりのように
+    zh-cn: 恋如雨止
+  sites:
+    amazon:
+      id: B078X1YHTL
+    anidb:
+      id: 12906
+    anikore:
+      id: 11118
+    anilist:
+      id: 98385
+    animenewsnetwork:
+      id: 20226
+    animeplanet:
+      id: after-the-rain
+    bangumi:
+      id: 210458
+    douban:
+      id: 26986740
+    imdb:
+      id: 6591406
+    kitsu:
+      id: 13277
+    myanimelist:
+      id: 34984
+    nga:
+      id: 13729241
+    reddit:
+      id: 882weo
+    saraba1st:
+      id: 1593352
+    shikimori:
+      id: 34984
+    shinden:
+      id: 50405
+    worldart:
+      id: 9152
+kokkoku:
+  names:
+    en: KOKKOKU
+    en-jp: Kokkoku
+    ja-jp: 刻刻
+    zh-cn: 刻刻
+  sites:
+    amazon:
+      id: B078TPQKYF
+    anidb:
+      id: 13513
+    anikore:
+      id: 11374
+    anilist:
+      id: 100332
+    animenewsnetwork:
+      id: 20205
+    animeplanet:
+      id: kokkoku-moment-by-moment
+    bangumi:
+      id: 228026
+    bilibili:
+      id: 12592
+    douban:
+      id: 27173361
+    imdb:
+      id: 7933666
+    kitsu:
+      id: 13958
+    myanimelist:
+      id: 36548
+    nga:
+      id: 13729135
+    reddit:
+      id: 871scc
+    saraba1st:
+      id: 1590850
+    shikimori:
+      id: 36548
+    shinden:
+      id: 52334
+    worldart:
+      id: 9438
+marchen-madchen:
+  names:
+    en: Maerchen Maedchen
+    en-jp: Märchen Mädchen
+    ja-jp: メルヘン・メドヘン
+    zh-cn: 原书·原书使
+  sites:
+    anidb:
+      id: 13309
+    anikore:
+      id: 11407
+    anilist:
+      id: 99720
+    animenewsnetwork:
+      id: 19975
+    animeplanet:
+      id: maerchen-maedchen
+    bangumi:
+      id: 220632
+    crunchyroll:
+      id: maerchen-maedchen
+    douban:
+      id: 27097731
+    imdb:
+      id: 7814540
+    kitsu:
+      id: 13700
+    myanimelist:
+      id: 35997
+    reddit:
+      id: 8820un
+    shikimori:
+      id: 35997
+    shinden:
+      id: 51543
+    worldart:
+      id: 9348
+miira-no-kaikata:
+  names:
+    en: How to keep a mummy
+    en-jp: Miira no Kaikata
+    ja-jp: ミイラの飼い方
+    zh-cn: 小木乃伊到我家
+  sites:
+    anidb:
+      id: 13252
+    anikore:
+      id: 11500
+    anilist:
+      id: 99390
+    animenewsnetwork:
+      id: 20060
+    animeplanet:
+      id: how-to-keep-a-mummy
+    bangumi:
+      id: 218440
+    bilibili:
+      id: 11732
+    crunchyroll:
+      id: how-to-keep-a-mummy
+    douban:
+      id: 27079415
+    imdb:
+      id: 8693220
+    kitsu:
+      id: 13729
+    myanimelist:
+      id: 35828
+    reddit:
+      id: 8848r3
+    saraba1st:
+      id: 1593776
+    shikimori:
+      id: 35828
+    shinden:
+      id: 51136
+    worldart:
+      id: 9303
+mitsuboshi-colors:
+  names:
+    en: Mitsuboshi Colors
+    en-jp: Mitsuboshi Colors
+    ja-jp: 三ツ星カラーズ
+    zh-cn: 三颗星彩色冒险
+  sites:
+    anidb:
+      id: 12957
+    anikore:
+      id: 11137
+    anilist:
+      id: 98439
+    animenewsnetwork:
+      id: 20373
+    animeplanet:
+      id: mitsuboshi-colors
+    bangumi:
+      id: 211066
+    bilibili:
+      id: 12392
+    douban:
+      id: 26994754
+    imdb:
+      id: 8075454
+    kitsu:
+      id: 13227
+    myanimelist:
+      id: 35078
+    nga:
+      id: 13729213
+    reddit:
+      id: 8710od
+    saraba1st:
+      id: 1590849
+    shikimori:
+      id: 35078
+    shinden:
+      id: 50459
+    worldart:
+      id: 9182
+nanatsu-no-bitoku:
+  names:
+    en: The Seven Heavenly Virtues
+    en-jp: Nanatsu no Bitoku
+    ja-jp: 七つの美徳
+    zh-cn: 七美德
+  sites:
+    anidb:
+      id: 13599
+    anikore:
+      id: 11470
+    anilist:
+      id: 100644
+    animenewsnetwork:
+      id: 20315
+    animeplanet:
+      id: the-seven-heavenly-virtues
+    bangumi:
+      id: 230764
+    douban:
+      id: 27202824
+    imdb: null
+    kitsu:
+      id: 14131
+    myanimelist:
+      id: 36847
+    reddit:
+      id: 88ed95
+    shikimori:
+      id: 36847
+    shinden:
+      id: 52341
+    worldart:
+      id: 9477
+nanatsu-no-taizai-imashime-no-fukkatsu:
+  names:
+    en: 'The Seven Deadly Sins: Revival of the Commandments'
+    en-jp: 'Nanatsu no Taizai: Imashime no Fukkatsu'
+    ja-jp: 七つの大罪 戒めの復活
+    zh-cn: 七大罪 戒律的复活
+  sites:
+    anidb:
+      id: 11646
+    anikore:
+      id: 10900
+    anilist:
+      id: 99539
+    animenewsnetwork:
+      id: 19885
+    animeplanet:
+      id: the-seven-deadly-sins-revival-of-the-commandments-prologue
+    bangumi:
+      id: 192978
+    bilibili:
+      id: 11932
+    douban:
+      id: 26630736
+    kitsu:
+      id: 12633
+    myanimelist:
+      id: 34577
+    nga:
+      id: 14329529
+    reddit:
+      id: 8uzqgi
+    saraba1st:
+      id: 1720449
+    shikimori:
+      id: 34577
+    shinden:
+      id: 50127
+    worldart:
+      id: 8964
+overlord-ii:
+  names:
+    en: Overlord II
+    en-jp: Overlord II
+    ja-jp: オーバーロードⅡ
+    zh-cn: OVERLORD II
+  sites:
+    anidb:
+      id: 12952
+    anikore:
+      id: 11131
+    anilist:
+      id: 98437
+    animenewsnetwork:
+      id: 20397
+    animeplanet:
+      id: overlord-ii
+    bangumi:
+      id: 211027
+    bilibili:
+      id: 8792
+    douban:
+      id: 26994749
+    imdb: null
+    kitsu:
+      id: 13237
+    myanimelist:
+      id: 35073
+    nga:
+      id: 13729308
+    reddit:
+      id: 89emq7
+    saraba1st:
+      id: 1596782
+    shikimori:
+      id: 35073
+    shinden:
+      id: 50463
+    worldart:
+      id: 9163
+pop-team-epic:
+  names:
+    en: Pop Team Epic
+    en-jp: Poputepipikku
+    ja-jp: ポプテピピック
+    zh-cn: pop子和pipi美的日常
+  sites:
+    amazon:
+      id: B07HS27MTK
+    anidb:
+      id: 13067
+    anikore:
+      id: 11171
+    anilist:
+      id: 98549
+    animenewsnetwork:
+      id: 20287
+    animeplanet:
+      id: pop-team-epic
+    bangumi:
+      id: 212279
+    bilibili:
+      id: 11712
+    crunchyroll:
+      id: pop-team-epic
+    douban:
+      id: 27011483
+    imdb:
+      id: 7808370
+    kitsu:
+      id: 13319
+    myanimelist:
+      id: 35330
+    nga:
+      id: 13729393
+    reddit:
+      id: 86u748
+    saraba1st:
+      id: 1590466
+    shikimori:
+      id: 35330
+    shinden:
+      id: 50555
+    worldart:
+      id: 9227
+ramen-daisuki-koizumi-san:
+  names:
+    en: Ms. Koizumi Loves Ramen Noodles
+    en-jp: Ramen Daisuki Koizumi-san
+    ja-jp: ラーメン大好き小泉さん
+    zh-cn: 爱吃拉面的小泉同学
+  sites:
+    anidb:
+      id: 13053
+    anikore:
+      id: 11227
+    anilist:
+      id: 98529
+    animenewsnetwork:
+      id: 19675
+    animeplanet:
+      id: ms-koizumi-loves-ramen-noodles
+    bangumi:
+      id: 212146
+    bilibili:
+      id: 11912
+    crunchyroll:
+      id: ms-koizumi-loves-ramen-noodles
+    douban:
+      id: 27006827
+    imdb:
+      id: 7829962
+    kitsu:
+      id: 13531
+    myanimelist:
+      id: 35298
+    reddit:
+      id: 86b0ho
+    saraba1st:
+      id: 1590160
+    shikimori:
+      id: 35298
+    shinden:
+      id: 50524
+    worldart:
+      id: 9214
+ryuuou-no-oshigoto:
+  names:
+    en: The Ryuo's Work is Never Done!
+    en-jp: Ryuuou no Oshigoto!
+    ja-jp: りゅうおうのおしごと！
+    zh-cn: 龙王的工作！
+  sites:
+    anidb:
+      id: 13281
+    anikore:
+      id: 11411
+    anilist:
+      id: 99507
+    animenewsnetwork:
+      id: 19872
+    animeplanet:
+      id: the-ryuos-work-is-never-done
+    bangumi:
+      id: 219658
+    bilibili:
+      id: 8932
+    crunchyroll:
+      id: the-ryuos-work-is-never-done
+    douban:
+      id: 27087641
+    imdb:
+      id: 8271972
+    kitsu:
+      id: 13661
+    myanimelist:
+      id: 35905
+    nga:
+      id: 13729283
+    reddit:
+      id: 879arh
+    saraba1st:
+      id: 1591557
+    shikimori:
+      id: 35905
+    shinden:
+      id: 51476
+    worldart:
+      id: 9320
+saiki-kusuo-no-psi-nan-2:
+  names:
+    en: The Disastrous Life of Saiki K. 2
+    en-jp: Saiki Kusuo no Ψ-nan (TV) 2
+    ja-jp: 斉木楠雄のΨ難 2
+    zh-cn: 齐木楠雄的灾难 第二季
+  sites:
+    anidb:
+      id: 12691
+    anikore:
+      id: 11489
+    anilist:
+      id: 98034
+    animenewsnetwork:
+      id: 20177
+    animeplanet:
+      id: the-disastrous-life-of-saiki-k-2nd-season
+    bangumi:
+      id: 204027
+    bilibili:
+      id: 8812
+    douban:
+      id: 26946411
+    imdb: null
+    kitsu:
+      id: 13477
+    myanimelist:
+      id: 34612
+    nga:
+      id: 14329430
+    reddit:
+      id: 8vbj3r
+    saraba1st:
+      id: 1718094
+    shikimori:
+      id: 34612
+    shinden:
+      id: 52033
+    worldart:
+      id: 9329
+sanrio-danshi:
+  names:
+    en: Sanrio Boys
+    en-jp: Sanrio Danshi
+    ja-jp: サンリオ男子
+    zh-cn: 三丽鸥男子
+  sites:
+    anidb:
+      id: 12781
+    anikore:
+      id: 11065
+    anilist:
+      id: 98217
+    animenewsnetwork:
+      id: 20015
+    animeplanet:
+      id: sanrio-boys
+    bangumi:
+      id: 207932
+    bilibili:
+      id: 9132
+    crunchyroll:
+      id: sanrio-boys
+    douban:
+      id: 26967750
+    kitsu:
+      id: 13714
+    myanimelist:
+      id: 34839
+    reddit:
+      id: 86v3mv
+    saraba1st:
+      id: 1591130
+    shikimori:
+      id: 34839
+    shinden:
+      id: 50332
+    worldart:
+      id: 9124
+shinkansen-henkei-robo-shinkalion-the-animation:
+  names:
+    en-jp: Shinkansen Henkei Robo Shinkalion The Animation
+    ja-jp: 新幹線変形ロボ シンカリオン THE ANIMATION
+    zh-cn: 新干线变形机器人
+  sites:
+    anidb:
+      id: 13507
+    anikore:
+      id: 11493
+    anilist:
+      id: 100620
+    animenewsnetwork:
+      id: 20288
+    animeplanet:
+      id: shinkansen-henkei-robo-shinkalion-the-animation
+    bangumi:
+      id: 227240
+    bilibili:
+      id: 67512
+    douban:
+      id: 27592590
+    imdb:
+      id: 8367910
+    kitsu:
+      id: 14143
+    myanimelist:
+      id: 36531
+    shikimori:
+      id: 36531
+    shinden: null
+    worldart:
+      id: 9427
+slow-start:
+  names:
+    en: Slow Start
+    en-jp: Slow Start
+    ja-jp: スロウスタート
+    zh-cn: Slow Start
+  sites:
+    amazon: null
+    anidb:
+      id: 13160
+    anikore:
+      id: 11367
+    anilist:
+      id: 98693
+    animenewsnetwork:
+      id: 19972
+    animeplanet:
+      id: slow-start
+    bangumi:
+      id: 214671
+    bilibili:
+      id: 9152
+    crunchyroll:
+      id: slow-start
+    douban:
+      id: 27038876
+    imdb:
+      id: 7899036
+    kitsu:
+      id: 13712
+    myanimelist:
+      id: 35540
+    nga:
+      id: 13729325
+    reddit:
+      id: 86ubjj
+    saraba1st:
+      id: 1590464
+    shikimori:
+      id: 35540
+    shinden:
+      id: 50655
+    worldart:
+      id: 9347
+takunomi:
+  names:
+    en: Takunomi
+    en-jp: Takunomi.
+    ja-jp: たくのみ。
+    zh-cn: 宅饮。
+  sites:
+    anidb:
+      id: 13376
+    anikore:
+      id: 11301
+    anilist:
+      id: 99753
+    animenewsnetwork:
+      id: 20394
+    animeplanet:
+      id: takunomi
+    bangumi:
+      id: 221819
+    bilibili:
+      id: 9032
+    douban:
+      id: 27107553
+    imdb:
+      id: 7863986
+    kitsu:
+      id: 13992
+    myanimelist:
+      id: 36108
+    reddit:
+      id: 88igqp
+    saraba1st:
+      id: 1593779
+    shikimori:
+      id: 36108
+    shinden:
+      id: 51619
+    worldart:
+      id: 9367
+toji-no-miko:
+  names:
+    en: Katana Maidens ~ Toji No Miko
+    en-jp: Toji no Miko
+    ja-jp: 刀使ノ巫女
+    zh-cn: 刀使的巫女
+  sites:
+    anidb:
+      id: 13172
+    anikore:
+      id: 11306
+    anilist:
+      id: 98747
+    animenewsnetwork:
+      id: 20019
+    animeplanet:
+      id: katana-maidens-toji-no-miko
+    bangumi:
+      id: 215158
+    bilibili:
+      id: 89152
+    crunchyroll:
+      id: katana-maidens-toji-no-miko
+    douban:
+      id: 27121207
+    imdb:
+      id: 7829656
+    kitsu:
+      id: 13710
+    myanimelist:
+      id: 35589
+    nga:
+      id: 14275616
+    reddit:
+      id: 8t1jqy
+    saraba1st:
+      id: 1718070
+    shikimori:
+      id: 35589
+    shinden:
+      id: 51652
+    worldart:
+      id: 9370
+violet-evergarden:
+  names:
+    en: Violet Evergarden
+    en-jp: Violet Evergarden
+    ja-jp: ヴァイオレット・エヴァーガーデン
+    zh-cn: 紫罗兰永恒花园
+  sites:
+    anidb:
+      id: 12138
+    anikore:
+      id: 10723
+    anilist:
+      id: 21827
+    animenewsnetwork:
+      id: 19665
+    animeplanet:
+      id: violet-evergarden
+    bangumi:
+      id: 183878
+    bilibili:
+      id: 8892
+    douban:
+      id: 26805209
+    imdb:
+      id: 7078180
+    kitsu:
+      id: 12230
+    myanimelist:
+      id: 33352
+    nga:
+      id: 13729160
+    reddit:
+      id: 89v6on
+    saraba1st:
+      id: 1597180
+    shikimori:
+      id: 33352
+    shinden:
+      id: 50646
+    worldart:
+      id: 9268
+yowamushi-pedal-glory-line:
+  names:
+    en-jp: 'Yowamushi Pedal: Glory Line'
+    ja-jp: 弱虫ペダル GLORY LINE
+    zh-cn: 飙速宅男 GLORY LINE
+  sites:
+    anidb:
+      id: 13245
+    anikore:
+      id: 11267
+    anilist:
+      id: 99476
+    animenewsnetwork:
+      id: 20190
+    animeplanet:
+      id: yowamushi-pedal-glory-line
+    bangumi:
+      id: 217629
+    bilibili:
+      id: 13092
+    douban:
+      id: 27085558
+    kitsu:
+      id: 13594
+    myanimelist:
+      id: 35789
+    reddit:
+      id: 8tt8f4
+    saraba1st:
+      id: 1718897
+    shikimori:
+      id: 35789
+    shinden:
+      id: 51747
+    worldart:
+      id: 9319
+yuru-camp:
+  names:
+    en: Laid-Back Camp
+    en-jp: Yuru Camp△
+    ja-jp: ゆるキャン△
+    zh-cn: 摇曳露营△
+  sites:
+    anidb:
+      id: 12743
+    anikore:
+      id: 11082
+    anilist:
+      id: 98444
+    animenewsnetwork:
+      id: 20010
+    animeplanet:
+      id: laid-back-camp
+    bangumi:
+      id: 207195
+    crunchyroll:
+      id: laid-back-camp
+    douban:
+      id: 27077082
+    imdb:
+      id: 7742120
+    kitsu:
+      id: 13480
+    myanimelist:
+      id: 34798
+    nga:
+      id: 13715808
+    reddit:
+      id: 86bwpt
+    saraba1st:
+      id: 1590009
+    shikimori:
+      id: 34798
+    shinden:
+      id: 51093
+    worldart:
+      id: 9294
+zoku-touken-ranbu-hanamaru:
+  names:
+    en-jp: 'Zoku Touken Ranbu: Hanamaru'
+    ja-jp: 続 刀剣乱舞-花丸-
+    zh-cn: 续 刀剑乱舞-花丸-
+  sites:
+    anidb:
+      id: 12790
+    anikore:
+      id: 11081
+    anilist:
+      id: 98520
+    animenewsnetwork:
+      id: 20366
+    animeplanet:
+      id: zoku-touken-ranbu-hanamaru
+    bangumi:
+      id: 208370
+    bilibili:
+      id: 12572
+    douban:
+      id: 26969077
+    imdb: null
+    kitsu:
+      id: 13478
+    myanimelist:
+      id: 34863
+    reddit:
+      id: 7p0v42
+    saraba1st:
+      id: 1591140
+    shikimori:
+      id: 34863
+    shinden:
+      id: 50935
+    worldart:
+      id: 9125

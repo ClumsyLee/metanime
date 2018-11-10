@@ -137,7 +137,6 @@ akkun-to-kanojo:
   names:
     en: My Sweet Tyrant
     en-jp: Akkun to Kanojo
-    en-us: My Sweet Tyrant
     ja-jp: あっくんとカノジョ
     zh-cn: 敦君与女朋友
   sites:
@@ -438,7 +437,6 @@ boku-no-hero-academia-3rd-season:
   names:
     en: My Hero Academia Season 3
     en-jp: Boku no Hero Academia 3rd Season
-    en-us: My Hero Academia 3
     ja-jp: 僕のヒーローアカデミア 3rdシーズン
     zh-cn: 我的英雄学院 第三季
   sites:
@@ -919,101 +917,6 @@ cutie-honey-universe:
       rating: 5.3
       rating_count: 19
       updated_at: '2018-11-09T10:28:12Z'
-darling-in-the-franxx:
-  names:
-    en: DARLING in the FRANXX
-    en-jp: Darling in the FranXX
-    en-us: DARLING in the FRANXX
-    ja-jp: ダーリン・イン・ザ・フランキス
-    zh-cn: DARLING in the FRANXX
-  sites:
-    anidb:
-      id: 13259
-      rating: 5.03
-      rating_count: 1136
-      updated_at: '2018-11-09T10:28:15Z'
-    anikore:
-      id: 11395
-      rating: 3.7
-      rating_count: 595
-      updated_at: '2018-11-09T10:28:15Z'
-    anilist:
-      id: 99423
-      rating: 71
-      rating_count: 17193
-      updated_at: '2018-11-09T10:28:15Z'
-    animenewsnetwork:
-      id: 19850
-      rating: 7.00939
-      rating_count: 266
-      updated_at: '2018-11-09T10:28:16Z'
-    animeplanet:
-      id: darling-in-the-franxx
-      rating: 8.156
-      rating_count: 7959
-      updated_at: '2018-11-09T10:28:16Z'
-    bangumi:
-      id: 218711
-      rating: 6
-      rating_count: 3690
-      updated_at: '2018-11-09T10:28:16Z'
-    bilibili:
-      id: 9192
-      rating: 8.7
-      rating_count: 13012
-      updated_at: '2018-11-09T10:28:17Z'
-    crunchyroll:
-      id: darling-in-the-franxx
-      rating: 4.3
-      rating_count: 659
-      updated_at: '2018-11-09T10:28:17Z'
-    douban:
-      id: 27080657
-      rating: 6.9
-      rating_count: 7607
-      updated_at: '2018-11-09T10:28:18Z'
-    imdb:
-      id: 7865090
-      rating: 7.4
-      rating_count: 1460
-      updated_at: '2018-11-09T10:28:20Z'
-    kitsu:
-      id: 13600
-      rating: 77.81
-      rating_count: 10526
-      updated_at: '2018-11-09T10:28:20Z'
-    myanimelist:
-      id: 35849
-      rating: 7.63
-      rating_count: 187497
-      updated_at: '2018-11-09T10:28:20Z'
-    nga:
-      id: 14266752
-      rating: 2.8600405679513186
-      rating_count: 493
-      updated_at: '2018-11-09T10:28:21Z'
-    reddit:
-      id: 8wu654
-    saraba1st:
-      id: 1722806
-      rating: -1.407936507936508
-      rating_count: 630
-      updated_at: '2018-11-09T10:28:24Z'
-    shikimori:
-      id: 35849
-      rating: 7.63
-      rating_count: 28478
-      updated_at: '2018-11-09T10:28:24Z'
-    shinden:
-      id: 51227
-      rating: 8.96
-      rating_count: 4809
-      updated_at: '2018-11-09T10:28:25Z'
-    worldart:
-      id: 9308
-      rating: 7.4
-      rating_count: 806
-      updated_at: '2018-11-09T10:28:28Z'
 devils-line:
   names:
     en-jp: Devils Line
@@ -1352,7 +1255,6 @@ fumikiri-jikan:
   names:
     en: Crossing Time
     en-jp: Fumikiri Jikan
-    en-us: Crossing Time
     ja-jp: 踏切時間
     zh-cn: 道口时间
   sites:
@@ -2027,7 +1929,6 @@ hisone-to-masotan:
   names:
     en: 'Dragon Pilot: Hisone & Masotan'
     en-jp: Hisone to Maso-tan
-    en-us: 'Dragon Pilot: Hisone and Masotan'
     ja-jp: ひそねとまそたん
     zh-cn: 桧曾根与间租谭
   sites:
@@ -2788,7 +2689,6 @@ lupin-iii-part-v:
   names:
     en: 'Lupin the Third: Part V'
     en-jp: 'Lupin III: Part 5'
-    en-us: 'Lupin III: Part V'
     ja-jp: ルパン三世 PART5
     zh-cn: 鲁邦三世 PART5
   sites:
@@ -3223,7 +3123,6 @@ nil-admirari-no-tenbin-teito-genwaku-kitan:
   names:
     en: The Scales of Nil Admirari ~The Mysterious Story of Teito~
     en-jp: Nil Admirari no Tenbin
-    en-us: The Scales of Nil Admirari ~The Mysterious Story of Teito~
     ja-jp: ニル・アドミラリの天秤
     zh-cn: 冷然之天秤
   sites:
@@ -3450,8 +3349,8 @@ omae-wa-mada-gunma-wo-shiranai:
       updated_at: '2018-11-09T10:35:58Z'
 pastel-life:
   names:
+    en: Pastel Life
     en-jp: Pastel Life
-    en-us: Pastel Life
     ja-jp: ぱすてるらいふ
     zh-cn: 粉彩回忆
   sites:
@@ -3758,7 +3657,6 @@ saredo-tsumibito-wa-ryuu-to-odoru:
   names:
     en: Dances with the Dragons
     en-jp: Saredo Tsumibito wa Ryuu to Odoru
-    en-us: Dances with the Dragons
     ja-jp: されど罪人は竜と踊る
     zh-cn: 罪人与龙共舞
   sites:
@@ -3839,7 +3737,6 @@ shokugeki-no-souma-san-no-sara-toutsuki-ressha-hen:
   names:
     en: Food Wars! The Third Plate – Totsuki Railway Arc
     en-jp: 'Shokugeki no Souma: San no Sara - Toutsuki Ressha-hen'
-    en-us: 'Food Wars! The Third Plate: Totsuki Train Arc'
     ja-jp: 食戟のソーマ 餐ノ皿 遠月列車篇
     zh-cn: 食戟之灵 餐之皿 远月列车篇
   sites:
@@ -4249,7 +4146,6 @@ tachibanakan-to-lie-triangle:
   names:
     en: Love to Lie Angle
     en-jp: Tachibanakan Triangle
-    en-us: Love to Lie Angle
     ja-jp: 立花館To Lieあんぐる
     zh-cn: 立花馆恋爱三角铃
   sites:
@@ -4324,7 +4220,6 @@ tada-kun-wa-koi-wo-shinai:
   names:
     en: Tada Never Falls in Love
     en-jp: Tada-kun wa Koi wo Shinai
-    en-us: Tada Never Falls in Love
     ja-jp: 多田くんは恋をしない
     zh-cn: 多田君不恋爱
   sites:
