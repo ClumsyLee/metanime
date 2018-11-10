@@ -1492,6 +1492,8 @@ hugtto-precure:
       rating: 8.25
       rating_count: 4
       updated_at: '2018-11-10T04:15:31Z'
+    worldart:
+      id: 9502
 idolish7:
   names:
     en: IDOLiSH7
@@ -1567,6 +1569,11 @@ idolish7:
       rating: 8.43
       rating_count: 35
       updated_at: '2018-11-10T04:15:43Z'
+    worldart:
+      id: 9293
+      rating: 7.5
+      rating_count: 8
+      updated_at: '2018-11-10T04:38:13Z'
 itou-junji-collection:
   names:
     en: Junji Ito "Collection"
@@ -1646,6 +1653,11 @@ itou-junji-collection:
       rating: 6.97
       rating_count: 192
       updated_at: '2018-11-10T04:16:01Z'
+    worldart:
+      id: 9369
+      rating: 7.0
+      rating_count: 98
+      updated_at: '2018-11-10T04:38:15Z'
 kaijuu-girls-ultra-kaijuu-gijinka-keikaku-2nd-season:
   names:
     en-jp: 'Kaijuu Girls: Ultra Kaijuu Gijinka Keikaku 2nd Season'
@@ -1703,6 +1715,11 @@ kaijuu-girls-ultra-kaijuu-gijinka-keikaku-2nd-season:
       rating: 6.67
       rating_count: 3
       updated_at: '2018-11-10T04:16:13Z'
+    worldart:
+      id: 9384
+      rating: 5.0
+      rating_count: 3
+      updated_at: '2018-11-10T04:38:17Z'
 karakai-jouzu-no-takagi-san:
   names:
     en: Karakai Jozu no Takagi-san
