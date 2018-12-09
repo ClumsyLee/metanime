@@ -2,9 +2,9 @@
 set -e
 
 SEASONS="
-    2018-04
-    2018-07
     2018-10
+    2018-07
+    2018-04
 "
 
 for season in $SEASONS; do
