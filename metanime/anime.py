@@ -30,7 +30,7 @@ class Anime(object):
             return yaml.dump(objs, fp, allow_unicode=True,
                              default_flow_style=False)
 
-    def __init__(self, slug, names=None, sites=None):
+    def __init__(self, slug, names=None, sites=None, final=False):
         if names is None:
             names = {}
         if sites is None:
@@ -39,6 +39,7 @@ class Anime(object):
         self.slug = slug
         self.names = names
         self.sites = sites
+        self.final = final
 
     @property
     def rating(self):
@@ -77,6 +78,10 @@ class Anime(object):
             # Notice that we'll skip even self.sites[site_id] is None.
             # This ensures that there's a way to override false matches.
             if not site.DYNAMIC_ID and site_id in self.sites:
+                continue
+
+            # Don't update if it is already final.
+            if site.DYNAMIC_ID and self.final:
                 continue
 
             logging.info('%s...', site_id)
