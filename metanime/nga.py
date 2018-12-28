@@ -14,7 +14,7 @@ class NGA(Site):
     }
     MIN_RATING = 1
     MAX_RATING = 10
-    SEARCH_LOCALES = ['ja-jp', 'zh-cn']
+    SEARCH_LOCALES = ['ja-jp', 'zh-cn', 'en']
 
     def __init__(self, uid=None, cid=None):
         super().__init__()

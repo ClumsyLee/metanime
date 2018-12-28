@@ -2898,9 +2898,9 @@ ssss-gridman:
       id: B07JL4J4QB
     anidb:
       id: 13260
-      rating: 5.47
-      rating_count: 194
-      updated_at: '2018-12-27T01:27:15Z'
+      rating: 5.46
+      rating_count: 216
+      updated_at: '2018-12-28T23:16:44Z'
     anikore:
       id: 11675
       rating: 3.4
@@ -2909,23 +2909,23 @@ ssss-gridman:
     anilist:
       id: 99424
       rating: 73
-      rating_count: 3100
-      updated_at: '2018-12-27T01:27:15Z'
+      rating_count: 3411
+      updated_at: '2018-12-28T23:16:46Z'
     animenewsnetwork:
       id: 20369
-      rating: 7.46585
-      rating_count: 51
-      updated_at: '2018-12-27T01:27:16Z'
+      rating: 7.47974
+      rating_count: 55
+      updated_at: '2018-12-28T23:16:46Z'
     animeplanet:
       id: ssss-gridman
-      rating: 7.446
-      rating_count: 860
-      updated_at: '2018-12-27T01:27:16Z'
+      rating: 7.468
+      rating_count: 908
+      updated_at: '2018-12-28T23:16:47Z'
     bangumi:
       id: 218712
       rating: 7.3
-      rating_count: 1809
-      updated_at: '2018-12-27T01:27:17Z'
+      rating_count: 1896
+      updated_at: '2018-12-28T23:16:47Z'
     crunchyroll:
       id: ssssgridman
       rating: 4.4
@@ -2934,39 +2934,44 @@ ssss-gridman:
     douban:
       id: 27080659
       rating: 8.5
-      rating_count: 2061
-      updated_at: '2018-12-27T01:27:18Z'
+      rating_count: 2157
+      updated_at: '2018-12-28T23:16:49Z'
     imdb:
       id: 8747928
       rating: 7.5
-      rating_count: 117
-      updated_at: '2018-12-27T01:27:19Z'
+      rating_count: 127
+      updated_at: '2018-12-28T23:16:51Z'
     kitsu:
       id: 13601
-      rating: 74.53
-      rating_count: 918
-      updated_at: '2018-12-27T01:27:20Z'
+      rating: 74.66
+      rating_count: 1000
+      updated_at: '2018-12-28T23:16:51Z'
     myanimelist:
       id: 35847
-      rating: 7.49
-      rating_count: 15328
-      updated_at: '2018-12-27T01:27:20Z'
+      rating: 7.5
+      rating_count: 21423
+      updated_at: '2018-12-28T23:16:52Z'
+    nga:
+      id: 15961505
+      rating: 8.042207792207792
+      rating_count: 308
+      updated_at: '2018-12-28T23:16:52Z'
     reddit:
       final: true
       id: a8mr80
       rating: 8.7575
-      rating_count: 276
-      updated_at: '2018-12-27T01:27:24Z'
+      rating_count: 279
+      updated_at: '2018-12-28T23:16:55Z'
     saraba1st:
       id: 1799463
-      rating: 0.5287610619469026
-      rating_count: 452
-      updated_at: '2018-12-27T01:27:26Z'
+      rating: 0.5450643776824035
+      rating_count: 466
+      updated_at: '2018-12-28T23:16:57Z'
     shikimori:
       id: 35847
       rating: 7.49
-      rating_count: 1401
-      updated_at: '2018-12-27T01:27:26Z'
+      rating_count: 1504
+      updated_at: '2018-12-28T23:16:58Z'
     shinden:
       id: 53376
       rating: 7.27
@@ -2974,9 +2979,9 @@ ssss-gridman:
       updated_at: '2018-12-14T08:27:37Z'
     worldart:
       id: 9489
-      rating: 6.8
-      rating_count: 54
-      updated_at: '2018-12-27T01:27:29Z'
+      rating: 6.7
+      rating_count: 60
+      updated_at: '2018-12-28T23:17:03Z'
 sword-art-online-alicization:
   names:
     en: 'Sword Art Online: Alicization'
@@ -3836,9 +3841,9 @@ zombieland-saga:
       id: B07K5XQ7B8
     anidb:
       id: 14198
-      rating: 6.16
-      rating_count: 269
-      updated_at: '2018-12-27T01:33:18Z'
+      rating: 6.18
+      rating_count: 282
+      updated_at: '2018-12-28T23:19:18Z'
     anikore:
       id: 11857
       rating: 3.5
@@ -3847,28 +3852,28 @@ zombieland-saga:
     anilist:
       id: 103871
       rating: 75
-      rating_count: 4999
-      updated_at: '2018-12-27T01:33:19Z'
+      rating_count: 5269
+      updated_at: '2018-12-28T23:19:20Z'
     animenewsnetwork:
       id: 21363
-      rating: 7.57635
-      rating_count: 65
-      updated_at: '2018-12-27T01:33:19Z'
+      rating: 7.60496
+      rating_count: 72
+      updated_at: '2018-12-28T23:19:20Z'
     animeplanet:
       id: zombieland-saga
-      rating: 7.852
-      rating_count: 1952
-      updated_at: '2018-12-27T01:33:20Z'
+      rating: 7.88
+      rating_count: 2045
+      updated_at: '2018-12-28T23:19:21Z'
     bangumi:
       id: 252655
-      rating: 8
-      rating_count: 1985
-      updated_at: '2018-12-27T01:33:20Z'
+      rating: 7.9
+      rating_count: 2070
+      updated_at: '2018-12-28T23:19:22Z'
     bilibili:
       id: 140772
       rating: 9.8
-      rating_count: 2975
-      updated_at: '2018-12-27T01:33:21Z'
+      rating_count: 3019
+      updated_at: '2018-12-28T23:19:22Z'
     crunchyroll:
       id: zombie-land-saga
       rating: 4.3
@@ -3877,39 +3882,44 @@ zombieland-saga:
     douban:
       id: 30267274
       rating: 8.9
-      rating_count: 2155
-      updated_at: '2018-12-27T01:33:22Z'
+      rating_count: 2259
+      updated_at: '2018-12-28T23:19:24Z'
     imdb:
       id: 9054354
       rating: 7.6
-      rating_count: 161
-      updated_at: '2018-12-27T01:33:23Z'
+      rating_count: 176
+      updated_at: '2018-12-28T23:19:25Z'
     kitsu:
       id: 41459
-      rating: 78.29
-      rating_count: 1641
-      updated_at: '2018-12-27T01:33:23Z'
+      rating: 78.36
+      rating_count: 1740
+      updated_at: '2018-12-28T23:19:26Z'
     myanimelist:
       id: 37976
-      rating: 7.77
-      rating_count: 34866
-      updated_at: '2018-12-27T01:33:24Z'
+      rating: 7.78
+      rating_count: 40636
+      updated_at: '2018-12-28T23:19:27Z'
+    nga:
+      id: 15856406
+      rating: 9.830827067669173
+      rating_count: 798
+      updated_at: '2018-12-28T23:19:28Z'
     reddit:
       final: true
       id: a7zm7k
-      rating: 8.875
-      rating_count: 524
-      updated_at: '2018-12-27T01:33:27Z'
+      rating: 8.873333333333333
+      rating_count: 526
+      updated_at: '2018-12-28T23:19:31Z'
     saraba1st:
       id: 1799268
-      rating: 1.7571059431524547
-      rating_count: 387
-      updated_at: '2018-12-27T01:33:29Z'
+      rating: 1.7662650602409637
+      rating_count: 415
+      updated_at: '2018-12-28T23:19:33Z'
     shikimori:
       id: 37976
       rating: 7.77
-      rating_count: 3086
-      updated_at: '2018-12-27T01:33:29Z'
+      rating_count: 3233
+      updated_at: '2018-12-28T23:19:34Z'
     shinden:
       id: 53991
       rating: 7.75
@@ -3918,5 +3928,5 @@ zombieland-saga:
     worldart:
       id: 9751
       rating: 7.3
-      rating_count: 64
-      updated_at: '2018-12-27T01:33:32Z'
+      rating_count: 71
+      updated_at: '2018-12-28T23:19:37Z'
