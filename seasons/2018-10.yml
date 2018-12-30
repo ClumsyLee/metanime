@@ -53,6 +53,8 @@ akanesasu-shoujo:
       rating: 6.6
       rating_count: 3695
       updated_at: '2018-12-27T01:17:14Z'
+    nga:
+      id: 16013554
     reddit:
       id: a6z1ho
       rating: 8.135833333333334
@@ -819,6 +821,8 @@ goblin-slayer:
       rating: 7.56
       rating_count: 62720
       updated_at: '2018-12-27T01:19:50Z'
+    nga:
+      id: 16013507
     reddit:
       id: a8m5yp
     shikimori:
@@ -1386,6 +1390,8 @@ iroduku-sekai-no-ashita-kara:
       rating: 7.63
       rating_count: 17016
       updated_at: '2018-12-27T01:21:50Z'
+    nga:
+      id: 16013636
     reddit:
       id: a8cwhc
       rating: 8.820833333333333
@@ -2411,6 +2417,8 @@ release-the-spyce:
       rating: 7.0
       rating_count: 4316
       updated_at: '2018-12-27T01:25:34Z'
+    nga:
+      id: 16013542
     reddit:
       final: true
       id: a8n8nr
@@ -2654,8 +2662,11 @@ seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai:
       rating: 8.63
       rating_count: 61115
       updated_at: '2018-12-27T01:26:21Z'
+    nga:
+      id: 16013530
     reddit:
-      id: a7park
+      id: a9sau1
+      final: true
     shikimori:
       id: 37450
       rating: 8.63
@@ -3813,6 +3824,8 @@ yagate-kimi-ni-naru:
       rating: 7.8
       rating_count: 10739
       updated_at: '2018-12-27T01:33:07Z'
+    nga:
+      id: 16013519
     reddit:
       id: a8a98t
       rating: 9.1325

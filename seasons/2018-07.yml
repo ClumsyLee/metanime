@@ -1347,6 +1347,8 @@ hanebado:
       rating: 7.14
       rating_count: 33346
       updated_at: '2018-12-27T01:37:48Z'
+    nga:
+      id: 16013592
     reddit:
       id: 9k7g3v
       rating: 7.863846153846154
@@ -1682,6 +1684,8 @@ hataraku-saibou-tv:
       rating: 7.87
       rating_count: 63427
       updated_at: '2018-12-27T01:38:55Z'
+    nga:
+      id: 16013578
     reddit:
       id: 9jycl5
       rating: 8.475384615384616
@@ -2614,6 +2618,8 @@ overlord-iii:
       rating: 8.21
       rating_count: 107635
       updated_at: '2018-12-27T01:41:54Z'
+    nga:
+      id: 16013617
     reddit:
       id: 9kr5w4
       rating: 8.07846153846154
