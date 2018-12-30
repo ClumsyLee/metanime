@@ -190,9 +190,9 @@ beatless:
       id: B079159WLM
     anidb:
       id: 13500
-      rating: 2.51
-      rating_count: 330
-      updated_at: '2018-11-10T04:11:35Z'
+      rating: 2.52
+      rating_count: 347
+      updated_at: '2018-12-30T05:29:23Z'
     anikore:
       id: 11405
       rating: 3.2
@@ -201,23 +201,23 @@ beatless:
     anilist:
       id: 100245
       rating: 53
-      rating_count: 2425
-      updated_at: '2018-11-10T04:11:36Z'
+      rating_count: 2618
+      updated_at: '2018-12-30T05:29:25Z'
     animenewsnetwork:
       id: 20316
-      rating: 6.21509
-      rating_count: 55
-      updated_at: '2018-11-10T04:11:36Z'
+      rating: 6.17762
+      rating_count: 58
+      updated_at: '2018-12-30T05:29:25Z'
     animeplanet:
       id: beatless
-      rating: 5.15
-      rating_count: 1399
-      updated_at: '2018-11-10T04:11:37Z'
+      rating: 5.208
+      rating_count: 1461
+      updated_at: '2018-12-30T05:29:26Z'
     bangumi:
       id: 227102
-      rating: 6
-      rating_count: 492
-      updated_at: '2018-11-10T04:11:37Z'
+      rating: 6.1
+      rating_count: 528
+      updated_at: '2018-12-30T05:29:27Z'
     douban:
       id: 27163301
       rating: 6.0
@@ -225,31 +225,36 @@ beatless:
       updated_at: '2018-11-10T04:11:38Z'
     imdb:
       id: 7900936
-      rating: 6.7
-      rating_count: 88
-      updated_at: '2018-11-10T04:11:40Z'
+      rating: 5.9
+      rating_count: 100
+      updated_at: '2018-12-30T05:29:31Z'
     kitsu:
       id: 13939
-      rating: 58.72
-      rating_count: 1226
-      updated_at: '2018-11-10T04:11:40Z'
+      rating: 58.93
+      rating_count: 1343
+      updated_at: '2018-12-30T05:29:31Z'
     myanimelist:
       id: 36516
-      rating: 6.22
-      rating_count: 18081
-      updated_at: '2018-11-10T04:11:41Z'
+      rating: 6.23
+      rating_count: 19250
+      updated_at: '2018-12-30T05:29:32Z'
+    nga:
+      id: 13729443
+      rating: 8.058823529411764
+      rating_count: 17
+      updated_at: '2018-12-30T05:29:33Z'
     reddit:
       id: 9juzc1
     saraba1st:
       id: 1770216
-      rating: 1.4367816091954022
-      rating_count: 87
-      updated_at: '2018-11-10T04:11:43Z'
+      rating: 1.4205607476635513
+      rating_count: 107
+      updated_at: '2018-12-30T05:29:38Z'
     shikimori:
       id: 36516
-      rating: 6.22
-      rating_count: 2259
-      updated_at: '2018-11-10T04:11:43Z'
+      rating: 6.23
+      rating_count: 2411
+      updated_at: '2018-12-30T05:29:38Z'
     shinden:
       id: 52067
       rating: 7.73
@@ -257,9 +262,9 @@ beatless:
       updated_at: '2018-11-10T04:11:45Z'
     worldart:
       id: 9422
-      rating: 5.7
-      rating_count: 86
-      updated_at: '2018-11-10T04:11:47Z'
+      rating: 5.8
+      rating_count: 91
+      updated_at: '2018-12-30T05:29:43Z'
 cardcaptor-sakura-clear-card-hen:
   names:
     en: 'Cardcaptor Sakura: Clear Card'
@@ -786,9 +791,9 @@ fate-extra-last-encore:
   sites:
     anidb:
       id: 12046
-      rating: 3.41
-      rating_count: 328
-      updated_at: '2018-11-10T04:13:22Z'
+      rating: 3.45
+      rating_count: 343
+      updated_at: '2018-12-30T05:29:56Z'
     anikore:
       id: 10577
       rating: 3.2
@@ -797,28 +802,28 @@ fate-extra-last-encore:
     anilist:
       id: 21717
       rating: 61
-      rating_count: 3306
-      updated_at: '2018-11-10T04:13:23Z'
+      rating_count: 3675
+      updated_at: '2018-12-30T05:29:58Z'
     animenewsnetwork:
       id: 18984
-      rating: 6.20664
-      rating_count: 58
-      updated_at: '2018-11-10T04:13:25Z'
+      rating: 6.15686
+      rating_count: 64
+      updated_at: '2018-12-30T05:29:58Z'
     animeplanet:
       id: fate-extra-last-encore
-      rating: 5.958
-      rating_count: 1209
-      updated_at: '2018-11-10T04:13:26Z'
+      rating: 5.936
+      rating_count: 1297
+      updated_at: '2018-12-30T05:29:59Z'
     bangumi:
       id: 175601
-      rating: 6.2
-      rating_count: 1402
-      updated_at: '2018-11-10T04:13:26Z'
+      rating: 6.1
+      rating_count: 1469
+      updated_at: '2018-12-30T05:29:59Z'
     bilibili:
       id: 8772
       rating: 8.8
-      rating_count: 32440
-      updated_at: '2018-11-10T04:13:27Z'
+      rating_count: 32763
+      updated_at: '2018-12-30T05:30:00Z'
     douban:
       id: 26759495
       rating: 6.4
@@ -826,31 +831,36 @@ fate-extra-last-encore:
       updated_at: '2018-11-10T04:13:28Z'
     imdb:
       id: 7940468
-      rating: 5.4
-      rating_count: 231
-      updated_at: '2018-11-10T04:13:29Z'
+      rating: 5.5
+      rating_count: 256
+      updated_at: '2018-12-30T05:30:05Z'
     kitsu:
       id: 12006
-      rating: 63.5
-      rating_count: 1425
-      updated_at: '2018-11-10T04:13:29Z'
+      rating: 63.74
+      rating_count: 1553
+      updated_at: '2018-12-30T05:30:05Z'
     myanimelist:
       id: 33047
       rating: 6.44
-      rating_count: 26570
-      updated_at: '2018-11-10T04:13:30Z'
+      rating_count: 28398
+      updated_at: '2018-12-30T05:30:06Z'
+    nga:
+      id: 13729069
+      rating: 6.274074074074074
+      rating_count: 135
+      updated_at: '2018-12-30T05:30:07Z'
     reddit:
       id: 93wj10
     saraba1st:
       id: 1729592
-      rating: -0.5229357798165137
-      rating_count: 109
-      updated_at: '2018-11-10T04:13:32Z'
+      rating: -0.5221238938053098
+      rating_count: 113
+      updated_at: '2018-12-30T05:30:10Z'
     shikimori:
       id: 33047
       rating: 6.44
-      rating_count: 1702
-      updated_at: '2018-11-10T04:13:32Z'
+      rating_count: 1834
+      updated_at: '2018-12-30T05:30:11Z'
     shinden:
       id: 45346
       rating: 6.78
@@ -859,8 +869,8 @@ fate-extra-last-encore:
     worldart:
       id: 8743
       rating: 6.5
-      rating_count: 106
-      updated_at: '2018-11-10T04:13:36Z'
+      rating_count: 113
+      updated_at: '2018-12-30T05:30:14Z'
 gakuen-babysitters:
   names:
     en: School Babysitters

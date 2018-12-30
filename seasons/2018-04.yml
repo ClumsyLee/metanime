@@ -1176,7 +1176,7 @@ full-metal-panic-invisible-victory:
       id: 11731
       rating: 6.53
       rating_count: 613
-      updated_at: '2018-12-30T02:04:38Z'
+      updated_at: '2018-12-30T05:31:56Z'
     anikore:
       id: 10469
       rating: 3.6
@@ -1186,27 +1186,27 @@ full-metal-panic-invisible-victory:
       id: 21451
       rating: 72
       rating_count: 1582
-      updated_at: '2018-12-30T02:04:39Z'
+      updated_at: '2018-12-30T05:31:59Z'
     animenewsnetwork:
       id: 18796
       rating: 7.85591
       rating_count: 165
-      updated_at: '2018-12-30T02:04:39Z'
+      updated_at: '2018-12-30T05:31:59Z'
     animeplanet:
       id: full-metal-panic-invisible-victory
       rating: 8.32
       rating_count: 1407
-      updated_at: '2018-12-30T02:04:40Z'
+      updated_at: '2018-12-30T05:32:00Z'
     bangumi:
       id: 150246
       rating: 7.2
-      rating_count: 1029
-      updated_at: '2018-12-30T02:04:41Z'
+      rating_count: 1030
+      updated_at: '2018-12-30T05:32:01Z'
     bilibili:
       id: 78432
       rating: 9.8
-      rating_count: 6681
-      updated_at: '2018-12-30T02:04:41Z'
+      rating_count: 6682
+      updated_at: '2018-12-30T05:32:01Z'
     crunchyroll:
       id: full-metal-panic-invisible-victory
       rating: 4.5
@@ -1221,29 +1221,34 @@ full-metal-panic-invisible-victory:
       id: 7246908
       rating: 7.4
       rating_count: 165
-      updated_at: '2018-12-30T02:04:45Z'
+      updated_at: '2018-12-30T05:32:05Z'
     kitsu:
       id: 11460
       rating: 76.26
-      rating_count: 833
-      updated_at: '2018-12-30T02:04:45Z'
+      rating_count: 834
+      updated_at: '2018-12-30T05:32:06Z'
     myanimelist:
       id: 31931
       rating: 7.67
       rating_count: 14544
-      updated_at: '2018-12-30T02:04:45Z'
+      updated_at: '2018-12-30T05:32:06Z'
+    nga:
+      id: 14350145
+      rating: 8.534883720930232
+      rating_count: 43
+      updated_at: '2018-12-30T05:32:08Z'
     reddit:
       id: 90bkaj
     saraba1st:
       id: 1727165
       rating: 0.673469387755102
       rating_count: 98
-      updated_at: '2018-12-30T02:04:48Z'
+      updated_at: '2018-12-30T05:32:11Z'
     shikimori:
       id: 31931
       rating: 7.67
       rating_count: 2197
-      updated_at: '2018-12-30T02:04:49Z'
+      updated_at: '2018-12-30T05:32:12Z'
     shinden:
       id: 49705
       rating: 8.58
@@ -1253,7 +1258,7 @@ full-metal-panic-invisible-victory:
       id: 8986
       rating: 7.7
       rating_count: 318
-      updated_at: '2018-12-30T02:04:51Z'
+      updated_at: '2018-12-30T05:32:16Z'
 fumikiri-jikan:
   names:
     en: Crossing Time
@@ -3918,7 +3923,7 @@ steins-gate-0:
       id: 11167
       rating: 7.96
       rating_count: 702
-      updated_at: '2018-12-30T02:13:16Z'
+      updated_at: '2018-12-30T05:32:25Z'
     anikore:
       id: 9407
       rating: 3.9
@@ -3928,22 +3933,22 @@ steins-gate-0:
       id: 21127
       rating: 84
       rating_count: 9613
-      updated_at: '2018-12-30T02:13:17Z'
+      updated_at: '2018-12-30T05:32:27Z'
     animenewsnetwork:
       id: 20446
       rating: 7.82123
       rating_count: 138
-      updated_at: '2018-12-30T02:13:17Z'
+      updated_at: '2018-12-30T05:32:28Z'
     animeplanet:
       id: steins-gate-0
       rating: 8.97
-      rating_count: 3602
-      updated_at: '2018-12-30T02:13:18Z'
+      rating_count: 3603
+      updated_at: '2018-12-30T05:32:29Z'
     bangumi:
       id: 129807
       rating: 8
       rating_count: 1945
-      updated_at: '2018-12-30T02:13:18Z'
+      updated_at: '2018-12-30T05:32:29Z'
     crunchyroll:
       id: steinsgate-0
       rating: 4.7
@@ -3957,30 +3962,35 @@ steins-gate-0:
     imdb:
       id: 5514358
       rating: 8.4
-      rating_count: 1617
-      updated_at: '2018-12-30T02:13:21Z'
+      rating_count: 1618
+      updated_at: '2018-12-30T05:32:32Z'
     kitsu:
       id: 10788
       rating: 83.14
-      rating_count: 6359
-      updated_at: '2018-12-30T02:13:21Z'
+      rating_count: 6362
+      updated_at: '2018-12-30T05:32:33Z'
     myanimelist:
       id: 30484
       rating: 8.64
       rating_count: 92593
-      updated_at: '2018-12-30T02:13:22Z'
+      updated_at: '2018-12-30T05:32:33Z'
+    nga:
+      id: 15219191
+      rating: 9.279069767441861
+      rating_count: 43
+      updated_at: '2018-12-30T05:32:34Z'
     reddit:
       id: 9j4mlg
     saraba1st:
       id: 1768873
       rating: 1.5032679738562091
       rating_count: 153
-      updated_at: '2018-12-30T02:13:27Z'
+      updated_at: '2018-12-30T05:32:38Z'
     shikimori:
       id: 30484
       rating: 8.64
-      rating_count: 10312
-      updated_at: '2018-12-30T02:13:27Z'
+      rating_count: 10313
+      updated_at: '2018-12-30T05:32:39Z'
     shinden:
       id: 44826
       rating: 9.05
@@ -3990,7 +4000,7 @@ steins-gate-0:
       id: 9340
       rating: 8.3
       rating_count: 320
-      updated_at: '2018-12-30T02:13:30Z'
+      updated_at: '2018-12-30T05:32:42Z'
 sword-art-online-alternative-gun-gale-online:
   names:
     en-jp: 'Sword Art Online Alternative: Gun Gale Online'

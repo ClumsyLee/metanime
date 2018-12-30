@@ -3237,7 +3237,7 @@ shoujo-kageki-revue-starlight:
       id: 13152
       rating: 5.87
       rating_count: 122
-      updated_at: '2018-12-30T01:58:36Z'
+      updated_at: '2018-12-30T05:33:37Z'
     anikore:
       id: 11664
       rating: 3.6
@@ -3247,27 +3247,27 @@ shoujo-kageki-revue-starlight:
       id: 98658
       rating: 75
       rating_count: 2230
-      updated_at: '2018-12-30T01:58:37Z'
+      updated_at: '2018-12-30T05:33:39Z'
     animenewsnetwork:
       id: 20891
       rating: 7.59281
       rating_count: 43
-      updated_at: '2018-12-30T01:58:37Z'
+      updated_at: '2018-12-30T05:33:39Z'
     animeplanet:
       id: shoujo-kageki-revue-starlight
       rating: 7.518
       rating_count: 342
-      updated_at: '2018-12-30T01:58:38Z'
+      updated_at: '2018-12-30T05:33:40Z'
     bangumi:
       id: 214265
       rating: 7.9
-      rating_count: 2553
-      updated_at: '2018-12-30T01:58:38Z'
+      rating_count: 2552
+      updated_at: '2018-12-30T05:33:41Z'
     bilibili:
       id: 102892
       rating: 9.8
-      rating_count: 14332
-      updated_at: '2018-12-30T01:58:38Z'
+      rating_count: 14339
+      updated_at: '2018-12-30T05:33:41Z'
     douban:
       id: 27034594
       rating: 8.5
@@ -3277,32 +3277,37 @@ shoujo-kageki-revue-starlight:
       id: 8400680
       rating: 8.5
       rating_count: 42
-      updated_at: '2018-12-30T01:58:40Z'
+      updated_at: '2018-12-30T05:33:44Z'
     kitsu:
       id: 14174
       rating: 76.75
-      rating_count: 607
-      updated_at: '2018-12-30T01:58:41Z'
+      rating_count: 608
+      updated_at: '2018-12-30T05:33:44Z'
     myanimelist:
       id: 35503
       rating: 7.69
       rating_count: 8809
-      updated_at: '2018-12-30T01:58:41Z'
+      updated_at: '2018-12-30T05:33:45Z'
+    nga:
+      id: 15219164
+      rating: 9.79108635097493
+      rating_count: 359
+      updated_at: '2018-12-30T05:33:46Z'
     reddit:
       id: 9jw3kz
       rating: 8.839166666666667
       rating_count: 73
-      updated_at: '2018-12-30T02:42:33Z'
+      updated_at: '2018-12-30T05:33:49Z'
     saraba1st:
       id: 1768997
-      rating: 1.440281030444965
-      rating_count: 427
-      updated_at: '2018-12-30T01:58:46Z'
+      rating: 1.442890442890443
+      rating_count: 429
+      updated_at: '2018-12-30T05:33:51Z'
     shikimori:
       id: 35503
       rating: 7.69
       rating_count: 293
-      updated_at: '2018-12-30T01:58:46Z'
+      updated_at: '2018-12-30T05:33:51Z'
     shinden:
       id: 50927
       rating: 7.36
@@ -3311,8 +3316,8 @@ shoujo-kageki-revue-starlight:
     worldart:
       id: 9253
       rating: 6.2
-      rating_count: 25
-      updated_at: '2018-12-30T01:58:49Z'
+      rating_count: 26
+      updated_at: '2018-12-30T05:33:55Z'
 sirius-the-jaeger:
   names:
     en: Sirius the Jaeger
