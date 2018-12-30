@@ -50,9 +50,16 @@ class Kitsu(Site):
 
     def get_names(self, slug):
         titles = self._get_anime_by_slug(slug)['attributes']['titles']
+        titles = {local.replace('_', '-'): title
+                  for local, title in titles.items()}
 
-        return {local.replace('_', '-'): title
-                for local, title in titles.items()}
+        # Remove en-us.
+        if 'en-us' in titles:
+            if 'en' not in titles:
+                titles['en'] = titles['en-us']
+            del titles['en-us']
+
+        return titles
 
 
 if __name__ == '__main__':
