@@ -884,7 +884,7 @@ golden-kamuy-2:
       id: 14185
       rating: 7.45
       rating_count: 137
-      updated_at: '2018-12-30T01:38:22Z'
+      updated_at: '2018-12-30T02:50:25Z'
     anikore:
       id: 11842
       rating: 3.3
@@ -894,50 +894,54 @@ golden-kamuy-2:
       id: 102977
       rating: 77
       rating_count: 1400
-      updated_at: '2018-12-30T01:38:23Z'
+      updated_at: '2018-12-30T02:50:26Z'
     animenewsnetwork:
       id: 21137
       rating: 7.6658
       rating_count: 39
-      updated_at: '2018-12-30T01:38:23Z'
+      updated_at: '2018-12-30T02:50:27Z'
     animeplanet:
       id: golden-kamuy-2nd-season
       rating: 8.772
       rating_count: 700
-      updated_at: '2018-12-30T01:38:24Z'
+      updated_at: '2018-12-30T02:50:28Z'
     bangumi:
       id: 251547
       rating: 7.4
-      rating_count: 266
-      updated_at: '2018-12-30T01:38:24Z'
+      rating_count: 267
+      updated_at: '2018-12-30T02:50:28Z'
     douban:
       id: 30257538
       rating: 8.9
       rating_count: 430
-      updated_at: '2018-12-30T01:38:25Z'
+      updated_at: '2018-12-30T02:50:30Z'
     imdb: null
     kitsu:
       id: 41442
       rating: 81.19
       rating_count: 503
-      updated_at: '2018-12-30T01:38:25Z'
+      updated_at: '2018-12-30T02:50:30Z'
     myanimelist:
       id: 37989
       rating: 8.09
       rating_count: 10015
-      updated_at: '2018-12-30T01:38:25Z'
+      updated_at: '2018-12-30T02:50:31Z'
     reddit:
       final: true
       id: a96y07
       rating: 9.233333333333333
       rating_count: 61
-      updated_at: '2018-12-30T02:39:24Z'
-    saraba1st: null
+      updated_at: '2018-12-30T02:50:34Z'
+    saraba1st:
+      id: 1799993
+      rating: 1.4736842105263157
+      rating_count: 19
+      updated_at: '2018-12-30T02:50:35Z'
     shikimori:
       id: 37989
       rating: 7.94
       rating_count: 992
-      updated_at: '2018-12-30T01:38:29Z'
+      updated_at: '2018-12-30T02:50:35Z'
     shinden:
       id: 53753
       rating: 8.13
@@ -947,7 +951,7 @@ golden-kamuy-2:
       id: 9744
       rating: 8.0
       rating_count: 38
-      updated_at: '2018-12-30T01:38:30Z'
+      updated_at: '2018-12-30T02:50:39Z'
 gurazeni-season-2:
   names:
     en: 'Gurazeni: Money Pitch 2'
