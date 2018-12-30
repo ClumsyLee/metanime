@@ -60,6 +60,8 @@ akanesasu-shoujo:
       rating: 8.135833333333334
       rating_count: 25
       updated_at: '2018-12-27T01:17:21Z'
+    saraba1st:
+      id: 1800247
     shikimori:
       id: 37561
       rating: 6.6
@@ -219,10 +221,8 @@ beelzebub-jou-no-okinimesu-mama:
       rating_count: 4107
       updated_at: '2018-12-27T01:17:47Z'
     reddit:
-      id: a7pwi0
-      rating: 8.82090909090909
-      rating_count: 17
-      updated_at: '2018-12-27T01:17:53Z'
+      id: a9rpas
+      final: true
     shikimori:
       id: 37716
       rating: 6.94
@@ -377,10 +377,8 @@ dakaretai-otoko-1-i-ni-odosarete-imasu.:
       rating_count: 4314
       updated_at: '2018-12-27T01:18:18Z'
     reddit:
-      id: a8bnq0
-      rating: 7.533333333333333
-      rating_count: 15
-      updated_at: '2018-12-27T01:18:20Z'
+      id: aabsft
+      final: true
     shikimori:
       id: 37597
       rating: 7.16
@@ -522,6 +520,8 @@ double-decker-doug-kiril:
       rating: 8.286153846153846
       rating_count: 13
       updated_at: '2018-12-27T01:18:52Z'
+    saraba1st:
+      id: 1800210
     shikimori:
       id: 37496
       rating: 6.95
@@ -824,7 +824,8 @@ goblin-slayer:
     nga:
       id: 16013507
     reddit:
-      id: a8m5yp
+      id: aamkg9
+      final: true
     shikimori:
       id: 37349
       rating: 7.56
@@ -1103,10 +1104,7 @@ hangyakusei-million-arthur:
       rating_count: 637
       updated_at: '2018-12-27T01:20:50Z'
     reddit:
-      id: a878qo
-      rating: 7.9255555555555555
-      rating_count: 3
-      updated_at: '2018-12-27T01:20:51Z'
+      id: aamdhn
     shikimori:
       id: 37555
       rating: 5.84
@@ -1380,6 +1378,8 @@ iroduku-sekai-no-ashita-kara:
       rating: 8.1
       rating_count: 556
       updated_at: '2018-12-27T01:21:50Z'
+    imdb:
+      id: 9050480
     kitsu:
       id: 41101
       rating: 77.07
@@ -1393,10 +1393,9 @@ iroduku-sekai-no-ashita-kara:
     nga:
       id: 16013636
     reddit:
-      id: a8cwhc
-      rating: 8.820833333333333
-      rating_count: 109
-      updated_at: '2018-12-27T01:21:53Z'
+      id: aacxzf
+    saraba1st:
+      id: 1800915
     shikimori:
       id: 37497
       rating: 7.63
@@ -1551,10 +1550,7 @@ jojo-s-bizarre-adventure-part-5-vento-aureo:
       rating_count: 24435
       updated_at: '2018-12-27T01:22:21Z'
     reddit:
-      id: a8c0km
-      rating: 9.19
-      rating_count: 360
-      updated_at: '2018-12-27T01:22:33Z'
+      id: aac2v5
     shikimori:
       id: 37991
       rating: 8.82
@@ -1628,10 +1624,7 @@ karakuri-circus:
       rating_count: 4954
       updated_at: '2018-12-27T01:22:49Z'
     reddit:
-      id: a7zav9
-      rating: 8.588181818181818
-      rating_count: 39
-      updated_at: '2018-12-27T01:22:51Z'
+      id: aa0eup
     shikimori:
       id: 37447
       rating: 7.48
@@ -2009,10 +2002,8 @@ merc-storia-mukiryoku-no-shounen-to-bin--no-naka-no-shoujo:
       rating_count: 2135
       updated_at: '2018-12-27T01:24:01Z'
     reddit:
-      id: a7z0st
-      rating: 7.923636363636364
-      rating_count: 10
-      updated_at: '2018-12-27T01:24:04Z'
+      id: aa052r
+      final: true
     shikimori:
       id: 37232
       rating: 6.15
@@ -2344,10 +2335,7 @@ radiant:
       rating_count: 8408
       updated_at: '2018-12-27T01:25:17Z'
     reddit:
-      id: a8kebl
-      rating: 7.448333333333333
-      rating_count: 34
-      updated_at: '2018-12-27T01:25:25Z'
+      id: aakslc
     shikimori:
       id: 37202
       rating: 6.42
@@ -2425,6 +2413,8 @@ release-the-spyce:
       rating: 8.32
       rating_count: 51
       updated_at: '2018-12-27T01:25:36Z'
+    saraba1st:
+      id: 1800583
     shikimori:
       id: 37221
       rating: 7.0
@@ -2665,8 +2655,8 @@ seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai:
     nga:
       id: 16013530
     reddit:
-      id: a9sau1
       final: true
+      id: a9sau1
     shikimori:
       id: 37450
       rating: 8.63
@@ -2731,10 +2721,8 @@ senran-kagura-2:
       rating_count: 1448
       updated_at: '2018-12-27T01:26:33Z'
     reddit:
-      id: a8dwin
-      rating: 7.75909090909091
-      rating_count: 7
-      updated_at: '2018-12-27T01:26:34Z'
+      id: aadkol
+      final: true
     saraba1st: null
     shikimori:
       id: 36037
@@ -3268,10 +3256,7 @@ toaru-majutsu-no-index-iii:
       rating_count: 9114
       updated_at: '2018-12-27T01:28:22Z'
     reddit:
-      id: a8bk20
-      rating: 8.076666666666666
-      rating_count: 87
-      updated_at: '2018-12-27T01:28:28Z'
+      id: aab8oq
     shikimori:
       id: 36432
       rating: 7.52
@@ -3436,6 +3421,8 @@ tonari-no-kyuuketsuki-san:
       rating: 8.456666666666667
       rating_count: 39
       updated_at: '2018-12-27T01:29:02Z'
+    saraba1st:
+      id: 1800579
     shikimori:
       id: 37579
       rating: 7.2
@@ -3827,10 +3814,10 @@ yagate-kimi-ni-naru:
     nga:
       id: 16013519
     reddit:
-      id: a8a98t
-      rating: 9.1325
-      rating_count: 162
-      updated_at: '2018-12-27T01:33:11Z'
+      id: aaak3w
+      final: true
+    saraba1st:
+      id: 1801119
     shikimori:
       id: 37786
       rating: 7.8
