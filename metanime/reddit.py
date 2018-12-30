@@ -29,7 +29,8 @@ class Reddit(Site):
         soup = self._get_soup(f'https://youpoll.me/{poll_id}/r')
 
         rating = float(soup.find(class_='rating-mean-value').get_text())
-        count = int(soup.find(class_='admin-total-votes').get_text())
+        count = int(soup.find(class_='admin-total-votes')
+                    .get_text().replace(',', ''))
 
         return rating, count
 
