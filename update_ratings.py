@@ -9,7 +9,7 @@ def update_ratings(season, slug=None):
     animes = Anime.load(filename)
 
     for anime in animes:
-        if anime.slug != slug:
+        if slug is not None and anime.slug != slug:
             continue
 
         logging.info('Updating %s...', anime.slug)
